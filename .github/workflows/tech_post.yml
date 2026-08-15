@@ -1,0 +1,125 @@
+name: 형수의테크공장 포스팅
+
+on:
+  schedule:
+    # 카테고리별 하루 1편 × 5카테고리 (2026-07-17) — 각 슬롯이 '오늘 미발행 카테고리' 중
+    # 첫 번째를 발행. KST 09/11/13/17/21시대.
+    # ★정각(:00)은 GitHub 크론 혼잡으로 스킵 잦음(07-17 13시·17시 연속 스킵 실측) → :17 오프셋.
+    - cron: "17 0 * * *"    # KST 09:17
+    - cron: "17 2 * * *"    # KST 11:17
+    - cron: "17 4 * * *"    # KST 13:17
+    - cron: "17 8 * * *"    # KST 17:17
+    - cron: "17 12 * * *"   # KST 21:17
+  workflow_dispatch:
+    inputs:
+      force_post:
+        description: "강제 실행 (true/false)"
+        required: false
+        default: "false"
+      draft:
+        description: "임시저장 검증 모드 (true/false)"
+        required: false
+        default: "false"
+      fmt:
+        description: "형식 강제 (breaking/explain/pick/compare, 비우면 자동 로테이션)"
+        required: false
+        default: ""
+      category:
+        description: "카테고리 강제 (스마트폰·모바일/PC·노트북/가전·디지털/자동차·모빌리티/AI·IT, 비우면 자동)"
+        required: false
+        default: ""
+
+concurrency:
+  group: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.draft == 'true') && format('naver-tech-draft-{0}', github.run_id) || 'naver-tech-post' }}
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # 2026-07-30 실사고: 에디터 본문 클릭 후 4시간 7분 무응답 → 기본 360분 소진 후 취소.
+    # 그 사이 같은 concurrency group의 가이드 트랙까지 대기했다.
+    # 30분은 너무 빠듯해 45분으로 상향(2026-07-31): 랜덤 딜레이 최대 15분 + 셋업 5분 +
+    # 실행 20분(07-30 실측 20m37s)이면 30분을 넘겨 정상 런이 죽는다.
+    timeout-minutes: 45
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 한글 폰트 설치
+        run: sudo apt-get update && sudo apt-get install -y fonts-nanum && sudo fc-cache -f
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: Playwright 브라우저 설치
+        run: playwright install chromium --with-deps
+
+      - name: 랜덤 딜레이 (봇 패턴 방지)
+        if: github.event_name == 'schedule'
+        run: |
+          DELAY=$((RANDOM % 900))
+          echo "랜덤 딜레이: ${DELAY}초 (최대 15분)"
+          sleep $DELAY
+
+      - name: 실행 슬롯 설정 (중복 방지용)
+        run: |
+          HOUR=$(TZ='Asia/Seoul' date '+%H')
+          echo "RUN_SLOT=$HOUR" >> $GITHUB_ENV
+
+      - name: 포스팅 실행
+        env:
+          TECH_NAVER_ID:      ${{ secrets.TECH_NAVER_ID }}
+          TECH_NAVER_PW:      ${{ secrets.TECH_NAVER_PW }}
+          TECH_NAVER_BLOG_ID: ${{ secrets.TECH_NAVER_BLOG_ID }}
+          TECH_NAVER_COOKIES: ${{ secrets.TECH_NAVER_COOKIES }}
+          GOOGLE_API_KEY:     ${{ secrets.GOOGLE_API_KEY }}
+          PEXELS_API_KEY:     ${{ secrets.PEXELS_API_KEY }}
+          NAVER_CLIENT_ID:     ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          FORCE_POST:  ${{ github.event.inputs.force_post || 'false' }}
+          DRAFT:       ${{ github.event.inputs.draft || 'false' }}
+          FORCE_FMT:   ${{ github.event.inputs.fmt || '' }}
+          TECH_CATEGORY: ${{ github.event.inputs.category || '' }}
+          RUN_SLOT:    ${{ env.RUN_SLOT }}
+        run: python -m scripts.tech_post
+
+      - name: 스크린샷 아티팩트 업로드 (디버그)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tech-screenshots-${{ github.run_id }}
+          path: data/screenshots/
+          if-no-files-found: ignore
+          retention-days: 3
+
+      - name: 포스팅 이력 커밋
+        # always(): 발행 실패(step exit 1)여도 failed 이력을 커밋해 기록 유실 방지(2026-07-16)
+        if: always() && github.event.inputs.draft != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ★개별 add: 한 경로라도 없으면 git add 전체가 실패해 스테이징 0건이 되던
+          # 회귀 수정(2026-07-29). qc_fail.jsonl은 FAIL 없으면 파일 자체가 없음.
+          HIST_FILES="data/tech_history.json data/qc_log.jsonl data/qc_fail.jsonl"
+          for f in $HIST_FILES; do git add "$f" 2>/dev/null || true; done
+          # ★이력 미커밋 감시(2026-07-29): 발행 성공했는데 이력이 안 잡히면 경고를 남긴다.
+          # (git add 회귀로 3일간 조용히 유실된 사고 재발 방지 — 카테고리 로테이션까지 망가짐)
+          # ★오탐 보정(2026-07-31): 종전엔 '스테이징 0건'이면 무조건 경고해서 발행할 게
+          # 없어 정상 스킵한 런에서도 매번 울렸다. 진짜 사고는 '이력 파일이 수정됐는데
+          # 스테이징이 안 된 것'이다. 스크린샷·쿠키 등 다른 변경까지 세지 않도록
+          # 위 이력 파일로만 범위를 좁힌다.
+          UNSTAGED=$(git diff --name-only -- $HIST_FILES 2>/dev/null || true)
+          if [ -n "$UNSTAGED" ]; then
+            echo "::warning::이력 파일이 수정됐는데 스테이징되지 않음 — 이력 유실 가능: $UNSTAGED"
+          fi
+          git diff --staged --quiet || git commit -m "chore: 형수의테크공장 포스팅 이력 $(date +'%Y-%m-%d')"
+          git pull --rebase --autostash origin main
+          git push

@@ -1,0 +1,44 @@
+name: 주간 자체 품질 감사
+
+on:
+  schedule:
+    # 일요일 21:23 KST — 한 주 발행분(네이버·WP·soyu) 라이브 감사 → 이슈 보고
+    - cron: "23 12 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: quality-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치 (경량)
+        run: pip install -q google-genai python-dotenv requests
+
+      - name: 감사 실행
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m scripts.quality_audit
+
+      - name: 감사 로그 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/quality_audit_log.json || true
+          git diff --staged --quiet || git commit -m "chore: 품질 감사 로그 $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash -q origin main
+          git push -q || (git pull --rebase --autostash -q origin main && git push -q)

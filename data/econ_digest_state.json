@@ -1,0 +1,15 @@
+{
+  "seen": [
+    "https://blog.naver.com/ppassong/224362412628",
+    "https://blog.naver.com/ppassong/224363741296",
+    "https://blog.naver.com/ranto28/224362420921"
+  ],
+  "posted": {
+    "2026-07-31": {
+      "title": "서킷브레이커 15번, 국민연금의 엇갈린 선택",
+      "post_url": "https://blog.naver.com/hyunji_unni/224363920068",
+      "source": "메르 https://blog.naver.com/ranto28/224362420921",
+      "note": "URL 검증 버그로 실패 판정됐으나 실제 발행됨 — 수동 기록(2026-07-31)"
+    }
+  }
+}

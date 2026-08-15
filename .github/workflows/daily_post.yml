@@ -1,0 +1,87 @@
+name: 네이버 블로그 일일 포스팅
+
+on:
+  # ⏸️ 자동발행 일시정지 (2026-06-30, 프롬프트 최적화·게시글 정리 기간). 재개 시 schedule 주석 해제.
+  # schedule:
+  #   - cron: "0 1 * * *"   # 매일 KST 10:00
+  workflow_dispatch:
+    inputs:
+      force_post:
+        description: "오늘 이미 포스팅했어도 강제 실행 (true/false)"
+        required: false
+        default: "false"
+      draft:
+        description: "임시저장 검증 모드 — 공개 발행 없이 본문/이미지만 확인 (true/false)"
+        required: false
+        default: "false"
+
+# 동시 실행 차단: 같은 시각 여러 로그인/푸시가 겹쳐 네이버 봇 탐지·push 충돌 나는 것 방지
+concurrency:
+  group: naver-daily-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # 2026-07-30 실사고: 네이버 에디터 무응답으로 4~5시간 행 → 기본 360분 소진 후 취소.
+    timeout-minutes: 45
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 한글 폰트 설치 (카드뉴스 렌더링용)
+        run: sudo apt-get update && sudo apt-get install -y fonts-nanum && sudo fc-cache -f
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: Playwright 브라우저 설치
+        run: playwright install chromium --with-deps
+
+      - name: 랜덤 딜레이 (봇 패턴 방지)
+        if: github.event_name == 'schedule'
+        run: |
+          DELAY=$((RANDOM % 1800))
+          echo "랜덤 딜레이: ${DELAY}초 (최대 30분)"
+          sleep $DELAY
+
+      - name: 포스팅 실행
+        env:
+          NAVER_ID:       ${{ secrets.NAVER_ID }}
+          NAVER_PW:       ${{ secrets.NAVER_PW }}
+          NAVER_BLOG_ID:  ${{ secrets.NAVER_BLOG_ID }}
+          NAVER_COOKIES:  ${{ secrets.NAVER_COOKIES }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          FORCE_POST:     ${{ github.event.inputs.force_post || 'false' }}
+          DRAFT:          ${{ github.event.inputs.draft || 'false' }}
+        run: python -m scripts.daily_post
+
+      - name: 스크린샷 아티팩트 업로드 (디버그)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots-${{ github.run_id }}
+          path: data/screenshots/
+          if-no-files-found: ignore
+          retention-days: 3
+
+      - name: 포스팅 이력 커밋
+        # 드래프트(검증) 런에서는 이력을 안 남기므로 커밋 스텝 자체를 건너뛴다
+        # (브랜치에서 git pull --rebase origin main 충돌로 거짓 실패가 뜨던 문제도 제거)
+        if: github.event.inputs.draft != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/post_history.json
+          git diff --staged --quiet || git commit -m "chore: 포스팅 이력 $(date +'%Y-%m-%d')"
+          git pull --rebase --autostash origin main
+          git push

@@ -1,0 +1,46 @@
+name: 워드프레스 주제 제안 (주간)
+
+# 매주 월 10:00 KST — 검색 검증된 신규 주제를 이슈로 제안 (사람/Claude 검토 후 풀에 머지).
+# 목적: 같은 주제 재발행 최소주기 365일(wp_post.py REPUBLISH_MIN_DAYS)을 지키려면 풀이 계속 커져야 함.
+on:
+  schedule:
+    - cron: "9 1 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: wp-propose
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    # 무한 대기 방지(2026-07-31): 타임아웃 미지정 시 기본 360분을 그대로 소진한다.
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install google-genai python-dotenv requests
+
+      - name: 주제 제안 생성
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python -m scripts.wp_propose_topics proposal.md
+
+      - name: 이슈 등록
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "[주제 제안] $(date +'%Y-%m-%d') — 검토 후 풀에 추가" \
+            --body-file proposal.md

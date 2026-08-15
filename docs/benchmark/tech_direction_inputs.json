@@ -1,0 +1,670 @@
+{
+ "generated": "2026-07-31",
+ "purpose": "형수의테크공장(네이버 hyungsutech + tech.hyunjiunni.com) 방향 설정용 실측 입력 — A~F",
+ "caveat": "블로그 개설 16일차, 30일 조회 597·주간 표본 269뷰 수준 — 방향은 읽을 수 있으나 배수·유의성은 읽을 수 없음(analysis_hyungsutech traffic core와 동일 경고)",
+ "A_traffic_structure": {
+  "period": {
+   "weekly": "최근 완결 주(월~일) 기준 2026-07-20",
+   "summary_date": "2026-07-30"
+  },
+  "inflow_split": {
+   "summary_2026-07-30": {
+    "views": 69,
+    "visits": 33,
+    "search_inflow": 19,
+    "main_inflow": 0,
+    "search_per_visit": 0.576,
+    "note": "메인(피드) 유입 0 — 현지언니(메인 134/검색 38, 52% 메인)와 정반대 구조"
+   },
+   "realtime_2026-07-31": {
+    "views_total": 43,
+    "search_inflow": 15
+   }
+  },
+  "query_classes_weekly_top30": {
+   "totals": {
+    "model_name": 76,
+    "brand_retail": 20,
+    "generic_howto": 16,
+    "unassigned": 0,
+    "grand_total": 112
+   },
+   "ratio": {
+    "model_name": 0.679,
+    "brand_retail": 0.179,
+    "generic_howto": 0.143
+   },
+   "assignments": {
+    "model": [
+     {
+      "query": "xq2566x",
+      "count": 17
+     },
+     {
+      "query": "갤럭시워치9",
+      "count": 13
+     },
+     {
+      "query": "갤럭시 워치9",
+      "count": 7
+     },
+     {
+      "query": "갤럭시 폴드8",
+      "count": 5
+     },
+     {
+      "query": "XQ2566X",
+      "count": 3
+     },
+     {
+      "query": "갤럭시 폴드8 와이드",
+      "count": 3
+     },
+     {
+      "query": "갤럭시워치 울트라2",
+      "count": 3
+     },
+     {
+      "query": "로보락 h60 허브 플러스",
+      "count": 3
+     },
+     {
+      "query": "아이폰 에어2",
+      "count": 3
+     },
+     {
+      "query": "폴드8 아이온2",
+      "count": 3
+     },
+     {
+      "query": "TIER FX27B 400",
+      "count": 2
+     },
+     {
+      "query": "Xq2566x",
+      "count": 2
+     },
+     {
+      "query": "h60허브 플러스 울트라 차이",
+      "count": 2
+     },
+     {
+      "query": "xq2566",
+      "count": 2
+     },
+     {
+      "query": "z플립8",
+      "count": 2
+     },
+     {
+      "query": "갤럭시 z8",
+      "count": 2
+     },
+     {
+      "query": "갤럭시 와이드 폴드 가격",
+      "count": 2
+     },
+     {
+      "query": "갤럭시 워치 9",
+      "count": 2
+     }
+    ],
+    "brand": [
+     {
+      "query": "이마트 제습기",
+      "count": 7
+     },
+     {
+      "query": "리브랜딩 큐닉스신제품",
+      "count": 5
+     },
+     {
+      "query": "벤큐 조위 모니터",
+      "count": 3
+     },
+     {
+      "query": "이마트 제습기 가격",
+      "count": 3
+     },
+     {
+      "query": "갤럭시 언팩 워치",
+      "count": 2
+     }
+    ],
+    "generic": [
+     {
+      "query": "노트북 와이파이 로스트아크 서버 끊김",
+      "count": 3
+     },
+     {
+      "query": "에어건 청소기",
+      "count": 3
+     },
+     {
+      "query": "CRITICAL_PROCESS_DIED 오류",
+      "count": 2
+     },
+     {
+      "query": "TV ACR기능",
+      "count": 2
+     },
+     {
+      "query": "ai소설 써주기 기본 프롬프트 예시",
+      "count": 2
+     },
+     {
+      "query": "chatgpt 답변 지침 설정 결론 나오게",
+      "count": 2
+     },
+     {
+      "query": "intel wi-fi ax201 설치",
+      "count": 2
+     }
+    ],
+    "unassigned": []
+   },
+   "top_entities": {
+    "xq2566x_variants(벤큐 조위 모니터 포함)": 27,
+    "갤럭시워치9_variants": 22,
+    "폴드8_핫뉴스_계열(폴드8·플립8·z8·와이드·언팩)": 19,
+    "이마트 제습기 계열": 10
+   },
+   "hooking_words_in_queries": 0
+  },
+  "device_weekly": {
+   "mobile": 135,
+   "pc": 134,
+   "mobile_ratio": 0.502,
+   "note": "현지언니 모바일 75%와 달리 PC 절반 — 게이밍 모니터·PC오류 등 PC 이용맥락 주제와 정합(해석)"
+  },
+  "hourly_2026-07-30_views": {
+   "00": 2,
+   "01": 0,
+   "02": 1,
+   "03": 0,
+   "04": 0,
+   "05": 0,
+   "06": 1,
+   "07": 1,
+   "08": 0,
+   "09": 0,
+   "10": 0,
+   "11": 2,
+   "12": 3,
+   "13": 34,
+   "14": 4,
+   "15": 1,
+   "16": 6,
+   "17": 4,
+   "18": 3,
+   "19": 2,
+   "20": 0,
+   "21": 1,
+   "22": 3,
+   "23": 1
+  },
+  "hourly_peak": {
+   "hour": "13",
+   "views": 34,
+   "share_of_day": 0.493,
+   "note": "13시 발행 슬롯 직후 스파이크 — main_inflow 0이므로 검색·직접 유입으로 추정(추측)"
+  },
+  "growth": {
+   "first_nonzero_day": "2026-07-15",
+   "views_30d": 597,
+   "visitors_30d": 393,
+   "daily_views_last7": {
+    "2026-07-25": 43,
+    "2026-07-26": 27,
+    "2026-07-27": 50,
+    "2026-07-28": 56,
+    "2026-07-29": 30,
+    "2026-07-30": 69,
+    "2026-07-31": 43
+   }
+  },
+  "engagement_30d": {
+   "likes_total": 6,
+   "replies_total": 7,
+   "follower_adds": 6
+  },
+  "sources": [
+   "data/naver_insights_tech.json"
+  ]
+ },
+ "B_format_performance": {
+  "note": "top_posts(주간 2026-07-20 완결주 상위 30, 최소 3뷰 컷)와 이력을 logNo→제목 순으로 조인. top30 밖 글은 0~2뷰로 좌측검열 — views_per_published_in_window(발행분모=07-26까지)는 하한 추정치.",
+  "per_format": {
+   "explain": {
+    "views": 72,
+    "posts_in_top30": 6,
+    "published_in_window(<=07-26)": 14,
+    "published_total": 15,
+    "avg_views_per_top30_post": 12.0,
+    "views_per_published_in_window": 5.14
+   },
+   "pick": {
+    "views": 44,
+    "posts_in_top30": 7,
+    "published_in_window(<=07-26)": 12,
+    "published_total": 16,
+    "avg_views_per_top30_post": 6.3,
+    "views_per_published_in_window": 3.67
+   },
+   "breaking": {
+    "views": 28,
+    "posts_in_top30": 6,
+    "published_in_window(<=07-26)": 15,
+    "published_total": 17,
+    "avg_views_per_top30_post": 4.7,
+    "views_per_published_in_window": 1.87
+   },
+   "guide": {
+    "views": 16,
+    "posts_in_top30": 3,
+    "published_in_window(<=07-26)": 8,
+    "published_total": 12,
+    "avg_views_per_top30_post": 5.3,
+    "views_per_published_in_window": 2.0
+   },
+   "compare": {
+    "views": 25,
+    "posts_in_top30": 6,
+    "published_in_window(<=07-26)": 12,
+    "published_total": 13,
+    "avg_views_per_top30_post": 4.2,
+    "views_per_published_in_window": 2.08
+   },
+   "unmatched(이력유실)": {
+    "views": 8,
+    "posts_in_top30": 2,
+    "published_in_window(<=07-26)": null,
+    "published_total": null,
+    "avg_views_per_top30_post": 4.0
+   }
+  },
+  "per_format_titles": {
+   "explain": [
+    "\"QHD 게이밍 모니터? 벤큐 조위 XQ2566X, 진짜 살 만할까?\" (23v)",
+    "갤럭시 워치 울트라2, 더 얇아지고 배터리 커진다? 유출 사진에 담긴 진 (23v)",
+    "픽스 무선 에어건 청소기, 캐시워크 퀴즈로 뜬 진짜 이유 (9v)",
+    "아이폰 에어2, '실패작' 오명 벗을까? 카메라·배터리 강화의 진짜 속셈 (8v)",
+    "삼성 새 AI폰, 사전 예약 놓치면 140만원 손해? 진짜 따져보니 (5v)",
+    "아이닉스 '리부트 PC방', 게이밍 모니터로 승부수 띄웠다 (4v)"
+   ],
+   "pick": [
+    "갤럭시 Z 폴드8, S26 울트라 AI 그대로 탑재…가격은 227만원부터 (12v)",
+    "지금이 제습기 살 때? 이마트 할인 놓치면 후회하는 이유 (9v)",
+    "청소 후 10초의 마법? 로보락 H60 허브 플러스, 진짜배기일까? (7v)",
+    "LG 스마트TV, 손님 목소리까지 녹음? 이거 모르면 큰일 납니다! (5v)",
+    "노트북, 게임, 자동차까지? 삼성·LG디스플레이, OLED로 디스플레이  (4v)",
+    "10만km 탄 EV 배터리, 97%가 남았다고? 중고차 사도 될까? (4v)",
+    "코웨이 20L 제습기 신제품! 사야 할까, 말아야 할까? (3v)"
+   ],
+   "breaking": [
+    "큐닉스, 'TIER' 초고주사율 모니터 2종 출시! 게이머들 지갑 열까? (10v)",
+    "갤럭시 Z8, AI 글래스까지! 삼성 언팩, 이번엔 진짜 다를까? (4v)",
+    "AI폰 요금 '반토막' 키미 K3, 진짜 놀라운 이유 (4v)",
+    "갤럭시 Z 폴드8 울트라, 257만 원부터? 가격 오르고 배터리 개선된  (4v)",
+    "제미나이 3.5 프로, 대체 언제 나오나요? 출시 연기 속사정 파헤치기 (3v)",
+    "볼보 ES90, 7천만원대 파격가에 '800V 초고속 충전'까지? 이거  (3v)"
+   ],
+   "guide": [
+    "챗GPT 제대로 쓰는 법: 프롬프트 원리부터 실전까지 (7v)",
+    "노트북 와이파이 자꾸 끊김 해결, 원인과 최적화 (5v)",
+    "클로드 AI 사용법: 챗GPT와 차이점부터 프로젝트 활용까지 (4v)"
+   ],
+   "compare": [
+    "알파로메오 중형 SUV, 과연 '전기차 피아트 500'의 전철을 밟을까? (5v)",
+    "기아 EV 할인 2배 폭증! 지금 사야 할까, 더 기다려야 할까? (5v)",
+    "아이폰 18, 삼성 디스플레이 탑재? 진짜 의미는 따로 있습니다 (4v)",
+    "갤럭시 신제품, 통신사별 혜택 최대 46만원 차이? 놓치면 후회할 사전예 (4v)",
+    "샤오미 AIoT 신제품 5종, 진짜배기는 '이것' 하나? (4v)",
+    "\"OLED, 스마트폰 넘어 휴머노이드? 삼성디스플레이 신기술, 진짜 핵심 (3v)"
+   ],
+   "unmatched(이력유실)": [
+    "\"AI 통행세\" 때문에 갤럭시북6 가격 오른다고? 당신이 모르는 진짜 이 (4v)",
+    "갤폴드8 주름이 진짜 사라졌다고? 써보니 충격적인 반전 (4v)"
+   ]
+  },
+  "published_fmt_distribution_all_history": {
+   "pick": 16,
+   "compare": 13,
+   "explain": 15,
+   "breaking": 17
+  },
+  "published_fmt_distribution_window": {
+   "breaking": 15,
+   "compare": 12,
+   "pick": 12,
+   "explain": 14
+  },
+  "unmatched_top30_titles": [
+   "\"AI 통행세\" 때문에 갤럭시북6 가격 오른다고? 당신이 모르는 진짜 이유 (4v)",
+   "갤폴드8 주름이 진짜 사라졌다고? 써보니 충격적인 반전 (4v)"
+  ],
+  "ranking_by_views_per_published": "explain 5.1 > pick 3.7 > compare 2.1 ≈ guide 2.0(색인초기) > breaking 1.9",
+  "top2_posts_23v_each": {
+   "XQ2566X(explain, 모델명 리뷰)": "롱테일 검색 24회 유입",
+   "갤럭시 워치 울트라2(유출·루머)": "순수 뉴스도 '1엔티티=1글'이면 1위 가능 — 형식보다 엔티티 중복이 변수(analysis traffic core)"
+  },
+  "guide_vs_news": {
+   "news_track_posted_unique": 61,
+   "guide_track_posted": 12
+  },
+  "sources": [
+   "data/naver_insights_tech.json top_posts",
+   "data/tech_history.json",
+   "data/tech_guide_history.json"
+  ]
+ },
+ "C_topic_concentration": {
+  "fold8_cluster_definition": [
+   "폴드8",
+   "플립8",
+   "폴더블",
+   "갤럭시z8",
+   "z8",
+   "언팩",
+   "갤폴드8"
+  ],
+  "fold8_cluster_total": {
+   "posts": 14,
+   "of_posted": 61,
+   "ratio": 0.23
+  },
+  "galaxy_any_total": {
+   "posts": 16,
+   "ratio": 0.262
+  },
+  "fold8_by_date": {
+   "2026-07-15": {
+    "posted": 2,
+    "fold_cluster": 1,
+    "fold_titles": [
+     "갤럭시 Z 폴드8, 스냅드래곤 탑재와 AI 시대로의 도약!"
+    ]
+   },
+   "2026-07-16": {
+    "posted": 1,
+    "fold_cluster": 0,
+    "fold_titles": []
+   },
+   "2026-07-17": {
+    "posted": 5,
+    "fold_cluster": 0,
+    "fold_titles": []
+   },
+   "2026-07-18": {
+    "posted": 5,
+    "fold_cluster": 1,
+    "fold_titles": [
+     "갤럭시 Z폴드8, 진짜 300만원 넘을까? 역대급 가격표의 속사정"
+    ]
+   },
+   "2026-07-19": {
+    "posted": 6,
+    "fold_cluster": 2,
+    "fold_titles": [
+     "갤럭시 AI 글래스 드디어 베일 벗나? 삼성 언팩, 이번엔 다르다",
+     "갤럭시Z 폴드8, 플립8 출시 D-3! 놓치면 후회할 핵심은?"
+    ]
+   },
+   "2026-07-20": {
+    "posted": 5,
+    "fold_cluster": 1,
+    "fold_titles": [
+     "갤럭시 Z8, AI 글래스까지! 삼성 언팩, 이번엔 진짜 다를까?"
+    ]
+   },
+   "2026-07-21": {
+    "posted": 4,
+    "fold_cluster": 0,
+    "fold_titles": []
+   },
+   "2026-07-22": {
+    "posted": 5,
+    "fold_cluster": 0,
+    "fold_titles": []
+   },
+   "2026-07-23": {
+    "posted": 5,
+    "fold_cluster": 3,
+    "fold_titles": [
+     "갤럭시 Z8, AI 시대 문 열까? 애플 전에 선점하려는 삼성의 진짜 노림수",
+     "갤럭시 언팩: AI가 알아서 다 해주는 시대가 온다?",
+     "갤럭시 Z 폴드8, S26 울트라 AI 그대로 탑재…가격은 227만원부터"
+    ]
+   },
+   "2026-07-24": {
+    "posted": 5,
+    "fold_cluster": 0,
+    "fold_titles": []
+   },
+   "2026-07-25": {
+    "posted": 5,
+    "fold_cluster": 2,
+    "fold_titles": [
+     "아이온2, 갤럭시 언팩에 왜 나왔을까? 게이머라면 주목할 소식!",
+     "갤럭시 Z 폴드8 울트라, 257만 원부터? 가격 오르고 배터리 개선된 진짜"
+    ]
+   },
+   "2026-07-26": {
+    "posted": 5,
+    "fold_cluster": 1,
+    "fold_titles": [
+     "폴더블8 사러 갔다가 AI 안경까지? KT-삼성 이벤트, 놓치면 후회할 3가"
+    ]
+   },
+   "2026-07-27": {
+    "posted": 1,
+    "fold_cluster": 1,
+    "fold_titles": [
+     "갤럭시 Z 폴드8, 플립8 드디어 공개! 넓어진 화면이 대박?"
+    ]
+   },
+   "2026-07-30": {
+    "posted": 2,
+    "fold_cluster": 0,
+    "fold_titles": []
+   },
+   "2026-07-31": {
+    "posted": 5,
+    "fold_cluster": 2,
+    "fold_titles": [
+     "갤럭시 Z 폴드8, 플립8, 1030세대 왜 열광할까? 사전예약 절반이 MZ",
+     "갤럭시 Z 폴드8, 1030세대 절반 선택? 당신이 놓친 진짜 이유!"
+    ]
+   }
+  },
+  "dedup_gate": {
+   "commit": "0ac4865 fix(형수테크): 주제 중복 게이트 신설 + 시드 롱테일 확장",
+   "committed_at": "2026-07-31 16:55 KST",
+   "history_entries_with_topic_key": 1,
+   "topic_key_values": {
+    "전자": 1
+   },
+   "posts_after_gate(>=07-31T17:00)": [
+    {
+     "ts": "2026-07-31T20:11",
+     "topic_key": "전자",
+     "blog_category": "Home Tech",
+     "title": "LG 로봇청소기 '로니', 써보면 아시죠? 진짜 강점과 아쉬운 점"
+    }
+   ],
+   "verdict": "게이트 이후 표본이 당일 저녁 발행분뿐 — 완화 여부 판정 불가(표본 부족). 당일 오전(게이트 전)에는 폴드8 2건(13·14시) 중복 발행이 실재."
+  },
+  "sources": [
+   "data/tech_history.json",
+   "git log 0ac4865/89a076c"
+  ]
+ },
+ "D_audience": {
+  "weekly_demo": [
+   {
+    "age": "19-24",
+    "total": 5,
+    "f": 1,
+    "m": 4
+   },
+   {
+    "age": "25-29",
+    "total": 64,
+    "f": 55,
+    "m": 9
+   },
+   {
+    "age": "30-34",
+    "total": 15,
+    "f": 2,
+    "m": 13
+   },
+   {
+    "age": "35-39",
+    "total": 21,
+    "f": 6,
+    "m": 15
+   },
+   {
+    "age": "40-44",
+    "total": 13,
+    "f": 3,
+    "m": 10
+   },
+   {
+    "age": "45-49",
+    "total": 12,
+    "f": 5,
+    "m": 7
+   },
+   {
+    "age": "50-54",
+    "total": 10,
+    "f": 3,
+    "m": 7
+   },
+   {
+    "age": "55-59",
+    "total": 2,
+    "f": 1,
+    "m": 1
+   },
+   {
+    "age": "60+",
+    "total": 4,
+    "f": 3,
+    "m": 1
+   }
+  ],
+  "totals": {
+   "all": 146,
+   "female": 79,
+   "male": 67,
+   "female_ratio": 0.541
+  },
+  "top_cell": {
+   "age": "25-29",
+   "total": 64,
+   "share": 0.438,
+   "female": 55,
+   "female_share_in_cell": 0.859
+  },
+  "male_pattern": "30대~50대 남성이 2~4위 층(30-34 m13, 35-39 m15, 40-44 m10, 45-49 m7) — 남성은 연령 분산, 여성은 25-29 집중",
+  "retention_weekly": {
+   "retention_rate": 0.015464,
+   "returning_visitors": 3,
+   "average_visit": 1.1289
+  },
+  "query_alignment_note": "25-29 여성 최대셀과 정합적인 쿼리: 갤럭시워치9(22)·이마트 제습기(10)·로보락 h60(5)·에어건 청소기(3) 등 생활가전·웨어러블. PC/게이밍(xq2566x 24, TIER 2, CRITICAL_PROCESS_DIED 2)은 남성 분산층과 정합(해석 — 쿼리별 성별 데이터는 없음, 추측).",
+  "naver_demo_trend_age04f": [
+   "청년미래적금",
+   "청년미래적금 결과",
+   "호프 쿠키",
+   "유혜주 아버지",
+   "케이뱅크 황금캡슐",
+   "비짓재팬",
+   "배그부부",
+   "갤럭시 폴드8"
+  ],
+  "sources": [
+   "data/naver_insights_tech.json weekly.demo/retention"
+  ]
+ },
+ "E_monetization": {
+  "tracks": {
+   "naver_news(tech_post)": {
+    "posted": 61,
+    "period": "07-15~07-31",
+    "role": "뉴스 트래픽 엔진(속보·픽·비교) — 애드포스트 대상"
+   },
+   "naver_guide(tech_guide_post)": {
+    "posted": 12,
+    "period": "07-19~07-31",
+    "categories": {
+     "PC 오류해결·설정": 6,
+     "AI 활용·자동화": 6
+    },
+    "role": "에버그린 검색 가이드(오류해결·AI활용)"
+   },
+   "wp_tech(tech.hyunjiunni.com)": {
+    "posted": 25,
+    "period": "07-19~07-31",
+    "categories": {
+     "PC 오류해결·설정": 2,
+     "AI 활용·자동화": 2,
+     "AI·IT": 8,
+     "자동차·모빌리티": 7,
+     "가전·디지털": 2,
+     "PC·노트북": 2,
+     "스마트폰·모바일": 1,
+     "오피스·툴 활용": 1
+    },
+    "role": "같은 가이드 주제 풀의 WP 판 — 구글 애드센스용(신청 9/11, 수익화 9/20 연기)"
+   }
+  },
+  "id_overlap_guide_wp": {
+   "shared_ids": [
+    "chatgpt-start",
+    "win-update-error"
+   ],
+   "count": 2,
+   "note": "가이드 풀(data/tech_guide_pool.json) 하나를 네이버·WP 두 트랙이 나눠 소진(14일 교차배제)"
+  },
+  "wp_traffic_snapshot_0729": "WP tech 223뷰·22글(HANDOFF.md:241, 신생 색인초기)",
+  "shopping_connect": {
+   "code_wiring": "코드 배선 0건(쇼핑커넥트 grep — docs만 히트)",
+   "docs": [
+    "HANDOFF.md:266 — 상위 테크 블로그 쿠팡 직링크 0(네이버쇼핑만) → 7/31 형수 배선은 쇼핑커넥트 중심(계획)",
+    "WRITING_SYSTEM.md §10-5 — 쿠팡류 외부링크=신규블 미노출 요인 → 신규 형수엔 초기 미투입, 공정위 문구 일괄",
+    "HANDOFF.md:250 — 수익화 시점 7/31 → 9/20경 연기(실업급여), 7/31 실무조치도 함께 순연 가능"
+   ],
+   "verdict": "쇼핑커넥트는 '계획·문서' 단계. 현재 형수 수익 배선은 사실상 없음(애드포스트 자연수익 외)."
+  },
+  "sources": [
+   "data/wp_tech_history.json",
+   "data/tech_guide_history.json",
+   "docs/HANDOFF.md",
+   "docs/WRITING_SYSTEM.md"
+  ]
+ },
+ "F_vs_hyunji": {
+  "claim": "형수=순수 검색형, 모델명 리뷰 롱테일(xq2566x 11일), 루머 뉴스 당일 소멸 — docs/HANDOFF.md:296(07-29 어드바이저 분석; NEXT_SESSION.md는 07-31 개편으로 해당 문구 없음)",
+  "supporting": {
+   "search_vs_main": "형수 07-30: search 19 / main 0 vs 현지 07-27: search 38 / main 134(52% 메인) — '순수 검색형' 실측 일치",
+   "model_name_share": "검색유입 top30 112회 중 모델명 76회(67.9%), 브랜드 20회, 일반어 16회",
+   "longtail_evidence": "XQ2566X 글(07-18 발행) — 07-20 완결주에도 관련 쿼리 24회·주간 조회 1위(23뷰), 13일째인 07-31 실시간 목록에도 잔존(아이닉스 글 1뷰 등 구형 글 유입 지속)",
+   "per_post_efficiency": "폴드8 계열 8건 유입 17회(글당 2.1) vs XQ2566X 1건 27회 — 12.8배(analysis_hyungsutech traffic 렌즈 실측)"
+  },
+  "qualifying": {
+   "news_not_dead_same_day": "'루머 뉴스 당일 소멸'은 부분 반박 — 07-25 폴드8 울트라 글이 07-30 급상승 4뷰, 07-28 AI구독클럽 글이 07-31에도 2~3뷰. 사전예약 국면에선 핫뉴스도 수일 잔존. 다만 글당 효율(2.1회)은 롱테일(10.5~27회)의 1/5~1/13로 열위 유지",
+   "hot_news_wins_top_views_too": "주간 조회 공동 1위 중 하나는 순수 유출·루머 글(갤럭시 워치 울트라2, 23뷰) — '뉴스 형식 자체가 진다'가 아니라 '같은 엔티티 반복이 진다'(analysis position/traffic 렌즈 결론과 일치)",
+   "guide_track_yet_small": "가이드 12건 중 top30 진입 3건(챗GPT 7뷰·노트북와이파이 5뷰·클로드 4뷰), 글당 0.9~5.3뷰 — 색인 초기라 롱테일 축적은 방향만 확인"
+  },
+  "verdict": "'순수 검색형·모델명 롱테일 우위'는 실측 지지. '루머 뉴스 당일 소멸'은 과단순화(엔티티 중복이 진짜 변수).",
+  "sources": [
+   "docs/HANDOFF.md:293-298",
+   "data/naver_insights_tech.json",
+   "docs/benchmark/analysis_hyungsutech.json"
+  ]
+ }
+}

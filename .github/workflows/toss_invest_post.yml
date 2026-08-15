@@ -1,0 +1,70 @@
+name: 실계좌 투자 기록 (WP)
+
+on:
+  schedule:
+    # 매주 일요일 21:47 KST — 토스 키 미발급(MOCK) 동안은 조용히 스킵 (2026-07-17 뼈대)
+    - cron: "47 12 * * 0"
+  workflow_dispatch:
+    inputs:
+      status:
+        description: "발행 상태 (publish/draft)"
+        required: false
+        default: "publish"
+      dry_run:
+        description: "생성만 (true/false)"
+        required: false
+        default: "false"
+      allow_mock:
+        description: "키 없이 MOCK 검증 허용 — 강제 draft (true/false)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: wp-toss-invest
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # 무한 대기 방지(2026-07-31): 타임아웃 미지정 시 기본 360분을 그대로 소진한다.
+    timeout-minutes: 20
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 한글 폰트 설치
+        run: sudo apt-get update && sudo apt-get install -y fonts-nanum && sudo fc-cache -f
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 투자 기록 생성·발행
+        env:
+          TOSS_CLIENT_ID:     ${{ secrets.TOSS_CLIENT_ID }}
+          TOSS_CLIENT_SECRET: ${{ secrets.TOSS_CLIENT_SECRET }}
+          GOOGLE_API_KEY:     ${{ secrets.GOOGLE_API_KEY }}
+          WP_URL:     ${{ secrets.WP_URL }}
+          WP_USER:    ${{ secrets.WP_USER }}
+          WP_APP_PW:  ${{ secrets.WP_APP_PW }}
+          WP_STATUS:  ${{ github.event.inputs.status || 'publish' }}
+          DRY_RUN:    ${{ github.event.inputs.dry_run || 'false' }}
+          ALLOW_MOCK: ${{ github.event.inputs.allow_mock || 'false' }}
+        run: python -m scripts.toss_invest_post
+
+      - name: 발행 이력 커밋
+        if: always() && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/toss_report_history.json || true
+          git diff --staged --quiet || git commit -m "chore: 투자 기록 이력 $(date +'%Y-%m-%d')"
+          git pull --rebase --autostash origin main
+          git push

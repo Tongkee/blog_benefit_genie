@@ -1,0 +1,6 @@
+# 발행 QC 로그(jsonl, 1줄=1레코드)는 여러 크론/GH워크플로가 동시에 append한다.
+# rebase/merge 시 양쪽이 파일 끝에 줄을 더하면 충돌 → 발행 이력 커밋 push 실패 →
+# 이력 유실 → 중복 발행 위험. merge=union으로 양쪽 줄을 모두 보존(충돌 없음).
+# ※union은 라인단위 append 로그에만 안전 — JSON 배열/객체 파일엔 절대 쓰지 말 것(구조 깨짐).
+data/qc_log.jsonl merge=union
+data/qc_fail.jsonl merge=union

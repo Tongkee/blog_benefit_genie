@@ -1,0 +1,78 @@
+name: 요즘경제 쉽게보기 (경제블로그 소싱 실험)
+
+on:
+  # 매일 KST 10:00 (소스 아침 발행분 반영, 컷오프 이후)
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      draft:
+        description: "임시저장 검증 모드 (true/false)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.draft == 'true') && format('econ-digest-draft-{0}', github.run_id) || 'econ-digest' }}
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # 2026-07-30 실사고: 네이버 에디터 무응답으로 4~5시간 행 → 기본 360분 소진 후 취소.
+    timeout-minutes: 45
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 한글 폰트 설치
+        run: sudo apt-get update && sudo apt-get install -y fonts-nanum && sudo fc-cache -f
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: Playwright 브라우저 설치
+        run: playwright install chromium --with-deps
+
+      - name: 랜덤 딜레이 (봇 패턴 방지)
+        if: github.event_name == 'schedule'
+        run: |
+          DELAY=$((RANDOM % 600))
+          echo "랜덤 딜레이: ${DELAY}초"
+          sleep $DELAY
+
+      - name: 발행 실행
+        env:
+          NAVER_ID:       ${{ secrets.NAVER_ID }}
+          NAVER_PW:       ${{ secrets.NAVER_PW }}
+          NAVER_BLOG_ID:  ${{ secrets.NAVER_BLOG_ID }}
+          NAVER_COOKIES:  ${{ secrets.NAVER_COOKIES }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          DRAFT:          ${{ github.event.inputs.draft || 'false' }}
+        run: python -m scripts.econ_digest_post
+
+      - name: 스크린샷 아티팩트 업로드 (디버그)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: econ-digest-${{ github.run_id }}
+          path: data/screenshots/
+          if-no-files-found: ignore
+          retention-days: 3
+
+      - name: 상태 커밋
+        if: github.event.inputs.draft != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for f in data/econ_digest_state.json data/qc_log.jsonl data/qc_fail.jsonl; do git add "$f" 2>/dev/null || true; done
+          git diff --staged --quiet || git commit -m "chore: 요즘경제 발행 상태 $(date +'%Y-%m-%d')"
+          git pull --rebase --autostash origin main
+          git push

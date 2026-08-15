@@ -1,0 +1,269 @@
+/*
+ * 현지언니 워드프레스 — 심층분석 컴포넌트 스타일 (v2 승인 디자인 이식)
+ * 원본: scripts/wp_dry.py _doc() CSS (가상페이지 샘플 wp_심층분석_샘플_v2.html 승인본)
+ * 배포: 서버 /var/www/html/wp-content/mu-plugins/hyunji-style.css (hyunji-style.php가 enqueue)
+ * 테마 독립 — wp_render.py가 출력하는 .hj-* 클래스에만 스코프.
+ */
+:root{
+  --hj-fg:#1f2328; --hj-muted:#6a737d; --hj-line:#e5e7eb;
+  --hj-accent:#2f6f4f; --hj-accent-bg:#eef6f1;
+  --hj-tableh:#f3f5f7; --hj-soft:#fafbfc;
+  --hj-font:'Pretendard Variable',Pretendard,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+  /* 테마(twentytwentyfive) 폰트 프리셋을 통째로 교체 — 한글 최적화 */
+  --wp--preset--font-family--manrope:var(--hj-font);
+  --wp--preset--font-family--beiruti:var(--hj-font);
+  --wp--preset--font-family--literata:var(--hj-font);
+  --wp--preset--font-family--fira-code:var(--hj-font);
+  --wp--preset--font-family--platypi:var(--hj-font);
+  --wp--preset--font-family--ysabeau-office:var(--hj-font);
+}
+body{font-family:var(--hj-font)}
+
+/* ── 브랜드 액센트 #2f6f4f (테마 프리셋·링크 통일) ── */
+:root{
+  --wp--preset--color--accent-3:var(--hj-accent);
+  --wp--preset--color--accent-1:var(--hj-accent);
+}
+a:where(:not(.wp-element-button)){color:var(--hj-accent)}
+a:where(:not(.wp-element-button)):hover{color:#245a3f}
+.wp-block-navigation .wp-block-navigation-item__content:hover{color:var(--hj-accent)}
+.wp-block-site-title a{color:var(--hj-fg)}
+header .wp-block-site-title a{
+  display:inline-flex;
+  align-items:center;
+  gap:.55rem;
+}
+header .wp-block-site-title a::before{
+  content:'';
+  flex-shrink:0;
+  width:36px;
+  height:36px;
+  background:url('/wp-content/mu-plugins/hyunji-favicon.png') center/contain no-repeat;
+}
+
+/* ── 홈 히어로 ── */
+.hj-hero{
+  background:var(--hj-accent-bg);
+  border-bottom:1px solid var(--hj-line);
+  padding:2.5rem 1rem 2rem;
+  margin-top:0;
+}
+.hj-hero h1{
+  font-size:clamp(1.75rem,4vw,2.25rem);
+  font-weight:800;
+  color:var(--hj-accent);
+  margin:0 0 .5rem;
+  line-height:1.25;
+  letter-spacing:-.02em;
+}
+.hj-hero-tagline{
+  font-size:1.05rem;
+  color:var(--hj-muted);
+  margin:0 0 1.35rem;
+  line-height:1.65;
+  max-width:42rem;
+}
+.hj-hero-chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.hj-hero-chips a{
+  display:inline-block;
+  padding:.38rem .9rem;
+  border-radius:999px;
+  background:#fff;
+  border:1px solid var(--hj-accent);
+  color:var(--hj-accent);
+  font-size:.86rem;
+  font-weight:600;
+  text-decoration:none;
+  line-height:1.4;
+}
+.hj-hero-chips a:hover{
+  background:var(--hj-accent);
+  color:#fff;
+}
+.hj-home-heading{
+  margin-top:2rem;
+  margin-bottom:.25rem;
+  font-weight:800;
+  font-size:1.35rem;
+  color:var(--hj-fg);
+}
+
+/* ── 타이포그래피: 본문 가독 (2026-07-13 리서치 기반 재조정)
+ * 근거: 한글 본문 행간 150~175%(네이버 모바일 실측 155%, 접근성 지침 150%+ — 산세리프
+ * 한글은 행간을 넉넉히), 줄당 45~75자(Baymard·UXPin — 760px/17px ≈ 한글 42자),
+ * 자간 -0.01em(Pretendard 관행), word-break:keep-all(한글 단어 단위 줄바꿈으로
+ * 단어 중간 절단 방지), 문단 간격은 행간보다 뚜렷하게(1.25em). */
+.entry-content{word-break:keep-all;overflow-wrap:break-word;letter-spacing:-.01em;color:var(--hj-fg)}
+.entry-content p{font-size:1.06rem;line-height:1.75;margin-block-start:0;margin-block-end:1.25em}
+.entry-content li{font-size:1.03rem;line-height:1.7;margin-bottom:.55em}
+.entry-content ol,.entry-content ul{margin-block-start:0;margin-block-end:1.4em}
+.entry-content li::marker{color:var(--hj-muted)}
+.wp-block-post-title,.entry-header .entry-title{font-weight:800;line-height:1.35;letter-spacing:-.02em}
+.entry-content h2{
+  font-weight:800;letter-spacing:-.01em;font-size:1.5rem;line-height:1.4;
+  margin-top:2.4em;margin-bottom:.8em;padding-top:1.3em;
+  border-top:1px solid var(--hj-line)
+}
+.entry-content h2:first-child{border-top:0;margin-top:0;padding-top:0}
+.entry-content h2 + p,
+.entry-content h2 + ol,
+.entry-content h2 + ul,
+.entry-content h2 + figure{margin-top:.35em}
+.entry-content .hj-h2-gap{display:block;height:.45em;line-height:0;font-size:0}
+.entry-content strong{font-weight:700;color:inherit}
+
+/* ── 본문 폭: 승인 샘플 760px — Kadence 단일글 컨테이너 기준(2026-07-13)
+ * 구 테마(twentytwentyfive) 셀렉터는 Kadence 전환 후 무효 → 본문이 ~1,130px로 펼쳐져
+ * 한 줄 60자+가 되던 문제 수정. 제목·본문을 같은 폭으로 중앙 정렬. */
+.single-entry .entry-content-wrap{max-width:760px;margin-inline:auto}
+.wp-block-post-content.is-layout-constrained > :where(:not(.alignfull):not(.alignwide)){max-width:760px}
+
+/* ── 번호 목록: 항목 내 여러 문단 간격 ── */
+.entry-content ol > li > p{margin-block-end:.65em}
+.entry-content ol > li > p:last-child{margin-block-end:0}
+.entry-content ol > li{margin-bottom:.9em}
+
+/* ── 핵심 수치 스트립 ── */
+.hj-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:26px 0}
+.hj-stat{background:var(--hj-soft);border:1px solid var(--hj-line);border-radius:10px;padding:14px 8px;text-align:center}
+.hj-stat-v{font-size:1.25em;font-weight:800;color:var(--hj-accent);line-height:1.3}
+.hj-stat-l{font-size:.78em;color:var(--hj-muted);margin-top:4px;line-height:1.4}
+
+/* ── 목차 ── */
+.hj-toc{background:var(--hj-soft);border:1px solid var(--hj-line);border-radius:10px;padding:16px 22px;margin:22px 0}
+.hj-toc-t{font-size:.82em;font-weight:800;color:#414852;margin:0 0 8px}
+.hj-toc ol{margin:0;padding-left:20px}
+.hj-toc li{margin:4px 0;font-size:.92em}
+.hj-toc a{color:#2b5a86;text-decoration:none}
+.hj-toc a:hover{text-decoration:underline}
+
+/* ── 요약 박스 ── */
+.hj-summary{background:var(--hj-accent-bg);border-left:4px solid var(--hj-accent);border-radius:8px;padding:18px 22px;margin:26px 0}
+.hj-summary-title{font-weight:800;color:var(--hj-accent);margin:0 0 10px;font-size:.9em}
+.hj-summary ul{margin:0;padding-left:2px;list-style:none}
+.hj-summary li{position:relative;padding-left:24px;margin:0 0 8px;font-size:.95em;line-height:1.6}
+.hj-summary li:before{content:'✓';position:absolute;left:0;color:var(--hj-accent);font-weight:800}
+/* Kadence 테마 ul 패딩이 로드 순서로 이겨 체크가 오른쪽에서 시작하던 문제 —
+ * .entry-content 스코프로 구체성(0,2,1)을 높여 확정 (2026-07-13 사용자 피드백) */
+.entry-content .hj-summary ul{margin:0;padding-left:2px;list-style:none}
+.entry-content .hj-summary li{position:relative;padding-left:24px;margin:0 0 8px}
+
+/* ── 오해/사실 카드 (2026-07-13 — 번호식 오해/사실 나열 대체) ── */
+.hj-myth{border:1px solid var(--hj-line);border-left:4px solid #d05c5c;border-radius:8px;padding:14px 18px;margin:0 0 14px;background:#fff}
+.entry-content .hj-myth-q{position:relative;padding-left:26px;margin:0 0 8px;font-weight:700;color:#b34a4a;font-size:1em;line-height:1.6}
+.entry-content .hj-myth-q:before{content:'✕';position:absolute;left:2px;font-weight:800}
+.entry-content .hj-myth-a{position:relative;padding-left:26px;margin:0;color:#33393f;font-size:.97em;line-height:1.7}
+.entry-content .hj-myth-a:before{content:'✓';position:absolute;left:2px;color:var(--hj-accent);font-weight:800}
+
+/* ── 비교표 ── */
+.hj-table{margin:24px 0;overflow-x:auto}
+.hj-table table{border-collapse:collapse;width:100%;font-size:.9em;min-width:520px}
+.hj-table th,.hj-table td{border:1px solid var(--hj-line);padding:10px 12px;text-align:left}
+.hj-table thead th{background:var(--hj-tableh);font-weight:700}
+.hj-table tbody td:first-child{font-weight:600;background:var(--hj-soft)}
+
+/* ── FAQ 카드 ── */
+.hj-faq-item{border:1px solid var(--hj-line);border-radius:10px;padding:16px 20px;margin-bottom:12px}
+.hj-faq-q{margin:0 0 8px;font-size:.98em;color:var(--hj-accent)}
+.hj-faq-a{margin:0;color:#33393f;font-size:.95em;line-height:1.7}
+
+/* ── 출처·면책 ── */
+.hj-sources{margin-top:34px}
+.hj-related{margin-top:28px;padding:18px 20px;background:#f6f8fa;border-radius:10px;border-left:4px solid var(--accent,#2d6a4f)}
+.hj-related h2{font-size:1em;border:0;margin:0 0 10px;padding:0;color:#414852}
+.hj-related ul{padding-left:20px;margin:0}
+.hj-related li{font-size:.92em;margin-bottom:6px}
+.hj-related a{color:#2b5a86;text-decoration:none}
+.hj-related a:hover{text-decoration:underline}
+.hj-sources h2{font-size:1em;border:0;margin:0 0 10px;padding:0}
+.hj-sources ul{padding-left:20px;margin:0}
+.hj-sources li{font-size:.88em;margin-bottom:6px}
+.hj-sources a{color:#2b5a86}
+.hj-disclaimer{margin-top:22px;background:#fbf7ee;border:1px solid #ecdfc3;border-radius:10px;padding:14px 18px;font-size:.85em;color:#6d5f43;line-height:1.65}
+
+/* ── 브레드크럼·메타라인 (WP_PIPELINE §2) ── */
+.hj-breadcrumb{font-size:.85em;color:#7a828c;margin-bottom:4px}
+.hj-breadcrumb a{color:#7a828c;text-decoration:none}
+.hj-breadcrumb a:hover{color:var(--hj-accent);text-decoration:underline}
+.hj-breadcrumb span{margin:0 4px}
+.hj-meta{font-size:.85em;color:#8a919b;margin:0 0 18px}
+
+/* ── 저자 박스 (E-E-A-T) ── */
+.hj-author{display:flex;gap:14px;align-items:flex-start;margin-top:26px;padding:18px 20px;background:#f6f8fa;border-radius:12px}
+.hj-author-avatar{flex:0 0 44px;width:44px;height:44px;border-radius:50%;background:var(--hj-accent,#2d6a4f);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.05em}
+.hj-author-body{min-width:0}
+.hj-author-name{margin:0 0 4px;font-weight:700;font-size:.95em}
+.hj-author-bio{margin:0;font-size:.88em;color:#565e68;line-height:1.65}
+
+/* ── 홈: 인기글(Koko)·섹션 설명·소개 스트립 ── */
+.hj-popular:has(ul:empty){display:none}
+.hj-popular ul{list-style:none;padding:0;margin:0;counter-reset:hj-rank}
+.hj-popular li{counter-increment:hj-rank;padding:12px 0;border-bottom:1px solid var(--hj-line,#e5e8eb);font-weight:600}
+.hj-popular li::before{content:counter(hj-rank);display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;margin-right:12px;border-radius:8px;background:var(--hj-accent,#2d6a4f);color:#fff;font-size:.82em}
+.hj-popular li a{text-decoration:none;color:inherit}
+.hj-popular li a:hover{color:var(--hj-accent,#2d6a4f)}
+.hj-home-desc{color:#6b7280;font-size:.92em;margin:-6px 0 14px}
+.hj-home-desc a{color:var(--hj-accent,#2d6a4f);text-decoration:none;font-weight:600}
+.hj-about-strip{margin-top:40px;padding:20px 24px;background:#f6f8fa;border-radius:12px;font-size:.93em}
+.wp-block-latest-posts.is-grid li{margin-bottom:28px}
+.wp-block-latest-posts__featured-image{overflow:hidden;border-radius:12px}
+.wp-block-latest-posts__featured-image img{border-radius:12px;display:block;width:100%;height:auto}
+.wp-block-latest-posts__list a{font-weight:700;text-decoration:none}
+
+/* ── 목록 카드: 16:9 원비율(크롭 제거) + 호버 모션 (2026-07-10) ── */
+/* Kadence 아카이브 카드가 2:3 비율로 크롭하던 것을 대표 이미지 원비율(16:9)로 */
+.post-thumbnail.kadence-thumbnail-ratio-2-3{padding-bottom:56.25%}
+.post-thumbnail{overflow:hidden}
+.post-thumbnail-inner img,
+.wp-block-latest-posts__featured-image img{transition:transform .35s ease}
+.loop-entry{transition:transform .25s ease,box-shadow .25s ease}
+.wp-block-latest-posts__list li{transition:transform .25s ease}
+@media (hover:hover){
+  .loop-entry:hover{transform:translateY(-4px);box-shadow:0 18px 30px -12px rgba(0,0,0,.18)}
+  .loop-entry:hover .post-thumbnail-inner img{transform:scale(1.05)}
+  .wp-block-latest-posts__list li:hover{transform:translateY(-3px)}
+  .wp-block-latest-posts__list li:hover .wp-block-latest-posts__featured-image img{transform:scale(1.05)}
+  .hj-hero-chips a{transition:transform .2s ease,background .2s ease}
+  .hj-hero-chips a:hover{transform:translateY(-2px)}
+}
+@media (hover:none){
+  .loop-entry:active,.wp-block-latest-posts__list li:active{transform:scale(.985)}
+}
+@media (prefers-reduced-motion:reduce){
+  .loop-entry,.wp-block-latest-posts__list li,
+  .post-thumbnail-inner img,.wp-block-latest-posts__featured-image img{transition:none}
+  .loop-entry:hover,.wp-block-latest-posts__list li:hover{transform:none}
+}
+
+/* ── 모바일 ── */
+@media(max-width:640px){
+  .hj-stats{grid-template-columns:1fr 1fr}
+}
+
+/* ── 사이드바 스크롤 고정 — 광고 상시 노출 (2026-07-19 사용자 요청) ── */
+@media(min-width:1025px){
+  #secondary .sidebar-inner-wrap{position:sticky;top:40px}
+}
+
+/* ── 사이드바 폰트 축소 + 최신댓글 숨김 (2026-07-22 사용자 요청) ── */
+#secondary{font-size:.9rem;line-height:1.55}
+#secondary .widget-title,#secondary .widget h2,#secondary h2.widget-title{font-size:1rem;margin-bottom:.6rem}
+#secondary .widget{margin-bottom:1.6rem}
+#secondary li{margin-bottom:.3rem}
+#secondary .widget_recent_comments{display:none!important}
+
+/* 홈 상단 '홈' 페이지타이틀 배너 숨김 */
+body.home .entry-hero,body.home .page-hero-section{display:none}
+
+/* 실계좌 투자 기록(invest-log) — 표 전부 가운데 정렬 (2026-07-22 사용자 요청) */
+body.category-invest-log .entry-content table th,
+body.category-invest-log .entry-content table td,
+body.category-invest-log .hj-table th,
+body.category-invest-log .hj-table td{text-align:center}

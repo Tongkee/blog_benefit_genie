@@ -1,0 +1,1370 @@
+{
+ "meta": {
+  "analyzed_at": "2026-08-01",
+  "method": "비로그인 공개 조회 (m.blog.naver.com HTML 실측, 요청 간 0.3s sleep)",
+  "discovery": "네이버 블로그 검색 AJAX 8개 쿼리 x 3페이지(2026-07-31 수집) + blog.rss.naver.com 검증(14일 내 발행 확인)",
+  "selector_basis": "div.se-main-container 내 p.se-text-paragraph / .se-section-* / img.se-image-resource / .se-caption / b,strong / [style*=color]",
+  "hyungsu_control": "tech_history.json fmt별(pick/explain/breaking) 최신 posted 각 1건 + tech_guide_history.json 1건"
+ },
+ "hyungsu": {
+  "blogId": "hyungsutech",
+  "blogName": "형수의테크공장",
+  "subscriberCount": 2,
+  "aggregate": {
+   "avg_imgs": 2.75,
+   "imgs_per_1000chars": 1.19,
+   "avg_total_chars": 2810,
+   "avg_para_chars": 47.55,
+   "avg_max_para": 147.75,
+   "empty_para_ratio": 0.5,
+   "avg_hr_dividers": 0,
+   "avg_quotes": 8,
+   "avg_tables": 1,
+   "avg_stickers": 0,
+   "avg_bold": 12.5,
+   "avg_color": 1.5,
+   "avg_title_len": 38,
+   "hook_title_ratio": 0.75,
+   "avg_first_person": 2.75,
+   "avg_captions": 0
+  },
+  "posts": [
+   {
+    "label": "형수-pick(로봇청소기)",
+    "blog_id": "hyungsutech",
+    "url": "https://m.blog.naver.com/hyungsutech/224364186459",
+    "title": "LG 로봇청소기 '로니', 써보면 아시죠? 진짜 강점과 아쉬운 점",
+    "type": "기타/정보",
+    "breath": {
+     "paragraphs_total": 80,
+     "paragraphs_nonempty": 55,
+     "empty_paragraphs": 25,
+     "avg_chars_per_para": 41.3,
+     "max_para_chars": 136,
+     "total_chars": 2269
+    },
+    "structure": {
+     "section_titles": 0,
+     "tables": 2,
+     "quotes": 8,
+     "hr_dividers": 0,
+     "stickers": 0,
+     "link_cards": 2,
+     "videos": 0
+    },
+    "images": {
+     "count": 4,
+     "chars_before_first_img": 0,
+     "captions": 0
+    },
+    "title_metrics": {
+     "length": 36,
+     "model_at_front": true,
+     "hook_words": [
+      "진짜",
+      "?"
+     ]
+    },
+    "intro": {
+     "type": "질문형",
+     "first3": [
+      "최근 회사 동료들과 수다를 떨다 로봇청소기 이야기가 나왔습니다. “이거 정말 돈값 할까?” 다들 반신반의하는 눈치였죠. 특히 물걸레 기능은 제대로일지 궁금해하는 ",
+      "마침 LG전자 베스트샵에서 'AI 청소로봇 로니' 팝업 로드쇼를 시작했다고 합니다. 과연 로니는 이런 의심을 한 방에 날려줄 수 있을까요?",
+      "이번 팝업 로드쇼는 단순히 제품을 보여주는 걸 넘어, 직접 경험해보고 궁금증을 풀 수 있는 좋은 기회라고 합니다. 우리가 진짜 궁금해하는 로니의 핵심 특징과 실사"
+     ]
+    },
+    "tone": {
+     "end_da": 31,
+     "end_yo": 11,
+     "end_ham": 1,
+     "first_person_cnt": 6
+    },
+    "format": {
+     "bold": 17,
+     "color_styled": 3,
+     "font_sizes": []
+    },
+    "monetize": {
+     "coupang": 0,
+     "naver_shopping": 0,
+     "linkprice": 0
+    }
+   },
+   {
+    "label": "형수-explain(골프존)",
+    "blog_id": "hyungsutech",
+    "url": "https://m.blog.naver.com/hyungsutech/224363327543",
+    "title": "골프존 스마트캐디, 애플워치로 '이것'까지? 골퍼들 바로 환호한 이유",
+    "type": "가이드/문제해결",
+    "breath": {
+     "paragraphs_total": 50,
+     "paragraphs_nonempty": 30,
+     "empty_paragraphs": 20,
+     "avg_chars_per_para": 61.3,
+     "max_para_chars": 148,
+     "total_chars": 1838
+    },
+    "structure": {
+     "section_titles": 0,
+     "tables": 0,
+     "quotes": 7,
+     "hr_dividers": 0,
+     "stickers": 0,
+     "link_cards": 2,
+     "videos": 0
+    },
+    "images": {
+     "count": 3,
+     "chars_before_first_img": 0,
+     "captions": 0
+    },
+    "title_metrics": {
+     "length": 38,
+     "model_at_front": false,
+     "hook_words": [
+      "이유",
+      "?"
+     ]
+    },
+    "intro": {
+     "type": "질문형",
+     "first3": [
+      "필드에서 \"방금 샷 몇 미터 나갔지?\" 매번 물어보는 거, 솔직히 좀 귀찮지 않으셨나요? 캐디님께 죄송하기도 하고요. 애플워치 쓰는 골퍼라면 이제 그럴 필요가 없",
+      "이전에는 아이폰으로만 가능했던 기능이 애플워치에서도 지원되면서, 이제 폰 꺼낼 일 없이 손목 위에서 모든 게 해결됩니다. 과연 어떤 기능이 추가되었고, 이게 필드",
+      "✓ 골프존클라우드 스마트캐디 앱이 애플워치에서 '오토샷트래킹' 기능을 지원합니다."
+     ]
+    },
+    "tone": {
+     "end_da": 23,
+     "end_yo": 12,
+     "end_ham": 0,
+     "first_person_cnt": 1
+    },
+    "format": {
+     "bold": 8,
+     "color_styled": 0,
+     "font_sizes": []
+    },
+    "monetize": {
+     "coupang": 0,
+     "naver_shopping": 0,
+     "linkprice": 0
+    }
+   },
+   {
+    "label": "형수-breaking(아이폰17이벤트)",
+    "blog_id": "hyungsutech",
+    "url": "https://m.blog.naver.com/hyungsutech/224362908574",
+    "title": "아이폰17, 닌텐도 스위치2 받으세요? '열혈강호: 넥스트' 출시 이벤트의 함정",
+    "type": "뉴스/신제품",
+    "breath": {
+     "paragraphs_total": 84,
+     "paragraphs_nonempty": 54,
+     "empty_paragraphs": 30,
+     "avg_chars_per_para": 48.9,
+     "max_para_chars": 147,
+     "total_chars": 2643
+    },
+    "structure": {
+     "section_titles": 0,
+     "tables": 2,
+     "quotes": 7,
+     "hr_dividers": 0,
+     "stickers": 0,
+     "link_cards": 2,
+     "videos": 0
+    },
+    "images": {
+     "count": 3,
+     "chars_before_first_img": 0,
+     "captions": 0
+    },
+    "title_metrics": {
+     "length": 44,
+     "model_at_front": true,
+     "hook_words": [
+      "함정",
+      "?"
+     ]
+    },
+    "intro": {
+     "type": "질문형",
+     "first3": [
+      "최근 게임 커뮤니티가 들썩이는 소식, 바로 카툰 렌더링 MMORPG '열혈강호: 넥스트'가 정식 출시됐다는 겁니다. 그런데 솔직히 신작 게임 출시 소식 자체는 이",
+      "저도 처음엔 시큰둥했는데, 이번 '열혈강호: 넥스트'의 출시 이벤트 경품을 보고는 눈이 번쩍 뜨였습니다. 아이폰17부터 닌텐도 스위치2까지, 이름만 들어도 설레는",
+      "하지만 과연 이 경품들이 정말 '꿀'일지, 아니면 단순한 미끼일지, 형수의 테크 공장에서 시원하게 파헤쳐 봤습니다."
+     ]
+    },
+    "tone": {
+     "end_da": 27,
+     "end_yo": 10,
+     "end_ham": 9,
+     "first_person_cnt": 0
+    },
+    "format": {
+     "bold": 16,
+     "color_styled": 3,
+     "font_sizes": []
+    },
+    "monetize": {
+     "coupang": 0,
+     "naver_shopping": 0,
+     "linkprice": 0
+    }
+   },
+   {
+    "label": "형수-guide(윈도우11오류)",
+    "blog_id": "hyungsutech",
+    "url": "https://m.blog.naver.com/hyungsutech/224351046442",
+    "title": "윈도우11 업데이트 오류 해결: 원인 분석부터 단계별 조치까지",
+    "type": "가이드/문제해결",
+    "breath": {
+     "paragraphs_total": 152,
+     "paragraphs_nonempty": 116,
+     "empty_paragraphs": 36,
+     "avg_chars_per_para": 38.7,
+     "max_para_chars": 160,
+     "total_chars": 4490
+    },
+    "structure": {
+     "section_titles": 0,
+     "tables": 0,
+     "quotes": 10,
+     "hr_dividers": 0,
+     "stickers": 0,
+     "link_cards": 0,
+     "videos": 0
+    },
+    "images": {
+     "count": 1,
+     "chars_before_first_img": 0,
+     "captions": 0
+    },
+    "title_metrics": {
+     "length": 34,
+     "model_at_front": true,
+     "hook_words": []
+    },
+    "intro": {
+     "type": "설명/스펙나열형",
+     "first3": [
+      "윈도우11 업데이트는 시스템 안정성과 보안을 강화하지만, 때로는 예측 불가능한 오류로 인해 진행되지 않을 때가 있습니다.",
+      "이런 문제는 중요한 보안 패치를 놓치게 하거나, 새로운 기능의 도입을 지연시켜 사용자에게 불편을 초래하곤 합니다.",
+      "이 글에서는 윈도우11 업데이트 오류의 근본적인 원인을 파악하고, 실무에서 검증된 단계별 해결책을 제시하여 여러분의 PC가 최신 상태를 유지할 수 있도록 돕겠습니"
+     ]
+    },
+    "tone": {
+     "end_da": 63,
+     "end_yo": 6,
+     "end_ham": 0,
+     "first_person_cnt": 4
+    },
+    "format": {
+     "bold": 9,
+     "color_styled": 0,
+     "font_sizes": []
+    },
+    "monetize": {
+     "coupang": 0,
+     "naver_shopping": 0,
+     "linkprice": 0
+    }
+   }
+  ]
+ },
+ "competitors": {
+  "franksong0030": {
+   "blogName": "Franky, IT Story",
+   "subscriberCount": 33767,
+   "style": "뉴스·신제품 총정리 + 피드 후킹형 (피드메이커 4기)",
+   "search_appearances_8queries_3pages": 9,
+   "distinct_queries_matched": 5,
+   "rss_posts_within_14d": 50,
+   "rss_posts_within_7d": 50,
+   "aggregate": {
+    "avg_imgs": 12,
+    "imgs_per_1000chars": 5.04,
+    "avg_total_chars": 2395,
+    "avg_para_chars": 54.33,
+    "avg_max_para": 166.33,
+    "empty_para_ratio": 0.06,
+    "avg_hr_dividers": 7.67,
+    "avg_quotes": 5.67,
+    "avg_tables": 1.33,
+    "avg_stickers": 4.33,
+    "avg_bold": 38,
+    "avg_color": 50.33,
+    "avg_title_len": 34.33,
+    "hook_title_ratio": 0.67,
+    "avg_first_person": 2,
+    "avg_captions": 0
+   },
+   "posts": [
+    {
+     "label": "franksong0030:\"지금 안 사면 손해\" 갤럭시 Z 폴드8 사전예약 자급",
+     "blog_id": "franksong0030",
+     "url": "https://m.blog.naver.com/franksong0030/224362969584",
+     "title": "\"지금 안 사면 손해\" 갤럭시 Z 폴드8 사전예약 자급제 추천 이유",
+     "type": "추천/큐레이션",
+     "breath": {
+      "paragraphs_total": 47,
+      "paragraphs_nonempty": 42,
+      "empty_paragraphs": 5,
+      "avg_chars_per_para": 55.5,
+      "max_para_chars": 150,
+      "total_chars": 2330
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 0,
+      "quotes": 5,
+      "hr_dividers": 7,
+      "stickers": 5,
+      "link_cards": 3,
+      "videos": 0
+     },
+     "images": {
+      "count": 13,
+      "chars_before_first_img": 63,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 37,
+      "model_at_front": false,
+      "hook_words": [
+       "손해",
+       "이유",
+       "따옴표후킹"
+      ]
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "삼성전자의 차세대 폴더블폰, 갤럭시 Z 폴드8 시리즈가 드디어 베일을 벗었습니다.",
+       "2026년 7월 28일부터 본격적인 사전예약의 막이 올랐는데요. 이번 신제품은 기존의 틀을 깨고 4:3 비율의 여권형 폼팩터를 채택한 기본형(와이드)과 8",
+       "인치 대화면에 2억 화소 카메라를 탑재한 울트라 모델로 이원화되어 유저들의 고민을 깊어지게 만들고 있습니다."
+      ]
+     },
+     "tone": {
+      "end_da": 29,
+      "end_yo": 3,
+      "end_ham": 0,
+      "first_person_cnt": 1
+     },
+     "format": {
+      "bold": 33,
+      "color_styled": 52,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "franksong0030:\"도로 위 시선 강탈\" 미니쿠퍼 일렉트릭 썸머 에디션 ",
+     "blog_id": "franksong0030",
+     "url": "https://m.blog.naver.com/franksong0030/224359931240",
+     "title": "\"도로 위 시선 강탈\" 미니쿠퍼 일렉트릭 썸머 에디션 한정판 출시",
+     "type": "뉴스/신제품",
+     "breath": {
+      "paragraphs_total": 43,
+      "paragraphs_nonempty": 42,
+      "empty_paragraphs": 1,
+      "avg_chars_per_para": 51.2,
+      "max_para_chars": 181,
+      "total_chars": 2151
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 2,
+      "quotes": 6,
+      "hr_dividers": 6,
+      "stickers": 2,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 11,
+      "chars_before_first_img": 74,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 36,
+      "model_at_front": false,
+      "hook_words": [
+       "따옴표후킹"
+      ]
+     },
+     "intro": {
+      "type": "질문형",
+      "first3": [
+       "\"미니(MINI)가 지닌 특유의 고카트 감성과 감각적인 디자인을 가장 극대화하는 계절은 언제일까요?\"",
+       "단연 시원한 바람을 가르며 도심을 누비는 여름이 아닐까 싶습니다. 4세대로 넘어가면서 혁신적인 편의성과 첨단 기술을 갖춘 미니쿠퍼 전기차가 이번 여름을 겨냥한 특",
+       "바로 자연의 오묘한 빛깔을 차체에 담아낸 '더 올 일렉트릭 미니 쿠퍼 썸머 에디션(The All-Electric MINI Summer Edition)' 입니다. "
+      ]
+     },
+     "tone": {
+      "end_da": 22,
+      "end_yo": 5,
+      "end_ham": 0,
+      "first_person_cnt": 1
+     },
+     "format": {
+      "bold": 29,
+      "color_styled": 39,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "franksong0030:디즈니플러스 요금제, 월 3천원대 가격 할인 구독 방법",
+     "blog_id": "franksong0030",
+     "url": "https://m.blog.naver.com/franksong0030/224361950295",
+     "title": "디즈니플러스 요금제, 월 3천원대 가격 할인 구독 방법",
+     "type": "가이드/문제해결",
+     "breath": {
+      "paragraphs_total": 50,
+      "paragraphs_nonempty": 48,
+      "empty_paragraphs": 2,
+      "avg_chars_per_para": 56.3,
+      "max_para_chars": 168,
+      "total_chars": 2704
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 2,
+      "quotes": 6,
+      "hr_dividers": 10,
+      "stickers": 6,
+      "link_cards": 4,
+      "videos": 0
+     },
+     "images": {
+      "count": 12,
+      "chars_before_first_img": 69,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 30,
+      "model_at_front": false,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "매달 빠져나가는 OTT 구독료 지출을 보며 한숨 쉬어본 경험, 다들 한 번쯤 있으실 겁니다.",
+       "넷플릭스에 유튜브 프리미엄, 여기에 마블이나 픽사, 최신 인기 한국 오리지널 시리즈를 챙겨보려고 디즈니 플러스까지 더하면 한 달 고정 지출이 만만치 않은데요. 공",
+       "하지만 구독 공유 플랫폼인 겜스고(GamsGo)를 활용하면 최고 등급인 4K UHD 프리미엄 요금제를 월 3,000원대라는 파격적인 가격으로 부담 없이 감상할 수"
+      ]
+     },
+     "tone": {
+      "end_da": 28,
+      "end_yo": 5,
+      "end_ham": 0,
+      "first_person_cnt": 4
+     },
+     "format": {
+      "bold": 52,
+      "color_styled": 60,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    }
+   ]
+  },
+  "toruin84": {
+   "blogName": "IT'S IT!",
+   "subscriberCount": 2104,
+   "style": "윈도우 오류·기술 심층 가이드형 (검색 특화)",
+   "search_appearances_8queries_3pages": 5,
+   "distinct_queries_matched": 1,
+   "rss_posts_within_14d": 35,
+   "rss_posts_within_7d": 21,
+   "aggregate": {
+    "avg_imgs": 5.67,
+    "imgs_per_1000chars": 1.76,
+    "avg_total_chars": 3278,
+    "avg_para_chars": 65.9,
+    "avg_max_para": 191,
+    "empty_para_ratio": 1.16,
+    "avg_hr_dividers": 3,
+    "avg_quotes": 1,
+    "avg_tables": 2,
+    "avg_stickers": 0,
+    "avg_bold": 29.67,
+    "avg_color": 107.67,
+    "avg_title_len": 53.67,
+    "hook_title_ratio": 0,
+    "avg_first_person": 0.67,
+    "avg_captions": 1
+   },
+   "posts": [
+    {
+     "label": "toruin84:글로벌 AI 모델 대격변: GPT-5.6 vs Clau",
+     "blog_id": "toruin84",
+     "url": "https://m.blog.naver.com/toruin84/224364004292",
+     "title": "글로벌 AI 모델 대격변: GPT-5.6 vs Claude Fable 5 성능 비교 및 선택 가이드",
+     "type": "가이드/문제해결",
+     "breath": {
+      "paragraphs_total": 115,
+      "paragraphs_nonempty": 55,
+      "empty_paragraphs": 60,
+      "avg_chars_per_para": 65.9,
+      "max_para_chars": 185,
+      "total_chars": 3624
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 2,
+      "quotes": 1,
+      "hr_dividers": 3,
+      "stickers": 0,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 5,
+      "chars_before_first_img": 164,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 55,
+      "model_at_front": false,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "뉴스리드형",
+      "first3": [
+       "2026년 7월 새롭게 출시된 OpenAI의 GPT-5.6(Sol, Terra, Luna)와 Anthropic의 Claude Fable 5 모델의 기술적 아키텍처",
+       "2026년 7월 현시점, 글로벌 테크 시장은 대규모 언어 모델(LLM)의 세대교체로 인해 격변기를 맞이하고 있습니다. OpenAI가 새로운 계층 구조를 적용한 G",
+       "구글 역시 성능을 끌어올린 Gemini 3.6 Flash를 앞세워 플래그십 모델 경쟁에 합류하면서, 사용자들은 그 어느 때보다 다양하고 강력한 연산 도구들을 선택"
+      ]
+     },
+     "tone": {
+      "end_da": 33,
+      "end_yo": 1,
+      "end_ham": 0,
+      "first_person_cnt": 0
+     },
+     "format": {
+      "bold": 30,
+      "color_styled": 109,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "toruin84:OpenAI 하드웨어 진출과 AI 에이전트 생태계의 확",
+     "blog_id": "toruin84",
+     "url": "https://m.blog.naver.com/toruin84/224363785010",
+     "title": "OpenAI 하드웨어 진출과 AI 에이전트 생태계의 확장, 차세대 디바이스 판도를 바꾼다",
+     "type": "기타/정보",
+     "breath": {
+      "paragraphs_total": 95,
+      "paragraphs_nonempty": 44,
+      "empty_paragraphs": 51,
+      "avg_chars_per_para": 63.3,
+      "max_para_chars": 188,
+      "total_chars": 2787
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 2,
+      "quotes": 1,
+      "hr_dividers": 4,
+      "stickers": 0,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 6,
+      "chars_before_first_img": 97,
+      "captions": 3
+     },
+     "title_metrics": {
+      "length": 49,
+      "model_at_front": false,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "경험담형",
+      "first3": [
+       "OpenAI의 전용 하드웨어 개발 소식과 메타, 토끼, 애플 등 주요 브랜드의 차세대 AI 폼팩터 및 디바이스 생태계 변화 전망을 분석합니다.",
+       "최근 글로벌 IT 시장에서 인공지능(AI) 기술의 중심축이 순수 소프트웨어 모델을 넘어 하드웨어와 디바이스 생태계로 급격히 확장하고 있습니다. 테크크런치 등 외신",
+       "이는 스마트폰과 PC 중심의 기존 컴퓨팅 환경을 재편하고, AI 에이전트가 사용자의 일상을 직접 보조하는 물리적 인프라를 구축하려는 전략적 행보로 풀이됩니다."
+      ]
+     },
+     "tone": {
+      "end_da": 30,
+      "end_yo": 3,
+      "end_ham": 1,
+      "first_person_cnt": 1
+     },
+     "format": {
+      "bold": 21,
+      "color_styled": 95,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "toruin84:[IT테크] 차세대 Wi-Fi 7 무선 와이파이 공유기",
+     "blog_id": "toruin84",
+     "url": "https://m.blog.naver.com/toruin84/224362866577",
+     "title": "[IT테크] 차세대 Wi-Fi 7 무선 와이파이 공유기 추천: 스마트폰 호환성 및 브랜드별 장단점 비교",
+     "type": "비교",
+     "breath": {
+      "paragraphs_total": 111,
+      "paragraphs_nonempty": 50,
+      "empty_paragraphs": 61,
+      "avg_chars_per_para": 68.5,
+      "max_para_chars": 200,
+      "total_chars": 3423
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 2,
+      "quotes": 1,
+      "hr_dividers": 2,
+      "stickers": 0,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 6,
+      "chars_before_first_img": 171,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 57,
+      "model_at_front": false,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "차세대 무선 통신 규격 Wi-Fi 7과 기존 Wi-Fi 6의 핵심 스펙을 비교하고, 최신 스마트폰과의 호환성 및 주요 브랜드(아수스, 아이피타임, 티피링크)별 장",
+       "Wi-Fi 7(802.11be) 규격이 프리미엄 비즈니스 노트북 및 기업용 라우터의 표준 사양으로 자리 잡고 있습니다. 그러나 일반적인 사용 환경, 특히 스마트폰",
+       "기존 와이파이6공유기 대비 기술적 우위를 분석하고, 모바일 기기 호환성과 브랜드별 장단점을 바탕으로 한 명확한 무선 와이파이 공유기 추천 및 도입 여부에 대해 정"
+      ]
+     },
+     "tone": {
+      "end_da": 35,
+      "end_yo": 2,
+      "end_ham": 0,
+      "first_person_cnt": 1
+     },
+     "format": {
+      "bold": 38,
+      "color_styled": 119,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    }
+   ]
+  },
+  "sinnam88": {
+   "blogName": "포토그래퍼 신남의 IT 세상",
+   "subscriberCount": 12373,
+   "style": "생활 IT 가이드·스크린샷 다량형",
+   "search_appearances_8queries_3pages": 3,
+   "distinct_queries_matched": 2,
+   "rss_posts_within_14d": 50,
+   "rss_posts_within_7d": 50,
+   "aggregate": {
+    "avg_imgs": 12,
+    "imgs_per_1000chars": 5.3,
+    "avg_total_chars": 2325.67,
+    "avg_para_chars": 56.57,
+    "avg_max_para": 103.67,
+    "empty_para_ratio": 0.77,
+    "avg_hr_dividers": 5.33,
+    "avg_quotes": 4.33,
+    "avg_tables": 0,
+    "avg_stickers": 1.33,
+    "avg_bold": 20.33,
+    "avg_color": 19.33,
+    "avg_title_len": 25.67,
+    "hook_title_ratio": 0,
+    "avg_first_person": 3,
+    "avg_captions": 0
+   },
+   "posts": [
+    {
+     "label": "sinnam88:배달의민족 주문내역 삭제 방법",
+     "blog_id": "sinnam88",
+     "url": "https://m.blog.naver.com/sinnam88/224364290650",
+     "title": "배달의민족 주문내역 삭제 방법",
+     "type": "가이드/문제해결",
+     "breath": {
+      "paragraphs_total": 60,
+      "paragraphs_nonempty": 36,
+      "empty_paragraphs": 24,
+      "avg_chars_per_para": 50.8,
+      "max_para_chars": 93,
+      "total_chars": 1827
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 0,
+      "quotes": 4,
+      "hr_dividers": 5,
+      "stickers": 1,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 11,
+      "chars_before_first_img": 0,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 16,
+      "model_at_front": false,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "예전에 몰래 야식을 먹고 다음 날 흔적을 지우려고 앱을 이리저리 살펴본 경험이 있거든요.",
+       "늦은 밤 야식으로 치킨이나 피자를 시켜 먹고 나서, 가족들에게 내가 뭘 사 먹었는지 시킨 내역을 들키고 싶지 않을 때가 있더라고요.",
+       "저와 같이 가족들에게 보여주고 싶지 않을때 어떻게하면 내역을 지울수 있는지 오늘은 배달의민족 주문내역 삭제 방법에 대해 명확하게 정리해 드릴게요."
+      ]
+     },
+     "tone": {
+      "end_da": 21,
+      "end_yo": 13,
+      "end_ham": 0,
+      "first_person_cnt": 3
+     },
+     "format": {
+      "bold": 19,
+      "color_styled": 18,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "sinnam88:애플 업그레이드 프로그램 임대 서비스 출시",
+     "blog_id": "sinnam88",
+     "url": "https://m.blog.naver.com/sinnam88/224363490882",
+     "title": "애플 업그레이드 프로그램 임대 서비스 출시",
+     "type": "뉴스/신제품",
+     "breath": {
+      "paragraphs_total": 83,
+      "paragraphs_nonempty": 47,
+      "empty_paragraphs": 36,
+      "avg_chars_per_para": 56.7,
+      "max_para_chars": 111,
+      "total_chars": 2663
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 0,
+      "quotes": 5,
+      "hr_dividers": 6,
+      "stickers": 1,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 6,
+      "chars_before_first_img": 0,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 23,
+      "model_at_front": true,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "전 세계적으로 반도체 부품 단가가 훌쩍 뛰면서 새로운 스마트폰이나 PC 등을 한 번에 결제하고 구매하기가 꽤 부담스러워졌습니다.",
+       "저 역시 업무용 기기를 교체할 시기가 다가오면 몇 달 전부터 초기 비용 걱정에 망설이게 되더라고요.",
+       "이러한 소비자의 고민을 반영한 듯, 애플에서는 2026년 7월 28일 미국을 시작으로 기기를 리스하는 형태의 새로운 구독 제도를 선보였습니다."
+      ]
+     },
+     "tone": {
+      "end_da": 30,
+      "end_yo": 11,
+      "end_ham": 0,
+      "first_person_cnt": 1
+     },
+     "format": {
+      "bold": 33,
+      "color_styled": 32,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "sinnam88:기계식 키보드 AULA 독거미 8K F108Pro V2",
+     "blog_id": "sinnam88",
+     "url": "https://m.blog.naver.com/sinnam88/224363273492",
+     "title": "기계식 키보드 AULA 독거미 8K F108Pro V2 세이야축 후기",
+     "type": "실사용 후기/리뷰",
+     "breath": {
+      "paragraphs_total": 75,
+      "paragraphs_nonempty": 40,
+      "empty_paragraphs": 35,
+      "avg_chars_per_para": 62.2,
+      "max_para_chars": 107,
+      "total_chars": 2487
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 0,
+      "quotes": 4,
+      "hr_dividers": 5,
+      "stickers": 2,
+      "link_cards": 1,
+      "videos": 1
+     },
+     "images": {
+      "count": 19,
+      "chars_before_first_img": 54,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 38,
+      "model_at_front": false,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "경험담형",
+      "first3": [
+       "<본 리뷰는 (주)브라보텍으로부터 제품을 제공받아 작성했습니다.>",
+       "평소 퇴근 후 집에서 게임을 즐겨 하는데, 기존에 쓰던 기기들의 타건감이 좋지 않아 타이핑할 때마다 손끝이 피곤하더라고요.",
+       "데스크 환경을 화사하게 꾸미고 싶어 이것저것 찾아보다가, 무엇보다 샌드 베이지 컬러의 따뜻하고 부드러운 느낌이 마음에 들어 이번 모델을 사용해보게 되었습니다."
+      ]
+     },
+     "tone": {
+      "end_da": 29,
+      "end_yo": 11,
+      "end_ham": 0,
+      "first_person_cnt": 5
+     },
+     "format": {
+      "bold": 9,
+      "color_styled": 8,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 2,
+      "linkprice": 0
+     }
+    }
+   ]
+  },
+  "2gwoo": {
+   "blogName": "Gwoo’s IT TIME",
+   "subscriberCount": 8542,
+   "style": "IT 팁·디바이스 정보형 (키워드 제목)",
+   "search_appearances_8queries_3pages": 2,
+   "distinct_queries_matched": 1,
+   "rss_posts_within_14d": 39,
+   "rss_posts_within_7d": 21,
+   "aggregate": {
+    "avg_imgs": 13.33,
+    "imgs_per_1000chars": 5.91,
+    "avg_total_chars": 2337.33,
+    "avg_para_chars": 68.1,
+    "avg_max_para": 150,
+    "empty_para_ratio": 1.55,
+    "avg_hr_dividers": 0,
+    "avg_quotes": 5,
+    "avg_tables": 0,
+    "avg_stickers": 0,
+    "avg_bold": 6.67,
+    "avg_color": 4,
+    "avg_title_len": 33.67,
+    "hook_title_ratio": 0.67,
+    "avg_first_person": 1.33,
+    "avg_captions": 0
+   },
+   "posts": [
+    {
+     "label": "2gwoo:페이스북 계정 삭제 및 비활성화까지 탈퇴하는 방법과 차",
+     "blog_id": "2gwoo",
+     "url": "https://m.blog.naver.com/2gwoo/224364305171",
+     "title": "페이스북 계정 삭제 및 비활성화까지 탈퇴하는 방법과 차이 총정리",
+     "type": "가이드/문제해결",
+     "breath": {
+      "paragraphs_total": 77,
+      "paragraphs_nonempty": 30,
+      "empty_paragraphs": 47,
+      "avg_chars_per_para": 57.6,
+      "max_para_chars": 135,
+      "total_chars": 1729
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 0,
+      "quotes": 4,
+      "hr_dividers": 0,
+      "stickers": 0,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 13,
+      "chars_before_first_img": 0,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 35,
+      "model_at_front": false,
+      "hook_words": [
+       "총정리"
+      ]
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "최근 SNS 시장은 인스타그램과 틱톡으로 많이 옮겨간 추세입니다.",
+       "한때 많은 가입자를 유치했었던 페이스북은 이제 신규 가입자보다는 기존 회원들이 사용하는 형태로 바뀌었는데요. 그래서 1020세대에서는 아이디가 없거나 페이스북 계",
+       "오늘의 콘텐츠에서는 내 상황에 맞는 적절한 정리 방법과 함께 모바일 앱에서 빠르게 처리하는 과정을 안내해 드리도록 하겠습니다."
+      ]
+     },
+     "tone": {
+      "end_da": 22,
+      "end_yo": 8,
+      "end_ham": 0,
+      "first_person_cnt": 2
+     },
+     "format": {
+      "bold": 7,
+      "color_styled": 4,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "2gwoo:아이패드 미니 7세대 신제품은 인기 없고 중고가 인기 ",
+     "blog_id": "2gwoo",
+     "url": "https://m.blog.naver.com/2gwoo/224364152670",
+     "title": "아이패드 미니 7세대 신제품은 인기 없고 중고가 인기 많아진 이유",
+     "type": "기타/정보",
+     "breath": {
+      "paragraphs_total": 84,
+      "paragraphs_nonempty": 33,
+      "empty_paragraphs": 51,
+      "avg_chars_per_para": 73.2,
+      "max_para_chars": 159,
+      "total_chars": 2416
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 0,
+      "quotes": 5,
+      "hr_dividers": 0,
+      "stickers": 0,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 12,
+      "chars_before_first_img": 0,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 36,
+      "model_at_front": true,
+      "hook_words": [
+       "이유"
+      ]
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "2030세대를 넘어 이제는 4050 세대에서도 하나씩은 갖고 있는 것이 바로 태블릿PC입니다.",
+       "특히, 삼성의 갤럭시 탭이나 애플의 아이패드는 신뢰 있는 브랜드이면서도 성능적으로도 우수하기 때문에 전 세계적으로 많이 이용하는 라인업인데요.",
+       "오늘은 그중에서도 8인치 태블릿으로 마니아층을 보유하고 있는 아이패드 미니 7세대에 대해 이야기를 하고자 하며, 최근 들어 엄청난 가격 인상으로 다소 아쉬운 모습"
+      ]
+     },
+     "tone": {
+      "end_da": 28,
+      "end_yo": 7,
+      "end_ham": 3,
+      "first_person_cnt": 2
+     },
+     "format": {
+      "bold": 6,
+      "color_styled": 4,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "2gwoo:갤럭시Z폴드8 와이드 가격 및 공홈 사전예약 혜택 정리",
+     "blog_id": "2gwoo",
+     "url": "https://m.blog.naver.com/2gwoo/224364031320",
+     "title": "갤럭시Z폴드8 와이드 가격 및 공홈 사전예약 혜택 정리",
+     "type": "뉴스/신제품",
+     "breath": {
+      "paragraphs_total": 99,
+      "paragraphs_nonempty": 39,
+      "empty_paragraphs": 60,
+      "avg_chars_per_para": 73.5,
+      "max_para_chars": 156,
+      "total_chars": 2867
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 0,
+      "quotes": 6,
+      "hr_dividers": 0,
+      "stickers": 0,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 15,
+      "chars_before_first_img": 0,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 30,
+      "model_at_front": true,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "올 하반기 삼성의 최대 기대작인 갤럭시 폴더블 시리즈가 얼마 전 사전예약을 시작했습니다.",
+       "이번 모델이 큰 관심을 받는 이유는 무엇보다 폴드 시리즈에서 갤럭시Z폴드8 와이드 모델이 출시되었기 때문인데요. 특히 이번 모델은 화면 가로 비율을 획기적으로 넓",
+       "오늘의 콘텐츠에서는 왜 소비자들이 이 모델에 대해 큰 관심을 가지고 있는지와 공홈에서 진행하고 있는 사전 혜택까지 총정리하는 시간을 가져보도록 하겠습니다."
+      ]
+     },
+     "tone": {
+      "end_da": 30,
+      "end_yo": 5,
+      "end_ham": 0,
+      "first_person_cnt": 0
+     },
+     "format": {
+      "bold": 7,
+      "color_styled": 4,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    }
+   ]
+  },
+  "wjw1225": {
+   "blogName": "네실의 쉬운 IT이야기",
+   "subscriberCount": 6788,
+   "style": "실사용 리뷰·체험단형 (IT인플루언서)",
+   "search_appearances_8queries_3pages": 4,
+   "distinct_queries_matched": 2,
+   "rss_posts_within_14d": 14,
+   "rss_posts_within_7d": 8,
+   "aggregate": {
+    "avg_imgs": 13.33,
+    "imgs_per_1000chars": 4.14,
+    "avg_total_chars": 3163.67,
+    "avg_para_chars": 45.2,
+    "avg_max_para": 164,
+    "empty_para_ratio": 0.25,
+    "avg_hr_dividers": 1,
+    "avg_quotes": 0,
+    "avg_tables": 2,
+    "avg_stickers": 0,
+    "avg_bold": 12.33,
+    "avg_color": 69.67,
+    "avg_title_len": 44.67,
+    "hook_title_ratio": 0,
+    "avg_first_person": 2.67,
+    "avg_captions": 0
+   },
+   "posts": [
+    {
+     "label": "wjw1225:바이브코딩 지원하는 테스트 특화 AI, 미국 대기업에서",
+     "blog_id": "wjw1225",
+     "url": "https://m.blog.naver.com/wjw1225/224363498123",
+     "title": "바이브코딩 지원하는 테스트 특화 AI, 미국 대기업에서 개발한 나이젤AI 특징과 웨비나 정보",
+     "type": "기타/정보",
+     "breath": {
+      "paragraphs_total": 94,
+      "paragraphs_nonempty": 74,
+      "empty_paragraphs": 20,
+      "avg_chars_per_para": 36.0,
+      "max_para_chars": 97,
+      "total_chars": 2665
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 2,
+      "quotes": 0,
+      "hr_dividers": 1,
+      "stickers": 0,
+      "link_cards": 0,
+      "videos": 0
+     },
+     "images": {
+      "count": 8,
+      "chars_before_first_img": 737,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 51,
+      "model_at_front": false,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "안녕하세요 IT인플루언서 네실입니다.",
+       "글로벌 계측 및 테스트 솔루션 기업 내쇼날인스트루먼트가 글로벌 대기업 에머슨에 인수되어 에머슨의 시험 계측 사업부로 새롭게 거듭났다.",
+       "에머슨의 기술력과 결합한 NI는 최근 엔지니어링 및 테스트 자동화 분야에 인공지능을 접목한 혁신적인 플랫폼인 NIgel AI를 선보였다."
+      ]
+     },
+     "tone": {
+      "end_da": 50,
+      "end_yo": 4,
+      "end_ham": 0,
+      "first_person_cnt": 1
+     },
+     "format": {
+      "bold": 10,
+      "color_styled": 78,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "wjw1225:유튜브 데이터 수집의 혁신, 크롤링 프로그램 끝판왕 브",
+     "blog_id": "wjw1225",
+     "url": "https://m.blog.naver.com/wjw1225/224362482220",
+     "title": "유튜브 데이터 수집의 혁신, 크롤링 프로그램 끝판왕 브라이트데이터 사용기",
+     "type": "실사용 후기/리뷰",
+     "breath": {
+      "paragraphs_total": 90,
+      "paragraphs_nonempty": 69,
+      "empty_paragraphs": 21,
+      "avg_chars_per_para": 51.2,
+      "max_para_chars": 112,
+      "total_chars": 3535
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 2,
+      "quotes": 0,
+      "hr_dividers": 1,
+      "stickers": 0,
+      "link_cards": 1,
+      "videos": 0
+     },
+     "images": {
+      "count": 15,
+      "chars_before_first_img": 0,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 40,
+      "model_at_front": false,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "안녕하세요 IT인플루언서 네실입니다.",
+       "최근 유튜브 데이터 기반의 시장 분석과 AI 모델 학습 수요가 폭발적으로 증가하면서 효율적인 데이터 수집 인프라의 중요성이 그 어느 때보다 커졌다.",
+       "개인 개발자부터 대규모 엔지니어링 팀까지 대량의 영상 데이터 수집을 시도하지만 대다수가 웹사이트의 봇 탐지와 캡차 차단 벽에 막혀 실패하곤 한다."
+      ]
+     },
+     "tone": {
+      "end_da": 43,
+      "end_yo": 4,
+      "end_ham": 0,
+      "first_person_cnt": 5
+     },
+     "format": {
+      "bold": 11,
+      "color_styled": 70,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 0,
+      "linkprice": 0
+     }
+    },
+    {
+     "label": "wjw1225:음식물처리기추천 아이닉 2세대 미네랄스톤 내솥과 180",
+     "blog_id": "wjw1225",
+     "url": "https://m.blog.naver.com/wjw1225/224359643806",
+     "title": "음식물처리기추천 아이닉 2세대 미네랄스톤 내솥과 180도 건조분쇄형 성능 분석",
+     "type": "추천/큐레이션",
+     "breath": {
+      "paragraphs_total": 79,
+      "paragraphs_nonempty": 68,
+      "empty_paragraphs": 11,
+      "avg_chars_per_para": 48.4,
+      "max_para_chars": 283,
+      "total_chars": 3291
+     },
+     "structure": {
+      "section_titles": 0,
+      "tables": 2,
+      "quotes": 0,
+      "hr_dividers": 1,
+      "stickers": 0,
+      "link_cards": 1,
+      "videos": 0
+     },
+     "images": {
+      "count": 17,
+      "chars_before_first_img": 48,
+      "captions": 0
+     },
+     "title_metrics": {
+      "length": 43,
+      "model_at_front": false,
+      "hook_words": []
+     },
+     "intro": {
+      "type": "설명/스펙나열형",
+      "first3": [
+       "이 포스팅은 업체로부터 제품을 제공받고 작성되었습니다.",
+       "안녕하세요 IT인플루언서 네실입니다.",
+       "여름철이나 습한 날씨가 되면 주방에서 가장 나를 괴롭히는 요소는 단연 축축하게 쌓이는 음식물 쓰레기다. 매번 밖으로 나가서 버리는 것도 일이고 악취와 벌레 걱정 "
+      ]
+     },
+     "tone": {
+      "end_da": 48,
+      "end_yo": 1,
+      "end_ham": 0,
+      "first_person_cnt": 2
+     },
+     "format": {
+      "bold": 16,
+      "color_styled": 61,
+      "font_sizes": []
+     },
+     "monetize": {
+      "coupang": 0,
+      "naver_shopping": 2,
+      "linkprice": 0
+     }
+    }
+   ]
+  }
+ },
+ "competitor_aggregate_all15": {
+  "avg_imgs": 11.27,
+  "imgs_per_1000chars": 4.43,
+  "avg_total_chars": 2699.93,
+  "avg_para_chars": 58.02,
+  "avg_max_para": 155,
+  "empty_para_ratio": 0.76,
+  "avg_hr_dividers": 3.4,
+  "avg_quotes": 3.2,
+  "avg_tables": 1.07,
+  "avg_stickers": 1.13,
+  "avg_bold": 21.4,
+  "avg_color": 50.2,
+  "avg_title_len": 38.4,
+  "hook_title_ratio": 0.27,
+  "avg_first_person": 1.93,
+  "avg_captions": 0.2
+ },
+ "gap_analysis": [
+  {
+   "priority": 1,
+   "gap": "이미지 밀도 절대 부족 (특히 가이드형 스크린샷 부재)",
+   "evidence": "형수 평균 2.8장/글, 1000자당 1.19장 vs 경쟁 15편 평균 11.27장/글, 1000자당 4.43장. 극단 사례: 형수 윈도우11 가이드 4,490자에 이미지 1장 vs sinnam88 배민 가이드 1,827자에 11장, 2gwoo 페북 탈퇴 가이드 1,729자에 13장. 가이드 검색 상위는 단계마다 스크린샷 1장이 표준.",
+   "action": "가이드/pick 글은 최소 8~12장(단계별 캡처·실물컷), 1000자당 3장 이상을 발행 게이트로."
+  },
+  {
+   "priority": 2,
+   "gap": "제목 전략 미스매치: 이웃 2명인데 피드형 후킹 제목 사용",
+   "evidence": "형수 이웃수 2명(m.blog API 실측). 형수 제목 4건 중 3건이 따옴표·대명사('이것')·'함정'·물음표 후킹으로 검색 키워드 자리를 소모. 이 스타일의 원조 franksong0030은 이웃 33,767명+피드메이커 4기라 피드 노출로 클릭을 받는 구조. 반면 이웃 2,104명으로도 검색 상위인 toruin84 제목은 후킹어 0개, 49~57자 키워드 풀패킹. sinnam88(이웃 12,373)은 16~23자 순수 검색 키워드 제목('배달의민족 주문내역 삭제 방법').",
+   "action": "이웃 기반이 생길 때까지 제목을 [기기/서비스명 + 구체 증상·기능 + 방법/정리/비교] 검색형으로 전환. '이것'류 대명사 후킹 금지."
+  },
+  {
+   "priority": 3,
+   "gap": "시각 서식(색상·볼드 강조) 사실상 전무",
+   "evidence": "색상 스타일 요소: 형수 0~3개 vs toruin84 95~119개, wjw1225 61~78개, franksong 39~60개 (경쟁 평균 50.2개). 볼드: 형수 8~17 vs franksong 29~52 (경쟁 평균 21.4). 형수 글은 민무늬 텍스트라 모바일 스캔 시 핵심이 안 잡힘.",
+   "action": "섹션 헤더=색상+큰 볼드, 핵심 수치·결론 문장=포인트 컬러 1색 규칙(글당 색상 강조 15~30곳)."
+  },
+  {
+   "priority": 4,
+   "gap": "문단 띄우기(빈 문단)·구분선 부족 — 모바일 호흡 격차",
+   "evidence": "빈문단/실문단 비율: 형수 0.5 vs 2gwoo 1.40~1.61, toruin84 1.09~1.22 (검색형 상위는 한 문단마다 1~2줄 공백). 구분선: 형수 4건 모두 0개 vs franksong 6~10, sinnam88 5~6 (경쟁 평균 3.4). 형수는 섹션 구분을 인용구(글당 7~10개, 경쟁 평균 3.2개)에만 과잉 의존.",
+   "action": "문단 사이 공백 1~2줄 기본값 + 섹션 경계는 구분선, 인용구는 글당 2~3개로 축소."
+  },
+  {
+   "priority": 5,
+   "gap": "가이드 글이 텍스트 벽 (4,490자·116문단·이미지 1장)",
+   "evidence": "경쟁 가이드형은 1,700~2,900자 + 이미지 11~13장으로 짧은 글+많은 캡처 구조. 형수 가이드는 글자수 1.6~2.6배인데 이미지는 1/10. 문단 최장 길이도 sinnam88 93~111자(짧게 끊음) vs 형수 136~160자.",
+   "action": "가이드는 2,000~2,500자로 줄이고 절차 설명을 텍스트 대신 캡처+한 줄 설명으로 치환."
+  },
+  {
+   "priority": 6,
+   "gap": "실사용 증거(실물 사진) 없이 경험담 문체만 흉내",
+   "evidence": "형수 pick 제목이 '써보면 아시죠?'인데 이미지 4장(1인칭 표현 6회로 서사 시도는 있음). 실사용 리뷰 상위는 sinnam88 키보드 후기 19장, wjw1225 음식물처리기 17장 — 모두 제공 고지 포함 실물컷. 사진 증거 없는 경험담 프레임은 신뢰·체류시간 모두 불리.",
+   "action": "실사용 불가 제품은 경험담 프레임 대신 정보·비교 프레임으로. 직접 캡처 가능한 소프트웨어·앱·서비스 주제 비중 확대."
+  },
+  {
+   "priority": 7,
+   "gap": "배포 채널 제로: 이웃 2명, 피드 노출 부재",
+   "evidence": "경쟁 5곳 이웃수 2,104~33,767. franksong0030·100plus1은 네이버 공식 피드메이커 4기 참여(카테고리명 표기)로 피드 배포 확보. toruin84 사례상 검색만으로도 성장 가능하나 초기 부트스트랩이 느림.",
+   "action": "동일 니치 서로이웃·댓글 교류, 네이버 인플루언서/피드메이커류 프로그램 지원을 운영 루틴에 추가."
+  },
+  {
+   "priority": 8,
+   "gap": "체류 보조 요소(스티커·발행 리듬) 미세 격차",
+   "evidence": "스티커: 형수 0 vs franksong 2~6, sinnam88 1~2 (경쟁 평균 1.13). 발행량: franksong·sinnam88 주 50건(하루 5~7건, 10·12·15·18·20·22시 분산). 캡션은 경쟁도 거의 안 써(평균 0.2) 격차 아님.",
+   "action": "우선순위 낮음. 1~5 해결 후 발행 시간대 분산만 검토."
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+name: 워드프레스 심층분석 자동발행
+
+# 매일 09:05 KST(2026-07-13 사용자 결정: 주 4회 → 하루 1편) — 수익 허브별 심층 칼럼.
+# 요일→허브: 월 연금·절세 / 화 보험 / 수 대출·신용 / 목 세금·환급 / 금 제도·복지 / 토 주거·청약
+# / 일 자동(전체 풀에서 가장 오래된 주제). 풀 확장은 주간 제안 이슈(wp_propose) 검토가 전제.
+on:
+  # schedule:  # 2026-07-19 EC2 크론 이관(09:05 KST 월화목토 정시) — 재개 시 주석 해제
+    # - cron: "5 0 * * *"   # 매일 KST 09:05
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "주제 (비우면 자동 로테이션 — scripts/wp_dry.py TOPICS)"
+        required: false
+        default: ""
+      status:
+        description: "발행 상태"
+        required: false
+        type: choice
+        options:
+          - publish
+          - draft
+        default: publish
+
+concurrency:
+  group: wp-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # 무한 대기 방지(2026-07-31): 타임아웃 미지정 시 기본 360분을 그대로 소진한다.
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 한글 폰트 설치 (대표 이미지 타이틀용)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-nanum
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 심층분석 생성·발행
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          WP_URL:     ${{ secrets.WP_URL }}
+          WP_USER:    ${{ secrets.WP_USER }}
+          WP_APP_PW:  ${{ secrets.WP_APP_PW }}
+          WP_TOPIC:   ${{ github.event.inputs.topic || '' }}
+          WP_STATUS:  ${{ github.event.inputs.status || 'publish' }}
+        run: python -m scripts.wp_post
+
+      - name: 발행 이력 커밋
+        if: always()
+        # 동시 런이 같은 JSON을 수정해도 안전하도록: 원격 최신 위에서 dict 병합 후 커밋, 푸시 거부 시 재시도
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp data/wp_post_history.json /tmp/hist_local.json
+          for i in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python - << 'EOF'
+          import json
+          with open('/tmp/hist_local.json', encoding='utf-8') as f:
+              local = json.load(f)
+          with open('data/wp_post_history.json', encoding='utf-8') as f:
+              remote = json.load(f)
+          merged = {**remote, **{k: max(v, remote.get(k, '')) for k, v in local.items()}}
+          with open('data/wp_post_history.json', 'w', encoding='utf-8') as f:
+              json.dump(merged, f, ensure_ascii=False, indent=2)
+          EOF
+            git add data/wp_post_history.json data/wp_first_published.json
+            if git diff --staged --quiet; then echo "이력 변경 없음"; exit 0; fi
+            git commit -m "chore: 워드프레스 발행 이력 $(date +'%Y-%m-%d')"
+            if git push; then exit 0; fi
+            echo "푸시 경합 — 재시도 $i"
+            sleep $((RANDOM % 10 + 3))
+          done
+          echo "이력 커밋 실패(3회)"; exit 1

@@ -1,0 +1,46 @@
+name: WP 심층분석 DRY_RUN (생성 검증)
+
+# 워드프레스 심층분석 원고를 실제 생성→렌더해 HTML 아티팩트로 확인(발행 안 함).
+# 호스팅·발행 배선 전 '생성 품질'만 검증하는 용도. 수동 실행 전용.
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "주제 (isa 등 — scripts/wp_dry.py TOPICS)"
+        required: false
+        default: "isa"
+
+concurrency:
+  group: wp-dry-${{ github.run_id }}
+  cancel-in-progress: false
+
+jobs:
+  dry:
+    runs-on: ubuntu-latest
+    # 무한 대기 방지(2026-07-31): 타임아웃 미지정 시 기본 360분을 그대로 소진한다.
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 심층분석 생성 (발행 없음)
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          WP_TOPIC: ${{ github.event.inputs.topic || 'isa' }}
+        run: python -m scripts.wp_dry
+
+      - name: HTML 아티팩트 업로드
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wp-dry-${{ github.run_id }}
+          path: data/screenshots/wp_dry_*.html
+          if-no-files-found: warn
+          retention-days: 5

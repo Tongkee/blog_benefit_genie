@@ -1,0 +1,93 @@
+name: 청약 공고 건별 분석글 (네이버)
+
+on:
+  schedule:
+    # 매일 12:30 KST — WP(11:30)와 같은 공고를 네이버 부동산·주거에도 발행 (2026-07-17)
+    - cron: "30 3 * * *"
+    # 2026-07-24: 청약 백로그 소진용 2번째 슬롯(16:30 KST). 자기제한적 — 미발행 신규 공고가
+    # 없으면 '신규 공고 없음'으로 즉시 종료(빈 발행 없음). 통계상 단지명 검색 수요 실측 근거.
+    - cron: "30 7 * * *"
+  workflow_dispatch:
+    inputs:
+      notice:
+        description: "특정 공고 강제 (HOUSE_MANAGE_NO, 비우면 자동)"
+        required: false
+        default: ""
+      draft:
+        description: "임시저장 검증 모드 (true/false)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: naver-cheongyak-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # 2026-07-30 실사고: 네이버 에디터 무응답으로 4~5시간 행 → 기본 360분 소진 후 취소.
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 한글 폰트 설치
+        run: sudo apt-get update && sudo apt-get install -y fonts-nanum && sudo fc-cache -f
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: Playwright 브라우저 설치
+        run: playwright install chromium --with-deps
+
+      - name: 포스팅 실행
+        env:
+          NAVER_ID:       ${{ secrets.NAVER_ID }}
+          NAVER_PW:       ${{ secrets.NAVER_PW }}
+          NAVER_BLOG_ID:  ${{ secrets.NAVER_BLOG_ID }}
+          NAVER_COOKIES:  ${{ secrets.NAVER_COOKIES }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          PUBLIC_DATA_KEY: ${{ secrets.PUBLIC_DATA_KEY }}
+          CHEONGYAK_NOTICE: ${{ github.event.inputs.notice || '' }}
+          DRAFT:          ${{ github.event.inputs.draft || 'false' }}
+        run: python -m scripts.cheongyak_naver_post
+
+      - name: 스크린샷 아티팩트 업로드 (디버그)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cheongyak-naver-${{ github.run_id }}
+          path: data/screenshots/
+          if-no-files-found: ignore
+          retention-days: 3
+
+      - name: 발행 이력 커밋
+        if: always() && github.event.inputs.draft != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ★개별 add: 한 경로라도 없으면 git add 전체가 실패해 스테이징 0건이 되던
+          # 회귀 수정(2026-07-29). qc_fail.jsonl은 FAIL 없으면 파일 자체가 없음.
+          HIST_FILES="data/cheongyak_naver_history.json data/qc_log.jsonl data/qc_fail.jsonl"
+          for f in $HIST_FILES; do git add "$f" 2>/dev/null || true; done
+          # ★이력 미커밋 감시(2026-07-29): 발행 성공했는데 이력이 안 잡히면 경고를 남긴다.
+          # (git add 회귀로 3일간 조용히 유실된 사고 재발 방지 — 카테고리 로테이션까지 망가짐)
+          # ★오탐 보정(2026-07-31): 종전엔 '스테이징 0건'이면 무조건 경고해서 발행할 게
+          # 없어 정상 스킵한 런에서도 매번 울렸다. 진짜 사고는 '이력 파일이 수정됐는데
+          # 스테이징이 안 된 것'이다. 스크린샷·쿠키 등 다른 변경까지 세지 않도록
+          # 위 이력 파일로만 범위를 좁힌다.
+          UNSTAGED=$(git diff --name-only -- $HIST_FILES 2>/dev/null || true)
+          if [ -n "$UNSTAGED" ]; then
+            echo "::warning::이력 파일이 수정됐는데 스테이징되지 않음 — 이력 유실 가능: $UNSTAGED"
+          fi
+          git diff --staged --quiet || git commit -m "chore: 청약 네이버 발행 이력 $(date +'%Y-%m-%d')"
+          git pull --rebase --autostash origin main
+          git push

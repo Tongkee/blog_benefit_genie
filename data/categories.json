@@ -1,0 +1,54 @@
+{
+  "categories": {
+    "신혼살림기초": {
+      "name": "신혼살림 기초",
+      "description": "신혼 첫 살림 준비부터 필수템까지",
+      "posting_days": [1, 4],
+      "target_monthly_posts": 8,
+      "seo_focus": ["신혼 살림", "혼수 준비", "신혼집"]
+    },
+    "청소정리": {
+      "name": "청소&정리",
+      "description": "집 청소 루틴, 부위별 청소법, 정리 수납",
+      "posting_days": [2, 5],
+      "target_monthly_posts": 8,
+      "seo_focus": ["청소 꿀팁", "정리 정돈", "청소 루틴"]
+    },
+    "요리식비": {
+      "name": "요리&식비절약",
+      "description": "간단 레시피, 식비 절약, 일주일 식단",
+      "posting_days": [3, 6],
+      "target_monthly_posts": 8,
+      "seo_focus": ["식비 절약", "간단 요리", "냉파 레시피"]
+    },
+    "절약재테크": {
+      "name": "절약&재테크",
+      "description": "생활비 절약, 공과금 줄이기, 가계부",
+      "posting_days": [1, 3],
+      "target_monthly_posts": 8,
+      "seo_focus": ["생활비 절약", "가계부", "절약 꿀팁"]
+    },
+    "인테리어": {
+      "name": "인테리어&소품",
+      "description": "자취/신혼 인테리어, 소품 추천, 수납",
+      "posting_days": [2, 5],
+      "target_monthly_posts": 8,
+      "seo_focus": ["인테리어 소품", "원룸 꾸미기", "수납 꿀팁"]
+    },
+    "쇼핑정보": {
+      "name": "쇼핑&제품추천",
+      "description": "다이소/이케아/쿠팡 추천 제품",
+      "posting_days": [0, 4],
+      "target_monthly_posts": 8,
+      "seo_focus": ["다이소 추천", "이케아 추천", "살림 추천템"]
+    }
+  },
+  "goals": {
+    "monthly_post_target": 50,
+    "daily_visitor_target": 100,
+    "adpost_target_days": 90,
+    "quality_pass_score": 60
+  },
+  "created_at": "2026-06-21",
+  "version": "2.0"
+}

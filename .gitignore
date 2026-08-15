@@ -1,0 +1,22 @@
+.env
+data/naver_cookies.json
+data/tech_naver_cookies.json
+data/screenshots/
+data/screenshots_dl*/
+debug_shots/
+debug_shots2/
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+
+벤치마크/
+scratch/bench/
+
+# 실계좌 데이터 — public 레포 커밋 금지 (2026-07-17)
+data/toss_manual_snapshot.json
+data/toss_account_cache.json
+
+data/toss_captures/
+.audit_out/

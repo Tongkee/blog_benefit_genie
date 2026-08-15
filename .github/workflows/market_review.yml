@@ -1,0 +1,51 @@
+name: 커버리지 갭 리뷰 (일일)
+
+# 매일 21:35 KST — 오늘 발행 글 vs 금융 뉴스 헤드라인 대조, 놓친 각도가 있으면 이슈 생성.
+# 배경(2026-07-13): 코스피 -8.95% 날 크론이 무명 상한가 종목만 다룸 — 사람이 캡처로 지적하기
+# 전에 시스템이 갭을 보고하도록 자동화. 처리: 이슈 확인 후 "커버리지 리뷰 이슈 검토해줘".
+on:
+  schedule:
+    - cron: "35 12 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: market-review
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    # 무한 대기 방지(2026-07-31): 타임아웃 미지정 시 기본 360분을 그대로 소진한다.
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치 (경량)
+        run: pip install google-genai requests beautifulsoup4
+
+      - name: 커버리지 리뷰 생성
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python -m scripts.market_review review.md
+
+      - name: 갭 발견 시 이슈 등록
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f review.md ]; then
+            gh issue create \
+              --title "[커버리지 리뷰] $(date +'%Y-%m-%d') — 놓친 각도 검토" \
+              --body-file review.md
+          else
+            echo "갭 없음 — 이슈 미생성"
+          fi

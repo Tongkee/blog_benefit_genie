@@ -1,0 +1,10 @@
+﻿google-genai
+playwright
+requests
+python-dotenv
+pillow
+yfinance
+beautifulsoup4
+matplotlib
+pypdf
+pymupdf

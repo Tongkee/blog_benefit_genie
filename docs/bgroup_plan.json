@@ -1,0 +1,846 @@
+[
+ {
+  "logno": "224347483368",
+  "title": "2026 종합소득세 신고, 최대 616만원 환급받는 조건!",
+  "category": "세금·절세",
+  "date": "2026-07-15",
+  "findings": 3,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['616']"
+  ],
+  "keyword": "종합소득세 신고 대상 기준",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224347622167",
+  "title": "2026 전세 보증금 안전하게 지키는 법 | 묵시적 갱신 후 이사 시 3개월 내 반환 총정리",
+  "category": "부동산·주거",
+  "date": "2026-07-15",
+  "findings": 4,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['3']"
+  ],
+  "keyword": "전세 보증금 지키는 방법",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224347799312",
+  "title": "근로장려금 2026 | 최대 330만원 받는 조건과 신청법",
+  "category": "정부지원·혜택",
+  "date": "2026-07-15",
+  "findings": 4,
+  "title_error": false,
+  "signals": [],
+  "keyword": "근로장려금 신청 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224329800490",
+  "title": "출산휴가 급여 총정리 | 직장인 월 최대 210만원 90일 신청 방법",
+  "category": "정부지원·혜택",
+  "date": "2026-06-28",
+  "findings": 3,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['210']"
+  ],
+  "keyword": "출산휴가 급여 신청 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224329647137",
+  "title": "차상위계층 혜택 | 신청 안 하면 그냥 날리는 돈",
+  "category": "정부지원·혜택",
+  "date": "2026-06-28",
+  "findings": 3,
+  "title_error": false,
+  "signals": [],
+  "keyword": "차상위계층 혜택 정리",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224334579465",
+  "title": "2026 청년 전세임대주택 | 최대 1.2억 지원 조건 총정리",
+  "category": "부동산·주거",
+  "date": "2026-07-02",
+  "findings": 3,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['1.2']"
+  ],
+  "keyword": "청년 전세임대주택 신청",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224335259689",
+  "title": "2026년 의료비 세액공제 | 최대 17% 돌려받는 조건",
+  "category": "세금·절세",
+  "date": "2026-07-03",
+  "findings": 3,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['17']"
+  ],
+  "keyword": "의료비 세액공제 한도",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224339571327",
+  "title": "2026 신용카드 소득공제 최대 300만원 환급 조건",
+  "category": "세금·절세",
+  "date": "2026-07-07",
+  "findings": 3,
+  "title_error": false,
+  "signals": [],
+  "keyword": "신용카드 소득공제 한도 계산",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224339080321",
+  "title": "육아휴직급여 | 첫 6개월 최대 900만원, 계산법 3단계",
+  "category": "정부지원·혜택",
+  "date": "2026-07-07",
+  "findings": 3,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['6', '900']"
+  ],
+  "keyword": "육아휴직급여 계산 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224341327625",
+  "title": "2026 전기요금 복지할인 | 월 최대 2만원 받는 5가지 조건",
+  "category": "정부지원·혜택",
+  "date": "2026-07-09",
+  "findings": 3,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['2']"
+  ],
+  "keyword": "전기요금 복지할인 신청",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224344967323",
+  "title": "치매안심센터 서비스 | 최대 50만원 지원, 신청 조건 총정리",
+  "category": "정부지원·혜택",
+  "date": "2026-07-13",
+  "findings": 3,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['50']"
+  ],
+  "keyword": "치매안심센터 서비스",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224353092723",
+  "title": "청년도약계좌 | 월 70만원 저축으로 최대 5천만원 목돈 만드는 법",
+  "category": "정부지원·혜택",
+  "date": "2026-07-21",
+  "findings": 3,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['5', '70']"
+  ],
+  "keyword": "청년도약계좌 신청 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224358476416",
+  "title": "2026 전세보증금 반환보증 | 수도권 7억 보증 조건 총정리",
+  "category": "금융·재테크",
+  "date": "2026-07-26",
+  "findings": 3,
+  "title_error": false,
+  "signals": [],
+  "keyword": "전세보증금 반환보증 가입",
+  "track": "info",
+  "track_cat": "금융재테크"
+ },
+ {
+  "logno": "224360610539",
+  "title": "(로그 복구 — 제목 미상)",
+  "category": "부동산·주거",
+  "date": "2026-07-28",
+  "findings": 3,
+  "title_error": false,
+  "signals": [],
+  "keyword": null,
+  "track": null,
+  "track_cat": null
+ },
+ {
+  "logno": "224329680521",
+  "title": "2026 에너지바우처 | 취약계층 최대 71만원 지원 신청방법",
+  "category": "정부지원·혜택",
+  "date": "2026-06-28",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['71']"
+  ],
+  "keyword": "에너지바우처 신청 대상 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224331143244",
+  "title": "기초연금 | 최대 34.8만원 받는 조건과 신청법",
+  "category": "정부지원·혜택",
+  "date": "2026-06-29",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "노인 기초연금 신청 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224331012855",
+  "title": "청년 마음건강 바우처 총정리 | 2026 청년 최대 63만원 심리상담 지원 신청방법",
+  "category": "정부지원·혜택",
+  "date": "2026-06-29",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "청년 마음건강 바우처 신청",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224332007367",
+  "title": "연금보험 vs 연금저축 | 세액공제 16.5%와 비과세 혜택 비교",
+  "category": "보험",
+  "date": "2026-06-30",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['16.5']"
+  ],
+  "keyword": "연금보험 연금저축 차이",
+  "track": "info",
+  "track_cat": "보험"
+ },
+ {
+  "logno": "224332013404",
+  "title": "2026 버팀목 전세자금대출 | 최대 2억, 연 1.8% 받는 조건 총정리",
+  "category": "부동산·주거",
+  "date": "2026-06-30",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['1.8', '2']"
+  ],
+  "keyword": "버팀목 전세자금대출 자격",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224333371806",
+  "title": "실비보험 비급여 | MRI 등 3대 특약 연간 350만원 보장 범위",
+  "category": "보험",
+  "date": "2026-07-01",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['350']"
+  ],
+  "keyword": "실비보험 비급여 보장 범위",
+  "track": "info",
+  "track_cat": "보험"
+ },
+ {
+  "logno": "224332907827",
+  "title": "2026 첫만남이용권 | 최대 200만원 사용처 및 신청",
+  "category": "정부지원·혜택",
+  "date": "2026-07-01",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "첫만남이용권 사용 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224334404453",
+  "title": "양도소득세 비과세 | 12억 원 면제받는 1세대 1주택 조건",
+  "category": "세금·절세",
+  "date": "2026-07-02",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['12']"
+  ],
+  "keyword": "양도소득세 비과세 요건",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224334066758",
+  "title": "국민취업지원제도 | 최대 300만원 받는 조건과 신청법",
+  "category": "정부지원·혜택",
+  "date": "2026-07-02",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['300']"
+  ],
+  "keyword": "국민취업지원제도 신청",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224335170664",
+  "title": "2026 장애인연금 | 최대 월 30만원 받는 조건과 신청법",
+  "category": "정부지원·혜택",
+  "date": "2026-07-03",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['30']"
+  ],
+  "keyword": "장애인 복지 혜택 정리",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224336248270",
+  "title": "2026 퇴직소득세 | 최대 2천만원 아끼는 계산과 절세 팁",
+  "category": "세금·절세",
+  "date": "2026-07-04",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "퇴직소득세 계산 방법",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224338466138",
+  "title": "2026 근로장려금 | 최대 330만원 받는 소득 조건 3가지",
+  "category": "세금·절세",
+  "date": "2026-07-06",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "근로장려금 신청 자격 금액",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224337929522",
+  "title": "도시가스 캐시백 | 최대 13만원 돌려받는 조건과 신청법",
+  "category": "정부지원·혜택",
+  "date": "2026-07-06",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "도시가스 절약 캐시백",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224342669962",
+  "title": "2026 LH 국민임대 | 소득 70% 이하 자격, 조건 3가지 총정리",
+  "category": "부동산·주거",
+  "date": "2026-07-10",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "LH 국민임대 신청 방법",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224345402000",
+  "title": "2026 생애최초 특별공급 | 무주택 세대주 5가지 자격 및 혜택 총정리",
+  "category": "부동산·주거",
+  "date": "2026-07-13",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "생애최초 특별공급 자격",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224346119723",
+  "title": "긴급복지지원 | 2026년 생계비 최대 293만원 받는 3가지 조건",
+  "category": "정부지원·혜택",
+  "date": "2026-07-14",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "긴급복지지원 신청 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224347241503",
+  "title": "청년 주거급여 | 최대 월 33만원 받는 조건과 신청법",
+  "category": "정부지원·혜택",
+  "date": "2026-07-15",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['33']"
+  ],
+  "keyword": "청년 주거급여 신청 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224348315676",
+  "title": "2026 국가건강검진 | 일반검진부터 암 검진까지 항목 총정리",
+  "category": "정부지원·혜택",
+  "date": "2026-07-16",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "국가건강검진 대상 항목 2026",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224349680124",
+  "title": "2026 대출 갈아타기 | 연 4.5% 고정금리 조건과 신청 방법",
+  "category": "금융·재테크",
+  "date": "2026-07-17",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "대출 갈아타기 대환대출 방법",
+  "track": "info",
+  "track_cat": "금융재테크"
+ },
+ {
+  "logno": "224349554692",
+  "title": "2026년 보금자리론 | 최대 4.2억, 최저 3.9% 금리 받는 조건 총정리",
+  "category": "부동산·주거",
+  "date": "2026-07-17",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['3.9', '4.2']"
+  ],
+  "keyword": "보금자리론 자격 한도",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224349472421",
+  "title": "2026 자녀 세액공제 | 최대 90만원 돌려받는 조건 3가지",
+  "category": "세금·절세",
+  "date": "2026-07-17",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['90']"
+  ],
+  "keyword": "자녀 세액공제 조건 금액",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224352312894",
+  "title": "2026 상속세 면제 한도 | 최대 18억원 공제, 절세 조건 총정리",
+  "category": "세금·절세",
+  "date": "2026-07-20",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['18']"
+  ],
+  "keyword": "상속세 면제 한도 기준",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224353435639",
+  "title": "2026 월세 세액공제 | 최대 170만원 돌려받는 조건",
+  "category": "세금·절세",
+  "date": "2026-07-21",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "월세 세액공제 신청 방법",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224354567930",
+  "title": "2026 간이과세 부가세 신고 | 최대 4%p 절세, 대상 총정리",
+  "category": "세금·절세",
+  "date": "2026-07-22",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['4']"
+  ],
+  "keyword": "부가가치세 신고 방법 간이과세",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224354421519",
+  "title": "본인부담상한제 환급 | 최대 598만원 돌려받는 법",
+  "category": "정부지원·혜택",
+  "date": "2026-07-22",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['598']"
+  ],
+  "keyword": "본인부담상한제 환급 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224355543591",
+  "title": "2026 전월세 신고제, 미신고 시 최대 100만원 과태료 부과 조건 총정리",
+  "category": "부동산·주거",
+  "date": "2026-07-23",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['100']"
+  ],
+  "keyword": "전월세 신고제 대상 방법",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224355355505",
+  "title": "한부모가족 지원금 | 2026년 최대 월 20만원, 신청 조건 5분 정리",
+  "category": "정부지원·혜택",
+  "date": "2026-07-23",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['20']"
+  ],
+  "keyword": "한부모가족 지원금 신청",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224358391605",
+  "title": "2026 재산세 | 7월 31일까지 최대 1,600원 아껴 납부하는 가이드",
+  "category": "부동산·주거",
+  "date": "2026-07-26",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": "재산세 부과 기준 납부",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224359504392",
+  "title": "(로그 복구 — 제목 미상)",
+  "category": "부동산·주거",
+  "date": "2026-07-27",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": null,
+  "track": null,
+  "track_cat": null
+ },
+ {
+  "logno": "224360852469",
+  "title": "(로그 복구 — 제목 미상)",
+  "category": "부동산·주거",
+  "date": "2026-07-28",
+  "findings": 2,
+  "title_error": false,
+  "signals": [],
+  "keyword": null,
+  "track": null,
+  "track_cat": null
+ },
+ {
+  "logno": "224361953067",
+  "title": "2026 연말정산 | 최대 170만원 더 돌려받는 경정청구 조건",
+  "category": "세금·절세",
+  "date": "2026-07-29",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['170']"
+  ],
+  "keyword": "연말정산 환급 많이 받는 법",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224361584557",
+  "title": "에너지바우처 | 최대 19만 5천원 지원, 신청 조건 이렇게 받으세요",
+  "category": "정부지원·혜택",
+  "date": "2026-07-29",
+  "findings": 2,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['19', '5']"
+  ],
+  "keyword": "취약계층 에너지 지원 신청",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224331083476",
+  "title": "2026 신혼부부 전세대출 | 최대 3.2억 받는 조건 총정리",
+  "category": "정부지원·혜택",
+  "date": "2026-06-29",
+  "findings": 1,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급"
+  ],
+  "keyword": "신혼부부 전세대출 조건 2026",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224331814031",
+  "title": "2026 아동수당 | 매월 10만원 받는 조건과 신청법",
+  "category": "정부지원·혜택",
+  "date": "2026-06-30",
+  "findings": 1,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['10']"
+  ],
+  "keyword": "아동수당 신청 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224334625233",
+  "title": "2026 신용대출 | 내 DSR 10% 낮추고 한도 3천만원 올리기",
+  "category": "금융·재테크",
+  "date": "2026-07-02",
+  "findings": 1,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['10']"
+  ],
+  "keyword": "신용대출 한도 늘리는 법",
+  "track": "info",
+  "track_cat": "금융재테크"
+ },
+ {
+  "logno": "224336116165",
+  "title": "신혼부부 디딤돌대출 | 최대 4억 5천만원 조건 총정리",
+  "category": "정부지원·혜택",
+  "date": "2026-07-04",
+  "findings": 1,
+  "title_error": true,
+  "signals": [
+   "지적문에 제목 언급",
+   "오류 인용 수치가 제목에 존재: ['4', '5']"
+  ],
+  "keyword": "신혼부부 디딤돌대출 조건",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224337289413",
+  "title": "국민연금 예상 수령액 | 3분 만에 135만원 확인하기",
+  "category": "보험",
+  "date": "2026-07-05",
+  "findings": 1,
+  "title_error": false,
+  "signals": [],
+  "keyword": "국민연금 예상 수령액 조회",
+  "track": "info",
+  "track_cat": "보험"
+ },
+ {
+  "logno": "224336922680",
+  "title": "의료급여 신청 | 2026년 본인부담금 0원 받는 가이드",
+  "category": "정부지원·혜택",
+  "date": "2026-07-05",
+  "findings": 1,
+  "title_error": false,
+  "signals": [],
+  "keyword": "의료급여 신청 방법",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224340671333",
+  "title": "2026 연말정산 인적공제 | 150만원 추가 공제, 4가지 조건",
+  "category": "세금·절세",
+  "date": "2026-07-08",
+  "findings": 1,
+  "title_error": false,
+  "signals": [],
+  "keyword": "연말정산 인적공제 조건",
+  "track": "info",
+  "track_cat": "세금절세"
+ },
+ {
+  "logno": "224342386526",
+  "title": "청년 월세 특별지원 | 최대 240만원 받는 5가지 조건과 신청법",
+  "category": "정부지원·혜택",
+  "date": "2026-07-10",
+  "findings": 1,
+  "title_error": false,
+  "signals": [],
+  "keyword": "청년 월세 한시 특별지원 신청",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224346593977",
+  "title": "유병자 보험, 2026년 조건 완화로 보험료 최대 30% 절감!",
+  "category": "보험",
+  "date": "2026-07-14",
+  "findings": 1,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['30']"
+  ],
+  "keyword": "유병자 보험 가입 조건",
+  "track": "info",
+  "track_cat": "보험"
+ },
+ {
+  "logno": "224346496362",
+  "title": "2026 신혼부부 특별공급 | 소득 130%까지 시세 70%로 내 집 마련",
+  "category": "부동산·주거",
+  "date": "2026-07-14",
+  "findings": 1,
+  "title_error": false,
+  "signals": [],
+  "keyword": "특별공급 신혼부부 조건",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224350931746",
+  "title": "2026 주택청약 1순위 | 가점 84점 만점 받는 조건 총정리",
+  "category": "부동산·주거",
+  "date": "2026-07-19",
+  "findings": 1,
+  "title_error": false,
+  "signals": [],
+  "keyword": "주택청약 1순위 조건 가점 계산",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224350933476",
+  "title": "부모급여 2026 | 만 2세 미만, 매달 최대 100만원 받는 조건",
+  "category": "정부지원·혜택",
+  "date": "2026-07-19",
+  "findings": 1,
+  "title_error": false,
+  "signals": [],
+  "keyword": "부모급여 신청 대상 금액",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224352184117",
+  "title": "2026년 전월세 전환율 계산법 | 보증금 2억 월세 전환 시 적정 월세는?",
+  "category": "부동산·주거",
+  "date": "2026-07-20",
+  "findings": 1,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['2']"
+  ],
+  "keyword": "전세 월세 전환율 계산",
+  "track": "info",
+  "track_cat": "부동산주거"
+ },
+ {
+  "logno": "224351953435",
+  "title": "임신 출산 바우처 | 최대 100만원 지원, 신청 조건 총정리",
+  "category": "정부지원·혜택",
+  "date": "2026-07-20",
+  "findings": 1,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['100']"
+  ],
+  "keyword": "임신 출산 바우처 국민행복카드",
+  "track": "gov",
+  "track_cat": null
+ },
+ {
+  "logno": "224359227977",
+  "title": "(로그 복구 — 제목 미상)",
+  "category": "정부지원·혜택",
+  "date": "2026-07-27",
+  "findings": 1,
+  "title_error": false,
+  "signals": [],
+  "keyword": null,
+  "track": null,
+  "track_cat": null
+ },
+ {
+  "logno": "224360377846",
+  "title": "(로그 복구 — 제목 미상)",
+  "category": "정부지원·혜택",
+  "date": "2026-07-28",
+  "findings": 1,
+  "title_error": false,
+  "signals": [],
+  "keyword": null,
+  "track": null,
+  "track_cat": null
+ },
+ {
+  "logno": "224361805149",
+  "title": "연금저축 세액공제 | 2026년 최대 99만원 돌려받는 조건 총정리",
+  "category": "금융·재테크",
+  "date": "2026-07-29",
+  "findings": 1,
+  "title_error": true,
+  "signals": [
+   "오류 인용 수치가 제목에 존재: ['99']"
+  ],
+  "keyword": "연금저축 세액공제 한도",
+  "track": "info",
+  "track_cat": "금융재테크"
+ }
+]

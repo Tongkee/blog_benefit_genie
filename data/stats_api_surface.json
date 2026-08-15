@@ -1,0 +1,391 @@
+{
+ "ok": [
+  {
+   "path": "/integrated-analysis/view-count",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "day",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-31"
+   },
+   "size": 1311,
+   "sample": "[{\"date\": \"2026-07-02\", \"metricValue\": 65}, {\"date\": \"2026-07-03\", \"metricValue\": 76}, {\"date\": \"2026-07-04\", \"metricValue\": 66}, {\"date\": \"2026-07-05\", \"metricValue\": 144}, {\"date\": \"2026-07-06\", \"metricValue\": 97}, {\"date\": \"2026-07-07\", \"metricValue\": 80}, {\"date\": \"2026-07-08\", \"metricValue\": 77}, {\"date\": \"2026-07-09\", \"metricValue\": 246}, {\"date\": \"2026-07-10\", \"metricValue\": 105}, {\"date\": \"2026-07-11\", \"metricValue\": 107}, {\"date\": \"2026-07-12\", \"metricValue\": 143}, {\"date\": \"2026-07-13\""
+  },
+  {
+   "path": "/integrated-analysis/visit-count",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "day",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-31"
+   },
+   "size": 1310,
+   "sample": "[{\"date\": \"2026-07-02\", \"metricValue\": 56}, {\"date\": \"2026-07-03\", \"metricValue\": 76}, {\"date\": \"2026-07-04\", \"metricValue\": 59}, {\"date\": \"2026-07-05\", \"metricValue\": 123}, {\"date\": \"2026-07-06\", \"metricValue\": 84}, {\"date\": \"2026-07-07\", \"metricValue\": 73}, {\"date\": \"2026-07-08\", \"metricValue\": 73}, {\"date\": \"2026-07-09\", \"metricValue\": 228}, {\"date\": \"2026-07-10\", \"metricValue\": 102}, {\"date\": \"2026-07-11\", \"metricValue\": 102}, {\"date\": \"2026-07-12\", \"metricValue\": 131}, {\"date\": \"2026-07-13\""
+  },
+  {
+   "path": "/integrated-analysis/uv-count",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "day",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-31"
+   },
+   "size": 1307,
+   "sample": "[{\"date\": \"2026-07-02\", \"metricValue\": 51}, {\"date\": \"2026-07-03\", \"metricValue\": 75}, {\"date\": \"2026-07-04\", \"metricValue\": 55}, {\"date\": \"2026-07-05\", \"metricValue\": 112}, {\"date\": \"2026-07-06\", \"metricValue\": 82}, {\"date\": \"2026-07-07\", \"metricValue\": 72}, {\"date\": \"2026-07-08\", \"metricValue\": 72}, {\"date\": \"2026-07-09\", \"metricValue\": 227}, {\"date\": \"2026-07-10\", \"metricValue\": 100}, {\"date\": \"2026-07-11\", \"metricValue\": 99}, {\"date\": \"2026-07-12\", \"metricValue\": 126}, {\"date\": \"2026-07-13\","
+  },
+  {
+   "path": "/integrated-analysis/average-duration",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "day",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-31"
+   },
+   "size": 1744,
+   "sample": "[{\"date\": \"2026-07-02\", \"metricValue\": 197.27034}, {\"date\": \"2026-07-03\", \"metricValue\": 65.47586538461539}, {\"date\": \"2026-07-04\", \"metricValue\": 118.3101923076923}, {\"date\": \"2026-07-05\", \"metricValue\": 186.0136907216495}, {\"date\": \"2026-07-06\", \"metricValue\": 192.00571830985916}, {\"date\": \"2026-07-07\", \"metricValue\": 196.3282}, {\"date\": \"2026-07-08\", \"metricValue\": 129.4324126984127}, {\"date\": \"2026-07-09\", \"metricValue\": 129.07128504672897}, {\"date\": \"2026-07-10\", \"metricValue\": 267.00125806"
+  },
+  {
+   "path": "/integrated-analysis/like-count",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "day",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-31"
+   },
+   "size": 1265,
+   "sample": "[{\"date\": \"2026-07-02\", \"metricValue\": 6}, {\"date\": \"2026-07-03\", \"metricValue\": 0}, {\"date\": \"2026-07-04\", \"metricValue\": 1}, {\"date\": \"2026-07-05\", \"metricValue\": 2}, {\"date\": \"2026-07-06\", \"metricValue\": 5}, {\"date\": \"2026-07-07\", \"metricValue\": 10}, {\"date\": \"2026-07-08\", \"metricValue\": 7}, {\"date\": \"2026-07-09\", \"metricValue\": 9}, {\"date\": \"2026-07-10\", \"metricValue\": 7}, {\"date\": \"2026-07-11\", \"metricValue\": 8}, {\"date\": \"2026-07-12\", \"metricValue\": 5}, {\"date\": \"2026-07-13\", \"metricValue\""
+  },
+  {
+   "path": "/integrated-analysis/reply-count",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "day",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-31"
+   },
+   "size": 1260,
+   "sample": "[{\"date\": \"2026-07-02\", \"metricValue\": 4}, {\"date\": \"2026-07-03\", \"metricValue\": 0}, {\"date\": \"2026-07-04\", \"metricValue\": 2}, {\"date\": \"2026-07-05\", \"metricValue\": 2}, {\"date\": \"2026-07-06\", \"metricValue\": 1}, {\"date\": \"2026-07-07\", \"metricValue\": 2}, {\"date\": \"2026-07-08\", \"metricValue\": 1}, {\"date\": \"2026-07-09\", \"metricValue\": 3}, {\"date\": \"2026-07-10\", \"metricValue\": 0}, {\"date\": \"2026-07-11\", \"metricValue\": 2}, {\"date\": \"2026-07-12\", \"metricValue\": 3}, {\"date\": \"2026-07-13\", \"metricValue\":"
+  },
+  {
+   "path": "/integrated-analysis/follower-count",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "day",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-31"
+   },
+   "size": 2640,
+   "sample": "[{\"date\": \"2026-07-02\", \"followerAdds\": 0, \"followerRemoves\": 0, \"bothFollowerAdds\": 1}, {\"date\": \"2026-07-03\", \"followerAdds\": 0, \"followerRemoves\": 0, \"bothFollowerAdds\": 0}, {\"date\": \"2026-07-04\", \"followerAdds\": 1, \"followerRemoves\": 0, \"bothFollowerAdds\": 3}, {\"date\": \"2026-07-05\", \"followerAdds\": 0, \"followerRemoves\": 0, \"bothFollowerAdds\": 3}, {\"date\": \"2026-07-06\", \"followerAdds\": 0, \"followerRemoves\": 0, \"bothFollowerAdds\": 1}, {\"date\": \"2026-07-07\", \"followerAdds\": 0, \"followerRemoves\""
+  },
+  {
+   "path": "/integrated-analysis/demo-distribution",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20"
+   },
+   "size": 1337,
+   "sample": "[{\"age\": \"01\", \"metricValue\": 0, \"genderList\": [{\"gender\": \"f\", \"metricValue\": 0}, {\"gender\": \"m\", \"metricValue\": 0}]}, {\"age\": \"02\", \"metricValue\": 0, \"genderList\": [{\"gender\": \"f\", \"metricValue\": 0}, {\"gender\": \"m\", \"metricValue\": 0}]}, {\"age\": \"03\", \"metricValue\": 3, \"genderList\": [{\"gender\": \"f\", \"metricValue\": 1}, {\"gender\": \"m\", \"metricValue\": 2}]}, {\"age\": \"04\", \"metricValue\": 33, \"genderList\": [{\"gender\": \"f\", \"metricValue\": 22}, {\"gender\": \"m\", \"metricValue\": 11}]}, {\"age\": \"05\", \"metri"
+  },
+  {
+   "path": "/integrated-analysis/device-distribution",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20"
+   },
+   "size": 2809,
+   "sample": "[{\"device\": \"mobile\", \"metricValue\": 764, \"demoData\": [{\"age\": \"01\", \"metricValue\": 0, \"genderList\": [{\"gender\": \"f\", \"metricValue\": 0}, {\"gender\": \"m\", \"metricValue\": 0}]}, {\"age\": \"02\", \"metricValue\": 0, \"genderList\": [{\"gender\": \"f\", \"metricValue\": 0}, {\"gender\": \"m\", \"metricValue\": 0}]}, {\"age\": \"03\", \"metricValue\": 3, \"genderList\": [{\"gender\": \"f\", \"metricValue\": 1}, {\"gender\": \"m\", \"metricValue\": 2}]}, {\"age\": \"04\", \"metricValue\": 23, \"genderList\": [{\"gender\": \"f\", \"metricValue\": 18}, {\"ge"
+  },
+  {
+   "path": "/integrated-analysis/country-distribution",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20"
+   },
+   "size": 505,
+   "sample": "[{\"countryCode\": \"KR\", \"metricValue\": 978, \"ratio\": 0.9625984251968503}, {\"countryCode\": \"US\", \"metricValue\": 23, \"ratio\": 0.022637795275590553}, {\"countryCode\": \"CN\", \"metricValue\": 10, \"ratio\": 0.00984251968503937}, {\"countryCode\": \"CL\", \"metricValue\": 2, \"ratio\": 0.001968503937007874}, {\"countryCode\": \"HK\", \"metricValue\": 1, \"ratio\": 0.000984251968503937}, {\"countryCode\": \"JP\", \"metricValue\": 1, \"ratio\": 0.000984251968503937}, {\"countryCode\": \"SG\", \"metricValue\": 1, \"ratio\": 0.000984251968503"
+  },
+  {
+   "path": "/integrated-analysis/cv-ranks",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "size": 10247,
+   "sample": "[{\"rank\": 1, \"title\": \"존재하지 않는 게시물입니다.\", \"metricValue\": 275, \"contentId\": \"http://blog.naver.com/gyhj1101/224345292875\", \"metaUrl\": null, \"statUrl\": null, \"mobileStatUrl\": null, \"createdAt\": null}, {\"rank\": 2, \"title\": \"호반써밋 첨단3지구(A7BL) 줍줍, 5억 초반대 광주 내 집 마련 기회?\", \"metricValue\": 139, \"contentId\": \"http://blog.naver.com/hyunji_unni/224353260533\", \"metaUrl\": \"http://blog.naver.com/hyunji_unni/224353260533\", \"statUrl\": \"https://blog.stat.naver.com/blog/article/224353260533/cv\", \"mobileStatUrl\": \"htt"
+  },
+  {
+   "path": "/integrated-analysis/like-ranks",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "size": 10191,
+   "sample": "[{\"rank\": 1, \"title\": \"존재하지 않는 게시물입니다.\", \"metricValue\": 2, \"contentId\": \"http://blog.naver.com/gyhj1101/224345292875\", \"metaUrl\": null, \"statUrl\": null, \"mobileStatUrl\": null, \"createdAt\": null}, {\"rank\": 1, \"title\": \"임신 출산 바우처 | 최대 100만원 지원, 신청 조건 총정리\", \"metricValue\": 2, \"contentId\": \"http://blog.naver.com/hyunji_unni/224351953435\", \"metaUrl\": \"http://blog.naver.com/hyunji_unni/224351953435\", \"statUrl\": \"https://blog.stat.naver.com/blog/article/224351953435/cv\", \"mobileStatUrl\": \"https://blog.s"
+  },
+  {
+   "path": "/integrated-analysis/reply-ranks",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "size": 1157,
+   "sample": "[{\"rank\": 1, \"title\": \"이천 휴먼빌 클래스원, 5억대 분양가? 현지언니가 파헤쳐 봤어요!\", \"metricValue\": 1, \"contentId\": \"http://blog.naver.com/hyunji_unni/224352263126\", \"metaUrl\": \"http://blog.naver.com/hyunji_unni/224352263126\", \"statUrl\": \"https://blog.stat.naver.com/blog/article/224352263126/cv\", \"mobileStatUrl\": \"https://blog.stat.naver.com/m/blog/article/224352263126/cv\", \"createdAt\": 1784537054889}, {\"rank\": 1, \"title\": \"존재하지 않는 게시물입니다.\", \"metricValue\": 1, \"contentId\": \"http://blog.naver.com/gyhj1101/224353603518\","
+  },
+  {
+   "path": "/integrated-analysis/d1-ranks",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "size": 50,
+   "sample": "[{\"rank\": 1, \"d1\": \"비즈니스·경제\", \"metricValue\": 877}]"
+  },
+  {
+   "path": "/home/yesterday-summary",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "date": "2026-07-31"
+   },
+   "size": 354,
+   "sample": "{\"date\": [\"2026-07-29\", \"2026-07-30\"], \"cv\": {\"cv\": [188, 228], \"visit\": [172, 222], \"uv\": [164, 217]}, \"revenue\": {\"revenue\": [0, 0], \"impression\": [0, 0], \"click\": [0, 0]}, \"video\": null, \"longForm\": {\"pc\": [0, 0], \"pt\": [0, 0]}, \"clip\": {\"pc\": [0, 0], \"pt\": [0, 0]}, \"searchInflow\": {\"searchInflow\": [38, 28]}, \"mainInflow\": {\"mainInflow\": [90, 169]}}"
+  },
+  {
+   "path": "/home/realtime-summary",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "date": "2026-07-31"
+   },
+   "size": 2802,
+   "sample": "{\"metricRanks\": [{\"metricValue\": 328, \"metricType\": \"cv\", \"rank\": [{\"title\": \"2026 기초생활수급자 | 1인 가구 최대 82만원 받는 조건 총정리\", \"contentId\": \"http://blog.naver.com/hyunji_unni/224359227977\", \"metricValue\": 55}, {\"title\": \"본인부담상한제 환급 | 최대 598만원 돌려받는 법\", \"contentId\": \"http://blog.naver.com/hyunji_unni/224354421519\", \"metricValue\": 11}, {\"title\": \"한강 푸르지오 리버프론트, 김포 대단지 분양! 현금은 얼마나 필요할까요?\", \"contentId\": \"http://blog.naver.com/hyunji_unni/224363946623\", \"metricValue\": 10}, {\"title\": \"📊 7월 31일(금) 증시 전망 | 장 전 필"
+  },
+  {
+   "path": "/inflow-analysis/referrer-query-rank",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "size": 6447,
+   "sample": "[{\"date\": \"2026-07-20\", \"totalMetric\": 1016, \"searchRatio\": 0.25206124852767964, \"topN\": [{\"searchQuery\": \"코오롱티슈진\", \"referrer\": \"https://m.search.naver.com/search.naver?ssc=tab.m_blog.all&query=%EC%BD%94%EC%98%A4%EB%A1%B1%ED%8B%B0%EC%8A%88%EC%A7%84\", \"ratio\": 0.007067137809187279}, {\"searchQuery\": \"예적금 금리 비교\", \"referrer\": \"https://m.search.daum.net/search?w=tot&q=%EC%98%88%EC%A0%81%EA%B8%88%20%EA%B8%88%EB%A6%AC%20%EB%B9%84%EA%B5%90&f=androidapp&DN=ADDA&sq=%EC%98%88%EC%A0%81&o=3&sugo=10&enc_all=u"
+  },
+  {
+   "path": "/inflow-analysis/query-compare",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "size": 280,
+   "sample": "[{\"query\": \"코오롱티슈진\", \"my\": 0.0015822784810126582, \"totalMean\": 0.014537183544303797, \"topMean\": 0.7806434470389966}, {\"query\": \"예적금 금리 비교\", \"my\": 0.5, \"totalMean\": 0.4, \"topMean\": 0.4}, {\"query\": \"전월세 계산법\", \"my\": 1, \"totalMean\": 0.3599999904632568, \"topMean\": 0.3599999904632568}]"
+  }
+ ],
+ "fail": [
+  {
+   "path": "/integrated-analysis/average-visit",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "day",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-31"
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"interval\" must be"
+  },
+  {
+   "path": "/integrated-analysis/retention-rate",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "interval": "day",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-31"
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"interval\" must be"
+  },
+  {
+   "path": "/integrated-analysis/hour-distribution",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20"
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"interval\" is not "
+  },
+  {
+   "path": "/integrated-analysis/hour-distribution",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "day",
+    "date": "2026-07-30"
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"interval\" is not "
+  },
+  {
+   "path": "/integrated-analysis/follower-distribution",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20"
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"actionType\" is re"
+  },
+  {
+   "path": "/integrated-analysis/follower-distribution",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "day",
+    "date": "2026-07-30"
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"interval\" must be"
+  },
+  {
+   "path": "/home/realtime-summary-histogram",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "date": "2026-07-31"
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"metricType\" is re"
+  },
+  {
+   "path": "/home/soaring-contents",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "date": "2026-07-31"
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"interval\" is requ"
+  },
+  {
+   "path": "/home/popular-demo-keyword",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "date": "2026-07-31"
+   },
+   "err": "HTTP 400 date is not monday: 2026-07-31"
+  },
+  {
+   "path": "/home/popular-category-keyword",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "date": "2026-07-31"
+   },
+   "err": "HTTP 400 date is not monday: 2026-07-31"
+  },
+  {
+   "path": "/home/weekly-recommendation",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "date": "2026-07-31"
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"channelId\" is not"
+  },
+  {
+   "path": "/inflow-analysis/inflow-search-trend",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"startDate\" is req"
+  },
+  {
+   "path": "/inflow-analysis/impression-inflow-trend",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"startDate\" is req"
+  },
+  {
+   "path": "/inflow-analysis/query-competitiveness",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"startDate\" is req"
+  },
+  {
+   "path": "/inflow-analysis/popular-contents",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"keyword\" is requi"
+  },
+  {
+   "path": "/inflow-analysis/infl-inflow-rate",
+   "params": {
+    "service": "naver_blog",
+    "channelId": "hyunji_unni",
+    "metric": "cv",
+    "interval": "week",
+    "date": "2026-07-20",
+    "limit": 30
+   },
+   "err": "HTTP 400 validation check failed: ValidationError: \"service\" is not a"
+  }
+ ]
+}

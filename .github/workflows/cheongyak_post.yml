@@ -1,0 +1,70 @@
+name: 청약 공고 건별 분석글 (WP)
+
+on:
+  schedule:
+    # 매일 11:30 KST — 청약홈 신규 공고(통상 오전 게시) 감지 시에만 발행, 없으면 조용히 종료.
+    # 정규 wp_post(09:05)와 별개 추가 트랙 (2026-07-17 사용자 지시).
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+    inputs:
+      notice:
+        description: "특정 공고 강제 (HOUSE_MANAGE_NO, 비우면 자동 감지)"
+        required: false
+        default: ""
+      status:
+        description: "발행 상태 (publish/draft)"
+        required: false
+        default: "publish"
+      dry_run:
+        description: "생성만 하고 발행 안 함 (true/false)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: wp-cheongyak-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # 무한 대기 방지(2026-07-31): 타임아웃 미지정 시 기본 360분을 그대로 소진한다.
+    timeout-minutes: 20
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 한글 폰트 설치
+        run: sudo apt-get update && sudo apt-get install -y fonts-nanum && sudo fc-cache -f
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 청약 공고 감지·발행
+        env:
+          PUBLIC_DATA_KEY: ${{ secrets.PUBLIC_DATA_KEY }}
+          GOOGLE_API_KEY:  ${{ secrets.GOOGLE_API_KEY }}
+          WP_URL:     ${{ secrets.WP_URL }}
+          WP_USER:    ${{ secrets.WP_USER }}
+          WP_APP_PW:  ${{ secrets.WP_APP_PW }}
+          CHEONGYAK_NOTICE: ${{ github.event.inputs.notice || '' }}
+          WP_STATUS:  ${{ github.event.inputs.status || 'publish' }}
+          DRY_RUN:    ${{ github.event.inputs.dry_run || 'false' }}
+        run: python -m scripts.cheongyak_post
+
+      - name: 발행 이력 커밋
+        if: always() && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/cheongyak_history.json || true
+          git diff --staged --quiet || git commit -m "chore: 청약 분석글 이력 $(date +'%Y-%m-%d')"
+          git pull --rebase --autostash origin main
+          git push

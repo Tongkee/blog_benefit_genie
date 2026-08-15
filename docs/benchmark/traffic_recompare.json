@@ -1,0 +1,67 @@
+{
+  "title": "현지언니 vs 형수테크 트래픽 구조 재비교 — '정반대 구조' 가설 검증",
+  "created": "2026-08-01",
+  "hypothesis": "현지=메인 피드 중심 / 형수=순수 검색이라는 '정반대 구조' 결론은 성급할 수 있다. 현지도 홈판 노출이 최근 시작됐고, 홈판 제외 검색만 보면 둘이 비슷하며, 형수도 홈판 노출이 시작되면 메인 비율이 급상승할 수 있다.",
+  "verdict_one_line": "구조 차이가 아니라 '단계 차이'일 가능성이 높다(현지도 개설 ~19일차까지 메인 급등 흔적 없음, 검색 절대량은 두 블로그 동급) — 다만 '홈판 제외하면 비슷'은 글당 기준으로는 틀렸고(형수 글당 검색유입이 현지의 약 2.6~5.9배), 형수의 메인 노출 발생 여부는 현재 데이터로 예측 불가.",
+  "data_sources": {
+    "hyunji_insights": "data/naver_insights.json (daily 2026-07-02~07-31, summary 07-30, weekly 07-20~26)",
+    "tech_insights": "data/naver_insights_tech.json (daily 07-02~07-31, summary 07-30, weekly 07-20~26)",
+    "traffic_gap": "docs/benchmark/analysis_traffic_gap.json (07-27 스냅샷: search 38 / main 134 / visits 266)",
+    "handoff": "docs/HANDOFF.md L293-296 (2026-07-29 어드바이저 분석: 현지 메인 64~72%, 형수 순수 검색형)",
+    "post_histories": "data/*_history.json (현지 6/21 첫 발행, 누적 290건·삭제 33건 / 형수 7/15 첫 발행, 누적 74건)",
+    "dashboard_metrics": "c:/박관용/CLAUDE/dashboard/data/metrics.json — 블로그별 일별 조회 시계열 없음(발행 수 집계뿐, 사용 불가)"
+  },
+  "A_main_exposure_onset": {
+    "method": "일별 채널(검색/메인) 시계열이 없어(naver_inflow_daily.json 미구현, collect_naver_stats가 어제 스냅샷만 저장) daily views 급등점으로 간접 추정",
+    "hyunji_blog_day1": "2026-06-21 (post_history.json 첫 발행)",
+    "baseline_0702_0708": {"mean_views": 86.4, "series": [65, 76, 66, 144, 97, 80, 77]},
+    "first_spike": {"date": "2026-07-09", "views": 246, "vs_baseline": "2.8x", "blog_age_days": 19},
+    "sustained_elevation": {"from": "2026-07-13", "views_0713_0716": [215, 209, 180, 185], "blog_age_days": 23},
+    "second_wave": {"from": "2026-07-24", "views_0724_0731": [223, 154, 94, 298, 243, 188, 228, 329]},
+    "documented_snapshots": [
+      {"date": "2026-07-27", "search": 38, "main": 134, "visits": 266, "main_share": 0.504, "source": "analysis_traffic_gap.json"},
+      {"date": "2026-07-29", "claim": "트래픽 64~72%가 네이버 메인 피드", "source": "HANDOFF.md 어드바이저 분석"},
+      {"date": "2026-07-30", "search": 28, "main": 169, "visits": 222, "main_share": 0.761, "source": "naver_insights.json summary"}
+    ],
+    "estimate": "메인 노출은 개설 19~23일차(7/09 첫 급등, 7/13~ 지속 상승)에 시작된 것으로 추정. 채널별 일별 데이터가 없어 7/09~7/13 급등이 메인 유입이라는 직접 증거는 없음(추정). 문서로 확인되는 것은 7/27 이후 메인 50~76%뿐."
+  },
+  "B_search_only_comparison": {
+    "method_and_limits": "현지의 '검색 전용' 유입은 (1) summary의 search_inflow 일 스냅샷(7/27=38, 7/30=28) (2) 주간 search_queries top30 count 합계(주간 조회 대비 ratio 역산 가능)로만 추정. top30 절단(형수는 count 2에서 절단되어 롱테일 과소집계, 현지는 count 1까지 노출되어 거의 전수)과 views/visits 단위 혼재가 한계.",
+    "weekly_0720_0726": {
+      "hyunji": {"weekly_views_approx": 990, "search_top30_sum": 77, "search_share_of_views": "약 7.8%(+롱테일 소량)", "live_posts_by_0726": "약 250", "search_per_post_per_week": 0.31},
+      "tech": {"weekly_views_approx": 277, "search_top30_sum": 112, "search_share_of_views": "약 40%+", "posts_by_0726": 62, "search_per_post_per_week": 1.81}
+    },
+    "daily_0730": {
+      "hyunji": {"search_inflow": 28, "live_posts_approx": 257, "search_per_post": 0.109},
+      "tech": {"search_inflow": 19, "posts": 68, "search_per_post": 0.279}
+    },
+    "findings": [
+      "검색 유입 '절대량'은 동급: 현지 일 28~38 vs 형수 일 19, 주간 top30 합 77 vs 112 — 같은 자릿수.",
+      "그러나 '글당' 검색 효율은 형수 우위: 일 기준 2.6배(0.279 vs 0.109), 주간 기준 5.9배(1.81 vs 0.31). 형수 쪽 top30 절단이 더 이르므로 실제 격차는 이보다 클 수 있음.",
+      "즉 '홈판 제외하면 둘이 비슷'은 절대량으로는 대략 참, 글당 효율로는 거짓."
+    ],
+    "age_adjusted_16d": {
+      "note": "현지 개설 첫 11일(6/21~7/01)은 daily 데이터 창(7/02~) 밖이라 첫 16일 '전체' 비교는 판정 불가. 가능한 것은 개설 12~16일차 구간 비교뿐. 또한 당시 현지는 살림/레시피→재테크 피벗(6/30) 직후라 콘텐츠 동질성도 낮음.",
+      "hyunji_day12_16": {"dates": "2026-07-02~07-06", "views": [65, 76, 66, 144, 97], "mean": 89.6, "posts_by_then": 107, "views_per_post_per_day": 0.84},
+      "tech_day12_16": {"dates": "2026-07-26~07-30", "views": [27, 50, 56, 30, 69], "mean": 46.4, "posts_by_then": 68, "views_per_post_per_day": 0.68},
+      "reading": "총량은 현지가 같은 나이에 1.9배였지만 발행량도 1.6배였다. 글당으로는 0.84 vs 0.68로 1.2배 차이 — 같은 나이의 두 블로그는 글당 도달이 사실상 비슷했다. 당시 현지의 채널 구성(메인/검색)은 데이터 부재로 판정 불가.",
+      "tech_first16d_total_views": 554
+    }
+  },
+  "C_judgment": {
+    "structure_or_stage": "'단계 차이' 쪽이 데이터와 더 부합. 근거: (1) 현지도 개설 19일차(7/09) 이전에는 일 65~97뷰로 급등 흔적이 없고, 형수는 현재 16~17일차라 아직 그 시점에 도달하지 않았다. (2) 같은 나이(12~16일차) 글당 도달이 0.84 vs 0.68로 비슷했다. (3) 검색 절대량도 동급이다. 반증 가능성: 형수의 main_inflow=0 은 7/30 하루 스냅샷뿐이고, 형수가 메인을 '탈 것'이라는 증거는 없다 — 주제판(비즈니스·경제 vs IT·테크)과 큐레이션 선호가 달라 단계가 같아도 결과가 다를 수 있다.",
+    "hyunji_main_riding_posts": {
+      "evidence": "top_posts 상위: ①자녀장려금(세금절세, 275뷰·어드바이저 기록 497뷰 지속형) ②호반써밋 첨단3지구 줍줍(청약, 139) ③본인부담상한제 환급(정부지원성, 53). weekly topic_ranks는 '비즈니스·경제' 단일(877뷰). 어드바이저(HANDOFF 7/29): 세금절세 31뷰/글 최고, 정부지원 지속형, 청약줍줍 시한부 고회전, 주식/ETF 9뷰/글 최하.",
+      "pattern": "메인을 타는 글 = 정책·혜택·청약 카테고리 + '최대 N만원 / 조건 총정리'류 수치형 제목. 열린 질문형이나 종목 시황글은 못 탄다."
+    },
+    "tech_main_conditions": {
+      "status": "판정 불가 — 형수 메인 유입 데이터가 7/30 스냅샷 1일(main=0)뿐이고, IT·테크 주제판의 큐레이션 기준을 보여줄 데이터가 저장소에 없다.",
+      "indirect": "현지 사례를 유일한 준거로 쓰면 '개설 3주차 전후 + 특정 카테고리의 지속형 정보글'이 조건이었다. 형수에서 그에 해당하는 후보는 리뷰·가이드형(xq2566x 류 롱테일 입증 글)이지 루머·속보형이 아니다 — 단, 이는 현지 1개 사례의 유추일 뿐 검증된 조건이 아님."
+    },
+    "needed_data": [
+      "일별 채널 시계열 누적(naver_inflow_daily.json: {date, views, search_inflow, main_inflow}) — 두 블로그 모두. analysis_traffic_gap.json이 이미 채택 제안으로 기록해 둔 항목이며 현재 미구현.",
+      "형수 main_inflow 스냅샷 최소 2주치 (메인 노출 발생/부재 판정용)",
+      "현지 6/21~7/01 구간 일별 조회(첫 16일 완전 비교용) — 크리에이터 어드바이저에서 기간 소급 조회 필요"
+    ]
+  }
+}

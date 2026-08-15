@@ -1,0 +1,1981 @@
+{
+ "updated": "2026-07-31T19:39+09:00",
+ "blog_id": "hyungsutech",
+ "account": "형수의테크공장",
+ "platform": "naverblog",
+ "today": {
+  "date": "2026-07-31",
+  "views": 43,
+  "visitors": 0
+ },
+ "summary": {
+  "date": "2026-07-30",
+  "views": 69,
+  "visits": 33,
+  "visitors": 29,
+  "search_inflow": 19,
+  "main_inflow": 0
+ },
+ "views_30d": 597,
+ "visitors_30d": 393,
+ "posts_period": "최근 완결 주(월~일) 기준 2026-07-20",
+ "search_period": "최근 완결 주(월~일) 기준 2026-07-20",
+ "daily": [
+  {
+   "date": "2026-07-02",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-03",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-04",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-05",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-06",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-07",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-08",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-09",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-10",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-11",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-12",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-13",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-14",
+   "views": 0,
+   "visitors": 0,
+   "visits": 0,
+   "avg_duration_sec": 0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-15",
+   "views": 4,
+   "visitors": 3,
+   "visits": 3,
+   "avg_duration_sec": 204.0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-16",
+   "views": 5,
+   "visitors": 4,
+   "visits": 4,
+   "avg_duration_sec": 39.1,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-17",
+   "views": 11,
+   "visitors": 5,
+   "visits": 6,
+   "avg_duration_sec": 17.9,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-18",
+   "views": 16,
+   "visitors": 16,
+   "visits": 16,
+   "avg_duration_sec": 146.9,
+   "likes": 1,
+   "replies": 1,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 1
+  },
+  {
+   "date": "2026-07-19",
+   "views": 44,
+   "visitors": 22,
+   "visits": 28,
+   "avg_duration_sec": 214.0,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-20",
+   "views": 29,
+   "visitors": 21,
+   "visits": 25,
+   "avg_duration_sec": 188.0,
+   "likes": 2,
+   "replies": 1,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-21",
+   "views": 61,
+   "visitors": 47,
+   "visits": 51,
+   "avg_duration_sec": 99.6,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-22",
+   "views": 41,
+   "visitors": 22,
+   "visits": 25,
+   "avg_duration_sec": 72.6,
+   "likes": 1,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-23",
+   "views": 38,
+   "visitors": 27,
+   "visits": 29,
+   "avg_duration_sec": 452.9,
+   "likes": 0,
+   "replies": 1,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-24",
+   "views": 30,
+   "visitors": 28,
+   "visits": 30,
+   "avg_duration_sec": 125.2,
+   "likes": 0,
+   "replies": 3,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 1
+  },
+  {
+   "date": "2026-07-25",
+   "views": 43,
+   "visitors": 32,
+   "visits": 34,
+   "avg_duration_sec": 93.9,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-26",
+   "views": 27,
+   "visitors": 25,
+   "visits": 25,
+   "avg_duration_sec": 41.1,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-27",
+   "views": 50,
+   "visitors": 43,
+   "visits": 45,
+   "avg_duration_sec": 259.5,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-28",
+   "views": 56,
+   "visitors": 43,
+   "visits": 44,
+   "avg_duration_sec": 159.9,
+   "likes": 2,
+   "replies": 1,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-29",
+   "views": 30,
+   "visitors": 26,
+   "visits": 28,
+   "avg_duration_sec": 83.6,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-30",
+   "views": 69,
+   "visitors": 29,
+   "visits": 33,
+   "avg_duration_sec": 101.8,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 0
+  },
+  {
+   "date": "2026-07-31",
+   "views": 43,
+   "visitors": 0,
+   "visits": 33,
+   "avg_duration_sec": 169.1,
+   "likes": 0,
+   "replies": 0,
+   "follower_adds": 0,
+   "follower_removes": 0,
+   "both_follower_adds": 4
+  }
+ ],
+ "top_posts": [
+  {
+   "title": "\"QHD 게이밍 모니터? 벤큐 조위 XQ2566X, 진짜 살 만할까?\"",
+   "logNo": "224350563920",
+   "views": 23,
+   "rank": 1,
+   "url": "https://blog.naver.com/hyungsutech/224350563920",
+   "created_at": "2026-07-18T23:07+09:00"
+  },
+  {
+   "title": "갤럭시 워치 울트라2, 더 얇아지고 배터리 커진다? 유출 사진에 담긴 진실",
+   "logNo": "224353097821",
+   "views": 23,
+   "rank": 1,
+   "url": "https://blog.naver.com/hyungsutech/224353097821",
+   "created_at": "2026-07-21T12:59+09:00"
+  },
+  {
+   "title": "갤럭시 Z 폴드8, S26 울트라 AI 그대로 탑재…가격은 227만원부터",
+   "logNo": "224355362221",
+   "views": 12,
+   "rank": 3,
+   "url": "https://blog.naver.com/hyungsutech/224355362221",
+   "created_at": "2026-07-23T13:06+09:00"
+  },
+  {
+   "title": "큐닉스, 'TIER' 초고주사율 모니터 2종 출시! 게이머들 지갑 열까?",
+   "logNo": "224349280597",
+   "views": 10,
+   "rank": 4,
+   "url": "https://blog.naver.com/hyungsutech/224349280597",
+   "created_at": "2026-07-17T11:02+09:00"
+  },
+  {
+   "title": "지금이 제습기 살 때? 이마트 할인 놓치면 후회하는 이유",
+   "logNo": "224349466578",
+   "views": 9,
+   "rank": 5,
+   "url": "https://blog.naver.com/hyungsutech/224349466578",
+   "created_at": "2026-07-17T15:31+09:00"
+  },
+  {
+   "title": "픽스 무선 에어건 청소기, 캐시워크 퀴즈로 뜬 진짜 이유",
+   "logNo": "224351376665",
+   "views": 9,
+   "rank": 5,
+   "url": "https://blog.naver.com/hyungsutech/224351376665",
+   "created_at": "2026-07-19T23:18+09:00"
+  },
+  {
+   "title": "아이폰 에어2, '실패작' 오명 벗을까? 카메라·배터리 강화의 진짜 속셈",
+   "logNo": "224354239529",
+   "views": 8,
+   "rank": 7,
+   "url": "https://blog.naver.com/hyungsutech/224354239529",
+   "created_at": "2026-07-22T13:09+09:00"
+  },
+  {
+   "title": "청소 후 10초의 마법? 로보락 H60 허브 플러스, 진짜배기일까?",
+   "logNo": "224350225843",
+   "views": 7,
+   "rank": 8,
+   "url": "https://blog.naver.com/hyungsutech/224350225843",
+   "created_at": "2026-07-18T14:23+09:00"
+  },
+  {
+   "title": "챗GPT 제대로 쓰는 법: 프롬프트 원리부터 실전까지",
+   "logNo": "224351604161",
+   "views": 7,
+   "rank": 8,
+   "url": "https://blog.naver.com/hyungsutech/224351604161",
+   "created_at": "2026-07-20T06:11+09:00"
+  },
+  {
+   "title": "알파로메오 중형 SUV, 과연 '전기차 피아트 500'의 전철을 밟을까?",
+   "logNo": "224349557456",
+   "views": 5,
+   "rank": 10,
+   "url": "https://blog.naver.com/hyungsutech/224349557456",
+   "created_at": "2026-07-17T17:34+09:00"
+  },
+  {
+   "title": "노트북 와이파이 자꾸 끊김 해결, 원인과 최적화",
+   "logNo": "224352773385",
+   "views": 5,
+   "rank": 10,
+   "url": "https://blog.naver.com/hyungsutech/224352773385",
+   "created_at": "2026-07-21T06:26+09:00"
+  },
+  {
+   "title": "LG 스마트TV, 손님 목소리까지 녹음? 이거 모르면 큰일 납니다!",
+   "logNo": "224353223407",
+   "views": 5,
+   "rank": 10,
+   "url": "https://blog.naver.com/hyungsutech/224353223407",
+   "created_at": "2026-07-21T14:50+09:00"
+  },
+  {
+   "title": "삼성 새 AI폰, 사전 예약 놓치면 140만원 손해? 진짜 따져보니",
+   "logNo": "224356670996",
+   "views": 5,
+   "rank": 10,
+   "url": "https://blog.naver.com/hyungsutech/224356670996",
+   "created_at": "2026-07-24T15:57+09:00"
+  },
+  {
+   "title": "기아 EV 할인 2배 폭증! 지금 사야 할까, 더 기다려야 할까?",
+   "logNo": "224357030000",
+   "views": 5,
+   "rank": 10,
+   "url": "https://blog.naver.com/hyungsutech/224357030000",
+   "created_at": "2026-07-24T23:33+09:00"
+  },
+  {
+   "title": "아이닉스 '리부트 PC방', 게이밍 모니터로 승부수 띄웠다",
+   "logNo": "224347844614",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224347844614",
+   "created_at": "2026-07-15T22:21+09:00"
+  },
+  {
+   "title": "\"AI 통행세\" 때문에 갤럭시북6 가격 오른다고? 당신이 모르는 진짜 이유",
+   "logNo": "224350949588",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224350949588",
+   "created_at": "2026-07-19T13:27+09:00"
+  },
+  {
+   "title": "갤럭시 Z8, AI 글래스까지! 삼성 언팩, 이번엔 진짜 다를까?",
+   "logNo": "224351432791",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224351432791",
+   "created_at": "2026-07-20T00:25+09:00"
+  },
+  {
+   "title": "아이폰 18, 삼성 디스플레이 탑재? 진짜 의미는 따로 있습니다",
+   "logNo": "224352192111",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224352192111",
+   "created_at": "2026-07-20T16:39+09:00"
+  },
+  {
+   "title": "갤럭시 신제품, 통신사별 혜택 최대 46만원 차이? 놓치면 후회할 사전예약 꿀팁",
+   "logNo": "224353307864",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224353307864",
+   "created_at": "2026-07-21T15:58+09:00"
+  },
+  {
+   "title": "AI폰 요금 '반토막' 키미 K3, 진짜 놀라운 이유",
+   "logNo": "224353540163",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224353540163",
+   "created_at": "2026-07-21T19:53+09:00"
+  },
+  {
+   "title": "클로드 AI 사용법: 챗GPT와 차이점부터 프로젝트 활용까지",
+   "logNo": "224353896460",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224353896460",
+   "created_at": "2026-07-22T06:29+09:00"
+  },
+  {
+   "title": "노트북, 게임, 자동차까지? 삼성·LG디스플레이, OLED로 디스플레이 판을 뒤집는 진짜 이유",
+   "logNo": "224354363635",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224354363635",
+   "created_at": "2026-07-22T14:53+09:00"
+  },
+  {
+   "title": "갤폴드8 주름이 진짜 사라졌다고? 써보니 충격적인 반전",
+   "logNo": "224355562400",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224355562400",
+   "created_at": "2026-07-23T16:04+09:00"
+  },
+  {
+   "title": "10만km 탄 EV 배터리, 97%가 남았다고? 중고차 사도 될까?",
+   "logNo": "224355988905",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224355988905",
+   "created_at": "2026-07-23T23:59+09:00"
+  },
+  {
+   "title": "샤오미 AIoT 신제품 5종, 진짜배기는 '이것' 하나?",
+   "logNo": "224356474712",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224356474712",
+   "created_at": "2026-07-24T12:57+09:00"
+  },
+  {
+   "title": "갤럭시 Z 폴드8 울트라, 257만 원부터? 가격 오르고 배터리 개선된 진짜 이유!",
+   "logNo": "224357405661",
+   "views": 4,
+   "rank": 15,
+   "url": "https://blog.naver.com/hyungsutech/224357405661",
+   "created_at": "2026-07-25T13:01+09:00"
+  },
+  {
+   "title": "제미나이 3.5 프로, 대체 언제 나오나요? 출시 연기 속사정 파헤치기",
+   "logNo": "224349707336",
+   "views": 3,
+   "rank": 27,
+   "url": "https://blog.naver.com/hyungsutech/224349707336",
+   "created_at": "2026-07-17T21:28+09:00"
+  },
+  {
+   "title": "코웨이 20L 제습기 신제품! 사야 할까, 말아야 할까?",
+   "logNo": "224352069442",
+   "views": 3,
+   "rank": 27,
+   "url": "https://blog.naver.com/hyungsutech/224352069442",
+   "created_at": "2026-07-20T14:59+09:00"
+  },
+  {
+   "title": "\"OLED, 스마트폰 넘어 휴머노이드? 삼성디스플레이 신기술, 진짜 핵심은?\"",
+   "logNo": "224354444106",
+   "views": 3,
+   "rank": 27,
+   "url": "https://blog.naver.com/hyungsutech/224354444106",
+   "created_at": "2026-07-22T16:00+09:00"
+  },
+  {
+   "title": "볼보 ES90, 7천만원대 파격가에 '800V 초고속 충전'까지? 이거 진짜야?",
+   "logNo": "224354662178",
+   "views": 3,
+   "rank": 27,
+   "url": "https://blog.naver.com/hyungsutech/224354662178",
+   "created_at": "2026-07-22T19:45+09:00"
+  }
+ ],
+ "search_queries": [
+  {
+   "query": "xq2566x",
+   "count": 17,
+   "ratio": 0.06135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "갤럭시워치9",
+   "count": 13,
+   "ratio": 0.04908,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "갤럭시 워치9",
+   "count": 7,
+   "ratio": 0.02454,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "이마트 제습기",
+   "count": 7,
+   "ratio": 0.02454,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "갤럭시 폴드8",
+   "count": 5,
+   "ratio": 0.018405,
+   "referrer": "https://search.naver.com/search.naver"
+  },
+  {
+   "query": "리브랜딩 큐닉스신제품",
+   "count": 5,
+   "ratio": 0.018405,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "XQ2566X",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://search.naver.com/search.naver"
+  },
+  {
+   "query": "갤럭시 폴드8 와이드",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "갤럭시워치 울트라2",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "노트북 와이파이 로스트아크 서버 끊김",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "로보락 h60 허브 플러스",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "벤큐 조위 모니터",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "아이폰 에어2",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "에어건 청소기",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://m.search.daum.net/search"
+  },
+  {
+   "query": "이마트 제습기 가격",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "폴드8 아이온2",
+   "count": 3,
+   "ratio": 0.01227,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "CRITICAL_PROCESS_DIED 오류",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "TIER FX27B 400",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://search.naver.com/search.naver"
+  },
+  {
+   "query": "TV ACR기능",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://search.naver.com/search.naver"
+  },
+  {
+   "query": "Xq2566x",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "ai소설 써주기 기본 프롬프트 예시",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "chatgpt 답변 지침 설정 결론 나오게",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://search.naver.com/search.naver"
+  },
+  {
+   "query": "h60허브 플러스 울트라 차이",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "intel wi-fi ax201 설치",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "xq2566",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "z플립8",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "갤럭시 z8",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://search.naver.com/search.naver"
+  },
+  {
+   "query": "갤럭시 언팩 워치",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "갤럭시 와이드 폴드 가격",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://m.search.naver.com/search.naver"
+  },
+  {
+   "query": "갤럭시 워치 9",
+   "count": 2,
+   "ratio": 0.006135,
+   "referrer": "https://search.naver.com/search.naver"
+  }
+ ],
+ "posts": [
+  {
+   "id": "224350563920",
+   "ts": "2026-07-18T23:07+09:00",
+   "type": "post",
+   "code": "",
+   "title": "\"QHD 게이밍 모니터? 벤큐 조위 XQ2566X, 진짜 살 만할까?\"",
+   "url": "https://blog.naver.com/hyungsutech/224350563920",
+   "views": 23,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224353097821",
+   "ts": "2026-07-21T12:59+09:00",
+   "type": "post",
+   "code": "",
+   "title": "갤럭시 워치 울트라2, 더 얇아지고 배터리 커진다? 유출 사진에 담긴 진실",
+   "url": "https://blog.naver.com/hyungsutech/224353097821",
+   "views": 23,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224355362221",
+   "ts": "2026-07-23T13:06+09:00",
+   "type": "post",
+   "code": "",
+   "title": "갤럭시 Z 폴드8, S26 울트라 AI 그대로 탑재…가격은 227만원부터",
+   "url": "https://blog.naver.com/hyungsutech/224355362221",
+   "views": 12,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224349280597",
+   "ts": "2026-07-17T11:02+09:00",
+   "type": "post",
+   "code": "",
+   "title": "큐닉스, 'TIER' 초고주사율 모니터 2종 출시! 게이머들 지갑 열까?",
+   "url": "https://blog.naver.com/hyungsutech/224349280597",
+   "views": 10,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224349466578",
+   "ts": "2026-07-17T15:31+09:00",
+   "type": "post",
+   "code": "",
+   "title": "지금이 제습기 살 때? 이마트 할인 놓치면 후회하는 이유",
+   "url": "https://blog.naver.com/hyungsutech/224349466578",
+   "views": 9,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224351376665",
+   "ts": "2026-07-19T23:18+09:00",
+   "type": "post",
+   "code": "",
+   "title": "픽스 무선 에어건 청소기, 캐시워크 퀴즈로 뜬 진짜 이유",
+   "url": "https://blog.naver.com/hyungsutech/224351376665",
+   "views": 9,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224354239529",
+   "ts": "2026-07-22T13:09+09:00",
+   "type": "post",
+   "code": "",
+   "title": "아이폰 에어2, '실패작' 오명 벗을까? 카메라·배터리 강화의 진짜 속셈",
+   "url": "https://blog.naver.com/hyungsutech/224354239529",
+   "views": 8,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224350225843",
+   "ts": "2026-07-18T14:23+09:00",
+   "type": "post",
+   "code": "",
+   "title": "청소 후 10초의 마법? 로보락 H60 허브 플러스, 진짜배기일까?",
+   "url": "https://blog.naver.com/hyungsutech/224350225843",
+   "views": 7,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224351604161",
+   "ts": "2026-07-20T06:11+09:00",
+   "type": "post",
+   "code": "",
+   "title": "챗GPT 제대로 쓰는 법: 프롬프트 원리부터 실전까지",
+   "url": "https://blog.naver.com/hyungsutech/224351604161",
+   "views": 7,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224349557456",
+   "ts": "2026-07-17T17:34+09:00",
+   "type": "post",
+   "code": "",
+   "title": "알파로메오 중형 SUV, 과연 '전기차 피아트 500'의 전철을 밟을까?",
+   "url": "https://blog.naver.com/hyungsutech/224349557456",
+   "views": 5,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224352773385",
+   "ts": "2026-07-21T06:26+09:00",
+   "type": "post",
+   "code": "",
+   "title": "노트북 와이파이 자꾸 끊김 해결, 원인과 최적화",
+   "url": "https://blog.naver.com/hyungsutech/224352773385",
+   "views": 5,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224353223407",
+   "ts": "2026-07-21T14:50+09:00",
+   "type": "post",
+   "code": "",
+   "title": "LG 스마트TV, 손님 목소리까지 녹음? 이거 모르면 큰일 납니다!",
+   "url": "https://blog.naver.com/hyungsutech/224353223407",
+   "views": 5,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224356670996",
+   "ts": "2026-07-24T15:57+09:00",
+   "type": "post",
+   "code": "",
+   "title": "삼성 새 AI폰, 사전 예약 놓치면 140만원 손해? 진짜 따져보니",
+   "url": "https://blog.naver.com/hyungsutech/224356670996",
+   "views": 5,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224357030000",
+   "ts": "2026-07-24T23:33+09:00",
+   "type": "post",
+   "code": "",
+   "title": "기아 EV 할인 2배 폭증! 지금 사야 할까, 더 기다려야 할까?",
+   "url": "https://blog.naver.com/hyungsutech/224357030000",
+   "views": 5,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224347844614",
+   "ts": "2026-07-15T22:21+09:00",
+   "type": "post",
+   "code": "",
+   "title": "아이닉스 '리부트 PC방', 게이밍 모니터로 승부수 띄웠다",
+   "url": "https://blog.naver.com/hyungsutech/224347844614",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224350949588",
+   "ts": "2026-07-19T13:27+09:00",
+   "type": "post",
+   "code": "",
+   "title": "\"AI 통행세\" 때문에 갤럭시북6 가격 오른다고? 당신이 모르는 진짜 이유",
+   "url": "https://blog.naver.com/hyungsutech/224350949588",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224351432791",
+   "ts": "2026-07-20T00:25+09:00",
+   "type": "post",
+   "code": "",
+   "title": "갤럭시 Z8, AI 글래스까지! 삼성 언팩, 이번엔 진짜 다를까?",
+   "url": "https://blog.naver.com/hyungsutech/224351432791",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224352192111",
+   "ts": "2026-07-20T16:39+09:00",
+   "type": "post",
+   "code": "",
+   "title": "아이폰 18, 삼성 디스플레이 탑재? 진짜 의미는 따로 있습니다",
+   "url": "https://blog.naver.com/hyungsutech/224352192111",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224353307864",
+   "ts": "2026-07-21T15:58+09:00",
+   "type": "post",
+   "code": "",
+   "title": "갤럭시 신제품, 통신사별 혜택 최대 46만원 차이? 놓치면 후회할 사전예약 꿀팁",
+   "url": "https://blog.naver.com/hyungsutech/224353307864",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224353540163",
+   "ts": "2026-07-21T19:53+09:00",
+   "type": "post",
+   "code": "",
+   "title": "AI폰 요금 '반토막' 키미 K3, 진짜 놀라운 이유",
+   "url": "https://blog.naver.com/hyungsutech/224353540163",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224353896460",
+   "ts": "2026-07-22T06:29+09:00",
+   "type": "post",
+   "code": "",
+   "title": "클로드 AI 사용법: 챗GPT와 차이점부터 프로젝트 활용까지",
+   "url": "https://blog.naver.com/hyungsutech/224353896460",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224354363635",
+   "ts": "2026-07-22T14:53+09:00",
+   "type": "post",
+   "code": "",
+   "title": "노트북, 게임, 자동차까지? 삼성·LG디스플레이, OLED로 디스플레이 판을 뒤집는 진짜 이유",
+   "url": "https://blog.naver.com/hyungsutech/224354363635",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224355562400",
+   "ts": "2026-07-23T16:04+09:00",
+   "type": "post",
+   "code": "",
+   "title": "갤폴드8 주름이 진짜 사라졌다고? 써보니 충격적인 반전",
+   "url": "https://blog.naver.com/hyungsutech/224355562400",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224355988905",
+   "ts": "2026-07-23T23:59+09:00",
+   "type": "post",
+   "code": "",
+   "title": "10만km 탄 EV 배터리, 97%가 남았다고? 중고차 사도 될까?",
+   "url": "https://blog.naver.com/hyungsutech/224355988905",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224356474712",
+   "ts": "2026-07-24T12:57+09:00",
+   "type": "post",
+   "code": "",
+   "title": "샤오미 AIoT 신제품 5종, 진짜배기는 '이것' 하나?",
+   "url": "https://blog.naver.com/hyungsutech/224356474712",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224357405661",
+   "ts": "2026-07-25T13:01+09:00",
+   "type": "post",
+   "code": "",
+   "title": "갤럭시 Z 폴드8 울트라, 257만 원부터? 가격 오르고 배터리 개선된 진짜 이유!",
+   "url": "https://blog.naver.com/hyungsutech/224357405661",
+   "views": 4,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224349707336",
+   "ts": "2026-07-17T21:28+09:00",
+   "type": "post",
+   "code": "",
+   "title": "제미나이 3.5 프로, 대체 언제 나오나요? 출시 연기 속사정 파헤치기",
+   "url": "https://blog.naver.com/hyungsutech/224349707336",
+   "views": 3,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224352069442",
+   "ts": "2026-07-20T14:59+09:00",
+   "type": "post",
+   "code": "",
+   "title": "코웨이 20L 제습기 신제품! 사야 할까, 말아야 할까?",
+   "url": "https://blog.naver.com/hyungsutech/224352069442",
+   "views": 3,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224354444106",
+   "ts": "2026-07-22T16:00+09:00",
+   "type": "post",
+   "code": "",
+   "title": "\"OLED, 스마트폰 넘어 휴머노이드? 삼성디스플레이 신기술, 진짜 핵심은?\"",
+   "url": "https://blog.naver.com/hyungsutech/224354444106",
+   "views": 3,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  },
+  {
+   "id": "224354662178",
+   "ts": "2026-07-22T19:45+09:00",
+   "type": "post",
+   "code": "",
+   "title": "볼보 ES90, 7천만원대 파격가에 '800V 초고속 충전'까지? 이거 진짜야?",
+   "url": "https://blog.naver.com/hyungsutech/224354662178",
+   "views": 3,
+   "visitors": null,
+   "likes": null,
+   "replies": null
+  }
+ ],
+ "weekly": {
+  "week_start": "2026-07-20",
+  "week_end": "2026-07-26",
+  "retention_rate": 0.015464,
+  "returning_visitors": 3,
+  "average_visit": 1.1289,
+  "demo": [
+   {
+    "age": "01",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "02",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "03",
+    "total": 5,
+    "f": 1,
+    "m": 4
+   },
+   {
+    "age": "04",
+    "total": 64,
+    "f": 55,
+    "m": 9
+   },
+   {
+    "age": "05",
+    "total": 15,
+    "f": 2,
+    "m": 13
+   },
+   {
+    "age": "06",
+    "total": 21,
+    "f": 6,
+    "m": 15
+   },
+   {
+    "age": "07",
+    "total": 13,
+    "f": 3,
+    "m": 10
+   },
+   {
+    "age": "08",
+    "total": 12,
+    "f": 5,
+    "m": 7
+   },
+   {
+    "age": "09",
+    "total": 10,
+    "f": 3,
+    "m": 7
+   },
+   {
+    "age": "10",
+    "total": 2,
+    "f": 1,
+    "m": 1
+   },
+   {
+    "age": "11",
+    "total": 4,
+    "f": 3,
+    "m": 1
+   }
+  ],
+  "device": [
+   {
+    "device": "mobile",
+    "views": 135
+   },
+   {
+    "device": "pc",
+    "views": 134
+   }
+  ],
+  "country": [
+   {
+    "country": "KR",
+    "views": 249,
+    "ratio": 0.925651
+   },
+   {
+    "country": "US",
+    "views": 20,
+    "ratio": 0.074349
+   }
+  ],
+  "follower_add_demo": [
+   {
+    "age": "01",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "02",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "03",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "04",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "05",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "06",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "07",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "08",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "09",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "10",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   },
+   {
+    "age": "11",
+    "total": 0,
+    "f": 0,
+    "m": 0
+   }
+  ],
+  "like_ranks": [
+   {
+    "rank": 1,
+    "title": "아이폰 18, 삼성 디스플레이 탑재? 진짜 의미는 따로 있습니다",
+    "value": 2,
+    "logNo": "224352192111",
+    "url": "https://blog.naver.com/hyungsutech/224352192111"
+   },
+   {
+    "rank": 2,
+    "title": "클로드 AI 사용법: 챗GPT와 차이점부터 프로젝트 활용까지",
+    "value": 1,
+    "logNo": "224353896460",
+    "url": "https://blog.naver.com/hyungsutech/224353896460"
+   }
+  ],
+  "reply_ranks": [
+   {
+    "rank": 1,
+    "title": "10만km 탄 EV 배터리, 97%가 남았다고? 중고차 사도 될까?",
+    "value": 2,
+    "logNo": "224355988905",
+    "url": "https://blog.naver.com/hyungsutech/224355988905"
+   },
+   {
+    "rank": 2,
+    "title": "아이폰 18, 삼성 디스플레이 탑재? 진짜 의미는 따로 있습니다",
+    "value": 1,
+    "logNo": "224352192111",
+    "url": "https://blog.naver.com/hyungsutech/224352192111"
+   },
+   {
+    "rank": 2,
+    "title": "갤럭시 Z 폴드8, S26 울트라 AI 그대로 탑재…가격은 227만원부터",
+    "value": 1,
+    "logNo": "224355362221",
+    "url": "https://blog.naver.com/hyungsutech/224355362221"
+   },
+   {
+    "rank": 2,
+    "title": "바르닭 신상 닭목살 4종 출시! 다이어터에게 희소식일까, 함정일까?",
+    "value": 1,
+    "logNo": "224356588880",
+    "url": "https://blog.naver.com/hyungsutech/224356588880"
+   }
+  ],
+  "popular_demo_keyword": {
+   "age": "04",
+   "gender": "f",
+   "trendRank": [
+    {
+     "keyword": "청년미래적금",
+     "ratio": 0.000632763171308576
+    },
+    {
+     "keyword": "청년미래적금 결과",
+     "ratio": 0.0004083163829248356
+    },
+    {
+     "keyword": "호프 쿠키",
+     "ratio": 0.0002275269054080996
+    },
+    {
+     "keyword": "유혜주 아버지",
+     "ratio": 0.00019053202158291567
+    },
+    {
+     "keyword": "케이뱅크 황금캡슐",
+     "ratio": 0.00018929327886659729
+    },
+    {
+     "keyword": "비짓재팬",
+     "ratio": 0.0001750644773953727
+    },
+    {
+     "keyword": "배그부부",
+     "ratio": 0.00017104693345055633
+    },
+    {
+     "keyword": "갤럭시 폴드8",
+     "ratio": 0.00016743114390022163
+    },
+    {
+     "keyword": "엔화 환율",
+     "ratio": 0.0001512270499894623
+    },
+    {
+     "keyword": "영화 호프 정보",
+     "ratio": 0.0001439619913559194
+    }
+   ]
+  },
+  "query_compare": [
+   {
+    "query": "xq2566x",
+    "my": 0.6666666666666666,
+    "totalMean": 0.34814815521240233,
+    "topMean": 0.5599999745686849
+   },
+   {
+    "query": "갤럭시워치9",
+    "my": 0.004257583821181479,
+    "totalMean": 0.009373900863704305,
+    "topMean": 0.5222991082565527
+   }
+  ]
+ },
+ "hourly_yesterday": {
+  "date": "2026-07-30",
+  "rows": [
+   {
+    "hour": "00",
+    "metrics": [
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "hour": "01",
+    "metrics": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "hour": "02",
+    "metrics": [
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "hour": "03",
+    "metrics": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "hour": "04",
+    "metrics": [
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "hour": "05",
+    "metrics": [
+     0,
+     2,
+     0
+    ]
+   },
+   {
+    "hour": "06",
+    "metrics": [
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "hour": "07",
+    "metrics": [
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "hour": "08",
+    "metrics": [
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "hour": "09",
+    "metrics": [
+     0,
+     2,
+     0
+    ]
+   },
+   {
+    "hour": "10",
+    "metrics": [
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "hour": "11",
+    "metrics": [
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "hour": "12",
+    "metrics": [
+     3,
+     0,
+     0
+    ]
+   },
+   {
+    "hour": "13",
+    "metrics": [
+     34,
+     2,
+     0
+    ]
+   },
+   {
+    "hour": "14",
+    "metrics": [
+     4,
+     0,
+     0
+    ]
+   },
+   {
+    "hour": "15",
+    "metrics": [
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "hour": "16",
+    "metrics": [
+     6,
+     3,
+     0
+    ]
+   },
+   {
+    "hour": "17",
+    "metrics": [
+     4,
+     3,
+     0
+    ]
+   },
+   {
+    "hour": "18",
+    "metrics": [
+     3,
+     1,
+     0
+    ]
+   },
+   {
+    "hour": "19",
+    "metrics": [
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "hour": "20",
+    "metrics": [
+     0,
+     2,
+     0
+    ]
+   },
+   {
+    "hour": "21",
+    "metrics": [
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "hour": "22",
+    "metrics": [
+     3,
+     4,
+     0
+    ]
+   },
+   {
+    "hour": "23",
+    "metrics": [
+     1,
+     3,
+     0
+    ]
+   }
+  ]
+ },
+ "realtime_today": {
+  "summary": {
+   "metricRanks": [
+    {
+     "metricValue": 43,
+     "metricType": "cv",
+     "rank": [
+      {
+       "title": "갤럭시 Z 폴드8, 1030세대 절반 선택? 당신이 놓친 진짜 이유!",
+       "contentId": "http://blog.naver.com/hyungsutech/224363783477",
+       "metricValue": 6
+      },
+      {
+       "title": "골프존 스마트캐디, 애플워치로 '이것'까지? 골퍼들 바로 환호한 이유",
+       "contentId": "http://blog.naver.com/hyungsutech/224363327543",
+       "metricValue": 5
+      },
+      {
+       "title": "갤럭시 Z 폴드8 사전예약, KT '초이스 더블' 요금제 진짜 이득일까?",
+       "contentId": "http://blog.naver.com/hyungsutech/224360382218",
+       "metricValue": 3
+      },
+      {
+       "title": "갤럭시 Z 폴드8·플립8, AI 구독 클럽으로 부담 확 줄었다?",
+       "contentId": "http://blog.naver.com/hyungsutech/224358543377",
+       "metricValue": 2
+      },
+      {
+       "title": "윈도우 디스크 사용량 100% 문제, 원인부터 해결까지",
+       "contentId": "http://blog.naver.com/hyungsutech/224362401037",
+       "metricValue": 2
+      },
+      {
+       "title": "아이오닉 3, 3천만원대 전기차로 유럽 시장 뒤흔든 진짜 이유",
+       "contentId": "http://blog.naver.com/hyungsutech/224362694435",
+       "metricValue": 2
+      },
+      {
+       "title": "갤럭시 Z 폴드8, 플립8, 1030세대 왜 열광할까? 사전예약 절반이 MZ세대인 진짜 이유",
+       "contentId": "http://blog.naver.com/hyungsutech/224363893025",
+       "metricValue": 2
+      },
+      {
+       "title": "게이머들 주목! 오멘 16, 발열 잡고 RTX 5070 품은 진짜 이유",
+       "contentId": "http://blog.naver.com/hyungsutech/224363990925",
+       "metricValue": 2
+      },
+      {
+       "title": "픽셀 워치 5 유출? 색상 하나로 '이것'까지 엿볼 수 있습니다",
+       "contentId": "http://blog.naver.com/hyungsutech/224364001264",
+       "metricValue": 2
+      },
+      {
+       "title": "아이닉스 '리부트 PC방', 게이밍 모니터로 승부수 띄웠다",
+       "contentId": "http://blog.naver.com/hyungsutech/224347844614",
+       "metricValue": 1
+      }
+     ]
+    },
+    {
+     "metricValue": 15,
+     "metricType": "search_inflow",
+     "rank": [
+      {
+       "metricValue": 1,
+       "query": "1030세대"
+      },
+      {
+       "metricValue": 1,
+       "query": "KT사전예약디바이스"
+      },
+      {
+       "metricValue": 1,
+       "query": "New 갤럭시 AI 구독클럽이란?"
+      },
+      {
+       "metricValue": 1,
+       "query": "cli ai"
+      },
+      {
+       "metricValue": 1,
+       "query": "갤럭시 z플립 ai구독 몇년"
+      },
+      {
+       "metricValue": 1,
+       "query": "갤럭시 폴드8 사전예약"
+      },
+      {
+       "metricValue": 1,
+       "query": "리부트 피시방"
+      },
+      {
+       "metricValue": 1,
+       "query": "아이폰 스마트캐디"
+      },
+      {
+       "metricValue": 1,
+       "query": "오디세이 g8"
+      },
+      {
+       "metricValue": 1,
+       "query": "이 작업을 완료하기 위한 페이징 파일이 너무 작습니다"
+      }
+     ]
+    },
+    {
+     "metricValue": 0,
+     "metricType": "clip_play_count",
+     "rank": []
+    }
+   ]
+  },
+  "histogram": [
+   {
+    "datetime": "2026-07-31T00:00:00",
+    "metric": 2
+   },
+   {
+    "datetime": "2026-07-31T00:30:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T01:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T01:30:00",
+    "metric": 2
+   },
+   {
+    "datetime": "2026-07-31T02:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T02:30:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T03:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T03:30:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T04:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T04:30:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T05:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T05:30:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T06:00:00",
+    "metric": 1
+   },
+   {
+    "datetime": "2026-07-31T06:30:00",
+    "metric": 2
+   },
+   {
+    "datetime": "2026-07-31T07:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T07:30:00",
+    "metric": 2
+   },
+   {
+    "datetime": "2026-07-31T08:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T08:30:00",
+    "metric": 2
+   },
+   {
+    "datetime": "2026-07-31T09:00:00",
+    "metric": 3
+   },
+   {
+    "datetime": "2026-07-31T09:30:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T10:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T10:30:00",
+    "metric": 1
+   },
+   {
+    "datetime": "2026-07-31T11:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T11:30:00",
+    "metric": 1
+   },
+   {
+    "datetime": "2026-07-31T12:00:00",
+    "metric": 2
+   },
+   {
+    "datetime": "2026-07-31T12:30:00",
+    "metric": 1
+   },
+   {
+    "datetime": "2026-07-31T13:00:00",
+    "metric": 2
+   },
+   {
+    "datetime": "2026-07-31T13:30:00",
+    "metric": 4
+   },
+   {
+    "datetime": "2026-07-31T14:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T14:30:00",
+    "metric": 1
+   },
+   {
+    "datetime": "2026-07-31T15:00:00",
+    "metric": 2
+   },
+   {
+    "datetime": "2026-07-31T15:30:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T16:00:00",
+    "metric": 7
+   },
+   {
+    "datetime": "2026-07-31T16:30:00",
+    "metric": 2
+   },
+   {
+    "datetime": "2026-07-31T17:00:00",
+    "metric": 0
+   },
+   {
+    "datetime": "2026-07-31T17:30:00",
+    "metric": 1
+   },
+   {
+    "datetime": "2026-07-31T18:00:00",
+    "metric": 1
+   },
+   {
+    "datetime": "2026-07-31T18:30:00",
+    "metric": 1
+   },
+   {
+    "datetime": "2026-07-31T19:00:00",
+    "metric": 3
+   },
+   {
+    "datetime": "2026-07-31T19:30:00",
+    "metric": 0
+   }
+  ]
+ },
+ "soaring_yesterday": [
+  {
+   "title": "아이폰17, 닌텐도 스위치2 받으세요? '열혈강호: 넥스트' 출시 이벤트의 함정",
+   "logNo": "224362908574",
+   "value": 8,
+   "url": "https://blog.naver.com/hyungsutech/224362908574"
+  },
+  {
+   "title": "아이오닉 3, 3천만원대 전기차로 유럽 시장 뒤흔든 진짜 이유",
+   "logNo": "224362694435",
+   "value": 7,
+   "url": "https://blog.naver.com/hyungsutech/224362694435"
+  },
+  {
+   "title": "갤럭시 Z 폴드8 울트라, 257만 원부터? 가격 오르고 배터리 개선된 진짜 이유!",
+   "logNo": "224357405661",
+   "value": 4,
+   "url": "https://blog.naver.com/hyungsutech/224357405661"
+  },
+  {
+   "title": "윈도우 디스크 사용량 100% 문제, 원인부터 해결까지",
+   "logNo": "224362401037",
+   "value": 4,
+   "url": "https://blog.naver.com/hyungsutech/224362401037"
+  },
+  {
+   "title": "갤럭시 Z 폴드8·플립8, AI 구독 클럽으로 부담 확 줄었다?",
+   "logNo": "224358543377",
+   "value": 3,
+   "url": "https://blog.naver.com/hyungsutech/224358543377"
+  },
+  {
+   "title": "삼성 새 AI폰, 사전 예약 놓치면 140만원 손해? 진짜 따져보니",
+   "logNo": "224356670996",
+   "value": 2,
+   "url": "https://blog.naver.com/hyungsutech/224356670996"
+  },
+  {
+   "title": "아이온2, 갤럭시 언팩에 왜 나왔을까? 게이머라면 주목할 소식!",
+   "logNo": "224357509978",
+   "value": 2,
+   "url": "https://blog.naver.com/hyungsutech/224357509978"
+  },
+  {
+   "title": "\"칩플레이션\" 습격! 삼성 TV, 가격 오를까? 하반기 TV 시장 대혼돈 예고",
+   "logNo": "224358395223",
+   "value": 2,
+   "url": "https://blog.naver.com/hyungsutech/224358395223"
+  },
+  {
+   "title": "2027 넥쏘, 캐스퍼 출시! \"이것\" 모르면 3천만원대 기회를 놓칩니다",
+   "logNo": "224351959147",
+   "value": 1,
+   "url": "https://blog.naver.com/hyungsutech/224351959147"
+  },
+  {
+   "title": "코웨이 20L 제습기 신제품! 사야 할까, 말아야 할까?",
+   "logNo": "224352069442",
+   "value": 1,
+   "url": "https://blog.naver.com/hyungsutech/224352069442"
+  }
+ ],
+ "notes": [
+  "weekly.follower_cancel_demo 실패: HTTP 400 validation check failed: ValidationError: \"actionType\" must ",
+  "weekly.topic_ranks 실패: ",
+  "weekly.popular_category_keyword 실패: "
+ ]
+}

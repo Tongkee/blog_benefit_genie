@@ -1,0 +1,1 @@
+{"ts": "2026-07-29T20:12:24+09:00", "channel": "naver_hyunji_unni", "id": "224362055349", "verdict": "FAIL", "healed": false, "issues": ["FAIL:리터럴 마크다운 ** x6"], "metrics": {"chars": 4249, "cliche": 3, "img": 6, "table": 2, "mode": "live"}}
