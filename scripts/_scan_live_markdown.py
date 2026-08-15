@@ -4,7 +4,7 @@
 requests는 사내/집 프록시 SSL로 막혀서(self-signed chain) Playwright 쿠키 세션으로 스캔.
 이력 파일에서 최근 발행 logNo를 모아 PostView.naver 본문을 뜯어 리터럴 마커를 찾는다.
 
-사용: python scripts/_scan_live_markdown.py [--blog hyunji_unni] [--days 14] [--max 40]
+사용: python scripts/_scan_live_markdown.py [--blog benefit_genie] [--days 14] [--max 40]
 """
 import argparse
 import glob
@@ -38,7 +38,7 @@ def recent_lognos(blog_id: str, days: int, max_n: int):
     if days:
         from datetime import datetime, timedelta
         cut = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
-    # 블로그별 이력 파일 매핑(현지=info/gov/cheongyak/stock, 형수=tech)
+    # 블로그별 이력 파일 매핑(베네핏지니=info/gov/cheongyak/stock, 형수=tech)
     if blog_id == "hyungsutech":
         files = glob.glob(os.path.join(ROOT, "data", "tech_*history*.json"))
     else:
@@ -84,7 +84,7 @@ def scan_body(body: str):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--blog", default="hyunji_unni")
+    ap.add_argument("--blog", default="benefit_genie")
     ap.add_argument("--days", type=int, default=14)
     ap.add_argument("--max", type=int, default=40)
     a = ap.parse_args()

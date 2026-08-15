@@ -133,7 +133,7 @@ def build_featured_image(title: str, keyword: str, category: str, hub_id: str,
         y += line_h
     # 브랜드 마크
     brand_f = _font(28)
-    d.text((_PAD, H - _PAD - 14), "현지언니 · hyunjiunni.com", font=brand_f,
+    d.text((_PAD, H - _PAD - 14), "베네핏지니 · benefitgenie.com", font=brand_f,
            fill=(235, 238, 240), anchor="lm")
 
     tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".png")

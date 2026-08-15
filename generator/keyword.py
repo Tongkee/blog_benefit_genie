@@ -625,12 +625,12 @@ def keyword_cluster(cat_id: str, keyword: str) -> str | None:
 
 
 _DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-# 현지언니 블로그에 발행되는 모든 정보성 트랙의 이력
+# 베네핏지니 블로그에 발행되는 모든 정보성 트랙의 이력
 _BLOG_TRACK_HISTORIES = ("info_*_history.json", "gov_history.json")
 
 
 def recent_keywords_all_tracks(days: int = 30) -> set[str]:
-    """현지언니 블로그 **전 트랙**의 최근 N일 발행 키워드.
+    """베네핏지니 블로그 **전 트랙**의 최근 N일 발행 키워드.
 
     ★2026-07-31 실사고: 중복 검사가 자기 카테고리 이력 파일만 봐서, 같은 키워드가
     다른 카테고리로 연달아 나갔다('여름 집 습기 관리' 7/30 부동산·주거 → 7/31 금융·재테크,

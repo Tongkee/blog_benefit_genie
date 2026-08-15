@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""현지언니 WP(hyunjiunni.com) Koko Analytics → 총괄 대시보드용 조회수 스냅샷.
+"""베네핏지니 WP(benefitgenie.com) Koko Analytics → 총괄 대시보드용 조회수 스냅샷.
 
 Koko Analytics REST(Application Password Basic Auth)로 게시글별 조회수(pageviews)와
 최근 30일 방문자 요약을 가져와 표준 insights.json으로 저장한다(스레드/릴스와 동일 포맷).
@@ -70,7 +70,7 @@ def main():
 
     out = {
         "updated": datetime.now(KST).isoformat(timespec="minutes"),
-        "account": "hyunjiunni.com", "platform": "wordpress",
+        "account": "benefitgenie.com", "platform": "wordpress",
         "visitors_30d": visitors_30d, "pageviews_30d": pageviews_30d,
         "posts": posts,
     }

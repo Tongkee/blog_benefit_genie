@@ -1,6 +1,6 @@
 <?php
 /**
- * 형수의테크공장(tech.hyunjiunni.com) 공용 스타일 — mu-plugin.
+ * 형수의테크공장(tech.benefitgenie.com) 공용 스타일 — mu-plugin.
  * 2026-07-22: 홈 hj-* 디자인 이식 + 사이드바 폰트 축소·최신댓글 숨김·광고 슬롯.
  * 서버 배포: /var/www/tech/wp-content/mu-plugins/tech-style.php (repo는 백업/버전관리용).
  */

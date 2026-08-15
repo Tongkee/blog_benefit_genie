@@ -1,24 +1,24 @@
-# Google Search Console 등록 가이드 (hyunjiunni.com)
+# Google Search Console 등록 가이드 (benefitgenie.com)
 
 > 자동화 불가 항목 — **사용자가 Google 계정으로 1회만** 진행하면 됩니다.
 
 ## 1. 사전 확인
 
-- 사이트: https://hyunjiunni.com
-- XML Sitemap: https://hyunjiunni.com/wp-sitemap.xml
-- robots.txt: https://hyunjiunni.com/robots.txt (Sitemap 줄 포함)
+- 사이트: https://benefitgenie.com
+- XML Sitemap: https://benefitgenie.com/wp-sitemap.xml
+- robots.txt: https://benefitgenie.com/robots.txt (Sitemap 줄 포함)
 - 사이트 공개: WordPress `blog_public=1`, 검색엔진 색인 허용
 
 ## 2. Search Console 속성 추가
 
 1. https://search.google.com/search-console 접속
-2. **속성 추가** → **URL 접두어** 선택 → `https://hyunjiunni.com` 입력
+2. **속성 추가** → **URL 접두어** 선택 → `https://benefitgenie.com` 입력
 3. 소유권 확인 방법 (택1):
 
 ### 방법 A — DNS TXT (권장, 가비아)
 
 1. GSC에서 **도메인** 또는 **DNS TXT** 확인 선택
-2. 가비아 → hyunjiunni.com → DNS 관리 → **TXT 레코드** 추가
+2. 가비아 → benefitgenie.com → DNS 관리 → **TXT 레코드** 추가
 3. GSC가 제공한 `google-site-verification=...` 값 붙여넣기
 4. 전파 후 GSC에서 **확인**
 
@@ -27,9 +27,9 @@
 1. GSC에서 HTML 태그 방식 선택 → `content="..."` 값 복사
 2. 서버에서 한 번만 실행:
    ```bash
-   sudo -u www-data wp --path=/var/www/html option update hyunji_gsc_verification '여기에_content값'
+   sudo -u www-data wp --path=/var/www/html option update benefit_genie_gsc_verification '여기에_content값'
    ```
-   (mu-plugin `hyunji-seo.php`가 해당 옵션을 `<meta name="google-site-verification">`으로 출력)
+   (mu-plugin `benefit-seo.php`가 해당 옵션을 `<meta name="google-site-verification">`으로 출력)
 3. 또는 WordPress 관리자 → **외모 → 테마 파일 편집** 대신 mu-plugin에 직접 추가
 
 ## 3. Sitemap 제출
@@ -47,7 +47,7 @@
 
 - [ ] GSC 속성 확인 완료
 - [ ] Sitemap 제출·색인 시작
-- [ ] 대표 URL: https://hyunjiunni.com/ (http→https 리다이렉트 확인)
+- [ ] 대표 URL: https://benefitgenie.com/ (http→https 리다이렉트 확인)
 - [ ] 모바일 사용성 — GSC **모바일 사용편의성** 오류 없음
 - [ ] (선택) Bing Webmaster Tools — 동일 sitemap 제출
 

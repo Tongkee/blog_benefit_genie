@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""네이버 블로그 2개(hyunji_unni 최근 60 / hyungsutech 전수) 발행글 품질 전수 감사.
+"""네이버 블로그 2개(benefit_genie 최근 60 / hyungsutech 전수) 발행글 품질 전수 감사.
 
 읽기 전용: RSS + 모바일 목록 API로 logNo 수집 → m.blog.naver.com 본문 HTML GET(1초 간격).
 결함 검출은 전부 HTML/텍스트 결정론. 결과는 naver_audit_result.json.
@@ -37,7 +37,7 @@ SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
 TARGETS = [
-    {"blog": "hyunji_unni", "limit": 60},
+    {"blog": "benefit_genie", "limit": 60},
     {"blog": "hyungsutech", "limit": None},  # 전수
 ]
 

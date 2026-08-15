@@ -1,5 +1,5 @@
 """
-현지언니 블로그 기본 설정 자동화 스크립트 (로컬 1회 실행)
+베네핏지니 블로그 기본 설정 자동화 스크립트 (로컬 1회 실행)
 - 카테고리 구성
 - 블로그 기본 정보 (블로그명, 닉네임, 소개글)
 - 글쓰기 기본 설정 (에디터 서체/크기)
@@ -51,10 +51,10 @@ CATEGORIES = [
 ]
 
 # ─── 블로그 기본 정보 ─────────────────────────────────────────
-BLOG_NAME = "현지언니의 살림꿀팁"
-BLOG_NICKNAME = "현지언니"
+BLOG_NAME = "베네핏지니의 살림꿀팁"
+BLOG_NICKNAME = "베네핏지니"
 BLOG_DESCRIPTION = (
-    "신혼 2년차 현지언니의 찐 살림 꿀팁 🏠\n"
+    "신혼 2년차 베네핏지니의 찐 살림 꿀팁 🏠\n"
     "다이소·이케아 활용법, 식비 절약, 청소 루틴, 인테리어까지!\n"
     "매일 올라오는 실제 써본 살림 노하우를 나눠요 💕"
 )
@@ -376,7 +376,7 @@ async def setup_editor_defaults(page):
 
 async def main():
     blog_id = NAVER_BLOG_ID or NAVER_ID
-    logger.info(f"현지언니 블로그 설정 시작 (blogId={blog_id})")
+    logger.info(f"베네핏지니 블로그 설정 시작 (blogId={blog_id})")
 
     async with async_playwright() as pw:
         browser = await pw.chromium.launch(headless=False)

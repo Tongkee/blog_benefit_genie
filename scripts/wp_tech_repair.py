@@ -1,4 +1,4 @@
-"""형수테크 WP(tech.hyunjiunni.com) 발행글 잔여 마크다운 in-place 보정.
+"""형수테크 WP(tech.benefitgenie.com) 발행글 잔여 마크다운 in-place 보정.
 
 배경: wp_tech_post 초기 발행분 중 LLM이 강조·목록을 마크다운(**, '* ')으로 낸 글이
 변환 없이 발행돼 리터럴 '**'·'*'가 노출됨(2026-07-21 규명: hipass·chatgpt).
@@ -37,7 +37,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
                     handlers=[logging.StreamHandler(sys.stdout)])
 logger = logging.getLogger("wp_tech_repair")
 
-WP_URL = os.environ.get("TECH_WP_URL", "https://tech.hyunjiunni.com").rstrip("/")
+WP_URL = os.environ.get("TECH_WP_URL", "https://tech.benefitgenie.com").rstrip("/")
 WP_USER = os.environ.get("TECH_WP_APP_USER", "hyungsu_admin")
 WP_PW = os.environ.get("TECH_WP_APP_PW", "")
 DRY = os.environ.get("DRY_RUN", "false").lower() == "true"

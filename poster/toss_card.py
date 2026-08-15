@@ -64,7 +64,7 @@ def render_account_card(holdings: dict, fx: float, period_label: str) -> str | N
         sign = "+" if rate >= 0 else ""
 
         # 헤더
-        d.text((60, 44), "현지언니 실계좌 인증", font=f_brand, fill=INK)
+        d.text((60, 44), "베네핏지니 실계좌 인증", font=f_brand, fill=INK)
         d.text((60, 86), period_label, font=f_label, fill=MUTED)
 
         # 총 평가금액(원화 크게 + 달러)

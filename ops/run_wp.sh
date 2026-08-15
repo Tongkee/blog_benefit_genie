@@ -1,5 +1,5 @@
 #!/bin/bash
-# 현지언니 WP 허브 발행 러너 — 발행 → 이력 커밋·푸시 → IndexNow 핑
+# 베네핏지니 WP 허브 발행 러너 — 발행 → 이력 커밋·푸시 → IndexNow 핑
 #
 # 2026-07-24 ops 편입: EC2 로컬에만 있던 스크립트를 레포로(버전관리·복원).
 #   EC2 부트스트랩: cd <repo> && git pull -q && exec ops/run_wp.sh "$@"

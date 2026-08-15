@@ -23,7 +23,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from playwright.sync_api import sync_playwright  # noqa: E402
 
-BLOG = os.environ.get("NAVER_BLOG_ID") or "hyunji_unni"
+BLOG = os.environ.get("NAVER_BLOG_ID") or "benefit_genie"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
 HEAD = "함께 보면 좋은 글"

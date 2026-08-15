@@ -1,5 +1,5 @@
 """
-워드프레스(hyunjiunni.com) 초기 설정 래퍼 — setup_wp_remote.sh 실행 + mu-plugin 동기화.
+워드프레스(benefitgenie.com) 초기 설정 래퍼 — setup_wp_remote.sh 실행 + mu-plugin 동기화.
 
 사용법:
   py scripts/setup_wp.py
@@ -23,8 +23,8 @@ if sys.platform.startswith("win"):
 ROOT = Path(__file__).resolve().parents[1]
 # repo 밖 공통 위치 우선, 없으면 레거시 경로
 _DEFAULT_KEYS = (
-    ROOT.parents[1] / "hyunji-key.pem",  # C:\...\CLAUDE\hyunji-key.pem
-    ROOT.parent / "2026.07.07 23.05_ssh" / "hyunji-key.pem",
+    ROOT.parents[1] / "benefit-key.pem",  # C:\...\CLAUDE\benefit-key.pem
+    ROOT.parent / "2026.07.07 23.05_ssh" / "benefit-key.pem",
 )
 DEFAULT_KEY = next((p for p in _DEFAULT_KEYS if p.exists()), _DEFAULT_KEYS[0])
 DEFAULT_HOST = "ubuntu@13.209.190.8"
@@ -52,19 +52,19 @@ def scp(local: Path, remote: str) -> None:
 
 def sync_mu_plugins() -> None:
     assets = ROOT / "poster" / "wp_assets"
-    names = ("hyunji-style.css", "hyunji-style.php", "hyunji-seo.php", "hyunji-favicon.png")
+    names = ("benefit-style.css", "benefit-style.php", "benefit-seo.php", "benefit-favicon.png")
     for name in names:
         local = assets / name
         if not local.exists():
-            if name == "hyunji-favicon.png":
+            if name == "benefit-favicon.png":
                 subprocess.run([sys.executable, str(assets / "gen_favicon.py")], check=True, cwd=str(ROOT))
             else:
                 raise FileNotFoundError(local)
         scp(local, f"/tmp/{name}")
     ssh_run(
-        "sudo cp /tmp/hyunji-style.css /tmp/hyunji-style.php /tmp/hyunji-seo.php "
-        "/tmp/hyunji-favicon.png /var/www/html/wp-content/mu-plugins/ "
-        "&& sudo chown www-data:www-data /var/www/html/wp-content/mu-plugins/hyunji-*"
+        "sudo cp /tmp/benefit-style.css /tmp/benefit-style.php /tmp/benefit-seo.php "
+        "/tmp/benefit-favicon.png /var/www/html/wp-content/mu-plugins/ "
+        "&& sudo chown www-data:www-data /var/www/html/wp-content/mu-plugins/benefit-*"
     )
 
 

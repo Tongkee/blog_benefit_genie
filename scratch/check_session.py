@@ -28,7 +28,7 @@ async def main():
         await ctx.add_cookies(cookies)
         page = await ctx.new_page()
 
-        url = "https://admin.blog.naver.com/hyunji_unni/config/blog"
+        url = "https://admin.blog.naver.com/benefit_genie/config/blog"
         await page.goto(url)
         await asyncio.sleep(5)
 

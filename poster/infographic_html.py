@@ -101,7 +101,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#FFD232",
         "tag_color":   "#0D1B3E",
         "card_border": "#1E78FF",
-        "badge":       "현지언니  생활금융",
+        "badge":       "베네핏지니  생활금융",
         "footer":      "금융·재테크 총정리",
         # 라이트 스타일
         "color":     "#1357C0",
@@ -116,7 +116,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#FFD740",
         "tag_color":   "#2D0900",
         "card_border": "#FF6D00",
-        "badge":       "현지언니  세금·절세",
+        "badge":       "베네핏지니  세금·절세",
         "footer":      "세금·절세 총정리",
         "color":     "#C62828",
         "bg_light":  "#FFF4F2",
@@ -130,7 +130,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#80FFEA",
         "tag_color":   "#00222E",
         "card_border": "#00BFA5",
-        "badge":       "현지언니  보험 가이드",
+        "badge":       "베네핏지니  보험 가이드",
         "footer":      "보험 핵심 정리",
         "color":     "#00695C",
         "bg_light":  "#EDFAFA",
@@ -144,7 +144,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#CCFF90",
         "tag_color":   "#0D0028",
         "card_border": "#AA00FF",
-        "badge":       "현지언니  부동산·주거",
+        "badge":       "베네핏지니  부동산·주거",
         "footer":      "부동산·주거 총정리",
         "color":     "#4527A0",
         "bg_light":  "#F4EEFF",
@@ -158,7 +158,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#FFD232",
         "tag_color":   "#0A1428",
         "card_border": "#2196F3",
-        "badge":       "현지언니  정부지원",
+        "badge":       "베네핏지니  정부지원",
         "footer":      "정부지원 혜택 총정리",
         "color":     "#1357C0",
         "bg_light":  "#EEF3FF",
@@ -172,7 +172,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#FFD232",
         "tag_color":   "#0A1428",
         "card_border": "#2196F3",
-        "badge":       "현지언니  정부지원",
+        "badge":       "베네핏지니  정부지원",
         "footer":      "정부지원 혜택 총정리",
         "color":     "#1357C0",
         "bg_light":  "#EEF3FF",
@@ -201,7 +201,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#B9F6CA",
         "tag_color":   "#071A07",
         "card_border": "#4CAF50",
-        "badge":       "현지언니  건강·의료",
+        "badge":       "베네핏지니  건강·의료",
         "footer":      "건강 정보 총정리",
         "color":     "#1B5E20",
         "bg_light":  "#EDFAF5",
@@ -215,7 +215,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#FFB199",
         "tag_color":   "#3D0A08",
         "card_border": "#E74C3C",
-        "badge":       "현지언니  주식 인사이트",
+        "badge":       "베네핏지니  주식 인사이트",
         "footer":      "주식 분석",
         "color":     "#C0392B",
         "bg_light":  "#FFEEEA",
@@ -229,7 +229,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#E0B3FF",
         "tag_color":   "#23073D",
         "card_border": "#8E44AD",
-        "badge":       "현지언니  주식 인사이트",
+        "badge":       "베네핏지니  주식 인사이트",
         "footer":      "공모주 캘린더",
         "color":     "#7B2FA0",
         "bg_light":  "#F7EEFA",
@@ -243,7 +243,7 @@ _STYLES: dict[str, dict] = {
         "accent":      "#A8DBFF",
         "tag_color":   "#06213D",
         "card_border": "#2980B9",
-        "badge":       "현지언니  주식 인사이트",
+        "badge":       "베네핏지니  주식 인사이트",
         "footer":      "ETF 인사이트",
         "color":     "#1F6FAE",
         "bg_light":  "#EAF4FC",
@@ -315,7 +315,7 @@ def _build_html(display_title: str, bullets: list[str] | None, style: dict) -> s
     accent    = style["accent"]
     tag_color = style["tag_color"]
     label     = style["label"]
-    brand     = style.get("brand", "현지언니")  # 블로그 브랜드 — 계정별 누출 방지(형수 vs 현지언니)
+    brand     = style.get("brand", "베네핏지니")  # 블로그 브랜드 — 계정별 누출 방지(형수 vs 베네핏지니)
     icons     = style.get("icons", ["💡", "📌", "✅", "🔑"])
 
     lines, tf = _layout_title(display_title)
@@ -655,7 +655,7 @@ tbody tr:last-child td{{border-bottom:none;}}
     <thead><tr><th class="lblhead"></th>{head_cols}</tr></thead>
     <tbody>{body_rows}</tbody>
   </table>
-  <div class="foot">현지언니 · 수치는 시점따라 변동</div>
+  <div class="foot">베네핏지니 · 수치는 시점따라 변동</div>
 </div></body></html>"""
 
 
@@ -747,7 +747,7 @@ body{{width:{W}px;background:#fff;}}
   <span class="chip">{escape(label)} 핵심</span>
   <div class="htitle">한눈에 보는 <b>핵심 {len(items)}가지</b></div>
   {rows}
-  <div class="foot">현지언니 · 자세한 내용은 본문 참고</div>
+  <div class="foot">베네핏지니 · 자세한 내용은 본문 참고</div>
 </div></body></html>"""
 
 
@@ -853,7 +853,7 @@ def create_photo_header_card(photo_path: str, title: str, keyword: str = "",
 
 # ─────────────────────────────────────────────────────────────
 # 형수의테크공장 전용 텍스트 헤더카드 — 실사진·일러스트 모두 실패 시 최후 폴백.
-# 현지언니 검색바형 인포그래픽 레이아웃과 완전히 구분되는 좌정렬 '테크 뉴스' 카드
+# 베네핏지니 검색바형 인포그래픽 레이아웃과 완전히 구분되는 좌정렬 '테크 뉴스' 카드
 # (2026-07-17 사용자 피드백: 검색바형 카드가 tech에 폴백으로 쓰이던 것 폐기).
 # ─────────────────────────────────────────────────────────────
 

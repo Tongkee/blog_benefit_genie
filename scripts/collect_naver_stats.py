@@ -524,7 +524,7 @@ def report(out: dict, path: str) -> None:
 
 def main():
     ap = argparse.ArgumentParser(description="네이버 블로그 통계 수집 (크리에이터 어드바이저 API)")
-    ap.add_argument("--blog-id", default="hyunji_unni")
+    ap.add_argument("--blog-id", default="benefit_genie")
     ap.add_argument("--cookie-file", default=os.path.join(DATA_DIR, "naver_cookies.json"))
     ap.add_argument("--out", default=None, help="기본: data/naver_insights.json")
     ap.add_argument("--days", type=int, default=30)
@@ -549,7 +549,7 @@ def main():
 
     # 형수의테크공장 — 별도 쿠키 파일이 있으면 추가 수집 시도(실패해도 메인 결과는 유지)
     tech_cookie = os.path.join(DATA_DIR, "tech_naver_cookies.json")
-    if (not a.skip_tech and a.blog_id == "hyunji_unni"
+    if (not a.skip_tech and a.blog_id == "benefit_genie"
             and a.out is None and os.path.isfile(tech_cookie)):
         print("\n── 형수의테크공장(hyungsutech) 추가 수집", flush=True)
         tech_out = os.path.join(DATA_DIR, "naver_insights_tech.json")

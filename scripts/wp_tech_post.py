@@ -1,4 +1,4 @@
-"""tech.hyunjiunni.com 심층 가이드 발행 (2026-07-19 신설, 사용자 승인).
+"""tech.benefitgenie.com 심층 가이드 발행 (2026-07-19 신설, 사용자 승인).
 
 형수테크 네이버 가이드 트랙의 WP 특화판 — 같은 주제 풀(tech_guide_pool.json)을 쓰되
 원고는 별도 생성(중복 텍스트 방지), 구글·빙 검색을 정조준하는 HTML 심층 가이드.
@@ -33,7 +33,7 @@ CROSS_EXCLUDE_DAYS = 14
 # 하루 발행 상한(2026-07-20 발행량 확대). EC2 .env에서 2로 상향 + 크론 2슬롯.
 TECH_WP_DAILY_MAX = int(os.environ.get("TECH_WP_DAILY_MAX", "1"))
 
-WP_URL = os.environ.get("TECH_WP_URL", "https://tech.hyunjiunni.com").rstrip("/")
+WP_URL = os.environ.get("TECH_WP_URL", "https://tech.benefitgenie.com").rstrip("/")
 WP_USER = os.environ.get("TECH_WP_APP_USER", "hyungsu_admin")
 WP_PW = os.environ.get("TECH_WP_APP_PW", "")
 
@@ -48,7 +48,7 @@ BODY_MIN = 4500  # HTML 기준 하한(태그 포함) — "길고 상세" 지시
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("wp_tech_post")
 
-_SYSTEM = """너는 IT 전문 블로그 'tech.hyunjiunni.com(형수의 테크공장)'의 수석 필자다.
+_SYSTEM = """너는 IT 전문 블로그 'tech.benefitgenie.com(형수의 테크공장)'의 수석 필자다.
 페르소나: 10년차 IT 엔지니어 — 원리를 이해시키고, 실무에서 검증한 순서로 해결한다.
 독자: 구글에서 문제를 검색해 들어온 사람. 광고 없는 담백한 전문가 문서 톤(존댓말).
 
@@ -238,7 +238,7 @@ def _make_featured(title: str, category: str) -> str | None:
         for ln in lines[:4]:
             dr.text((74, y), ln, font=f_title, fill=(249, 250, 251))
             y += 84
-        dr.text((74, H - 78), "형수의 테크공장  ·  tech.hyunjiunni.com", font=f_brand, fill=(148, 163, 184))
+        dr.text((74, H - 78), "형수의 테크공장  ·  tech.benefitgenie.com", font=f_brand, fill=(148, 163, 184))
         out = os.path.join(tempfile.gettempdir(), "wp_tech_featured.png")
         img.save(out, "PNG")
         return out

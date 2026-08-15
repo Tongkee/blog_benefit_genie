@@ -1584,7 +1584,7 @@
             "name": "date",
             "in": "query",
             "required": false,
-            "description": "조회 기준일 (YYYY-MM-DD, 미국 현지 날짜)",
+            "description": "조회 기준일 (YYYY-MM-DD, 미국 베네핏지니 날짜)",
             "schema": {
               "type": "string",
               "format": "date"
@@ -7064,7 +7064,7 @@
           "date": {
             "type": "string",
             "format": "date",
-            "description": "영업일 (미국 현지 기준)",
+            "description": "영업일 (미국 베네핏지니 기준)",
             "example": "2026-03-25"
           },
           "dayMarket": {

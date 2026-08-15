@@ -9,7 +9,7 @@ from config import NAVER_ID, NAVER_BLOG_ID
 from playwright.async_api import async_playwright
 import poster.naver_blog as nb
 
-TEST_URL = "https://blog.naver.com/hyunji_unni/224331602830"
+TEST_URL = "https://blog.naver.com/benefit_genie/224331602830"
 
 DUMP = r"""() => {
   const out=[];

@@ -22,7 +22,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 DOCS = os.path.join(ROOT, "docs")
-BLOG = "hyunji_unni"
+BLOG = "benefit_genie"
 
 import requests  # noqa: E402
 

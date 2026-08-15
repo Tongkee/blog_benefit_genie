@@ -1,7 +1,7 @@
 /*
- * 현지언니 워드프레스 — 심층분석 컴포넌트 스타일 (v2 승인 디자인 이식)
+ * 베네핏지니 워드프레스 — 심층분석 컴포넌트 스타일 (v2 승인 디자인 이식)
  * 원본: scripts/wp_dry.py _doc() CSS (가상페이지 샘플 wp_심층분석_샘플_v2.html 승인본)
- * 배포: 서버 /var/www/html/wp-content/mu-plugins/hyunji-style.css (hyunji-style.php가 enqueue)
+ * 배포: 서버 /var/www/html/wp-content/mu-plugins/benefit-style.css (benefit-style.php가 enqueue)
  * 테마 독립 — wp_render.py가 출력하는 .hj-* 클래스에만 스코프.
  */
 :root{
@@ -38,7 +38,7 @@ header .wp-block-site-title a::before{
   flex-shrink:0;
   width:36px;
   height:36px;
-  background:url('/wp-content/mu-plugins/hyunji-favicon.png') center/contain no-repeat;
+  background:url('/wp-content/mu-plugins/benefit-favicon.png') center/contain no-repeat;
 }
 
 /* ── 홈 히어로 ── */

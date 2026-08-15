@@ -2,7 +2,7 @@
 형수의테크공장(hyungsutech, khj 계정) 쿠키 저장 — 1회 실행.
 로컬에서: python scripts/get_cookies_tech.py
 
-현지언니 get_cookies.py와 달리 자동 로그인 안 함 → 열린 브라우저에서
+베네핏지니 get_cookies.py와 달리 자동 로그인 안 함 → 열린 브라우저에서
 '직접' khj 계정으로 로그인(2단계 인증·캡챠 포함)하면 쿠키를 저장한다.
 저장 후 안내대로 .env의 TECH_NAVER_COOKIES 및 GitHub Secret에 등록.
 """

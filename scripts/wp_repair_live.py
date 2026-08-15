@@ -14,8 +14,8 @@
 DRY_RUN=1이면 변경 없이 진단만.
 
 실행(자격 있는 환경 — EC2):
-  DRY_RUN=1 python scripts/wp_repair_live.py --site hyunji
-  python scripts/wp_repair_live.py --site hyunji
+  DRY_RUN=1 python scripts/wp_repair_live.py --site benefit_genie
+  python scripts/wp_repair_live.py --site benefit_genie
   python scripts/wp_repair_live.py --site tech
 """
 from __future__ import annotations
@@ -43,8 +43,8 @@ DRY = os.environ.get("DRY_RUN", "").strip() in ("1", "true", "True")
 
 SITES = {
     # site key: (base url, user env, pw env, 기본 계정)
-    "hyunji": ("https://hyunjiunni.com", "WP_USER", "WP_APP_PW", ""),
-    "tech": (os.environ.get("TECH_WP_URL", "https://tech.hyunjiunni.com"),
+    "benefit_genie": ("https://benefitgenie.com", "WP_USER", "WP_APP_PW", ""),
+    "tech": (os.environ.get("TECH_WP_URL", "https://tech.benefitgenie.com"),
              "TECH_WP_APP_USER", "TECH_WP_APP_PW", "hyungsu_admin"),
 }
 
@@ -57,7 +57,7 @@ _MYTH_Q = re.compile(r'(<p class="hj-myth-q">)(.*?)(</p>)', re.S)
 # 문맥 안전한 완전일치·경계 패턴만(오탐 방지). 프롬프트 예시 인용문 등은 대상 아님.
 _BANMAL_FIX: list[tuple[re.Pattern, str]] = [
     # 청약 판정 라벨 — 프롬프트 하드코딩 반말(홈 세션이 생성기는 교체함)
-    (re.compile(r"(현지언니 판단[^<]{0,12}?)해볼 만하다"), r"\1해볼 만해요"),
+    (re.compile(r"(베네핏지니 판단[^<]{0,12}?)해볼 만하다"), r"\1해볼 만해요"),
     (re.compile(r">해볼 만하다<"), ">해볼 만해요<"),
     # 테크 표 항목 서술형 반말(항목: 설명 꼴)
     (re.compile(r"넓게 볼수록 놓치는 것이 적다(?![.\w])"), "넓게 볼수록 놓치는 부분이 적어요"),
@@ -114,7 +114,7 @@ def backfill_images(post: dict, base: str, auth) -> tuple[str, int]:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--site", choices=list(SITES), default="hyunji")
+    ap.add_argument("--site", choices=list(SITES), default="benefit_genie")
     ap.add_argument("--per-page", type=int, default=50)
     ap.add_argument("--images", action="store_true",
                     help="본문 이미지 0장 글에 섹션 일러스트 백필(테크 WP, Gemini 필요)")

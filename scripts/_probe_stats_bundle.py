@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 import scripts.collect_naver_stats as cs  # noqa: E402
 
-BLOG = sys.argv[1] if len(sys.argv) > 1 else "hyunji_unni"
+BLOG = sys.argv[1] if len(sys.argv) > 1 else "benefit_genie"
 COOKIE = sys.argv[2] if len(sys.argv) > 2 else os.path.join(ROOT, "data", "naver_cookies.json")
 
 APP = f"https://creator-advisor.naver.com/naver_blog/{BLOG}"

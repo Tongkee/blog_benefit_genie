@@ -46,7 +46,7 @@ def _pool_summary() -> str:
 
 def _prompt() -> str:
     today = datetime.now(KST).strftime("%Y-%m-%d")
-    return f"""너는 한국 생활금융 블로그 '현지언니'(hyunjiunni.com)의 콘텐츠 기획자다.
+    return f"""너는 한국 생활금융 블로그 '베네핏지니'(benefitgenie.com)의 콘텐츠 기획자다.
 2030 신혼·1인가구 대상 심층분석 칼럼의 신규 주제를 제안하라. 오늘: {today}.
 
 [현재 주제 풀 — 중복 금지]

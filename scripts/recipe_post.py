@@ -215,7 +215,7 @@ def run():
         logger.error("레시피 생성 최종 실패 — 종료")
         sys.exit(1)
 
-    # 본문에서 닉네임 '현지언니' 직접 언급 제거(1인칭 치환) — 프롬프트 규칙 위반 대비 안전장치
+    # 본문에서 닉네임 '베네핏지니' 직접 언급 제거(1인칭 치환) — 프롬프트 규칙 위반 대비 안전장치
     from generator.content import scrub_persona_name
     post["body"] = scrub_persona_name(post.get("body", ""))
 

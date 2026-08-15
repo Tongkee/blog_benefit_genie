@@ -2,9 +2,9 @@
 """WP·Blogger 발행글 전수 품질 감사 (읽기 전용 — 수정·삭제 없음).
 
 대상:
-  ① tech.hyunjiunni.com  (형수테크 WP)      — REST
-  ② soyu.hyunjiunni.com  (소유의 발품노트)   — Blogger JSON 피드
-  ③ hyunjiunni.com       (현지언니 WP)      — REST 최근 30글
+  ① tech.benefitgenie.com  (형수테크 WP)      — REST
+  ② soyu.benefitgenie.com  (소유의 발품노트)   — Blogger JSON 피드
+  ③ benefitgenie.com       (베네핏지니 WP)      — REST 최근 30글
 
 검출기: 빈 표 / 마커 리터럴 / 이미지 결손(0장·깨진 src) / 반말 혼입(quality.find_banmal_sentences)
        / h2·h3 부재 통짜 본문 / 중복·유사 제목 쌍 / 소유: data-slot 결손·제목-본문 불일치(어제 리터치)
@@ -293,9 +293,9 @@ def collect_blogger(base: str, max_results: int) -> list[dict]:
 
 
 CHANNELS = [
-    ("tech", "형수테크 WP", lambda: collect_wp("https://tech.hyunjiunni.com", 100)),
-    ("soyu", "소유의 발품노트 (Blogger)", lambda: collect_blogger("https://soyu.hyunjiunni.com", 40)),
-    ("hyunji", "현지언니 WP", lambda: collect_wp("https://hyunjiunni.com", 30)),
+    ("tech", "형수테크 WP", lambda: collect_wp("https://tech.benefitgenie.com", 100)),
+    ("soyu", "소유의 발품노트 (Blogger)", lambda: collect_blogger("https://soyu.benefitgenie.com", 40)),
+    ("benefit_genie", "베네핏지니 WP", lambda: collect_wp("https://benefitgenie.com", 30)),
 ]
 
 

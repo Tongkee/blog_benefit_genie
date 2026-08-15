@@ -1,5 +1,5 @@
 #!/bin/bash
-# tech.hyunjiunni.com 심층 가이드 러너 — pull → 발행 → 이력 push → IndexNow
+# tech.benefitgenie.com 심층 가이드 러너 — pull → 발행 → 이력 push → IndexNow
 #
 # 2026-07-24: EC2 로컬(/home/ubuntu/ai-agent/run_wp_tech.sh)에만 있던 스크립트를 레포로 편입
 # (버전관리·리뷰·EC2 재구축 시 복원). EC2에는 얇은 부트스트랩만 남기고 실제 로직은 여기.

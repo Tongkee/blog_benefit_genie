@@ -9,7 +9,7 @@
   최상위 댓글에 답글 스티커 등록. 이력 파일로 멱등(재실행 시 중복 방지).
 
 실행:
-  python -m scripts.naver_comment_reply              # 기본(현지언니 계정)
+  python -m scripts.naver_comment_reply              # 기본(베네핏지니 계정)
   DRY_RUN=true ...                                   # 등록 직전까지만(셀렉터 진단용)
   REPLY_BLOG_ID/REPLY_COOKIES_ENV 로 계정 전환 가능(형수: TECH_NAVER_COOKIES)
 
@@ -207,7 +207,7 @@ async def run() -> int:
                 # 이미 블로그주인 답글이 달린 댓글/대댓글 자체는 스킵
                 # ★2026-07-31: 본문이 `pass`여서 이 가드가 **아무 일도 하지 않았다**.
                 # 그 결과 봇이 자기 답글에 또 답글을 다는 일이 생겼다(224350244455에서
-                # 외부 댓글 1건에 '현지언니' 답글 3건, 그중 2건이 '@현지언니').
+                # 외부 댓글 1건에 '베네핏지니' 답글 3건, 그중 2건이 '@베네핏지니').
                 # 유일한 사람-접점에서 '무인 자동 블로그' 신호를 내보내던 결함.
                 if "블로그주인" in txt or ("답글쓰기" not in txt and "답글" not in txt):
                     continue

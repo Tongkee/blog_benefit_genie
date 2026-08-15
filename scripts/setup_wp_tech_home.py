@@ -1,6 +1,6 @@
 """
-형수의 테크공장(tech.hyunjiunni.com) 홈 페이지 구축 — 현지 WP(setup_wp_home) 이식.
-2026-07-22 사용자 지시: 현지 WP처럼 '지금 많이 보는 글 → 최신 칼럼' 순 홈.
+형수의 테크공장(tech.benefitgenie.com) 홈 페이지 구축 — 베네핏지니 WP(setup_wp_home) 이식.
+2026-07-22 사용자 지시: 베네핏지니 WP처럼 '지금 많이 보는 글 → 최신 칼럼' 순 홈.
 
 구성: 히어로(정체성+허브 칩) → 지금 많이 보는 글(Koko) → 최신 칼럼 → 허브별 섹션 → 소개.
 front page('홈')·posts page('칼럼')를 REST로 생성/갱신하고 표시 설정까지.
@@ -20,7 +20,7 @@ if sys.platform.startswith("win"):
     except AttributeError:
         pass
 
-WP_URL = os.environ.get("TECH_WP_URL", "https://tech.hyunjiunni.com").rstrip("/")
+WP_URL = os.environ.get("TECH_WP_URL", "https://tech.benefitgenie.com").rstrip("/")
 WP_USER = os.environ.get("TECH_WP_APP_USER", "hyungsu_admin")
 WP_PW = os.environ.get("TECH_WP_APP_PW", "")
 

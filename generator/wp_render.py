@@ -22,7 +22,7 @@ from datetime import datetime, timezone, timedelta
 from html import escape
 
 KST = timezone(timedelta(hours=9))
-AUTHOR = "현지언니"
+AUTHOR = "베네핏지니"
 _PHOTO_RE = re.compile(r"^\s*\[사진(\d+)\]\s*$")
 
 

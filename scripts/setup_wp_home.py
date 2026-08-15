@@ -61,7 +61,7 @@ def _home_content(cats: dict[str, int]) -> str:
         # ── 히어로 ──
         '<!-- wp:group {"className":"hj-hero","layout":{"type":"constrained"}} -->',
         '<div class="wp-block-group hj-hero">',
-        '<!-- wp:heading {"level":1} --><h1 class="wp-block-heading">현지언니</h1><!-- /wp:heading -->',
+        '<!-- wp:heading {"level":1} --><h1 class="wp-block-heading">베네핏지니</h1><!-- /wp:heading -->',
         '<!-- wp:paragraph {"className":"hj-hero-tagline"} -->'
         '<p class="hj-hero-tagline">놓치기 쉬운 돈·제도 정보, 공식 자료 기준으로 계산까지 해서 정리합니다</p>'
         '<!-- /wp:paragraph -->',
@@ -96,7 +96,7 @@ def _home_content(cats: dict[str, int]) -> str:
     parts += [
         '<!-- wp:group {"className":"hj-about-strip","layout":{"type":"constrained"}} -->',
         '<div class="wp-block-group hj-about-strip">',
-        f'<!-- wp:paragraph --><p>현지언니는 정부 제도·세금·연금·보험·주거를 <strong>공식 자료 기준</strong>으로 '
+        f'<!-- wp:paragraph --><p>베네핏지니는 정부 제도·세금·연금·보험·주거를 <strong>공식 자료 기준</strong>으로 '
         f'분석하는 생활금융 칼럼입니다. 수치는 국세청·금융감독원·국토교통부 공시를 우선 인용합니다. '
         f'<a href="{BASE}/about/">더 알아보기</a></p><!-- /wp:paragraph -->',
         '</div><!-- /wp:group -->',

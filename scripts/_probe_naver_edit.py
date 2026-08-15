@@ -23,7 +23,7 @@ sys.path.insert(0, ROOT)
 from playwright.async_api import async_playwright  # noqa: E402
 import poster.naver_blog as nb  # noqa: E402
 
-BLOG_ID = "hyunji_unni"
+BLOG_ID = "benefit_genie"
 
 
 async def main():

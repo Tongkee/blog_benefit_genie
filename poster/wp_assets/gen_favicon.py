@@ -1,4 +1,4 @@
-"""현지언니 WP favicon (512px PNG) — poster/wp_assets/hyunji-favicon.png 생성."""
+"""베네핏지니 WP favicon (512px PNG) — poster/wp_assets/benefit-favicon.png 생성."""
 from pathlib import Path
 
 try:
@@ -6,7 +6,7 @@ try:
 except ImportError:
     raise SystemExit("pip install Pillow")
 
-OUT = Path(__file__).resolve().parent / "hyunji-favicon.png"
+OUT = Path(__file__).resolve().parent / "benefit-favicon.png"
 BG = (47, 111, 79)  # --hj-accent #2f6f4f
 FG = (255, 255, 255)
 SIZE = 512

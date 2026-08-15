@@ -17,7 +17,7 @@ from playwright.async_api import async_playwright  # noqa: E402
 
 from scripts.delete_posts import _UA, _load_cookies  # noqa: E402
 
-BLOG = "hyunji_unni"
+BLOG = "benefit_genie"
 
 
 async def check(page, box, post_id):

@@ -1,6 +1,6 @@
 {
  "generated": "2026-07-31",
- "purpose": "형수의테크공장(네이버 hyungsutech + tech.hyunjiunni.com) 방향 설정용 실측 입력 — A~F",
+ "purpose": "형수의테크공장(네이버 hyungsutech + tech.benefitgenie.com) 방향 설정용 실측 입력 — A~F",
  "caveat": "블로그 개설 16일차, 30일 조회 597·주간 표본 269뷰 수준 — 방향은 읽을 수 있으나 배수·유의성은 읽을 수 없음(analysis_hyungsutech traffic core와 동일 경고)",
  "A_traffic_structure": {
   "period": {
@@ -14,7 +14,7 @@
     "search_inflow": 19,
     "main_inflow": 0,
     "search_per_visit": 0.576,
-    "note": "메인(피드) 유입 0 — 현지언니(메인 134/검색 38, 52% 메인)와 정반대 구조"
+    "note": "메인(피드) 유입 0 — 베네핏지니(메인 134/검색 38, 52% 메인)와 정반대 구조"
    },
    "realtime_2026-07-31": {
     "views_total": 43,
@@ -175,7 +175,7 @@
    "mobile": 135,
    "pc": 134,
    "mobile_ratio": 0.502,
-   "note": "현지언니 모바일 75%와 달리 PC 절반 — 게이밍 모니터·PC오류 등 PC 이용맥락 주제와 정합(해석)"
+   "note": "베네핏지니 모바일 75%와 달리 PC 절반 — 게이밍 모니터·PC오류 등 PC 이용맥락 주제와 정합(해석)"
   },
   "hourly_2026-07-30_views": {
    "00": 2,
@@ -606,7 +606,7 @@
     },
     "role": "에버그린 검색 가이드(오류해결·AI활용)"
    },
-   "wp_tech(tech.hyunjiunni.com)": {
+   "wp_tech(tech.benefitgenie.com)": {
     "posted": 25,
     "period": "07-19~07-31",
     "categories": {
@@ -650,7 +650,7 @@
  "F_vs_hyunji": {
   "claim": "형수=순수 검색형, 모델명 리뷰 롱테일(xq2566x 11일), 루머 뉴스 당일 소멸 — docs/HANDOFF.md:296(07-29 어드바이저 분석; NEXT_SESSION.md는 07-31 개편으로 해당 문구 없음)",
   "supporting": {
-   "search_vs_main": "형수 07-30: search 19 / main 0 vs 현지 07-27: search 38 / main 134(52% 메인) — '순수 검색형' 실측 일치",
+   "search_vs_main": "형수 07-30: search 19 / main 0 vs 베네핏지니 07-27: search 38 / main 134(52% 메인) — '순수 검색형' 실측 일치",
    "model_name_share": "검색유입 top30 112회 중 모델명 76회(67.9%), 브랜드 20회, 일반어 16회",
    "longtail_evidence": "XQ2566X 글(07-18 발행) — 07-20 완결주에도 관련 쿼리 24회·주간 조회 1위(23뷰), 13일째인 07-31 실시간 목록에도 잔존(아이닉스 글 1뷰 등 구형 글 유입 지속)",
    "per_post_efficiency": "폴드8 계열 8건 유입 17회(글당 2.1) vs XQ2566X 1건 27회 — 12.8배(analysis_hyungsutech traffic 렌즈 실측)"

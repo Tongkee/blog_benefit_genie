@@ -60,7 +60,7 @@ h1{font-size:28px;line-height:1.38;margin:4px 0 12px}
         f'{r["schema_jsonld"]}<style>{css}</style></head><body>'
         f'<div class="mocknote">◇ WP 심층분석 <b>DRY_RUN</b> — deep_content + wp_render · 발행 안 함</div>'
         f'<article class="wrap"><nav class="crumb"><span>홈</span> › <span class="here">{r["tags"][0] if r["tags"] else ""}</span></nav>'
-        f'<h1>{title}</h1><div class="metaline">글 <b>현지언니</b> · 심층분석</div>'
+        f'<h1>{title}</h1><div class="metaline">글 <b>베네핏지니</b> · 심층분석</div>'
         f'{r["content_html"]}</article></body></html>'
     )
 

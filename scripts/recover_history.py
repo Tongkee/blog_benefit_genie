@@ -113,7 +113,7 @@ def main() -> int:
                 if "blog.naver.com" not in url:
                     continue
                 # gh 로그는 시크릿(블로그ID)을 ***로 마스킹 → 실제 ID로 복원
-                url = url.replace("/***/", "/hyunji_unni/")
+                url = url.replace("/***/", "/benefit_genie/")
                 hist = _load(hp)
                 if hist is None:
                     continue      # dict 이력 — 이 스크립트 소관 아님

@@ -61,7 +61,7 @@ def _wrap(inner: str, title: str, badge: str) -> str:
   <div class="topbar"><div class="t">{escape(title)}</div>
   {f'<div class="badge">{escape(badge)}</div>' if badge else ''}</div>
   {inner}
-  <div class="foot"><div class="brand">현지언니의 발품 정보</div>
+  <div class="foot"><div class="brand">베네핏지니의 발품 정보</div>
   <div class="src">출처 · 입주자모집공고문(청약홈)</div></div>
 </div></body></html>"""
 

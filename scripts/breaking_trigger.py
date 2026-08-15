@@ -151,7 +151,7 @@ def _already_covered(track: str, issue: str) -> str:
 def _dispatch(track: str, issue: str) -> bool:
     """GitHub API로 발행 워크플로 트리거 (GITHUB_TOKEN, actions:write 필요)."""
     token = os.environ.get("GITHUB_TOKEN", "").strip()
-    repo = os.environ.get("GITHUB_REPOSITORY", "parky091999-sudo/hyunji_unni_blog")
+    repo = os.environ.get("GITHUB_REPOSITORY", "parky091999-sudo/benefit_genie_blog")
     if not token:
         logger.error("GITHUB_TOKEN 없음 — 디스패치 불가")
         return False

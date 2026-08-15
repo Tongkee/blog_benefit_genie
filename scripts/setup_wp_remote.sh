@@ -1,11 +1,11 @@
 #!/bin/bash
-# hyunjiunni.com 워드프레스 초기 설정 — 수익 허브 6종 (2026-07-09)
+# benefitgenie.com 워드프레스 초기 설정 — 수익 허브 6종 (2026-07-09)
 set -euo pipefail
 WP="sudo -u www-data wp --path=/var/www/html"
-BASE="https://hyunjiunni.com"
+BASE="https://benefitgenie.com"
 
 echo "== 사이트 옵션 =="
-$WP option update blogname '현지언니'
+$WP option update blogname '베네핏지니'
 $WP option update blogdescription '정부 제도·세금·연금·보험·주거를 공식 자료 기준으로 분석하는 생활금융 칼럼'
 $WP option update timezone_string 'Asia/Seoul'
 $WP option update permalink_structure '/%postname%/'
@@ -62,19 +62,19 @@ done
 echo "== 네비게이션 =="
 NAV_FILE=$(mktemp)
 cat > "$NAV_FILE" << 'NAVEOF'
-<!-- wp:navigation-link {"label":"홈","url":"https://hyunjiunni.com/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"홈","url":"https://benefitgenie.com/","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"연금·절세","url":"https://hyunjiunni.com/category/pension-tax/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"연금·절세","url":"https://benefitgenie.com/category/pension-tax/","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"대출·신용","url":"https://hyunjiunni.com/category/loan-credit/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"대출·신용","url":"https://benefitgenie.com/category/loan-credit/","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"보험·리스크","url":"https://hyunjiunni.com/category/insurance-risk/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"보험·리스크","url":"https://benefitgenie.com/category/insurance-risk/","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"세금·환급","url":"https://hyunjiunni.com/category/tax-refund/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"세금·환급","url":"https://benefitgenie.com/category/tax-refund/","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"주거·청약","url":"https://hyunjiunni.com/category/housing-plan/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"주거·청약","url":"https://benefitgenie.com/category/housing-plan/","kind":"custom","isTopLevelLink":true} /-->
 
-<!-- wp:navigation-link {"label":"제도·복지","url":"https://hyunjiunni.com/category/policy-benefit/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"제도·복지","url":"https://benefitgenie.com/category/policy-benefit/","kind":"custom","isTopLevelLink":true} /-->
 NAVEOF
 $WP post update 4 --post_content="$(cat "$NAV_FILE")"
 rm -f "$NAV_FILE"
@@ -82,7 +82,7 @@ rm -f "$NAV_FILE"
 echo "== 소개 페이지 =="
 ABOUT_ID=$($WP post list --post_type=page --name=about --field=ID --format=ids 2>/dev/null || true)
 if [ -n "$ABOUT_ID" ]; then
-  $WP post update "$ABOUT_ID" --post_content='<!-- wp:paragraph --><p><strong>현지언니</strong>는 정부 제도·세금·연금·보험·주거를 <strong>공식 자료 기준</strong>으로 분석하는 생활금융 칼럼입니다.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>네이버 블로그의 실용 가이드와 달리, 이 사이트는 비교·계산·상황별 판단 기준을 깊게 다룹니다. 수치는 국세청·금감원·국토부 등 공시 자료를 우선 인용합니다.</p><!-- /wp:paragraph -->'
+  $WP post update "$ABOUT_ID" --post_content='<!-- wp:paragraph --><p><strong>베네핏지니</strong>는 정부 제도·세금·연금·보험·주거를 <strong>공식 자료 기준</strong>으로 분석하는 생활금융 칼럼입니다.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>네이버 블로그의 실용 가이드와 달리, 이 사이트는 비교·계산·상황별 판단 기준을 깊게 다룹니다. 수치는 국세청·금감원·국토부 등 공시 자료를 우선 인용합니다.</p><!-- /wp:paragraph -->'
 fi
 
 echo "== 작성자 URL =="
@@ -91,8 +91,8 @@ $WP user update 1 --user_url="$BASE" 2>/dev/null || true
 echo "== 파비콘 =="
 ICON_ID=$($WP option get site_icon 2>/dev/null || echo 0)
 if [ -z "$ICON_ID" ] || [ "$ICON_ID" = "0" ]; then
-  NEW_ICON=$($WP media import /var/www/html/wp-content/mu-plugins/hyunji-favicon.png \
-    --title='현지언니' --porcelain 2>/dev/null || true)
+  NEW_ICON=$($WP media import /var/www/html/wp-content/mu-plugins/benefit-favicon.png \
+    --title='베네핏지니' --porcelain 2>/dev/null || true)
   if [ -n "$NEW_ICON" ]; then
     $WP option update site_icon "$NEW_ICON"
   fi
@@ -109,8 +109,8 @@ if [ -z "$LOGO_ID" ] || [ "$LOGO_ID" = "0" ]; then
     $WP option update custom_logo "$LOGO_ID"
     echo "custom_logo=$LOGO_ID (site_icon 재사용)"
   else
-    LOGO_ID=$($WP media import /var/www/html/wp-content/mu-plugins/hyunji-favicon.png \
-      --title='현지언니 로고' --porcelain 2>/dev/null || true)
+    LOGO_ID=$($WP media import /var/www/html/wp-content/mu-plugins/benefit-favicon.png \
+      --title='베네핏지니 로고' --porcelain 2>/dev/null || true)
     if [ -n "$LOGO_ID" ]; then
       $WP option update custom_logo "$LOGO_ID"
       $WP option update site_icon "$LOGO_ID"
@@ -168,7 +168,7 @@ cat > "$HOME_FILE" << 'HOMEEOF'
 <!-- wp:group {"align":"wide","className":"hj-hero","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide hj-hero">
 <!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">현지언니</h1>
+<h1 class="wp-block-heading">베네핏지니</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hj-hero-tagline"} -->
@@ -177,12 +177,12 @@ cat > "$HOME_FILE" << 'HOMEEOF'
 
 <!-- wp:html -->
 <ul class="hj-hero-chips">
-<li><a href="https://hyunjiunni.com/category/pension-tax/">연금·절세</a></li>
-<li><a href="https://hyunjiunni.com/category/loan-credit/">대출·신용</a></li>
-<li><a href="https://hyunjiunni.com/category/insurance-risk/">보험·리스크</a></li>
-<li><a href="https://hyunjiunni.com/category/tax-refund/">세금·환급</a></li>
-<li><a href="https://hyunjiunni.com/category/housing-plan/">주거·청약</a></li>
-<li><a href="https://hyunjiunni.com/category/policy-benefit/">제도·복지</a></li>
+<li><a href="https://benefitgenie.com/category/pension-tax/">연금·절세</a></li>
+<li><a href="https://benefitgenie.com/category/loan-credit/">대출·신용</a></li>
+<li><a href="https://benefitgenie.com/category/insurance-risk/">보험·리스크</a></li>
+<li><a href="https://benefitgenie.com/category/tax-refund/">세금·환급</a></li>
+<li><a href="https://benefitgenie.com/category/housing-plan/">주거·청약</a></li>
+<li><a href="https://benefitgenie.com/category/policy-benefit/">제도·복지</a></li>
 </ul>
 <!-- /wp:html -->
 </div>
@@ -232,17 +232,17 @@ cat > "$FOOTER_FILE" << 'FOOTEREOF'
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph -->
-<p><a href="https://hyunjiunni.com/about/">소개</a></p>
+<p><a href="https://benefitgenie.com/about/">소개</a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
-<p><a href="https://hyunjiunni.com/privacy/">개인정보 처리방침</a></p>
+<p><a href="https://benefitgenie.com/privacy/">개인정보 처리방침</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© 2026 현지언니 — 공식 자료 기반 생활금융 칼럼</p>
+<p class="has-small-font-size">© 2026 베네핏지니 — 공식 자료 기반 생활금융 칼럼</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

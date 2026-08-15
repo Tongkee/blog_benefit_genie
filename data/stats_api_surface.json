@@ -4,7 +4,7 @@
    "path": "/integrated-analysis/view-count",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "day",
     "startDate": "2026-07-02",
     "endDate": "2026-07-31"
@@ -16,7 +16,7 @@
    "path": "/integrated-analysis/visit-count",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "day",
     "startDate": "2026-07-02",
     "endDate": "2026-07-31"
@@ -28,7 +28,7 @@
    "path": "/integrated-analysis/uv-count",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "day",
     "startDate": "2026-07-02",
     "endDate": "2026-07-31"
@@ -40,7 +40,7 @@
    "path": "/integrated-analysis/average-duration",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "day",
     "startDate": "2026-07-02",
     "endDate": "2026-07-31"
@@ -52,7 +52,7 @@
    "path": "/integrated-analysis/like-count",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "day",
     "startDate": "2026-07-02",
     "endDate": "2026-07-31"
@@ -64,7 +64,7 @@
    "path": "/integrated-analysis/reply-count",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "day",
     "startDate": "2026-07-02",
     "endDate": "2026-07-31"
@@ -76,7 +76,7 @@
    "path": "/integrated-analysis/follower-count",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "day",
     "startDate": "2026-07-02",
     "endDate": "2026-07-31"
@@ -88,7 +88,7 @@
    "path": "/integrated-analysis/demo-distribution",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20"
@@ -100,7 +100,7 @@
    "path": "/integrated-analysis/device-distribution",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20"
@@ -112,7 +112,7 @@
    "path": "/integrated-analysis/country-distribution",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20"
@@ -124,43 +124,43 @@
    "path": "/integrated-analysis/cv-ranks",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "week",
     "date": "2026-07-20",
     "limit": 30
    },
    "size": 10247,
-   "sample": "[{\"rank\": 1, \"title\": \"존재하지 않는 게시물입니다.\", \"metricValue\": 275, \"contentId\": \"http://blog.naver.com/gyhj1101/224345292875\", \"metaUrl\": null, \"statUrl\": null, \"mobileStatUrl\": null, \"createdAt\": null}, {\"rank\": 2, \"title\": \"호반써밋 첨단3지구(A7BL) 줍줍, 5억 초반대 광주 내 집 마련 기회?\", \"metricValue\": 139, \"contentId\": \"http://blog.naver.com/hyunji_unni/224353260533\", \"metaUrl\": \"http://blog.naver.com/hyunji_unni/224353260533\", \"statUrl\": \"https://blog.stat.naver.com/blog/article/224353260533/cv\", \"mobileStatUrl\": \"htt"
+   "sample": "[{\"rank\": 1, \"title\": \"존재하지 않는 게시물입니다.\", \"metricValue\": 275, \"contentId\": \"http://blog.naver.com/gyhj1101/224345292875\", \"metaUrl\": null, \"statUrl\": null, \"mobileStatUrl\": null, \"createdAt\": null}, {\"rank\": 2, \"title\": \"호반써밋 첨단3지구(A7BL) 줍줍, 5억 초반대 광주 내 집 마련 기회?\", \"metricValue\": 139, \"contentId\": \"http://blog.naver.com/benefit_genie/224353260533\", \"metaUrl\": \"http://blog.naver.com/benefit_genie/224353260533\", \"statUrl\": \"https://blog.stat.naver.com/blog/article/224353260533/cv\", \"mobileStatUrl\": \"htt"
   },
   {
    "path": "/integrated-analysis/like-ranks",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "week",
     "date": "2026-07-20",
     "limit": 30
    },
    "size": 10191,
-   "sample": "[{\"rank\": 1, \"title\": \"존재하지 않는 게시물입니다.\", \"metricValue\": 2, \"contentId\": \"http://blog.naver.com/gyhj1101/224345292875\", \"metaUrl\": null, \"statUrl\": null, \"mobileStatUrl\": null, \"createdAt\": null}, {\"rank\": 1, \"title\": \"임신 출산 바우처 | 최대 100만원 지원, 신청 조건 총정리\", \"metricValue\": 2, \"contentId\": \"http://blog.naver.com/hyunji_unni/224351953435\", \"metaUrl\": \"http://blog.naver.com/hyunji_unni/224351953435\", \"statUrl\": \"https://blog.stat.naver.com/blog/article/224351953435/cv\", \"mobileStatUrl\": \"https://blog.s"
+   "sample": "[{\"rank\": 1, \"title\": \"존재하지 않는 게시물입니다.\", \"metricValue\": 2, \"contentId\": \"http://blog.naver.com/gyhj1101/224345292875\", \"metaUrl\": null, \"statUrl\": null, \"mobileStatUrl\": null, \"createdAt\": null}, {\"rank\": 1, \"title\": \"임신 출산 바우처 | 최대 100만원 지원, 신청 조건 총정리\", \"metricValue\": 2, \"contentId\": \"http://blog.naver.com/benefit_genie/224351953435\", \"metaUrl\": \"http://blog.naver.com/benefit_genie/224351953435\", \"statUrl\": \"https://blog.stat.naver.com/blog/article/224351953435/cv\", \"mobileStatUrl\": \"https://blog.s"
   },
   {
    "path": "/integrated-analysis/reply-ranks",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "week",
     "date": "2026-07-20",
     "limit": 30
    },
    "size": 1157,
-   "sample": "[{\"rank\": 1, \"title\": \"이천 휴먼빌 클래스원, 5억대 분양가? 현지언니가 파헤쳐 봤어요!\", \"metricValue\": 1, \"contentId\": \"http://blog.naver.com/hyunji_unni/224352263126\", \"metaUrl\": \"http://blog.naver.com/hyunji_unni/224352263126\", \"statUrl\": \"https://blog.stat.naver.com/blog/article/224352263126/cv\", \"mobileStatUrl\": \"https://blog.stat.naver.com/m/blog/article/224352263126/cv\", \"createdAt\": 1784537054889}, {\"rank\": 1, \"title\": \"존재하지 않는 게시물입니다.\", \"metricValue\": 1, \"contentId\": \"http://blog.naver.com/gyhj1101/224353603518\","
+   "sample": "[{\"rank\": 1, \"title\": \"이천 휴먼빌 클래스원, 5억대 분양가? 베네핏지니가 파헤쳐 봤어요!\", \"metricValue\": 1, \"contentId\": \"http://blog.naver.com/benefit_genie/224352263126\", \"metaUrl\": \"http://blog.naver.com/benefit_genie/224352263126\", \"statUrl\": \"https://blog.stat.naver.com/blog/article/224352263126/cv\", \"mobileStatUrl\": \"https://blog.stat.naver.com/m/blog/article/224352263126/cv\", \"createdAt\": 1784537054889}, {\"rank\": 1, \"title\": \"존재하지 않는 게시물입니다.\", \"metricValue\": 1, \"contentId\": \"http://blog.naver.com/gyhj1101/224353603518\","
   },
   {
    "path": "/integrated-analysis/d1-ranks",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "week",
     "date": "2026-07-20",
     "limit": 30
@@ -172,7 +172,7 @@
    "path": "/home/yesterday-summary",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "date": "2026-07-31"
    },
    "size": 354,
@@ -182,17 +182,17 @@
    "path": "/home/realtime-summary",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "date": "2026-07-31"
    },
    "size": 2802,
-   "sample": "{\"metricRanks\": [{\"metricValue\": 328, \"metricType\": \"cv\", \"rank\": [{\"title\": \"2026 기초생활수급자 | 1인 가구 최대 82만원 받는 조건 총정리\", \"contentId\": \"http://blog.naver.com/hyunji_unni/224359227977\", \"metricValue\": 55}, {\"title\": \"본인부담상한제 환급 | 최대 598만원 돌려받는 법\", \"contentId\": \"http://blog.naver.com/hyunji_unni/224354421519\", \"metricValue\": 11}, {\"title\": \"한강 푸르지오 리버프론트, 김포 대단지 분양! 현금은 얼마나 필요할까요?\", \"contentId\": \"http://blog.naver.com/hyunji_unni/224363946623\", \"metricValue\": 10}, {\"title\": \"📊 7월 31일(금) 증시 전망 | 장 전 필"
+   "sample": "{\"metricRanks\": [{\"metricValue\": 328, \"metricType\": \"cv\", \"rank\": [{\"title\": \"2026 기초생활수급자 | 1인 가구 최대 82만원 받는 조건 총정리\", \"contentId\": \"http://blog.naver.com/benefit_genie/224359227977\", \"metricValue\": 55}, {\"title\": \"본인부담상한제 환급 | 최대 598만원 돌려받는 법\", \"contentId\": \"http://blog.naver.com/benefit_genie/224354421519\", \"metricValue\": 11}, {\"title\": \"한강 푸르지오 리버프론트, 김포 대단지 분양! 현금은 얼마나 필요할까요?\", \"contentId\": \"http://blog.naver.com/benefit_genie/224363946623\", \"metricValue\": 10}, {\"title\": \"📊 7월 31일(금) 증시 전망 | 장 전 필"
   },
   {
    "path": "/inflow-analysis/referrer-query-rank",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20",
@@ -205,7 +205,7 @@
    "path": "/inflow-analysis/query-compare",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20",
@@ -220,7 +220,7 @@
    "path": "/integrated-analysis/average-visit",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "day",
     "startDate": "2026-07-02",
     "endDate": "2026-07-31"
@@ -231,7 +231,7 @@
    "path": "/integrated-analysis/retention-rate",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "interval": "day",
     "startDate": "2026-07-02",
     "endDate": "2026-07-31"
@@ -242,7 +242,7 @@
    "path": "/integrated-analysis/hour-distribution",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20"
@@ -253,7 +253,7 @@
    "path": "/integrated-analysis/hour-distribution",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "day",
     "date": "2026-07-30"
@@ -264,7 +264,7 @@
    "path": "/integrated-analysis/follower-distribution",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20"
@@ -275,7 +275,7 @@
    "path": "/integrated-analysis/follower-distribution",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "day",
     "date": "2026-07-30"
@@ -286,7 +286,7 @@
    "path": "/home/realtime-summary-histogram",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "date": "2026-07-31"
    },
    "err": "HTTP 400 validation check failed: ValidationError: \"metricType\" is re"
@@ -295,7 +295,7 @@
    "path": "/home/soaring-contents",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "date": "2026-07-31"
    },
    "err": "HTTP 400 validation check failed: ValidationError: \"interval\" is requ"
@@ -304,7 +304,7 @@
    "path": "/home/popular-demo-keyword",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "date": "2026-07-31"
    },
    "err": "HTTP 400 date is not monday: 2026-07-31"
@@ -313,7 +313,7 @@
    "path": "/home/popular-category-keyword",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "date": "2026-07-31"
    },
    "err": "HTTP 400 date is not monday: 2026-07-31"
@@ -322,7 +322,7 @@
    "path": "/home/weekly-recommendation",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "date": "2026-07-31"
    },
    "err": "HTTP 400 validation check failed: ValidationError: \"channelId\" is not"
@@ -331,7 +331,7 @@
    "path": "/inflow-analysis/inflow-search-trend",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20",
@@ -343,7 +343,7 @@
    "path": "/inflow-analysis/impression-inflow-trend",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20",
@@ -355,7 +355,7 @@
    "path": "/inflow-analysis/query-competitiveness",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20",
@@ -367,7 +367,7 @@
    "path": "/inflow-analysis/popular-contents",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20",
@@ -379,7 +379,7 @@
    "path": "/inflow-analysis/infl-inflow-rate",
    "params": {
     "service": "naver_blog",
-    "channelId": "hyunji_unni",
+    "channelId": "benefit_genie",
     "metric": "cv",
     "interval": "week",
     "date": "2026-07-20",

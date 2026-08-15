@@ -3,7 +3,7 @@
 GitHub Actions: python -m scripts.tech_post
 
 형식 4종 로테이션(breaking/explain/pick/compare)을 순환 발행.
-계정: hyungsutech (khj) — 현지언니와 별도. TECH_NAVER_* 시크릿 사용.
+계정: hyungsutech (khj) — 베네핏지니와 별도. TECH_NAVER_* 시크릿 사용.
 """
 import json
 import logging
@@ -548,7 +548,7 @@ def run():
         _inject_section_images(post, pool, images, make_card=_make_card)
 
     # 함께 보면 좋은 글 — 같은 카테고리 과거 발행글 1~2개 링크(체류시간·내부 순환,
-    # 현지언니 daily_post._append_internal_links 이식, 2026-07-19 사용자 요청)
+    # 베네핏지니 daily_post._append_internal_links 이식, 2026-07-19 사용자 요청)
     related = [h for h in history
                if h.get("status") == "posted" and h.get("post_url") and h.get("title")
                and h.get("category") == _post_category][:2]

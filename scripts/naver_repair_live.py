@@ -24,7 +24,7 @@ sys.path.insert(0, ROOT)
 from playwright.async_api import async_playwright  # noqa: E402
 import poster.naver_blog as nb  # noqa: E402
 
-BLOG_ID = os.environ.get("NAVER_BLOG_ID", "hyunji_unni")
+BLOG_ID = os.environ.get("NAVER_BLOG_ID", "benefit_genie")
 DRY = os.environ.get("DRY_RUN", "").strip() in ("1", "true", "True")
 
 # 라이브에서 제거할 리터럴(강조 마크다운). [[]]는 앞뒤 텍스트 유지하며 껍데기만.

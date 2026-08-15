@@ -85,7 +85,7 @@ def _collect() -> list[dict]:
                           "url": x["post_url"], "kind": "naver"})
 
     try:
-        wp = json.loads(_get("https://hyunjiunni.com/wp-json/wp/v2/posts?per_page=4&orderby=date"))
+        wp = json.loads(_get("https://benefitgenie.com/wp-json/wp/v2/posts?per_page=4&orderby=date"))
         for p in wp:
             if str(p.get("date", ""))[:10] >= cutoff:
                 posts.append({"pipeline": "wp", "title": re.sub(r"<[^>]+>", "", p["title"]["rendered"]),
@@ -177,7 +177,7 @@ def _make_issue(results: list[dict]) -> str:
 
 def _post_issue(title_body: str):
     token = os.environ.get("GITHUB_TOKEN", "").strip()
-    repo = os.environ.get("GITHUB_REPOSITORY", "parky091999-sudo/hyunji_unni_blog")
+    repo = os.environ.get("GITHUB_REPOSITORY", "parky091999-sudo/benefit_genie_blog")
     title, body = title_body.split("\n", 1)
     if not token:
         print(title, "\n", body)

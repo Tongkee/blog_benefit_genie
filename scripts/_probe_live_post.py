@@ -7,7 +7,7 @@ import sys
 from playwright.sync_api import sync_playwright
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-BLOG_ID = "hyunji_unni"
+BLOG_ID = "benefit_genie"
 
 
 def probe(logno: str, page):

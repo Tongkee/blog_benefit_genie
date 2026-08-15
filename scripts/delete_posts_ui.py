@@ -23,7 +23,7 @@ from playwright.async_api import async_playwright  # noqa: E402
 
 from scripts.delete_posts import _UA, _load_cookies  # noqa: E402
 
-BLOG = os.environ.get("NAVER_BLOG_ID") or "hyunji_unni"
+BLOG = os.environ.get("NAVER_BLOG_ID") or "benefit_genie"
 
 
 async def _still_alive(page, blog_id: str, post_id: str, box: list) -> bool:

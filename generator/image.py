@@ -26,7 +26,7 @@ _PEXELS_SEARCH = "https://api.pexels.com/v1/search"
 _WIKIMEDIA_API = "https://commons.wikimedia.org/w/api.php"
 _OPENVERSE_API = "https://api.openverse.org/v1/images/"
 # Wikimedia는 식별 가능한 UA를 요구(무UA/브라우저 위장 UA는 403 가능)
-_PROVIDER_UA = "hyunji-blog-pipeline/1.0 (image sourcing; python-requests)"
+_PROVIDER_UA = "benefit-genie-blog-pipeline/1.0 (image sourcing; python-requests)"
 
 
 def generate_dish_image(dish: str, api_key: str) -> str | None:
@@ -49,7 +49,7 @@ def generate_dish_image(dish: str, api_key: str) -> str | None:
         tmp.close()
         return tmp.name
 
-    # 현지씨(coupang) 파이프라인에서 검증된 방식: gemini-3.1-flash-image, response_modalities=['IMAGE'].
+    # 베네핏지니씨(coupang) 파이프라인에서 검증된 방식: gemini-3.1-flash-image, response_modalities=['IMAGE'].
     try:
         from google import genai
         from google.genai import types as gtypes

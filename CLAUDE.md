@@ -14,14 +14,14 @@
 ## 프로젝트 개요
 네이버 블로그 **고CPC 정보성** 자동 포스팅 파이프라인 (Playwright 브라우저 자동화)
 
-**블로그:** blog.naver.com/hyunji_unni
-**네이버 계정 ID:** hyunji_unni
-**블로그명/닉네임:** 현지언니
+**블로그:** blog.naver.com/benefit_genie
+**네이버 계정 ID:** benefit_genie
+**블로그명/닉네임:** 베네핏지니
 
 ### ★현재 방향 (2026-06-30 피벗, 2026-07-03 고단가 재편): 고CPC 정보성 카테고리
 - **주제:** 2030 신혼·1인가구가 꼭 알아야 할 **돈·제도 정보** (생활밀착 고정보)
 - **활성 공개 카테고리:** ①정부지원·혜택 ②금융·재테크 ③세금·절세 ④보험 ⑤부동산·주거 (전부 고CPC). **⑥건강·의료는 2026-07-03부터 비공개 전환 + health_post 크론 정지**(고단가 카테고리 위주 재편, 코드/품질 문제 아님 — 보관 상태, 재개 시 CLAUDE.md·workflow 원복).
-- **페르소나:** **"놓치기 쉬운 돈·혜택·건강 정보를 직접 발품 팔아 쉽게 정리해주는 똑부러진 28세 생활정보 언니 '현지언니'."** 친근하되 **정확·신뢰**가 최우선. "제가 직접 알아보니", "저도 처음엔 헷갈렸는데" 같은 1인칭 경험은 자연스럽게만(과하지 않게, D.I.A.+ 경험성 점수용). 살림주부 색채(다이소·집들이 에피소드) 제거.
+- **페르소나:** **"놓치기 쉬운 돈·혜택·건강 정보를 직접 발품 팔아 쉽게 정리해주는 똑부러진 28세 생활정보 언니 '베네핏지니'."** 친근하되 **정확·신뢰**가 최우선. "제가 직접 알아보니", "저도 처음엔 헷갈렸는데" 같은 1인칭 경험은 자연스럽게만(과하지 않게, D.I.A.+ 경험성 점수용). 살림주부 색채(다이소·집들이 에피소드) 제거.
 - **수익 구조:** 네이버 애드포스트(고CPC) → 이후 동일 자료로 **티스토리+구글 애드센스** 확장(정보성은 애드센스 단가 훨씬↑).
 - **엔진:** [generator/info_content.py](generator/info_content.py)(범용, ④⑤⑥과 ③), gov/health는 기존 개별 생성기. 검증된 구조=요약블록+1개3열표+자격·주의불릿+방법①②③+FAQ+소제목번호없음+글머리'· '+헤더카드만.
 
@@ -62,7 +62,7 @@ data/
 
 | Secret | 설명 |
 |---|---|
-| `NAVER_ID` | hyunji_unni |
+| `NAVER_ID` | benefit_genie |
 | `NAVER_PW` | 네이버 비밀번호 |
 | `NAVER_COOKIES` | get_cookies.py 실행 후 출력되는 JSON (쿠키 만료 시 재발급) |
 | `GOOGLE_API_KEY` | Gemini API 키 |
@@ -93,10 +93,10 @@ data/
 ## 2026-06-24 작업 이력 (Antigravity에서 작성)
 
 - **글쓰기 체계 및 가이드라인 정립**:
-  - [docs/WRITING_SYSTEM.md](file:///C:/박관용/CLAUDE/ai-agent/hyunji_unni_blog/docs/WRITING_SYSTEM.md) 생성 (페르소나 톤앤매너, 모바일 단락 최적화, 5대 도입부 유형, 표/FAQ 구조 명세).
-- **품질 채점 기준 고도화 ([quality.py](file:///C:/박관용/CLAUDE/ai-agent/hyunji_unni_blog/generator/quality.py))**:
+  - [docs/WRITING_SYSTEM.md](file:///C:/박관용/CLAUDE/ai-agent/benefit_genie_blog/docs/WRITING_SYSTEM.md) 생성 (페르소나 톤앤매너, 모바일 단락 최적화, 5대 도입부 유형, 표/FAQ 구조 명세).
+- **품질 채점 기준 고도화 ([quality.py](file:///C:/박관용/CLAUDE/ai-agent/benefit_genie_blog/generator/quality.py))**:
   - `_AI_PATTERNS`에 흔히 발생하는 AI/Gemini 말투 패턴 대거 추가 ("다양한 ~", "도움이 되길", "기억하세요", 기계적 번호 열거 등).
-- **프롬프트 및 퇴고 엔진 연동 ([content.py](file:///C:/박관용/CLAUDE/ai-agent/hyunji_unni_blog/generator/content.py), [recipe.py](file:///C:/박관용/CLAUDE/ai-agent/hyunji_unni_blog/generator/recipe.py))**:
+- **프롬프트 및 퇴고 엔진 연동 ([content.py](file:///C:/박관용/CLAUDE/ai-agent/benefit_genie_blog/generator/content.py), [recipe.py](file:///C:/박관용/CLAUDE/ai-agent/benefit_genie_blog/generator/recipe.py))**:
   - `_SYSTEM`, `_REFINE_SYSTEM`, `_RECIPE_SYSTEM` 프롬프트에 금지된 AI 상투어 및 대안 표현 반영하여 초안 생성 및 2차 퇴고 과정 개선.
 - **임시저장 검증 모드 테스트**:
   - `DRAFT=true` 모드로 로컬 테스트 실행 및 검증 중.

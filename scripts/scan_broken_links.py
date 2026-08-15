@@ -22,7 +22,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 import requests  # noqa: E402
 
-BLOG = "hyunji_unni"
+BLOG = "benefit_genie"
 UA = {"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/126.0 Mobile"}
 _alive: dict = {}
 

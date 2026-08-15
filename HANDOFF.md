@@ -55,7 +55,7 @@
 - **⚠️정정**: 07-23의 "EC2는 크론 전 자동 pull 안 함"은 **오기록**. run_*.sh 5개 전부 4번째 줄이 `git pull` — **이미 자동 pull 함**. 전기차 WP 구코드 발행은 fix push가 그 실행 이후였던 탓. → push하면 다음 크론부터 자동 반영.
 - **🐛 QC로그 미동기화 근인**: 크론 `git add data/*.json` 글롭이 `.jsonl` 미포함 → run 스크립트에 `data/qc_log.jsonl` 명시 추가(ops판에 반영). 쌓인 로그 동기화 완료.
 
-### 4) ★현지언니 네이버 블로그 통계 분석 + 개선 (스크린샷 5장)
+### 4) ★베네핏지니 네이버 블로그 통계 분석 + 개선 (스크린샷 5장)
 - **핵심 진단**: 글은 읽힘(체류 3m15s)인데 **트래픽이 검색(16.5%) 아닌 네이버 메인(73%) 의존=휘발성**. 방문당≈1글(회유 약). 타깃(여성35-44) 정합 O. 검색어에 **단지명 다수=청약 검색수요 실측**.
 - **개선A 내부링크**(`6800f6f`): gov/info의 `_append_internal_links`가 `history[:2]`(오래된것 고정)라 관련성·다양성0 → `generator/related_links`(같은 카테고리 최신 3개·자기제외). 회유+SEO. (WP허브 `_related_for`는 이미 관련성기반이라 유지.)
 - **개선B 청약 백로그**(`36b4989`): 청약이 신규공고 '최신1건/일'만 발행(notices[0])→공고 몰리면 백로그 굶음. 네이버청약 **16:30 2번째 슬롯**(자기제한적: 미발행공고 없으면 즉시종료, 최대+1/일). concurrency로 겹침 중복방지.
@@ -73,11 +73,11 @@
 > **이 섹션부터.** 시작 루틴: 전 6레포 pull → 각 레포 `data/qc_log.jsonl`의 FAIL/WARN부터 확인(이제 자동 QC 게이트가 발행마다 기록).
 
 ### 1) 07-23 발행분 상세 전수 점검 (7건) — 전부 기호누출 0·렌더 정상
-- WP: 증여세(현지 허브)·전기차(형수테크) / 네이버 3(한부모가족·블루스크린·갤럭시폴드8, **playwright PostView 프로브로 본문 실측** 기호누출0) / 쿠팡 [075]스팀청소기(훅↔상품 일치)·일상글.
+- WP: 증여세(베네핏지니 허브)·전기차(형수테크) / 네이버 3(한부모가족·블루스크린·갤럭시폴드8, **playwright PostView 프로브로 본문 실측** 기호누출0) / 쿠팡 [075]스팀청소기(훅↔상품 일치)·일상글.
 - **발견**: 전기차 WP 상투어 7 → 새벽 push한 수정이 그 실행 시점엔 미반영. ※**[2026-07-24 정정]** 원인은 'EC2가 자동 pull을 안 해서'가 아니라 **fix push가 14:05 실행 이후**였던 것 — run_*.sh 5개 전부 시작 시 `git pull` 함(원본 확인). push하면 다음 크론부터 자동 반영됨.
 
 ### 2) 수정 3건 (전부 push + EC2 배포)
-- **🐛 형수테크 WP 상투어 규칙 누락**: 상투어 금지가 info/tech-naver/content/deep엔 있으나 `wp_tech_post._SYSTEM`만 빠져 형수테크 WP만 상투어 7~8(현지 WP는 0). → 동일 규칙 추가(`7d98c09`).
+- **🐛 형수테크 WP 상투어 규칙 누락**: 상투어 금지가 info/tech-naver/content/deep엔 있으나 `wp_tech_post._SYSTEM`만 빠져 형수테크 WP만 상투어 7~8(베네핏지니 WP는 0). → 동일 규칙 추가(`7d98c09`).
 - **🐛 [066] posted_ids 누락**(쿠팡): registry posted=True인데 posted_ids에 키 없어 evening_post 재선정(마커가드가 막아 라이브 중복은 없었음). `backfill_posted_ids.py`로 7건(054·056·062~066) 백필(`0048f4a`). *쿠팡은 발행직전 refresh_shared_feed=git pull이라 자동반영.*
 - **🐛 형수테크 WP 소제목 과분할·h4**(자동차배터리 26개·h4): `wp_html`에 h4↓→h3 강등(멱등)+`_SYSTEM` 과분할 억제(`bc01551`).
 - **EC2 배포**: hyunji `git pull`로 33564eb 반영(상투어·h4 확인). **오늘 21:05 형수테크 WP부터 적용.**
@@ -85,7 +85,7 @@
 ### 3) ★자동 post-publish QC 게이트 구축·배포 (전체범위, 사용자 지시)
 - `generator/publish_qc.py`(hyunji): check_wp_html/check_naver_text/check_caption + verdict(FAIL=마커/h4, WARN=상투어>3·소제목>18) + `data/qc_log.jsonl` 기록. **qc_wp_live**=발행 후 라이브 재fetch→마커/h4면 **normalize 재PUT self-heal**.
 - 배선: wp_tech_post·wp_post(self-heal), post_to_naver_blog 초크포인트 / coupang post_thread_api / jiniee auto_post(인라인) / soyu daily_post(인라인 HTML). 전부 best-effort(발행 차단 안 함).
-- 커밋: hyunji `f8c3d1d`, coupang `ad36b40`, jiniee `28293c7`, soyu `93c3a70`. **4레포 EC2 전부 배포 + 라이브 end-to-end 검증**(hipass qc_wp_live=WARN 정확판정·로깅). EC2 경로: coupang=/home/ubuntu/ai-agent/hyunji_ssi.
+- 커밋: hyunji `f8c3d1d`, coupang `ad36b40`, jiniee `28293c7`, soyu `93c3a70`. **4레포 EC2 전부 배포 + 라이브 end-to-end 검증**(hipass qc_wp_live=WARN 정확판정·로깅). EC2 경로: coupang=/home/ubuntu/ai-agent/benefit_genie_ssi.
 - ⚠️한계: 마커/h4는 self-heal, 상투어·이미지적합성·훅맥락은 **로깅만**(생성 개선사항).
 
 ### 4) 영상 캡션에 '스레드 원본 게시글 본문' 참고 주입 (사용자 제안)
@@ -94,26 +94,26 @@
 ### 🔜 다음 세션(집에서 이어서)
 1. **오늘 21:05 형수테크 WP** raw 확인: 상투어 수치 하락(상투어 fix 첫 적용) + `qc_log.jsonl`에 wp_tech WARN/OK 기록됐는지.
 2. **각 레포 qc_log.jsonl 리뷰**: 발행마다 쌓이는 QC 판정 확인(FAIL 나오면 self-heal됐는지·왜).
-3. **영상 캡션 원본참고 실효 확인**: 유진/현지 재고 새로 빌드 후 `video_stock_state.json` 캡션이 원본 맥락 반영하는지.
+3. **영상 캡션 원본참고 실효 확인**: 유진/베네핏지니 재고 새로 빌드 후 `video_stock_state.json` 캡션이 원본 맥락 반영하는지.
 4. **[정정]** EC2 크론은 이미 자동 `git pull` 함 → '자동배포 추가'는 불필요. 대신 **run_*.sh를 레포 `ops/`로 편입(버전관리)** 진행 중 — 목적은 스크립트 이력추적·복원(EC2 로컬에만 있어 드리프트).
 
 ---
 
 ## ★★★★★ 2026-07-22 집 PC 세션 — 7/21 인수인계 4종 소화 + 상투어/훅 보강
 
-> **이 섹션부터 읽으세요.** 7/21 회사 세션이 남긴 "🔜 다음 세션" 4건을 집 PC(일반망)에서 소화. 3개 레포 동기화(hyunji_unni +49·osmu +3·hyunji_ssi +21 ff-only).
+> **이 섹션부터 읽으세요.** 7/21 회사 세션이 남긴 "🔜 다음 세션" 4건을 집 PC(일반망)에서 소화. 3개 레포 동기화(benefit_genie +49·osmu +3·benefit_genie_ssi +21 ff-only).
 
 ### 완료
-- **Task 3·4 발행 검증(전수)**: 형수테크 WP 21:05(고친 코드 첫 발행 smartphone-lost id=31)·hipass·chatgpt·현지 WP 07-22 09:06(publish 정상) — raw wp-json 실측 `**`·불릿 **0**. 네이버 본문 11건(현지 gov·info4·주식·청약 + 형수테크 4)을 playwright 프로브로 실측 → **기호누출 0·외부링크 0·미치환마커 0·지시문에코 0**. (playwright는 설치돼 있었음 — 전역 Python312, `playwright.__version__` 없을 뿐 정상.)
+- **Task 3·4 발행 검증(전수)**: 형수테크 WP 21:05(고친 코드 첫 발행 smartphone-lost id=31)·hipass·chatgpt·베네핏지니 WP 07-22 09:06(publish 정상) — raw wp-json 실측 `**`·불릿 **0**. 네이버 본문 11건(베네핏지니 gov·info4·주식·청약 + 형수테크 4)을 playwright 프로브로 실측 → **기호누출 0·외부링크 0·미치환마커 0·지시문에코 0**. (playwright는 설치돼 있었음 — 전역 Python312, `playwright.__version__` 없을 뿐 정상.)
   - 소프트건: AI 종결 상투어 "~하는 것이 중요합니다" 5건·"를 통해" 2건, 덩어리문단 150자+ 2건(게이트 감점 수준, 재생성 트리거 아님).
-- **Task 1 유진 영상 재고**: 근본원인 = **hyunji_ssi 로컬 피드(feed_posts.json)가 21커밋 뒤처져** `_hyunji_published_videos()` 후보가 4건뿐(전부 소진)이던 것. **hyunji_ssi 동기화하니 후보 2건 발생** → `stock_builder.py --track jiniee` 렌더+EC2적재+push. **유진 재고 0→2**(스텐 쌀 세척볼·욕실 정리 미니서랍). ★교훈: 집 PC 유진 재고 작업 전 **hyunji_ssi도 반드시 pull**(osmu 후보 공급이 이 피드에 의존).
+- **Task 1 유진 영상 재고**: 근본원인 = **benefit_genie_ssi 로컬 피드(feed_posts.json)가 21커밋 뒤처져** `_benefit_genie_published_videos()` 후보가 4건뿐(전부 소진)이던 것. **benefit_genie_ssi 동기화하니 후보 2건 발생** → `stock_builder.py --track jiniee` 렌더+EC2적재+push. **유진 재고 0→2**(스텐 쌀 세척볼·욕실 정리 미니서랍). ★교훈: 집 PC 유진 재고 작업 전 **benefit_genie_ssi도 반드시 pull**(osmu 후보 공급이 이 피드에 의존).
 - **상투어 보강(배포됨)**: info_content `_INFO_REFINE_SYSTEM`에 교과서체 종결 상투어 제거 규칙(1-1) + tech `_COMMON_RULES` 금지어 추가(content.py gov는 기존 보유). 발행 게이트는 미변경(과도 게이트 미발행 리스크 회피).
-- **Task 2 [073] 재발방지(배포됨)**: 라이브 글(그라인더에 '설거지·허리' 훅)은 **유지**(사용자 결정 — 비가역), hyunji_ssi `generate_queue_content._POST_SYSTEM`에 "훅 상황=상품 실사용 맥락" 규칙 추가(✗/✓ 예시 명시).
+- **Task 2 [073] 재발방지(배포됨)**: 라이브 글(그라인더에 '설거지·허리' 훅)은 **유지**(사용자 결정 — 비가역), benefit_genie_ssi `generate_queue_content._POST_SYSTEM`에 "훅 상황=상품 실사용 맥락" 규칙 추가(✗/✓ 예시 명시).
 
 ### 🔜 다음 세션 / 사용자 몫
 1. **유진 재고 2건 /jnstock 검수·승인**(집 PC 대시보드) — 승인+4일경과분을 EC2가 발행.
 2. **상투어 보강 효과 확인**: 다음 info/tech 발행분 본문에 "~것이 중요합니다" 재등장 여부(raw 실측).
-3. (참고) 유진 후보는 현지 영상 발행분 재활용이라 공급이 느림 — 현지 영상재고 소진되며 후보 증가.
+3. (참고) 유진 후보는 베네핏지니 영상 발행분 재활용이라 공급이 느림 — 베네핏지니 영상재고 소진되며 후보 증가.
 
 ---
 
@@ -126,13 +126,13 @@
 - 6개 파이프라인 레포 전부 origin이 로컬보다 앞서 있어(EC2가 push) **ff-only pull로 동기화 완료**(coupang +9, jiniee +6, osmu +4, hyunji +17, soyu +1, dashboard +1). 로컬 커밋 앞선 것 없음. 충돌 없음.
 
 ### 오늘(07-21) 발행분 점검 결과 — 정상
-- **현지 WP 허브(화)**: "자동차보험 갱신 vs 전환…" `hyunjiunni.com/car-insurance-renewal-switch/` → **status=publish 라이브 확인**(07-20 draft버그 수정 정상 작동 ✅, 본문 렌더 정상).
-- **형수테크 WP**: "하이패스 단말기…" `tech.hyunjiunni.com/hipass-device-registration-guide/` → 라이브·대표이미지 O. **단, 본문에 마크다운 미변환 버그 있었음(아래 🔴 섹션에서 수정·보정 완료).** (2번째 슬롯 21:05는 이 세션 이후, 이제 고친 코드로 발행.)
+- **베네핏지니 WP 허브(화)**: "자동차보험 갱신 vs 전환…" `benefitgenie.com/car-insurance-renewal-switch/` → **status=publish 라이브 확인**(07-20 draft버그 수정 정상 작동 ✅, 본문 렌더 정상).
+- **형수테크 WP**: "하이패스 단말기…" `tech.benefitgenie.com/hipass-device-registration-guide/` → 라이브·대표이미지 O. **단, 본문에 마크다운 미변환 버그 있었음(아래 🔴 섹션에서 수정·보정 완료).** (2번째 슬롯 21:05는 이 세션 이후, 이제 고친 코드로 발행.)
 - **가이드 양트랙 교차배제 정상**: WP=하이패스(자동차) / 네이버 심층가이드=노트북 와이파이 끊김(PC) → **서로 다른 주제**(07-20 충돌수정 정상 작동 ✅).
 - **형수테크 네이버 뉴스 3 + 가이드 1**: 갤럭시 통신사혜택·LG스마트TV·갤럭시워치울트라2 / 노트북 와이파이 — 전부 URL·status=posted. (네이버는 회사PC 프록시로 본문 fetch 불가 → 발행기록으로만 확인.)
-- **현지 네이버**: gov=청년도약계좌 / info=전월세 신고제 / 청약=호반써밋 첨단3지구(광주, 잔여세대) — 전부 URL·posted.
+- **베네핏지니 네이버**: gov=청년도약계좌 / info=전월세 신고제 / 청약=호반써밋 첨단3지구(광주, 잔여세대) — 전부 URL·posted.
 - **속보 트리거**: "코스피 4% 급등 사이드카" finance 트랙 dispatched.
-- **현지 쿠팡 스레드**: 09:30 일상글(배달음식 용기) posted / 13:16 상품글 [073] posted. 첫댓글 딥링크는 발행직후 자동(코드상 시도, 무시성 except) — 스레드 댓글은 JS라 원격 확인 불가.
+- **베네핏지니 쿠팡 스레드**: 09:30 일상글(배달음식 용기) posted / 13:16 상품글 [073] posted. 첫댓글 딥링크는 발행직후 자동(코드상 시도, 무시성 except) — 스레드 댓글은 JS라 원격 확인 불가.
 - **유진 스레드**: 10:07 아침글(바나나 꼭지 랩 보관 꿀팁) posted. 답글봇 정상.
 - **07-20 집PC 숙제 완료 확인**: 이천 청약 **재발행됨**(네이버 224352263126 + WP `cheongyak-2026000291`).
 - **당일 status=failed 0건**(feed의 failed 3건은 전부 06-23~07-15 과거분).
@@ -141,21 +141,21 @@
 > 사용자가 5대 점검 기준을 제시(→ memory `feedback-post-inspection-checklist` 저장)하여 raw HTML로 재점검. **1차(WebFetch/텍스트)에선 안 보이던 하드 버그 발견.**
 
 - **🐛 근본원인**: `wp_tech_post._SYSTEM` 프롬프트가 `<h2>/<h3>` 구조만 HTML로 지시하고 **강조·목록 형식은 미지시** → LLM이 본문 강조를 `**bold**`, 목록을 `*   ` 마크다운으로 내는 글이 생김. **변환 단계가 없어** 그대로 발행 → wpautop이 `<p>`로만 감싸 **리터럴 `**`·`*`가 노출**.
-- **범위(형수테크 WP 4건 전수 raw 스캔)**: `hipass`(07-21, `**`×62·불릿×25)·`chatgpt`(07-20, `**`×48) **깨짐** / `ott`·`windows11`은 LLM이 우연히 HTML로 내서 정상. (현지 WP 허브 `car_insurance`는 다른 렌더러라 5대 기준 전부 통과: 이미지 2장 alt 적합·해당 소제목아래·비교표 정위치·기호누출0·H2 6개 논리흐름.)
+- **범위(형수테크 WP 4건 전수 raw 스캔)**: `hipass`(07-21, `**`×62·불릿×25)·`chatgpt`(07-20, `**`×48) **깨짐** / `ott`·`windows11`은 LLM이 우연히 HTML로 내서 정상. (베네핏지니 WP 허브 `car_insurance`는 다른 렌더러라 5대 기준 전부 통과: 이미지 2장 alt 적합·해당 소제목아래·비교표 정위치·기호누출0·H2 6개 논리흐름.)
 - **왜 1차에서 못 잡았나**: WebFetch가 페이지를 마크다운으로 변환하며 `**`를 볼드로 **렌더해 버그를 가림**. → **raw HTML(wp-json content) 실측이 필수**(체크리스트에 반영).
 - **✅ 수정(코드, main `24e7df6` push)**: `generator/wp_html.normalize_residual_md`(잔여 `**`→`<strong>`, 줄머리 불릿→`<ul><li>`, **멱등**) 신설 + `wp_tech_post._generate` 발행 직전 배선. 실제 깨진 본문으로 변환 테스트 통과(정상글엔 무영향). **→ 이후 발행분(오늘 21:05 슬롯 포함) 정상.**
-- **✅ 라이브 보정(EC2 in-place)**: 사용자 승인 후 EC2(`/home/ubuntu/ai-agent/hyunji_unni_blog`) 접속 → git pull → `scripts/wp_tech_repair.py`(같은 post ID PUT, URL/slug·대표이미지·카테고리 유지, WP 리비전 보존) 실행 → **id=27 hipass·id=22 chatgpt 보정**. **curl 재검증: 둘 다 `**`×0, `<ul>/<li>/<strong>` 정상 생성, ott 무변(멱등 확인).**
+- **✅ 라이브 보정(EC2 in-place)**: 사용자 승인 후 EC2(`/home/ubuntu/ai-agent/benefit_genie_blog`) 접속 → git pull → `scripts/wp_tech_repair.py`(같은 post ID PUT, URL/slug·대표이미지·카테고리 유지, WP 리비전 보존) 실행 → **id=27 hipass·id=22 chatgpt 보정**. **curl 재검증: 둘 다 `**`×0, `<ul>/<li>/<strong>` 정상 생성, ott 무변(멱등 확인).**
 - **네이버 6건 한계**: 회사PC 프록시로 본문 fetch 불가 → `**` 등 기호누출 완전검증 못 함(발행메타 `images_inserted`/`has_table`/`has_faq`로만 확인). **집 PC/일반망에서 네이버 본문도 같은 기준으로 재점검 권장**(네이버 생성기는 다른 경로라 별개 확인 필요).
 
 ### ⚠️ flag 2건 (하드에러 아님)
-1. **[073] 훅↔상품 불일치(경미)**: 상품=전동 소금/후추 그라인더(주방)인데 스레드 훅이 "설거지하다 허리 나갈 뻔한 사람 이거 꼭 봐"(설거지·허리 = 그라인더와 무관). 게이트(한국어·비잘림·제품명사'그라인더'포함) 통과함 — **의미(맥락) 매칭 게이트가 없어서 통과**. 짧은훅 설계상 '미끼' 지향이라 by-design 인접이나 비문에 가까움. **이미 라이브**(https://www.threads.com/@hyunji_ssi/post/DbCom_AFLtY) → 라이브 삭제/재발행은 사용자 판단 필요(아웃바운드·비가역)라 임의 조치 안 함. 재발 방지엔 캡션 생성에 '훅 소재=상품 실사용 맥락' 제약 추가 검토(추후 품질패스). ※내일 pending #1이 같은 그라인더지만 **posted_ids 가드로 자동 skip 확인**(중복발행 없음).
-2. **유진 영상 오늘 미발행**: osmu jiniee 재고=0 → 12:30 슬롯 skip(로그=재고동기화만). 회사PC는 영상 렌더 불가 → **집 PC stock_builder 재렌더 필요**(07-20 매직행주 발행 후 재고 0인 상태 지속). 현지 영상재고는 26으로 건전, 19시 현지 영상은 이 세션 이후 발행 예정.
+1. **[073] 훅↔상품 불일치(경미)**: 상품=전동 소금/후추 그라인더(주방)인데 스레드 훅이 "설거지하다 허리 나갈 뻔한 사람 이거 꼭 봐"(설거지·허리 = 그라인더와 무관). 게이트(한국어·비잘림·제품명사'그라인더'포함) 통과함 — **의미(맥락) 매칭 게이트가 없어서 통과**. 짧은훅 설계상 '미끼' 지향이라 by-design 인접이나 비문에 가까움. **이미 라이브**(https://www.threads.com/@benefit_genie_ssi/post/DbCom_AFLtY) → 라이브 삭제/재발행은 사용자 판단 필요(아웃바운드·비가역)라 임의 조치 안 함. 재발 방지엔 캡션 생성에 '훅 소재=상품 실사용 맥락' 제약 추가 검토(추후 품질패스). ※내일 pending #1이 같은 그라인더지만 **posted_ids 가드로 자동 skip 확인**(중복발행 없음).
+2. **유진 영상 오늘 미발행**: osmu jiniee 재고=0 → 12:30 슬롯 skip(로그=재고동기화만). 회사PC는 영상 렌더 불가 → **집 PC stock_builder 재렌더 필요**(07-20 매직행주 발행 후 재고 0인 상태 지속). 베네핏지니 영상재고는 26으로 건전, 19시 베네핏지니 영상은 이 세션 이후 발행 예정.
 
 ### 🔜 다음 세션
 1. **유진 영상 재고 렌더**(집 PC): OSMU_StockBuilder 1회 → /jnstock 검수·승인. (없으면 유진 영상 계속 skip.)
 2. **[073] 훅 처리**: 라이브 삭제/재발행 여부 결정(원하면 `remove_post.py`/재발행). 장기적으론 캡션 훅-상품 맥락 제약 추가.
-3. **오늘 저녁 발행 결과**(이 세션 이후): 현지 19시 영상·21시 일상글·유진 20:07·형수테크 WP 21:05 2번째 — 로그 확인. **특히 21:05 형수테크 WP는 고친 코드 첫 발행 → raw HTML로 `**`·불릿 정상변환 확인**.
-4. **네이버 본문 5대 기준 재점검**(집 PC/일반망): 회사PC 프록시로 못 본 hyunji_unni·hyungsutech 본문을 `feedback-post-inspection-checklist` 기준(특히 기호누출 `**`)으로 실측. 네이버 생성기(content/info_content/gov)는 tech WP와 다른 경로라 별도 확인 필요.
+3. **오늘 저녁 발행 결과**(이 세션 이후): 베네핏지니 19시 영상·21시 일상글·유진 20:07·형수테크 WP 21:05 2번째 — 로그 확인. **특히 21:05 형수테크 WP는 고친 코드 첫 발행 → raw HTML로 `**`·불릿 정상변환 확인**.
+4. **네이버 본문 5대 기준 재점검**(집 PC/일반망): 회사PC 프록시로 못 본 benefit_genie·hyungsutech 본문을 `feedback-post-inspection-checklist` 기준(특히 기호누출 `**`)으로 실측. 네이버 생성기(content/info_content/gov)는 tech WP와 다른 경로라 별도 확인 필요.
 
 ---
 
@@ -164,7 +164,7 @@
 > **집 PC에서 이 섹션부터 읽으세요.** 오늘은 어제 EC2 전면 이관 후 '첫 실전일'이라 전 채널을 시간대별로 추적 점검했고, 이관 누락 버그 2종 등 총 5건을 잡았습니다.
 
 ### 완료 (전부 push·라이브 검증)
-- **EC2 크론 첫 실전 전수 점검**: 어제저녁~오늘 저녁 발행 시간대별 확인. 정상 = 형수테크 심층가이드(06:11)·유진 아침(10:07)/저녁·현지 일상글(09:30/21시)·현지 상품글[072](13시)·답글봇·속보·주식(스킵=정상).
+- **EC2 크론 첫 실전 전수 점검**: 어제저녁~오늘 저녁 발행 시간대별 확인. 정상 = 형수테크 심층가이드(06:11)·유진 아침(10:07)/저녁·베네핏지니 일상글(09:30/21시)·베네핏지니 상품글[072](13시)·답글봇·속보·주식(스킵=정상).
 - **🐛 WP draft 버그 수정**(중대): run_wp.sh에 WP_STATUS 미지정 → 09:05 글이 **비공개 draft**로 발행됨. `scripts/wp_post.py` 기본값 draft→**publish**로 통일(형제 스크립트와 동일, 다른 호출자는 명시 전달이라 무영향). 오늘 글은 내용 검증(청년미래적금 — 신청기간 지난 것 금융위 보도자료로 교정: 심사 7/24·계좌개설 7/27~8/7·2차 12월)+수동 publish+IndexNow. **내일 09:05부터 자동 publish.** 커밋 1bdd4d0.
 - **🐛 soyu draft 버그 수정**(동일 계열): run_soyu.sh에 POST_STATUS 미지정 → Blogger draft 발행. EC2 `.env`에 **POST_STATUS=live** 추가(soyu는 기본 draft가 의도라 코드 안 건드림). 오늘 글(이동식에어컨) API로 라이브 전환+이력 보충(0d94989). **내일 11:00부터 자동 live.**
 - **🐛 형수테크 가이드 양트랙 동일주제 충돌 수정**: 네이버·WP 가이드가 같은 풀을 각자 이력만 보고 같은 순서로 뽑아 2일 연속 동일주제(07-19 윈도우11·07-20 챗GPT). ①상대 트랙 최근 14일 배제 ②WP는 풀 역방향 소비. 시뮬 검증(내일 wifi vs ott). §7 0-m, 커밋 afcba8e.
@@ -174,17 +174,17 @@
 - **preview_jn_x7k2m9.mp4 삭제**(검수 완료분, EC2 웹루트).
 
 ### 완료 — 발행량 확대 (사용자 지시 A+B, "WP 발행수 적다" 논의 후)
-> 진단: 발행 스케줄이 아니라 **주제 풀**이 병목. 현지 WP는 6허브 × 36+2종뿐(REPUBLISH 365일)이라 하루 1건도 장기적으론 아슬. 형수테크는 풀 114종 여유 있으나 도메인 1일차 신생.
-- **A. 현지 풀 자동 확장**: `wp_topic_refresh.py`를 총량 게이트(21)→**허브별 목표 버퍼(30)·회당 허브 8종(주 42)** 자동 리서치로 개조. `wp_topics._merge_extra_topics`가 발행에 자동 반영. 즉시 점프스타트 실행(오늘 09시, extra 2→42종 목표, EC2 자체 push). 커밋 31c45b5.
+> 진단: 발행 스케줄이 아니라 **주제 풀**이 병목. 베네핏지니 WP는 6허브 × 36+2종뿐(REPUBLISH 365일)이라 하루 1건도 장기적으론 아슬. 형수테크는 풀 114종 여유 있으나 도메인 1일차 신생.
+- **A. 베네핏지니 풀 자동 확장**: `wp_topic_refresh.py`를 총량 게이트(21)→**허브별 목표 버퍼(30)·회당 허브 8종(주 42)** 자동 리서치로 개조. `wp_topics._merge_extra_topics`가 발행에 자동 반영. 즉시 점프스타트 실행(오늘 09시, extra 2→42종 목표, EC2 자체 push). 커밋 31c45b5.
 - **B. 형수테크 하루 2건**: `wp_tech_post` 하루상한 `TECH_WP_DAILY_MAX`(EC2 .env=2) + 크론 2슬롯(**14:05·21:05 KST**). 내일부터 2건. 각 슬롯은 직전분 보고 다른 주제·카테고리.
-- **⏸️ 현지 발행량은 아직 안 올림**(의도): 풀이 허브당 20~30종 쌓인 뒤(2~3주) 하루 2건으로 상향 예정. 지금 올리면 소진.
+- **⏸️ 베네핏지니 발행량은 아직 안 올림**(의도): 풀이 허브당 20~30종 쌓인 뒤(2~3주) 하루 2건으로 상향 예정. 지금 올리면 소진.
 
 ### 🔜 집 PC에서 이어서 (우선순위순)
 1. **이천 청약 재발행**(미완 — 권한 차단으로 트리거 대기): 기존 글(224352126924) 삭제 후 아래 실행 →
    `gh workflow run 314901616 -f notice="2026000291-2026000291" -f draft="false"` (고친 카드 배치로 재생성, ~10분).
    완료되면 현금 카드가 "현금이 얼마나 필요한가요?" 소제목 아래·카드 6장 다 들어갔는지 확인.
 2. **유진 재고 검수·승인**: 오늘 17:30 stock_builder가 새 재고 렌더 → 대시보드 /jnstock에서 검수 후 승인해야 내일 12:30 발행.
-3. **저녁 발행 결과 확인**(오늘): 19시 현지 영상·20:07 유진·21시 일상글 — 모니터가 잡았을 것, 로그 확인.
+3. **저녁 발행 결과 확인**(오늘): 19시 베네핏지니 영상·20:07 유진·21시 일상글 — 모니터가 잡았을 것, 로그 확인.
 4. **풀 보충 완료 확인**: `wp_topic_pool_extra.json` 종수(목표 42+2), EC2 자체 커밋됐는지.
 5. **내일 자동 검증**: WP 09:05 **publish**(draft 아님)·soyu 11:00 **live**·가이드 양트랙 **다른 주제**(wifi vs ott)·형수테크 **2건**(14:05+21:05)·청약카드 리드인.
 6. 형수테크 라이브 무관사진 정리(폴드8 테슬라 3장·갤럭시AI 2장) — 어제 백로그 잔여.
@@ -194,7 +194,7 @@
 ## ★★★★ 2026-07-19 밤 세션 (집 PC) — 인수인계 소화 + 사고 수정 + 청약 카드 시스템
 
 ### 완료 (전부 push)
-- **osmu stock_builder 가동**: 스케줄러 등록(17:30)+크래시 2건 근본수정(ssh cp949 → stdout None / 업로드 타임아웃 전파) → 현지 재고 +7 적재. 유진 +0은 정상(대상 규칙: 현지 발행 4일 경과 — 7/20 저녁부터 자동 충족).
+- **osmu stock_builder 가동**: 스케줄러 등록(17:30)+크래시 2건 근본수정(ssh cp949 → stdout None / 업로드 타임아웃 전파) → 베네핏지니 재고 +7 적재. 유진 +0은 정상(대상 규칙: 베네핏지니 발행 4일 경과 — 7/20 저녁부터 자동 충족).
 - **형수테크 무관사진 사고**(폴드8 글에 테슬라 모형차): 시드-헤드라인 재정렬(_realign_seed) + 쇼핑 사진 비전 게이트 + 게이트 기준을 헤드라인으로. '함께 보면 좋은 글' 내부링크 이식.
 - **청약글 벤치마킹 개편**(사용자 벤치마크 3종 분석): ①리스크 섹션 의무화+판정 하한(네이버·WP 프롬프트) ②**데이터 인포카드 3종 신설**(poster/cheongyak_cards.py — 요약 2×2·일정 타임라인·타입별 분양가, 팩트만 렌더라 수치 오류 불가, cheongyak_naver_post 배선 완료. 서희스타힐스 실데이터 렌더 검증됨).
 - 대시보드에 형수테크 WP 추가 + tech WP에 koko-analytics·limit-login-attempts 설치.
@@ -212,16 +212,16 @@
   76→114종(5종 카테고리 39종 추가), 프롬프트 구조 이원화(문제해결형+선택·활용 가이드형).
   뉴스 미러 발행은 중복 콘텐츠 리스크로 안 하기로(사용자 확정).
 - **양쪽 WP 사이드바**: Kadence post/archive_layout=right + sticky(스크롤 고정, 광고 상시 노출).
-  main=hyunji-style.css(레포 커밋), tech=tech-style.php(서버 mu-plugin 직접 배포).
+  main=benefit-style.css(레포 커밋), tech=tech-style.php(서버 mu-plugin 직접 배포).
 - **유진 재고 검수·승인 체제**(사용자 지시: 자막·편집·링크 검수 후만 발행):
   대시보드 /jnstock 검수 페이지(영상+캡션+승인버튼) → data/jiniee_stock_approvals.json(git)
   → EC2 stock_publisher가 승인+4일 경과분만 발행. 유진 선렌더 구조 전환(랙 판정 발행측 이동).
-- 현지 재고 '발행됨' 오표시 버그 수정(빈 코드 매칭 — 사용자 발견).
+- 베네핏지니 재고 '발행됨' 오표시 버그 수정(빈 코드 매칭 — 사용자 발견).
 - 매직행주 렌더·적재 완료, **현재 미승인 상태**(승인해야 21시 발행됨).
 
 ### 🔜 내일(07-20) 회사 PC에서 할 일 — 우선순위순
 1. **매직행주 검수·승인**(유진 첫 EC2 발행 여부 결정): 영상 미리보기(회사에서 가능):
-   https://hyunjiunni.com/osmu/preview_jn_x7k2m9.mp4 — 확인 후 Claude에게 "매직행주 승인"
+   https://benefitgenie.com/osmu/preview_jn_x7k2m9.mp4 — 확인 후 Claude에게 "매직행주 승인"
    지시 → osmu `data/jiniee_stock_approvals.json`의 `매직_행주_`를 true로 수정·push.
    (승인 시 21:00 KST EC2 첫 발행. 검수 후 preview 파일 삭제할 것.)
 2. **아침 자동발행 첫날 확인**: WP 09:05(가이드 — 새 5종 카테고리 로테이션 시작) · soyu 11:00 ·
@@ -240,24 +240,24 @@
 
 ### 완료 (전부 push·라이브 검증)
 - **EC2 크론 전면 이관**: coupang 텍스트 트랙 전체+jiniee 인사이트+soyu+WP 허브 → EC2 정시 실행(run_coupang/run_soyu/run_wp/run_wp_tech.sh). GH 지연·스킵 해소. 남은 GH: 네이버 발행(Chromium)·청약·토스·벤치마크·대시보드.
-- **발행 체제 개편(사용자 지시)**: 현지 하루 4건(상품 13시·영상 19시·일상 오전/21시), 유진 3건(여행글 폐기), 영상 매일 1건(양 트랙), WP·soyu 매일 1건.
+- **발행 체제 개편(사용자 지시)**: 베네핏지니 하루 4건(상품 13시·영상 19시·일상 오전/21시), 유진 3건(여행글 폐기), 영상 매일 1건(양 트랙), WP·soyu 매일 1건.
 - **오류 원천 차단 3중 체계**: ①고시값 정적 DB(data/official_facts_2026.json + generator/official_facts.py, info·gov 자동 주입) ②규칙 3-3(근거 없으면 수치 생략) ③주간 품질 감사(quality_audit.yml 일 21:23 — 이슈 보고+재발행 커맨드, ⚠️감사 지적도 검증 후 실행: 첫날 3건 중 2건이 채점기 구지식 오탐이었음).
 - **오류 글 4건 삭제·재발행**(청약1순위·주거급여·사업자경비·자녀장려금 — FORCE_FACTS, 전부 라이브 검증). info에 FORCE_FACTS 신설.
-- **형수테크 3중 트랙**: 뉴스(기존)+네이버 심층가이드(tech_guide, 카테고리 3종: PC 오류해결·설정/AI 활용·자동화/오피스·툴 활용, 주제 풀 76종)+**tech.hyunjiunni.com WP 신설**(EC2 두 번째 WP, Kadence, SSL, 크론 14:05, 대표이미지 PIL 자동, IndexNow). 첫 글 양쪽 라이브.
-- **속보 트리거**(2h 간격 스캔→tech/stock 즉시 디스패치)·**WP 주제 풀 자동 갱신**(토요일)·**커버리지/색인 완결**(soyu GSC=도메인 속성, WP IndexNow 16건 백필, hyunjissi SSL 발급+https).
+- **형수테크 3중 트랙**: 뉴스(기존)+네이버 심층가이드(tech_guide, 카테고리 3종: PC 오류해결·설정/AI 활용·자동화/오피스·툴 활용, 주제 풀 76종)+**tech.benefitgenie.com WP 신설**(EC2 두 번째 WP, Kadence, SSL, 크론 14:05, 대표이미지 PIL 자동, IndexNow). 첫 글 양쪽 라이브.
+- **속보 트리거**(2h 간격 스캔→tech/stock 즉시 디스패치)·**WP 주제 풀 자동 갱신**(토요일)·**커버리지/색인 완결**(soyu GSC=도메인 속성, WP IndexNow 16건 백필, benefit_genie_ssi SSL 발급+https).
 - **DM봇 실체 확정**: EC2 systemd `ig-dm-bot`(60초 폴링, hyunji+jiniee 토큰 등록·자동연장). Business Suite 아님. 유진 확장=발행기 CTA·키워드 등록만 남음.
 - **수익**: 수익화 개시 9/21→**7/31 정정**(전 코드·메모리). 8월 계정별 수익 예측 모델 수립(메모리 forecast-2026-08). 랜딩 빈 번호 근본 수정(발행 직전 코드 부여).
 - **청약 서식 3종**(카테고리 오분류 근본수정·가운데정렬 철회·불릿 명사형=전 파이프라인 공통 기준).
 
 ### 🔜 집 PC에서 이어서 (우선순위순)
 1. **osmu stock_builder**: `git pull` → `setup_scheduler.ps1` → `Start-ScheduledTask OSMU_StockBuilder` (유진 재고 0 — 유진 영상 재개의 유일한 블로커).
-2. **저녁 첫 실전 확인**: 19시 현지 영상(발행 직전 코드부여 1호), 21시 일상글, 형수테크 크론(이미지 비전 게이트), stock_hyunji 로그.
-3. **GSC**: 도메인 속성에 `https://tech.hyunjiunni.com/wp-sitemap.xml` 제출(1분).
+2. **저녁 첫 실전 확인**: 19시 베네핏지니 영상(발행 직전 코드부여 1호), 21시 일상글, 형수테크 크론(이미지 비전 게이트), stock_hyunji 로그.
+3. **GSC**: 도메인 속성에 `https://tech.benefitgenie.com/wp-sitemap.xml` 제출(1분).
 4. 내일 오전 자동 첫날 확인: WP 09:05·soyu 11:00·가이드 3트랙·속보 스캔.
 5. 백로그: 이력 커밋 충돌 견고화(오늘 3회 유실·수동복구), 가이드 풀 자동 보충 이식, WP 본문 실캡처 v2, 티스토리 이슈 블로그(승인 대기).
 
 ### 7/31 수익 스위치 체크리스트(집·회사 공용)
-쿠팡파트너스 API(+상품 품질검증+유진 딥링크) / 애드센스 신청(hyunjiunni.com 루트 — WP 필수 페이지 확인됨) / 애드포스트 신청(형수테크: 글 40~50개 예상, 운영기간 짧아 1차 반려 가능성 수용) / 유진 인스타 CTA·키워드 등록 코드 / coupang·osmu 수익화 모드 자동 전환(코드 반영됨).
+쿠팡파트너스 API(+상품 품질검증+유진 딥링크) / 애드센스 신청(benefitgenie.com 루트 — WP 필수 페이지 확인됨) / 애드포스트 신청(형수테크: 글 40~50개 예상, 운영기간 짧아 1차 반려 가능성 수용) / 유진 인스타 CTA·키워드 등록 코드 / coupang·osmu 수익화 모드 자동 전환(코드 반영됨).
 
 
 > **다른 PC에서 시작할 때 이 파일부터 읽으세요.** 상세 기술 로그는 [docs/WRITING_SYSTEM.md](docs/WRITING_SYSTEM.md) §7, WP 설계는 [docs/WP_PIPELINE.md](docs/WP_PIPELINE.md).
@@ -270,7 +270,7 @@
 
 1. **발행 공백 원인 해결**: 목요일 tax-refund 허브 미발행 주제 전부가 네이버 7일 중복회피에
    걸리면 타 허브 미발행이 있어도 스킵되던 결함 → 허브 소진 시 전체 풀 폴백(wp_post.py).
-   오늘 글 복구 발행 완료(pension_withdraw_tax, https://hyunjiunni.com/pension-withdrawal-tax/).
+   오늘 글 복구 발행 완료(pension_withdraw_tax, https://benefitgenie.com/pension-withdrawal-tax/).
 2. **관련글 링크 결함**: base_url(글 URL) 기준이라 /글슬러그/관련슬러그/로 저장 → site_url
    기준으로 수정(wp_render.py) + 라이브 6편 scripts/wp_fix_related.py로 소급 교정.
 3. **07-15 실패 내성**: 5회 전부 본문 짧음(2,261~2,988자) → 재시도 7회 + 짧음 실패 시
@@ -285,10 +285,10 @@
 
 ### 완료 — 파이프라인 완성 상태
 1. **쿠키 재발급 → 클라우드 발행 복구**: `TECH_NAVER_COOKIES` GH Secret 갱신(회사 PC에서 get_cookies_tech.py 실행 가능 확인 — 브라우저 로그인은 프록시 무관). 크론 0회 실행이던 원인 해결.
-2. **현지언니 복제 탈피**: 대표 썸네일=실사진배경 헤더카드(create_photo_header_card, 실사진+IT·테크칩+훅텍스트), '✓대표' 명시 지정 검증. 섹션별 다중 실사진(get_tech_photos, og 화이트리스트+Pexels 캐스케이드).
+2. **베네핏지니 복제 탈피**: 대표 썸네일=실사진배경 헤더카드(create_photo_header_card, 실사진+IT·테크칩+훅텍스트), '✓대표' 명시 지정 검증. 섹션별 다중 실사진(get_tech_photos, og 화이트리스트+Pexels 캐스케이드).
 3. **테크티노 벤치마크 글쓰기**: 대화체 훅→핵심요약 3줄→목차→질문형 소제목(3열표=항목|스펙|한줄평)→총평→참여유도 질문. 4형식(breaking/explain/pick/compare) 전부 검증.
 4. **안전장치**: og는 신뢰언론사 화이트리스트만(연예매체=인플루언서 개인·아동사진 og 사고 실측), SNS/개인 CDN 차단, PIL 재인코딩.
-5. **전면 점검 수정 4건(ef63f0c)**: 대표지정 set_representative opt-in(★현지언니에 켜지 말 것) / 최근 14일 헤드라인 후보 원천 제외(중복 글감 방지) / 섹션사진 skip 부분일치+플레이스홀더 방어 / 이력 커밋 if:always().
+5. **전면 점검 수정 4건(ef63f0c)**: 대표지정 set_representative opt-in(★베네핏지니에 켜지 말 것) / 최근 14일 헤드라인 후보 원천 제외(중복 글감 방지) / 섹션사진 skip 부분일치+플레이스홀더 방어 / 이력 커밋 if:always().
 
 ### 🔧 기술 메모 (재발 방지)
 - 네이버 SE 표는 항상 3열 삽입, **헤드리스에서 열삭제 불가** → 표는 3열로 설계.
@@ -313,17 +313,17 @@
 3. **구법 수치 정정**: year_end_tax의 월세 공제 750만원·12%(구법) → 1,000만원·15~17%(현행). ⚠️이미 라이브인 연말정산 글(year-end-tax-refund-order)에 구법 수치 있을 수 있음 — 재발행(이제 upsert라 안전) 권장.
 4. **렌더러 §2 잔여 구현**(`generator/wp_render.py`): 브레드크럼(+BreadcrumbList 스키마)·읽는시간 메타라인·저자 박스. wp_post가 site_url·category_slug 전달.
 5. **출처 정밀화 복원**: 발행된 주제들 출처를 "수치 — 법령·문서" 형식으로(소득세법 §59의3·§89·§129, 조특법 §95의2 등).
-6. **서버 점검**(SSH): WP 7.0.1, mu-plugin 2종(hyunji-seo/style), SSH 키 전용 인증 OK, MariaDB 로컬 바인딩 OK. **미비: WP 로그인 무차별대입 방어 없음, 백업 전무(스냅샷·크론 둘 다).** 메모리 911MB 중 가용 399MB.
+6. **서버 점검**(SSH): WP 7.0.1, mu-plugin 2종(benefit-seo/style), SSH 키 전용 인증 OK, MariaDB 로컬 바인딩 OK. **미비: WP 로그인 무차별대입 방어 없음, 백업 전무(스냅샷·크론 둘 다).** 메모리 911MB 중 가용 399MB.
 
 ### 서버 작업 완료 (07-10 오후, 사용자 승인 후)
 - ✅ `limit-login-attempts-reloaded` 설치·활성(로그인 무차별대입 방어)
 - ✅ 일일 백업 크론 `/etc/cron.d/wp-backup`(매일 04:20 KST, DB+wp-content → /var/backups/wordpress, 요일별 7세대 순환). 첫 백업 검증됨(23MB+681KB)
-- ✅ `hyunji-style.css` 재배포(브레드크럼·저자박스 스타일)
+- ✅ `benefit-style.css` 재배포(브레드크럼·저자박스 스타일)
 
 ### 🔜 다음 세션 우선순위
-1. **GSC 등록**: `hyunji-seo.php`에 인증 훅 이미 있음 — 사용자가 GSC(URL 접두어 방식)에서 HTML 태그 코드 받아오면 `wp option update hyunji_gsc_verification <content값>` 한 줄이면 끝. 이후 사이트맵(wp-sitemap.xml) 제출.
+1. **GSC 등록**: `benefit-seo.php`에 인증 훅 이미 있음 — 사용자가 GSC(URL 접두어 방식)에서 HTML 태그 코드 받아오면 `wp option update benefit_genie_gsc_verification <content값>` 한 줄이면 끝. 이후 사이트맵(wp-sitemap.xml) 제출.
 2. **토요일(7/11) 첫 로테이션 발행 확인**: 짝수주 토=policy-benefit → housing_benefit(주거급여, 팩트 검증완료) 예상. `gh run list --workflow=wp_post.yml`. 브레드크럼·저자박스·읽는시간 첫 적용 글 — 라이브 품질 확인.
-3. **레포 공개 상태 결정**: hyunji_unni_blog가 PUBLIC — 코드·프롬프트·전략 전부 열람 가능. private 전환 시 Actions 무료 2,000분/월 초과(현재 일 2~3시간 사용) → EC2 self-hosted runner와 세트로 결정 필요. 최소한 문서의 서버 IP·관리자ID 등 민감정보 정리 검토.
+3. **레포 공개 상태 결정**: benefit_genie_blog가 PUBLIC — 코드·프롬프트·전략 전부 열람 가능. private 전환 시 Actions 무료 2,000분/월 초과(현재 일 2~3시간 사용) → EC2 self-hosted runner와 세트로 결정 필요. 최소한 문서의 서버 IP·관리자ID 등 민감정보 정리 검토.
 4. **주거·청약 허브 확충**: 미발행 1개(newlywed_package)뿐 — 7/18 이후 소진. 후보: 전세보증보험(HUG), 청년월세지원, 취득세 감면.
 5. **라이브 구법 글 재발행**: year_end_tax(월세 수치)·jutaek_cheongyak(4.5% 근거 보강됨) — `gh workflow run wp_post.yml -f topic=year_end_tax`.
 
@@ -331,10 +331,10 @@
 
 ## 0. 프로젝트 요약
 
-- **현지언니 네이버 블로그**(blog.naver.com/hyunji_unni) 자동 포스팅 파이프라인. Playwright로 SE ONE 에디터 조작, GH Actions 크론.
+- **베네핏지니 네이버 블로그**(blog.naver.com/benefit_genie) 자동 포스팅 파이프라인. Playwright로 SE ONE 에디터 조작, GH Actions 크론.
 - 활성: 정부지원(09시)·정보성 4종(금융/세금/보험/부동산, 13·15·17·19시 순환)·주식(종목분석 16:30/**공모주 09시(재설계됨)**/ETF 07시).
 - 원칙: 실데이터만, 모바일 가독성, 두괄식+FAQ, 중립·정확.
-- **워드프레스 심층분석 블로그**: **hyunjiunni.com — AWS EC2에 구축·라이브 완료(2026-07-07)**. **2026-07-08부터 매일 9시(KST) 자동발행 크론 가동**. 9월까지는 매일 결과 리뷰하며 품질 개선하는 관찰기간. 수익화(애드센스)는 실업급여 종료 후 **2026-07-31**, 이미 승인된 애드센스 계정 보유. 그 전까지 구글 샌드박스 기간 동안 콘텐츠·전문성 축적이 목표.
+- **워드프레스 심층분석 블로그**: **benefitgenie.com — AWS EC2에 구축·라이브 완료(2026-07-07)**. **2026-07-08부터 매일 9시(KST) 자동발행 크론 가동**. 9월까지는 매일 결과 리뷰하며 품질 개선하는 관찰기간. 수익화(애드센스)는 실업급여 종료 후 **2026-07-31**, 이미 승인된 애드센스 계정 보유. 그 전까지 구글 샌드박스 기간 동안 콘텐츠·전문성 축적이 목표.
 
 ---
 
@@ -342,10 +342,10 @@
 
 ### A. AWS 인프라 (0→완전 라이브)
 - **EC2**: 서울 리전(ap-northeast-2), Ubuntu 24.04, t3.micro, 인스턴스 `i-0c316891763d468cc`, 고정 IP **13.209.190.8**, 스왑 2GB, Apache+PHP8.3+MariaDB.
-- **도메인**: **hyunjiunni.com**(가비아, 1년 구매 — 매년 갱신 필요). A레코드 `@`·`www` → 13.209.190.8.
+- **도메인**: **benefitgenie.com**(가비아, 1년 구매 — 매년 갱신 필요). A레코드 `@`·`www` → 13.209.190.8.
 - **SSL**: Let's Encrypt(Certbot), http→https 강제 리다이렉트, 자동갱신 설정됨(만료 2026-10-05, 자동연장).
-- **워드프레스**: 설치 완료, 관리자 `hyunji_admin`(표시이름 '현지언니'), 카테고리 5종(네이버 미러: 정부지원·혜택/금융·재테크/세금·절세/보험/부동산·주거), 퍼머링크 `/%postname%/`, 시간대 서울, 댓글 기본 닫음.
-- **⚠️민감정보는 저장소 밖**: `C:\박관용\CLAUDE\hyunji_wp_credentials.txt`(DB 비번·WP 관리자·앱비밀번호 전체 기록), SSH 키 `C:\박관용\CLAUDE\hyunji-key.pem`. **다른 PC에서 서버 SSH 접속하려면 이 pem 파일을 그 PC로 옮겨야 함**(현재 이 PC에만 있음 — 파일 자체를 복사하거나 재발급 필요).
+- **워드프레스**: 설치 완료, 관리자 `benefit_genie_admin`(표시이름 '베네핏지니'), 카테고리 5종(네이버 미러: 정부지원·혜택/금융·재테크/세금·절세/보험/부동산·주거), 퍼머링크 `/%postname%/`, 시간대 서울, 댓글 기본 닫음.
+- **⚠️민감정보는 저장소 밖**: `C:\박관용\CLAUDE\benefit_genie_wp_credentials.txt`(DB 비번·WP 관리자·앱비밀번호 전체 기록), SSH 키 `C:\박관용\CLAUDE\benefit-key.pem`. **다른 PC에서 서버 SSH 접속하려면 이 pem 파일을 그 PC로 옮겨야 함**(현재 이 PC에만 있음 — 파일 자체를 복사하거나 재발급 필요).
 
 ### B. 발행 파이프라인 (B단계 완료)
 - **`poster/wp_publish.py`**(신설): REST API 발행 어댑터. Application Password Basic Auth. 카테고리·태그 이름→id 자동 해석(없으면 생성).
@@ -359,11 +359,11 @@
   - ⚠️**3개뿐이라 3일 주기로 반복됨 — 내일 우선순위 1번(아래) 참고.**
 
 ### C. 첫 글 발행 + 버그픽스 (사용자 품질 피드백 반영)
-- 첫 글 라이브: **https://hyunjiunni.com/isa-계좌-비교/** (id=9, "ISA 계좌 유형별 비교").
+- 첫 글 라이브: **https://benefitgenie.com/isa-계좌-비교/** (id=9, "ISA 계좌 유형별 비교").
 - **버그 수정**: ① `deep_content`가 표 마커로 `[표삽입]`(파서 내부 placeholder)을 모델에 지시 → **표 상시 누락 → 매번 재생성 실패**. `[표시작]/[표끝]`로 수정(근본 원인, 재발 방지 완료). ② FAQ 제목 h2가 소제목+렌더러에서 중복 출력 → 렌더러 측 제거. ③ ①②③ 번호가 산문 사이 끼면 1,1,1로 리셋 → `<ol start=N>` 보존. ④ FAQ의 'Q:/A:' 접두가 화면·구글 스키마에 그대로 노출 → 제거.
 - **콘텐츠 순서**: 승인 스펙(§1) 그대로 도입→요약→핵심수치→목차→본문→출처→면책 순으로 렌더러가 조립하도록 수정.
 - **출처 정밀화**: 기관 홈페이지 링크만 나열하던 것 → **"어떤 수치를 정확히 어디서(법령·공시 문서명) 가져왔는지" 형식**으로 전환(예: "비과세 한도·9.9%·의무3년 — 조세특례제한법 제91조의18"). **앞으로 주제 추가 시 이 형식이 표준.**
-- **스타일**: 승인 v2 디자인을 `poster/wp_assets/hyunji-style.{css,php}`(mu-plugin, 테마 독립)로 이식·서버 배포. **Pretendard 한글 웹폰트** 적용, 본문 1.06rem/1.85 행간, 본문 폭 760px.
+- **스타일**: 승인 v2 디자인을 `poster/wp_assets/benefit-style.{css,php}`(mu-plugin, 테마 독립)로 이식·서버 배포. **Pretendard 한글 웹폰트** 적용, 본문 1.06rem/1.85 행간, 본문 폭 760px.
 - **프롬프트 보강**: 번호 연속성 규칙, 독자 호칭("여러분" 등) 금지, 오해 섹션 형식 명시, 수치 일관성(본문↔표) 규칙. 게이트 오탐 수정(표 안 계산도 인정).
 
 ### 🔜 다음 세션(내일, 다른 PC) 우선순위
@@ -377,7 +377,7 @@
 
 ### 다른 PC 시작 절차
 1. `git pull origin main` — 오늘 커밋(REST 발행·자동발행 크론·스타일·품질수정) 전부 포함.
-2. **`hyunji-key.pem`과 `hyunji_wp_credentials.txt`는 git에 없음** — 서버 SSH 접속이 필요하면 이 PC(현재 작업 PC)에서 파일을 옮겨오거나, AWS 콘솔에서 새 키페어 발급 필요.
+2. **`benefit-key.pem`과 `benefit_genie_wp_credentials.txt`는 git에 없음** — 서버 SSH 접속이 필요하면 이 PC(현재 작업 PC)에서 파일을 옮겨오거나, AWS 콘솔에서 새 키페어 발급 필요.
 3. 로컬 WP 발행 테스트: `.env`에 `WP_URL/WP_USER/WP_APP_PW` 추가(자격정보 파일 참고) 후 `WP_TOPIC=isa WP_STATUS=draft python -m scripts.wp_post`.
 4. GH Actions로 원격 발행 테스트: `gh workflow run wp_post.yml -f status=draft`.
 
@@ -493,7 +493,7 @@
 
 ## 3. 다른 PC에서 시작하는 법
 
-1. `git clone https://github.com/parky091999-sudo/hyunji_unni_blog.git` (또는 `git pull`). 유진은 `jiniee_pipeline.git`.
+1. `git clone https://github.com/parky091999-sudo/benefit_genie_blog.git` (또는 `git pull`). 유진은 `jiniee_pipeline.git`.
 2. `.env`는 git에 없음 — 실발행·검증은 전부 GH Actions(Secrets)로 하므로 로컬 .env 없이도 workflow_dispatch로 작업 가능. `gh auth login` 필요.
 3. 검증 명령 패턴:
    - DRAFT(비공개): `gh workflow run info_post.yml -f category=보험 -f draft=true -f force_post=true`
