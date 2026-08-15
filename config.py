@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 네이버 계정 (Playwright 로그인용)
-NAVER_ID      = os.getenv("NAVER_ID", "")       # 로그인 ID: gyhj1101
+NAVER_ID      = os.getenv("NAVER_ID", "")       # 로그인 ID: policy_master
 NAVER_PW      = os.getenv("NAVER_PW", "")
 NAVER_BLOG_ID = os.getenv("NAVER_BLOG_ID", "")  # 블로그 주소 ID: benefit_genie
 # GH Actions에서 쿠키 재사용 (JSON 문자열)
