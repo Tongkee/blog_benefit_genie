@@ -29,8 +29,12 @@ def _norm_cat(s) -> str:
 
 def related_links(history: list, blog_category: str | None = None,
                   current_url: str | None = None, current_title: str | None = None,
-                  limit: int = 3) -> list:
-    """관련글 후보를 최신순·관련우선·중복/자기제외로 최대 limit개."""
+                  limit: int = 3, blog_id: str | None = None) -> list:
+    """관련글 후보를 최신순·관련우선·중복/자기제외/동일블로그 한정으로 최대 limit개."""
+    if not blog_id:
+        from config import NAVER_BLOG_ID
+        blog_id = NAVER_BLOG_ID
+    
     cur_u = _norm(current_url)
     cand, seen = [], set()
     for h in reversed(history):  # 최신 발행 우선(기존은 오래된 것 고정)
@@ -38,6 +42,9 @@ def related_links(history: list, blog_category: str | None = None,
             continue
         u = _norm(h.get("post_url"))
         if not u or u == cur_u or u in seen:
+            continue
+        if blog_id and f"blog.naver.com/{blog_id.lower()}" not in u.lower():
+            # 다른 블로그(이전 계정 등)의 글은 내부 링크 추천에서 제외
             continue
         if current_title and h.get("title") == current_title:
             continue
@@ -52,9 +59,9 @@ def related_links(history: list, blog_category: str | None = None,
 
 def append_related(body: str, history: list, blog_category: str | None = None,
                    current_url: str | None = None, current_title: str | None = None,
-                   limit: int = 3) -> tuple:
+                   limit: int = 3, blog_id: str | None = None) -> tuple:
     """(body + '함께 보면 좋은 글' 블록, 추가소제목) — 기존 _append_internal_links 대체용."""
-    picked = related_links(history, blog_category, current_url, current_title, limit)
+    picked = related_links(history, blog_category, current_url, current_title, limit, blog_id=blog_id)
     if not picked:
         return body, []
     txt = "\n\n함께 보면 좋은 글\n"

@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-15",
+    "timestamp": "2026-08-15T22:28:22.761552+09:00",
+    "run_slot": "22",
+    "keyword": "연금소득세 과세 기준",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 연금소득세 | 최대 42% 절세, 과세 기준 총정리",
+    "tags": [
+      "연금소득세",
+      "연말정산",
+      "종합소득세",
+      "절세",
+      "세금",
+      "퇴직연금",
+      "개인연금"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224379777580",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 연금소득세 과세 기준을 알면 최대 42%의 세금을 절약할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청, 2026년 기준 연금소득세"
+      },
+      {
+        "value": "최대 42%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 연금소득세 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-01",
     "timestamp": "2026-08-01T00:10:36.613799+09:00",
     "run_slot": "00",

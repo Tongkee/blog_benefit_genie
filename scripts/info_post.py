@@ -139,7 +139,7 @@ def _append_internal_links(body: str, history: list) -> tuple:
     """같은 블로그 카테고리 '최신' 글 최대 3개를 본문 끝에 관련글 링크카드로 추가.
     2026-07-24 개선: 기존 history[:2](오래된 것 고정)→관련성·최신순·자기제외(회유↑)."""
     from generator.related_links import append_related
-    return append_related(body, history, blog_category=BLOG_CATEGORY, limit=3)
+    return append_related(body, history, blog_category=BLOG_CATEGORY, limit=3, blog_id=NAVER_BLOG_ID or NAVER_ID)
 
 
 
