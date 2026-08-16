@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-16",
+    "timestamp": "2026-08-16T17:53:52.830297+09:00",
+    "run_slot": "17",
+    "keyword": "전세 세입자 화재보험 필요성",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "전세 세입자 화재보험 | 월 5천원으로 내 보증금 1억 지키는 법",
+    "tags": [
+      "전세화재보험",
+      "세입자보험",
+      "임차인보험",
+      "화재보험",
+      "재산보호",
+      "보증금보호",
+      "2026보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224380404132",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "전세 세입자 화재보험은 월 5천원 내외의 보험료로 가재도구 손해 (최대) 2,000만원, 임차인 배상책임 (최대) 1억원, 임차보증금 손해 (최대) 1억 5천만원을 보장받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "월 5천원",
+        "source": null
+      },
+      {
+        "value": "2,000만원",
+        "source": null
+      },
+      {
+        "value": "1억원",
+        "source": null
+      },
+      {
+        "value": "1억 5천만원",
+        "source": null
+      }
+    ],
+    "verify_event": "손해보험협회 보험다모아 2026년 기준 업데이트",
+    "verify_date": null
+  },
+  {
     "date": "2026-07-31",
     "timestamp": "2026-07-31T21:26:39.778426+09:00",
     "run_slot": "19",
