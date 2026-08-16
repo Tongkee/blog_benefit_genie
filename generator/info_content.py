@@ -492,6 +492,20 @@ def generate_info_post(keyword: str, api_key: str, info_cat_id: str) -> dict | N
                             + "). 모든 문장을 존댓말(~요/~습니다)로 종결하라 — 인용문 제외, 반말 평서형 금지.")
                 logger.warning(f"{cfg['name']}글 반말 종결 {len(banmal)}건({banmal[0]!r} 등) — 재생성")
                 continue
+            # ★종료 제도 게이트: 폐지/종료된 제도를 현행처럼 서술 시 재생성 피드백
+            try:
+                from generator.official_facts import terminated_mentions
+                _blob = " ".join([parsed.get("title", ""), parsed.get("body", ""),
+                                  parsed.get("summary_text", "")] + list(parsed.get("subheadings", [])))
+                _dead = terminated_mentions(_blob)
+                if _dead:
+                    feedback = (f"\n\n⚠️직전 초안에 종료된 제도({', '.join(_dead)})가 종료 명시 없이 언급되었다. "
+                                "이미 종료된 제도이므로 본문에서 해당 제도 언급을 삭제하거나, 반드시 '현재 신규 가입/신청이 종료된 제도'임을 명시하라.")
+                    logger.warning(f"{cfg['name']}글 종료 제도 언급 {_dead} — 재생성")
+                    continue
+            except Exception as e:
+                logger.warning(f"종료 제도 검증 스킵: {e}")
+
             # ── 길이 검사(맨 뒤): 부족하면 최선 후보로 보관하고 길이 피드백 후 재생성 ──
             if body_len < INFO_BODY_MIN:
                 if best_short is None or body_len > best_short[0]:
