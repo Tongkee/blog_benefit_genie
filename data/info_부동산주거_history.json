@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-16",
+    "timestamp": "2026-08-16T19:44:57.515261+09:00",
+    "run_slot": "19",
+    "keyword": "상가 임대차보호법 핵심",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "2026 상가 임대차보호법 | 최대 10년 계약 보장받는 조건 총정리",
+    "tags": [
+      "상가임대차보호법",
+      "상가임대차",
+      "계약갱신",
+      "권리금",
+      "환산보증금",
+      "상가관리비",
+      "임차인보호"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224380476482",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 상가 임대차보호법은 임차인의 계약갱신요구권을 최대 10년까지, 임대료 인상 상한선을 연 5%로 제한하여 보호하고 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "10년",
+        "source": "국토교통부"
+      },
+      {
+        "value": "5%",
+        "source": "국토교통부"
+      },
+      {
+        "value": "9억 원",
+        "source": "국토교통부"
+      },
+      {
+        "value": "6억 9천만 원",
+        "source": "국토교통부"
+      },
+      {
+        "value": "5억 4천만 원",
+        "source": "국토교통부"
+      }
+    ],
+    "verify_event": "상가건물 임대차보호법 개정안 발표",
+    "verify_date": "2026-05-12"
+  },
+  {
     "date": "2026-07-31",
     "timestamp": "2026-07-31T23:26:03.173890+09:00",
     "run_slot": "23",
