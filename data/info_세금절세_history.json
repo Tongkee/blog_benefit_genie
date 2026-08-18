@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-18",
+    "timestamp": "2026-08-18T19:42:53.990822+09:00",
+    "run_slot": "19",
+    "keyword": "신용카드 소득공제 한도 계산",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 신용카드 소득공제 | 최대 700만원 돌려받는 조건",
+    "tags": [
+      "신용카드소득공제",
+      "연말정산",
+      "절세",
+      "체크카드",
+      "소득공제한도",
+      "환급",
+      "2026연말정산"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224382521424",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 신용카드 소득공제는 총급여액의 25%를 초과하는 사용액부터 공제가 시작되며, 총급여 7천만원 이하 근로자는 최대 700만원까지 공제받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "25%",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "700만원",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "7천만원",
+        "source": "국세청 홈택스"
+      }
+    ],
+    "verify_event": "2026년 신용카드 소득공제 관련 세법 개정 또는 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-15",
     "timestamp": "2026-08-15T22:28:22.761552+09:00",
     "run_slot": "22",
