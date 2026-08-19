@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-19",
+    "timestamp": "2026-08-19T11:03:44.192846+09:00",
+    "run_slot": "10",
+    "keyword": "국가건강검진 대상 항목 2026",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "국가건강검진 | 2026년 항목, 놓치면 최대 70만원 손해?",
+    "tags": [
+      "국가건강검진",
+      "건강검진",
+      "무료건강검진",
+      "건강검진대상",
+      "직장인건강검진",
+      "암검진",
+      "생애전환기건강진단"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224383090680",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 국가건강검진은 대상에 따라 일반건강검진, 암검진, 생애전환기 건강진단 등으로 구분되며, 이를 통해 최소 65만원 이상의 의료비 절감 효과를 누릴 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "65만원 이상",
+        "source": null
+      },
+      {
+        "value": "70만원 이상",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 국가건강검진 항목 및 대상 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-17",
     "timestamp": "2026-08-17T11:02:16.599800+09:00",
     "run_slot": "10",
