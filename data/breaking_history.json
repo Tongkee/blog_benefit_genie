@@ -206,5 +206,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피급락-글로벌장기채금리": {
+  "date": "2026-08-19",
+  "at": "2026-08-19T10:55:50.814888+09:00",
+  "issue": "코스피 급락 및 글로벌 장기채 금리 급등",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
