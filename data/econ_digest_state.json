@@ -2,7 +2,8 @@
   "seen": [
     "https://blog.naver.com/ppassong/224362412628",
     "https://blog.naver.com/ppassong/224363741296",
-    "https://blog.naver.com/ranto28/224362420921"
+    "https://blog.naver.com/ranto28/224362420921",
+    "https://blog.naver.com/giant79/224378734706"
   ],
   "posted": {
     "2026-07-31": {
@@ -10,6 +11,11 @@
       "post_url": "https://blog.naver.com/benefit_genie/224363920068",
       "source": "메르 https://blog.naver.com/ranto28/224362420921",
       "note": "URL 검증 버그로 실패 판정됐으나 실제 발행됨 — 수동 기록(2026-07-31)"
+    },
+    "2026-08-19": {
+      "title": "청년 내 집 마련, 8천만 원 종잣돈 어떻게 모을까?",
+      "post_url": "https://blog.naver.com/benefit_genie/224383136386",
+      "source": "금융전문가 위쌤 https://blog.naver.com/giant79/224378734706"
     }
   }
 }
