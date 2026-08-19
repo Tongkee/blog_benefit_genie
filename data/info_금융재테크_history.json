@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-19",
+    "timestamp": "2026-08-19T16:08:58.712416+09:00",
+    "run_slot": "15",
+    "keyword": "카드 포인트 현금화 방법",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "잠자는 카드 포인트 12만원, 현금화해서 받는 3가지 방법",
+    "tags": [
+      "카드포인트",
+      "카드포인트현금화",
+      "카드포인트사용법",
+      "재테크",
+      "짠테크",
+      "금융팁",
+      "신용카드"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224383431152",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "카드 포인트는 1포인트당 1원으로 현금 전환 가능하며, 월 카드 사용액 100만원, 평균 적립률 0.7% 가정 시 연 84,000포인트를 모을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "1포인트=1원",
+        "source": null
+      },
+      {
+        "value": "월 카드 사용액 100만원",
+        "source": null
+      },
+      {
+        "value": "평균 적립률 0.7%",
+        "source": null
+      },
+      {
+        "value": "연 84,000포인트",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-08-16",
     "timestamp": "2026-08-16T17:05:59.366636+09:00",
     "run_slot": "16",
