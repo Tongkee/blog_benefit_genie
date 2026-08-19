@@ -214,5 +214,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피-급락-매도사이드카": {
+  "date": "2026-08-19",
+  "at": "2026-08-19T13:55:09.216403+09:00",
+  "issue": "코스피 6% 넘게 급락하며 6,400까지 밀려‥장초반 매도 사이드카",
+  "track": "finance",
+  "urgency": 5,
+  "dispatched": true
  }
 }
