@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-08-19",
+    "timestamp": "2026-08-19T18:10:24.686238+09:00",
+    "run_slot": "17",
+    "keyword": "운전자보험 변호사비용 벌금 한도",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "운전자보험 | 변호사비용 최대 5천만원 보장, 꼭 챙길 보장 정리",
+    "tags": [
+      "운전자보험",
+      "변호사비용",
+      "벌금",
+      "교통사고",
+      "보험다모아",
+      "자동차보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224383566047",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "운전자보험은 교통사고 발생 시 형사적, 행정적 책임에 대한 비용을 보장하며, 벌금은 대인 최대 3천만원, 대물 최대 5백만원, 변호사 선임 비용은 최대 5천만원까지 보장하는 상품도 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "대인 최대 3천만원",
+        "source": null
+      },
+      {
+        "value": "대물 최대 5백만원",
+        "source": null
+      },
+      {
+        "value": "최대 5천만원",
+        "source": null
+      }
+    ],
+    "verify_event": "보험다모아 2026년 기준 정보 업데이트",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-16",
     "timestamp": "2026-08-16T17:53:52.830297+09:00",
     "run_slot": "17",
