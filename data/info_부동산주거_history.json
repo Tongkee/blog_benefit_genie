@@ -1,5 +1,47 @@
 [
   {
+    "date": "2026-08-19",
+    "timestamp": "2026-08-19T19:44:12.343206+09:00",
+    "run_slot": "19",
+    "keyword": "재개발 재건축 차이점",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "재개발과 재건축, 2026년 핵심 차이와 예상 분담금 최대 8억까지 총정리",
+    "tags": [
+      "재개발",
+      "재건축",
+      "부동산",
+      "주거",
+      "내집마련",
+      "분담금",
+      "이주비",
+      "조합원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224383642892",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 현재 공사비 폭등으로 인해 재개발·재건축 모두 조합원 분담금 부담이 커지고 있으며, 재건축 분담금은 7억~8억 원, 많게는 10억 원까지 요구되는 현장도 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국토교통부 마이홈"
+      },
+      {
+        "value": "7억~8억 원",
+        "source": null
+      },
+      {
+        "value": "10억 원",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-08-16",
     "timestamp": "2026-08-16T19:44:57.515261+09:00",
     "run_slot": "19",
