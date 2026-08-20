@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-20",
+    "timestamp": "2026-08-20T18:05:21.891960+09:00",
+    "run_slot": "17",
+    "keyword": "실비보험 비급여 보장 범위",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "5세대 실손 | 비급여 3가지 핵심 보장과 연 100만원 아끼는 법",
+    "tags": [
+      "5세대 실손보험",
+      "실비보험",
+      "비급여",
+      "MRI",
+      "도수치료",
+      "주사료",
+      "보험다모아"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224384720090",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 5월 6일에 출시된 5세대 실손보험은 비급여 3가지 항목(도수치료·체외충격파·증식치료, 비급여 주사료, 비급여 MRI)에 대한 자기부담금이 늘어났지만, 보험료는 4세대 실손보험보다 저렴해져서 연간 100만원 이상의 의료비를 절약할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년 5월 6일",
+        "source": "금융위원회, 보험업계 발표, 2026년 기준"
+      },
+      {
+        "value": "100만원",
+        "source": null
+      },
+      {
+        "value": "3가지",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-19",
     "timestamp": "2026-08-19T18:10:24.686238+09:00",
     "run_slot": "17",
