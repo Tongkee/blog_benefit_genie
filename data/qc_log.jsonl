@@ -73,3 +73,4 @@
 {"ts": "2026-08-19T19:44:11+09:00", "channel": "naver_benefit_genie", "id": "224383642892", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 4754, "cliche": 2, "img": 2, "table": 2, "mode": "live"}}
 {"ts": "2026-08-20T07:02:56+09:00", "channel": "naver_benefit_genie", "id": "224384039026", "verdict": "FAIL", "healed": false, "issues": ["FAIL:위키링크 [[ 누출"], "metrics": {"chars": 3275, "cliche": 0, "mode": "source"}}
 {"ts": "2026-08-20T11:10:15+09:00", "channel": "naver_benefit_genie", "id": "224384240095", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 3399, "cliche": 2, "img": 2, "table": 2, "mode": "live"}}
+{"ts": "2026-08-20T11:28:03+09:00", "channel": "naver_benefit_genie", "id": "224384260852", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 1368, "cliche": 0, "img": 1, "table": 0, "mode": "live"}}
