@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-20",
+    "timestamp": "2026-08-20T11:10:17.015471+09:00",
+    "run_slot": "11",
+    "keyword": "첫만남이용권 사용 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "첫만남이용권 | 첫째 200만원, 둘째 300만원 지급 조건 총정리",
+    "tags": [
+      "첫만남이용권",
+      "출산지원금",
+      "육아지원",
+      "정부지원",
+      "출산혜택",
+      "신생아지원",
+      "바우처"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224384240095",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "첫만남이용권은 출생일로부터 1년 이내에 신청하면 첫째 아이 출산 시 200만원, 둘째 이상 출산 시 300만원을 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "1년 이내",
+        "source": "보건복지부"
+      },
+      {
+        "value": "200만원",
+        "source": "보건복지부"
+      },
+      {
+        "value": "300만원",
+        "source": "보건복지부"
+      }
+    ],
+    "verify_event": "보건복지부 첫만남이용권 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-19",
     "timestamp": "2026-08-19T11:03:44.192846+09:00",
     "run_slot": "10",
