@@ -222,5 +222,13 @@
   "track": "finance",
   "urgency": 5,
   "dispatched": true
+ },
+ "코스피-삼전닉스-급등": {
+  "date": "2026-08-20",
+  "at": "2026-08-20T10:54:33.265339+09:00",
+  "issue": "코스피, SK하이닉스 주주환원책 및 삼성전자 급등에 힘입어 5%대 상승",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
