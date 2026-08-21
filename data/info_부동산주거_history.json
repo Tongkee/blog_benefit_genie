@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-21",
+    "timestamp": "2026-08-21T19:42:16.018770+09:00",
+    "run_slot": "19",
+    "keyword": "아파트 관리비 절약 방법",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "월 10만원 아파트 관리비 절약, 2026년 핵심 팁 5가지",
+    "tags": [
+      "아파트관리비",
+      "관리비절약",
+      "주거비절감",
+      "내집마련",
+      "생활비절약",
+      "부동산정보",
+      "2026년"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224385953954",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 아파트 관리비를 잘 신경 쓰면 1년에 최소 100만원 이상 절약할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국토교통부 공동주택관리정보시스템(K-apt)"
+      },
+      {
+        "value": "1년에 최소 100만원 이상",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-08-20",
     "timestamp": "2026-08-20T19:47:35.580810+09:00",
     "run_slot": "19",
