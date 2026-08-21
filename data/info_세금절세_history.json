@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-21",
+    "timestamp": "2026-08-21T14:02:56.362728+09:00",
+    "run_slot": "13",
+    "keyword": "양도소득세 비과세 요건",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "양도소득세 비과세 | 1주택자 최대 12억 아끼는 조건",
+    "tags": [
+      "양도소득세",
+      "비과세",
+      "1주택자",
+      "절세",
+      "세금",
+      "부동산",
+      "주택매매"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224385588547",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "1세대 1주택자가 2년 이상 보유한 주택을 양도할 경우, 양도가액 12억 원까지는 양도소득세가 비과세된다.",
+    "claim_numbers": [
+      {
+        "value": "12억 원",
+        "source": "국세청 홈택스, 2026년 기준 '1세대 1주택 비과세' 제도"
+      },
+      {
+        "value": "2년",
+        "source": "국세청 홈택스, 2026년 기준 '1세대 1주택 비과세' 제도"
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-08-20",
     "timestamp": "2026-08-20T13:55:57.293779+09:00",
     "run_slot": "13",
