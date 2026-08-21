@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-08-21",
+    "timestamp": "2026-08-21T18:15:07.366059+09:00",
+    "run_slot": "17",
+    "keyword": "펫보험 가입 조건 보장 비교",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "펫보험 | 월 2만원대부터 시작, 2026 보장 비교 총정리",
+    "tags": [
+      "펫보험",
+      "강아지보험",
+      "고양이보험",
+      "보험료비교",
+      "펫보험가입",
+      "동물병원비"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224385884499",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 펫보험은 반려동물의 질병이나 상해로 인한 병원비를 보장하며, 통상 월 2만원대부터 시작하고, 슬개골 탈구 수술 비용 200만원 가정 시 최대 70%인 140만원을 보장받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "월 2만원대",
+        "source": null
+      },
+      {
+        "value": "200만원",
+        "source": null
+      },
+      {
+        "value": "70%",
+        "source": null
+      },
+      {
+        "value": "140만원",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-08-20",
     "timestamp": "2026-08-20T18:05:21.891960+09:00",
     "run_slot": "17",
