@@ -246,5 +246,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "뉴욕증시하락-한국수출증가": {
+  "date": "2026-08-21",
+  "at": "2026-08-21T12:18:59.105358+09:00",
+  "issue": "뉴욕증시 하락 및 한국 수출·반도체 증가",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
