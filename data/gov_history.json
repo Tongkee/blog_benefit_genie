@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-08-21",
+    "timestamp": "2026-08-21T11:08:06.972205+09:00",
+    "run_slot": "11",
+    "keyword": "에너지바우처 신청 대상 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "2026 에너지바우처 | 최대 월 33만원 받는 조건과 신청법",
+    "tags": [
+      "에너지바우처",
+      "정부지원",
+      "난방비지원",
+      "냉방비지원",
+      "취약계층지원",
+      "에너지효율개선"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224385400100",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 에너지바우처는 가구원 수와 소득 기준에 따라 최대 월 33만원까지 지원받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "복지로"
+      },
+      {
+        "value": "월 33만원",
+        "source": null
+      },
+      {
+        "value": "1인 가구는 월 14만 5천원",
+        "source": null
+      },
+      {
+        "value": "4인 가구는 월 33만원",
+        "source": null
+      },
+      {
+        "value": "기준소득 300%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 에너지바우처 고시 발표",
+    "verify_date": "2026-10-31"
+  },
+  {
     "date": "2026-08-20",
     "timestamp": "2026-08-20T11:10:17.015471+09:00",
     "run_slot": "11",
