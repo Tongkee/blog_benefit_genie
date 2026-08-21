@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-21",
+    "timestamp": "2026-08-21T16:10:36.632278+09:00",
+    "run_slot": "15",
+    "keyword": "연금저축 IRP 차이 비교",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "연금저축 IRP 차이 | 연 900만원 세액공제 조건 총정리",
+    "tags": [
+      "연금저축",
+      "IRP",
+      "세액공제",
+      "노후준비",
+      "재테크",
+      "직장인재테크",
+      "연말정산"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224385743818",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "연금저축과 IRP를 합산하여 연 900만원까지 납입하면 연간 최대 148.5만원을 돌려받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "연 900만원",
+        "source": "국세청, 금융감독원, 2026년 기준"
+      },
+      {
+        "value": "148.5만원",
+        "source": "국세청, 금융감독원, 2026년 기준"
+      },
+      {
+        "value": "16.5%",
+        "source": "국세청, 금융감독원, 2026년 기준"
+      },
+      {
+        "value": "연 600만원",
+        "source": "국세청, 금융감독원, 2026년 기준"
+      },
+      {
+        "value": "연 99만원",
+        "source": "국세청, 금융감독원, 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 연금저축 및 IRP 세액공제 한도 및 공제율 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-20",
     "timestamp": "2026-08-20T16:16:18.750867+09:00",
     "run_slot": "15",
