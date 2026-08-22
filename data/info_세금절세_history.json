@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-22",
+    "timestamp": "2026-08-22T13:56:03.013188+09:00",
+    "run_slot": "13",
+    "keyword": "월세 세액공제 신청 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 월세 세액공제 | 최대 148.5만원 환급 조건 총정리",
+    "tags": [
+      "월세세액공제",
+      "연말정산",
+      "종합소득세",
+      "절세",
+      "직장인",
+      "프리랜서",
+      "환급"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224386554026",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 월세 세액공제를 통해 총급여 5천만원 직장인의 경우 월 60만원의 월세 납부와 연금저축 600만원 추가 납입을 가정했을 때 최대 148.5만원을 환급받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "148.5만원",
+        "source": null
+      },
+      {
+        "value": "7천만원",
+        "source": null
+      },
+      {
+        "value": "85㎡",
+        "source": null
+      },
+      {
+        "value": "4억원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 월세 세액공제 관련 국세청 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-21",
     "timestamp": "2026-08-21T14:02:56.362728+09:00",
     "run_slot": "13",
