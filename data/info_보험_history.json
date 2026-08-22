@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-22",
+    "timestamp": "2026-08-22T17:52:17.798912+09:00",
+    "run_slot": "17",
+    "keyword": "숨은 보험금 찾기 내보험찾아줌",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "숨은 보험금 12조 8천억원, 내 보험 찾아줌으로 5분 만에 확인하는 법",
+    "tags": [
+      "숨은보험금",
+      "내보험찾아줌",
+      "보험금찾기",
+      "미청구보험금",
+      "보험조회",
+      "금융감독원",
+      "보험협회"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224386725859",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 5월 기준 약 12조 8천억원에 달하는 숨은 보험금을 '내보험찾아줌' 서비스를 통해 5분 만에 확인할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년 5월",
+        "source": "금융감독원, 생명보험협회, 손해보험협회"
+      },
+      {
+        "value": "약 12조 8천억원",
+        "source": "금융감독원, 생명보험협회, 손해보험협회"
+      },
+      {
+        "value": "5분",
+        "source": null
+      },
+      {
+        "value": "약 5조 3천억원",
+        "source": null
+      }
+    ],
+    "verify_event": "숨은 보험금 현황 발표",
+    "verify_date": "2026-05-31"
+  },
+  {
     "date": "2026-08-21",
     "timestamp": "2026-08-21T18:15:07.366059+09:00",
     "run_slot": "17",
