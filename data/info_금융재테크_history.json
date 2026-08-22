@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-08-22",
+    "timestamp": "2026-08-22T16:06:02.695422+09:00",
+    "run_slot": "15",
+    "keyword": "ETF 적립식 투자 방법",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "월 50만원, 10년 투자로 1억 모으는 ETF 적립식 투자 총정리",
+    "tags": [
+      "ETF",
+      "적립식투자",
+      "재테크",
+      "사회초년생",
+      "신혼부부",
+      "돈불리기",
+      "복리",
+      "투자"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224386649181",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "월 50만원씩 10년간 꾸준히 ETF에 투자하면 연평균 수익률 10%를 가정했을 때 1억원을 모을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "월 50만원",
+        "source": null
+      },
+      {
+        "value": "10년",
+        "source": null
+      },
+      {
+        "value": "연평균 수익률 10%",
+        "source": null
+      },
+      {
+        "value": "1억원",
+        "source": null
+      }
+    ],
+    "verify_event": "금융감독원 2026년 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-21",
     "timestamp": "2026-08-21T16:10:36.632278+09:00",
     "run_slot": "15",
