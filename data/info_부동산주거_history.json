@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-22",
+    "timestamp": "2026-08-22T19:35:45.722373+09:00",
+    "run_slot": "19",
+    "keyword": "신혼희망타운 자격 조건",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "2026 신혼희망타운 | 소득 200% & 자산 3.62억 받는 조건 총정리",
+    "tags": [
+      "신혼희망타운",
+      "신혼희망타운자격",
+      "신혼희망타운조건",
+      "신혼희망타운소득",
+      "신혼희망타운자산",
+      "신혼희망타운대출",
+      "내집마련"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224386790645",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 신혼희망타운은 무주택 신혼부부, 예비신혼부부, 한부모가족에게 시세보다 저렴한 가격으로 주택을 공급하고, 연 1.6%의 고정금리 대출을 최대 4억원까지 지원하며, 일반공급 소득 기준은 130% 이하(맞벌이 200% 이하), 총자산 기준은 3억 6,200만 원 이하이다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "연 1.6%",
+        "source": "주택도시기금"
+      },
+      {
+        "value": "최대 4억원",
+        "source": "주택도시기금"
+      },
+      {
+        "value": "130%",
+        "source": null
+      },
+      {
+        "value": "200%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-21",
     "timestamp": "2026-08-21T19:42:16.018770+09:00",
     "run_slot": "19",
