@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-22",
+    "timestamp": "2026-08-22T10:56:17.605337+09:00",
+    "run_slot": "10",
+    "keyword": "차상위계층 혜택 정리",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "차상위계층 혜택 | 2026년 최대 월 82만원 받는 조건 총정리",
+    "tags": [
+      "차상위계층",
+      "정부지원",
+      "복지혜택",
+      "2026년복지",
+      "저소득층지원",
+      "생계급여",
+      "주거급여"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224386428873",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 중위소득 50% 이하 가구는 차상위계층 지원금으로 1인 가구 기준 최대 월 820,556원까지 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "보건복지부"
+      },
+      {
+        "value": "50%",
+        "source": "보건복지부"
+      },
+      {
+        "value": "월 820,556원",
+        "source": "보건복지부"
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": "2025-08-31"
+  },
+  {
     "date": "2026-08-21",
     "timestamp": "2026-08-21T11:08:06.972205+09:00",
     "run_slot": "11",
