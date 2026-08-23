@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-08-23",
+    "timestamp": "2026-08-23T18:01:46.498869+09:00",
+    "run_slot": "17",
+    "keyword": "보험 해지 대신 감액완납",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "보험 해지 대신 감액완납 | 보험료 최대 50% 줄이는 법",
+    "tags": [
+      "보험",
+      "감액완납",
+      "보험료절약",
+      "보험해지",
+      "보험유지",
+      "재정관리",
+      "보험리모델링"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224387596018",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "보험 해지 대신 감액완납 제도를 활용하면 월 납입 보험료를 평균 30~50% 줄일 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "30~50%",
+        "source": null
+      }
+    ],
+    "verify_event": "생명보험협회·손해보험협회 보험 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-22",
     "timestamp": "2026-08-22T17:52:17.798912+09:00",
     "run_slot": "17",
