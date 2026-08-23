@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-23",
+    "timestamp": "2026-08-23T11:14:46.031609+09:00",
+    "run_slot": "11",
+    "keyword": "전기요금 복지할인 신청",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "전기요금 복지할인 | 최대 21,600원 할인 조건과 신청법",
+    "tags": [
+      "전기요금할인",
+      "복지할인",
+      "에너지복지",
+      "취약계층지원",
+      "전기세할인",
+      "정부지원",
+      "복지로"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224387290718",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "특정 조건에 해당하는 가구는 매달 최대 21,600원까지 전기요금을 할인받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "21,600원",
+        "source": "한국전력공사, 2026년 기준"
+      },
+      {
+        "value": "16,000원",
+        "source": "한국전력공사, 2026년 기준"
+      },
+      {
+        "value": "30%",
+        "source": "한국전력공사, 2026년 기준"
+      },
+      {
+        "value": "20,000원",
+        "source": "한국전력공사, 2026년 기준"
+      },
+      {
+        "value": "8,000원",
+        "source": null
+      }
+    ],
+    "verify_event": "한국전력공사 전기요금 복지할인 기준 변경 고시",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-22",
     "timestamp": "2026-08-22T10:56:17.605337+09:00",
     "run_slot": "10",
