@@ -93,3 +93,4 @@
 {"ts": "2026-08-22T19:35:43+09:00", "channel": "naver_benefit_genie", "id": "224386790645", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 4177, "cliche": 1, "img": 2, "table": 2, "mode": "live"}}
 {"ts": "2026-08-23T11:14:42+09:00", "channel": "naver_benefit_genie", "id": "224387290718", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 4499, "cliche": 2, "img": 2, "table": 2, "mode": "live"}}
 {"ts": "2026-08-23T11:35:34+09:00", "channel": "naver_benefit_genie", "id": "224387305491", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 1025, "cliche": 1, "img": 1, "table": 0, "mode": "live"}}
+{"ts": "2026-08-23T13:52:15+09:00", "channel": "naver_benefit_genie", "id": "224387399592", "verdict": "WARN", "healed": false, "issues": ["WARN:교과서체 상투어 x6"], "metrics": {"chars": 3450, "cliche": 6, "img": 2, "table": 2, "mode": "live"}}
