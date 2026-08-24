@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-24",
+    "timestamp": "2026-08-24T11:13:41.982479+09:00",
+    "run_slot": "11",
+    "keyword": "청년 일경험 지원사업",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "청년 일경험 지원 | 최대 6개월, 월 80만원 받는 조건은?",
+    "tags": [
+      "청년지원",
+      "일경험",
+      "정부지원",
+      "청년취업",
+      "취업지원",
+      "고용노동부",
+      "직무경험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224388273062",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "청년 일경험 지원사업은 만 15세 이상 34세 이하 청년에게 최대 6개월간 월 80만원의 지원금을 제공한다.",
+    "claim_numbers": [
+      {
+        "value": "만 15세 이상 34세 이하",
+        "source": "고용노동부, 2026년 기준"
+      },
+      {
+        "value": "최대 6개월",
+        "source": "고용노동부, 2026년 기준"
+      },
+      {
+        "value": "월 80만원",
+        "source": "고용노동부, 2026년 기준"
+      },
+      {
+        "value": "총 480만원",
+        "source": "고용노동부, 2026년 기준"
+      }
+    ],
+    "verify_event": "고용노동부 청년 일경험 지원사업 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-23",
     "timestamp": "2026-08-23T11:14:46.031609+09:00",
     "run_slot": "11",
