@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-24",
+    "timestamp": "2026-08-24T16:20:45.484525+09:00",
+    "run_slot": "15",
+    "keyword": "기타소득 필요경비 계산",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 기타소득 | 필요경비 80% 놓치면 세금 50만원 더 냅니다",
+    "tags": [
+      "기타소득",
+      "필요경비",
+      "세금",
+      "절세",
+      "연말정산",
+      "종합소득세",
+      "프리랜서"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224388627059",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 기타소득은 필요경비를 얼마나 잘 인정받느냐에 따라 세금 폭탄을 피하고 최대 80%까지 돌려받을 수 있으며, 연 소득 300만원을 기준으로 종합과세와 분리과세 중 유리한 방법을 선택할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "80%",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "300만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기타소득 관련 국세청 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-23",
     "timestamp": "2026-08-23T13:52:16.739355+09:00",
     "run_slot": "13",
