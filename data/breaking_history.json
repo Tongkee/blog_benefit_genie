@@ -254,5 +254,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "삼성전자-주주환원-급락": {
+  "date": "2026-08-24",
+  "at": "2026-08-24T11:00:22.212128+09:00",
+  "issue": "삼성전자 110조 주주환원 발표에도 주가 급락, 코스피 하락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
