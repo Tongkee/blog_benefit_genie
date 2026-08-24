@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-24",
+    "timestamp": "2026-08-24T18:07:28.556384+09:00",
+    "run_slot": "17",
+    "keyword": "주택청약통장 납입 인정 금액",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "2026 주택청약통장 | 월 25만원씩 넣으면 당첨 확률 높아져요",
+    "tags": [
+      "주택청약통장",
+      "청약",
+      "내집마련",
+      "재테크",
+      "2030재테크",
+      "청약가점",
+      "청약제도"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224388750245",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "주택청약통장은 월 25만 원까지 납입 인정이 되며, 2024년 11월 1일 이후 월 25만 원으로 상향되었습니다.",
+    "claim_numbers": [
+      {
+        "value": "월 25만 원",
+        "source": "null"
+      },
+      {
+        "value": "2024년 11월 1일",
+        "source": "null"
+      }
+    ],
+    "verify_event": "null",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-23",
     "timestamp": "2026-08-23T16:13:09.452434+09:00",
     "run_slot": "15",
