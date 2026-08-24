@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-24",
+    "timestamp": "2026-08-24T19:49:05.762624+09:00",
+    "run_slot": "19",
+    "keyword": "어린이보험 필수 특약",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "어린이보험 | 월 3만 원대로 우리 아이 핵심 보장 챙기는 법",
+    "tags": [
+      "어린이보험",
+      "태아보험",
+      "자녀보험",
+      "실손보험",
+      "보험가입",
+      "보험료",
+      "보장내용"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224388837786",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 어린이보험은 월 3만원대부터 5만원대까지 보험료를 효율적으로 구성할 수 있으며, 태아 때부터 출생 후 만 30세까지 가입할 수 있는 상품이 많다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "생명보험협회·손해보험협회 보험다모아"
+      },
+      {
+        "value": "월 3만원대",
+        "source": null
+      },
+      {
+        "value": "5만원대",
+        "source": null
+      },
+      {
+        "value": "만 30세",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 어린이보험 관련 공식 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-23",
     "timestamp": "2026-08-23T18:01:46.498869+09:00",
     "run_slot": "17",
