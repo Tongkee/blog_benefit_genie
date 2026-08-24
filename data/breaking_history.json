@@ -262,5 +262,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피하락-삼성전자급락": {
+  "date": "2026-08-24",
+  "at": "2026-08-24T16:31:59.690391+09:00",
+  "issue": "코스피 하락 마감 및 삼성전자 급락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
