@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-25",
+    "timestamp": "2026-08-25T16:12:30.819065+09:00",
+    "run_slot": "15",
+    "keyword": "임대차 3법 핵심 정리",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "2026 임대차 3법 핵심 | 놓치면 손해 보는 계약갱신청구권, 전월세상한제 총정리",
+    "tags": [
+      "임대차3법",
+      "계약갱신청구권",
+      "전월세상한제",
+      "전월세신고제",
+      "부동산정책",
+      "주거정보",
+      "내집마련"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224389802149",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 임대차 3법은 계약갱신청구권을 통해 1회에 한해 2년의 거주 기간을 연장하고, 전월세상한제를 통해 임대료 인상률을 5% 이내로 제한한다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국토교통부"
+      },
+      {
+        "value": "1회",
+        "source": null
+      },
+      {
+        "value": "2년",
+        "source": null
+      },
+      {
+        "value": "5%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 임대차 3법 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-23",
     "timestamp": "2026-08-23T19:49:25.268328+09:00",
     "run_slot": "19",
