@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-08-25",
+    "timestamp": "2026-08-25T17:17:28.715249+09:00",
+    "run_slot": "17",
+    "stock_topic": "종목분석",
+    "topic_name": "오늘의 종목 심층분석",
+    "blog_category": "주식분석",
+    "title": "2026년 8월 25일 비트플래닛 상한가, 비트코인 8만 달러 돌파가 가져온 파급력 핵심 정리",
+    "tags": [
+      "비트플래닛",
+      "비트코인",
+      "상한가",
+      "가상자산",
+      "AI인프라",
+      "주식분석",
+      "투자전략",
+      "급등주"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224389876920",
+    "images_count": 4,
+    "images_inserted": 4,
+    "has_table": true,
+    "has_faq": true,
+    "stock_name": "비트플래닛",
+    "etf_content_type": null,
+    "etf_subject": null,
+    "ipo_mode": null,
+    "ipo_month": null,
+    "claim": "2026년 8월 25일 비트코인 가격이 8만 달러를 돌파하며 8만 1천 달러 선까지 급등했고, 이에 비트플래닛이 전 거래일 대비 30.00% 상승하며 상한가를 기록했다.",
+    "claim_numbers": [
+      {
+        "value": "2026년 8월 25일",
+        "source": null
+      },
+      {
+        "value": "8만 달러",
+        "source": null
+      },
+      {
+        "value": "8만 1천 달러",
+        "source": null
+      },
+      {
+        "value": "30.00%",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-07-31",
     "timestamp": "2026-07-31T13:04:01.483619+09:00",
     "run_slot": "12",
