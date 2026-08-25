@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-08-25",
+    "timestamp": "2026-08-25T19:54:27.061035+09:00",
+    "run_slot": "19",
+    "keyword": "유사암 일반암 보장 차이",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "암보험 가입 전 필수 확인 | 유사암 진단금 최대 5천만원?",
+    "tags": [
+      "암보험",
+      "유사암",
+      "일반암",
+      "보험가입",
+      "보장내용",
+      "보험비교",
+      "보험다모아"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224390027238",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "유사암 진단금은 일반암 진단금의 최대 50%까지 보장받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "50%",
+        "source": "생명·손해보험협회 보험다모아, 2026년 기준"
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-08-24",
     "timestamp": "2026-08-24T19:49:05.762624+09:00",
     "run_slot": "19",
