@@ -270,5 +270,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피급락-소비자심리하락": {
+  "date": "2026-08-25",
+  "at": "2026-08-25T12:14:42.795268+09:00",
+  "issue": "코스피 급락 및 소비자심리지수 하락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
