@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-26",
+    "timestamp": "2026-08-26T18:13:12.325392+09:00",
+    "run_slot": "17",
+    "keyword": "전월세 신고제 대상 방법",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "전월세 신고제, 미신고 시 최대 30만원 과태료! 2026년 대상과 방법 총정리",
+    "tags": [
+      "전월세신고제",
+      "전월세",
+      "임대차계약",
+      "과태료",
+      "무주택세대구성원",
+      "부동산",
+      "주거지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224391114568",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 현재, 보증금 6천만원 또는 월세 30만원을 초과하는 주택 임대차 계약은 계약일로부터 30일 이내에 신고해야 하며, 2025년 6월 1일 이후 체결 또는 갱신된 계약부터는 미신고 시 최소 2만원에서 최대 30만원의 과태료가 부과된다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "6천만원",
+        "source": null
+      },
+      {
+        "value": "30만원",
+        "source": null
+      },
+      {
+        "value": "30일",
+        "source": null
+      },
+      {
+        "value": "2025년 6월 1일",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-08-25",
     "timestamp": "2026-08-25T16:12:30.819065+09:00",
     "run_slot": "15",
