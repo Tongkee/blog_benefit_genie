@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-26",
+    "timestamp": "2026-08-26T11:02:33.200138+09:00",
+    "run_slot": "10",
+    "keyword": "신혼부부 전세대출 조건 2026",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "신혼부부 전세대출 | 최대 3억원, 소득 7천5백만원 이하면 가능할까요?",
+    "tags": [
+      "신혼부부전세대출",
+      "버팀목전세자금",
+      "청년신혼부부",
+      "주택도시기금",
+      "전세자금대출",
+      "신혼부부혜택",
+      "정부지원대출"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224390623529",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "부부합산 연 소득 7천5백만 원 이하의 신혼부부는 최대 3억 원까지 전세대출을 이용할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "7천5백만 원",
+        "source": "주택도시기금, 2026년 기준"
+      },
+      {
+        "value": "3억 원",
+        "source": "주택도시기금, 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 기준 신혼부부 전세대출 조건 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-25",
     "timestamp": "2026-08-25T11:05:56.405581+09:00",
     "run_slot": "10",
