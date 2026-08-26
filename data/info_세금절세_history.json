@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-26",
+    "timestamp": "2026-08-26T16:12:03.118324+09:00",
+    "run_slot": "15",
+    "keyword": "맞벌이 부부 공제 전략",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "맞벌이 부부, 연말정산 최대 100만원 돌려받는 절세 전략",
+    "tags": [
+      "맞벌이부부",
+      "연말정산",
+      "종합소득세",
+      "세액공제",
+      "소득공제",
+      "결혼세액공제",
+      "절세"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224390975730",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 연말정산에서 '결혼세액공제'를 활용하면 부부 합산 최대 100만 원까지 돌려받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "100만 원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 연말정산 세법 개정 및 고시 발표",
+    "verify_date": "2026-12-31"
+  },
+  {
     "date": "2026-08-25",
     "timestamp": "2026-08-25T14:05:32.001304+09:00",
     "run_slot": "13",
