@@ -286,5 +286,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "엔비디아-반도체-ai": {
+  "date": "2026-08-26",
+  "at": "2026-08-26T18:05:47.105987+09:00",
+  "issue": "엔비디아 실적 발표에 따른 반도체 시장 영향 및 현대차-엔비디아 자율주행 협력, AI 투자 논의",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
