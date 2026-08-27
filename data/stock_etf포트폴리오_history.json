@@ -1,5 +1,48 @@
 [
   {
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T03:33:11.241544+09:00",
+    "run_slot": "03",
+    "stock_topic": "etf포트폴리오",
+    "topic_name": "ETF 인사이트",
+    "blog_category": "ETF",
+    "title": "2026년 8월 JEPQ, 월배당 10%대? 나스닥 커버드콜 핵심만 딱 정리!",
+    "tags": [
+      "JEPQ",
+      "JP모건",
+      "나스닥",
+      "커버드콜",
+      "월배당",
+      "고배당ETF",
+      "인컴형ETF",
+      "미국ETF"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224392680640",
+    "images_count": 4,
+    "images_inserted": 4,
+    "has_table": true,
+    "has_faq": true,
+    "stock_name": null,
+    "etf_content_type": "us_individual",
+    "etf_subject": "JEPQ",
+    "ipo_mode": null,
+    "ipo_month": null,
+    "claim": "JPMorgan 나스닥 프리미엄인컴 ETF(JEPQ)는 2026년 8월 28일 60.15달러로 마감했으며, 직전 12개월 배당수익률은 10.85%를 기록했습니다.",
+    "claim_numbers": [
+      {
+        "value": "60.15달러",
+        "source": "야후파이낸스"
+      },
+      {
+        "value": "10.85%",
+        "source": null
+      }
+    ],
+    "verify_event": "JP모건 자산운용 공식 홈페이지 월별 배당 지급 내역 및 운용 보고서 확인",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-25",
     "timestamp": "2026-08-25T12:21:30.187702+09:00",
     "run_slot": "12",
