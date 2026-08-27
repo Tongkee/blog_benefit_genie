@@ -294,5 +294,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "한은기준금리-코스피상승": {
+  "date": "2026-08-27",
+  "at": "2026-08-27T18:57:08.134894+09:00",
+  "issue": "한국은행 기준금리 인상 및 시장 영향",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
