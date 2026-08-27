@@ -302,5 +302,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "sk하이닉스-hbm-코스피": {
+  "date": "2026-08-28",
+  "at": "2026-08-28T05:34:43.714971+09:00",
+  "issue": "SK하이닉스 인디애나 HBM 팹 건설 및 엔비디아발 훈풍, 금리 인상에 따른 코스피 영향",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
