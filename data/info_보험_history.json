@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T02:44:04.260792+09:00",
+    "run_slot": "15",
+    "keyword": "1인 신차 자동차보험 첫 가입",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "1인 신차 자동차보험 | 2026년 첫 가입, 50만원 아끼는 핵심 총정리",
+    "tags": [
+      "자동차보험",
+      "첫가입",
+      "신차보험",
+      "1인보험",
+      "보험료절약",
+      "자동차보험비교",
+      "보험다모아"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224392664670",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "1인 신차 자동차보험 첫 가입 시 다양한 할인 특약을 활용하면 연간 최대 30만원 이상 보험료를 절감할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "30만원",
+        "source": null
+      },
+      {
+        "value": "13만원에서 30만원",
+        "source": null
+      },
+      {
+        "value": "10만원 이상",
+        "source": null
+      },
+      {
+        "value": "2천만원대",
+        "source": null
+      },
+      {
+        "value": "100만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 자동차보험료 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-25",
     "timestamp": "2026-08-25T19:54:27.061035+09:00",
     "run_slot": "19",
