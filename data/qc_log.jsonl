@@ -118,3 +118,4 @@
 {"ts": "2026-08-27T09:59:21+09:00", "channel": "naver_benefit_genie", "id": "224391714889", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 3249, "cliche": 0, "img": 1, "table": 0, "mode": "live"}}
 {"ts": "2026-08-27T18:49:44+09:00", "channel": "naver_benefit_genie", "id": "224392321309", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 3559, "cliche": 2, "img": 2, "table": 2, "mode": "live"}}
 {"ts": "2026-08-27T20:08:45+09:00", "channel": "naver_benefit_genie", "id": "224392381385", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 1747, "cliche": 1, "img": 1, "table": 0, "mode": "live"}}
+{"ts": "2026-08-28T00:25:36+09:00", "channel": "naver_benefit_genie", "id": "224392594425", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 3757, "cliche": 2, "img": 2, "table": 2, "mode": "live"}}
