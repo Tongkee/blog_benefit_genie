@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-28",
+    "timestamp": "2026-08-28T20:28:21.627303+09:00",
+    "run_slot": "20",
+    "keyword": "장애인 복지 혜택 정리",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "장애인 복지 | 놓치기 쉬운 7가지 혜택 총정리",
+    "tags": [
+      "장애인복지",
+      "장애인혜택",
+      "장애인지원",
+      "정부지원",
+      "복지로",
+      "장애연금",
+      "활동지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224393544937",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "장애인 등록을 했다면, 소득 수준과 상관없이 최소 3가지 이상의 혜택을 받을 수 있으며, 중증 장애인 1인 가구는 장애인 연금으로 매월 최대 52.8만원을 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "3가지 이상",
+        "source": null
+      },
+      {
+        "value": "매월 최대 52.8만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-27",
     "timestamp": "2026-08-27T18:49:46.496521+09:00",
     "run_slot": "18",
