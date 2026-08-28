@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-29",
+    "timestamp": "2026-08-29T06:19:04.990304+09:00",
+    "run_slot": "19",
+    "keyword": "적금 만기 재예치 전략",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "적금 만기 1억 넘는다면? 2026년 재예치 전략 총정리",
+    "tags": [
+      "적금",
+      "만기",
+      "재테크",
+      "예금자보호",
+      "금융상품",
+      "금리",
+      "재예치"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224393868230",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2025년 9월 1일부터 예금자보호 한도가 1인당 금융회사별 1억 원으로 상향 조정되므로, 만기 자금이 1억 원을 넘는다면 분산 예치를 고려해야 한다.",
+    "claim_numbers": [
+      {
+        "value": "1억 원",
+        "source": "금융위원회, 2026년 기준"
+      },
+      {
+        "value": "2025년 9월 1일",
+        "source": "금융위원회, 2026년 기준"
+      }
+    ],
+    "verify_event": "예금자보호 한도 관련 금융위원회 고시 발표",
+    "verify_date": "2025-09-30"
+  },
+  {
     "date": "2026-08-28",
     "timestamp": "2026-08-28T05:20:46.586353+09:00",
     "run_slot": "19",
