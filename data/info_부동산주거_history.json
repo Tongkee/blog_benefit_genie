@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-08-29",
+    "timestamp": "2026-08-29T05:27:19.572323+09:00",
+    "run_slot": "17",
+    "keyword": "무순위 청약 신청 조건",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "2026 무순위 청약, 무주택자라면 최대 11억 시세차익 가능!",
+    "tags": [
+      "무순위청약",
+      "줍줍",
+      "2026청약",
+      "무주택청약",
+      "청약조건",
+      "부동산정보",
+      "내집마련",
+      "청약홈"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224393852322",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 무순위 청약은 무주택자에게 최대 11억 원의 시세차익을 기대할 수 있는 기회입니다.",
+    "claim_numbers": [
+      {
+        "value": "11억 원",
+        "source": null
+      },
+      {
+        "value": "10억 5,915만 원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 8월 기준 송파구 한 아파트의 무순위 청약 사례 발표",
+    "verify_date": "2026-08-31"
+  },
+  {
     "date": "2026-08-28",
     "timestamp": "2026-08-28T04:21:38.919288+09:00",
     "run_slot": "17",
