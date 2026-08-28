@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-29",
+    "timestamp": "2026-08-29T03:38:28.369402+09:00",
+    "run_slot": "15",
+    "keyword": "태아보험 가입 시기 보장",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "태아보험 | 2026년 기준, 22주 전 가입 시 보장 내용 총정리",
+    "tags": [
+      "태아보험",
+      "임신22주",
+      "어린이보험",
+      "신생아특약",
+      "보험다모아",
+      "내보험찾아줌",
+      "출생전"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224393817772",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 태아보험은 임신 22주 이전에 가입해야 선천이상, 저체중아, 인큐베이터 비용 등 출생 직후 발생할 수 있는 위험까지 보장받을 수 있으며, 신생아가 저체중으로 인해 인큐베이터를 10일간 이용하고 선천성 심장 질환으로 1회 수술을 받는 경우 약 600~1,100만원의 총 예상 의료비가 발생할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "생명보험협회·손해보험협회 보험다모아"
+      },
+      {
+        "value": "22주",
+        "source": null
+      },
+      {
+        "value": "10일",
+        "source": null
+      },
+      {
+        "value": "약 600~1,100만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 태아보험 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-28",
     "timestamp": "2026-08-28T02:44:04.260792+09:00",
     "run_slot": "15",
