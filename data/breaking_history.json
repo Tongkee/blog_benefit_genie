@@ -310,5 +310,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "연준긴축-증시하락-잭슨홀": {
+  "date": "2026-08-30",
+  "at": "2026-08-30T02:44:44.742369+09:00",
+  "issue": "미 연준의 추가 긴축 시사 및 잭슨홀 미팅을 앞두고 뉴욕 증시와 코스피 하락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
