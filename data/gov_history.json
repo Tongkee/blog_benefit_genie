@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-29",
+    "timestamp": "2026-08-29T16:20:25.131387+09:00",
+    "run_slot": "16",
+    "keyword": "청년희망저축계좌 가입 조건",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "청년희망저축계좌 | 만 34세 이하, 최대 1,440만원 받는 조건은?",
+    "tags": [
+      "청년희망저축계좌",
+      "청년지원",
+      "자산형성",
+      "목돈마련",
+      "정부지원",
+      "복지로",
+      "청년혜택"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224394249488",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "청년희망저축계좌는 저소득 청년이 월 10만원을 저축하면 정부가 월 30만원을 추가 지원하여 3년 만기 시 최대 1,440만원의 목돈을 마련할 수 있는 제도이다.",
+    "claim_numbers": [
+      {
+        "value": "10만원",
+        "source": null
+      },
+      {
+        "value": "30만원",
+        "source": null
+      },
+      {
+        "value": "3년",
+        "source": null
+      },
+      {
+        "value": "1,440만원",
+        "source": null
+      },
+      {
+        "value": "기준 중위소득 50%",
+        "source": "복지로(bokjiro.go.kr), 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-28",
     "timestamp": "2026-08-28T20:28:21.627303+09:00",
     "run_slot": "20",
