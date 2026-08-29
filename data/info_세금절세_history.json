@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T00:11:39.255663+09:00",
+    "run_slot": "19",
+    "keyword": "기부금 세액공제 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 기부금 세액공제 | 최대 1,485,000원 돌려받는 조건",
+    "tags": [
+      "기부금세액공제",
+      "연말정산",
+      "절세",
+      "세액공제",
+      "환급",
+      "직장인절세",
+      "프리랜서세금"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224394569184",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기부금 세액공제는 연금저축과 IRP를 함께 활용하면 최대 1,485,000원까지 돌려받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 연말정산·공제 안내, 2026년 기준"
+      },
+      {
+        "value": "1,485,000원",
+        "source": null
+      },
+      {
+        "value": "연 600만원",
+        "source": null
+      },
+      {
+        "value": "연 900만원",
+        "source": null
+      },
+      {
+        "value": "5,500만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 국세청 연말정산·공제 안내 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-29",
     "timestamp": "2026-08-29T01:49:18.523470+09:00",
     "run_slot": "13",
