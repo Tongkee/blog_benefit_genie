@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T09:29:02.106670+09:00",
+    "run_slot": "09",
+    "stock_topic": "etf포트폴리오",
+    "topic_name": "ETF 인사이트",
+    "blog_category": "ETF",
+    "title": "2026년 8월, SOL 미국S&P500엔화노출(H) ETF 핵심만 딱 정리!",
+    "tags": [
+      "SOL미국S&P500엔화노출",
+      "S&P500",
+      "엔화환헤지",
+      "국내상장ETF",
+      "해외ETF",
+      "신한자산운용",
+      "환헤지ETF",
+      "미국주식"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224394778780",
+    "images_count": 3,
+    "images_inserted": 3,
+    "has_table": true,
+    "has_faq": true,
+    "stock_name": null,
+    "etf_content_type": "kr_overseas_individual",
+    "etf_subject": "499150",
+    "ipo_mode": null,
+    "ipo_month": null,
+    "claim": "SOL 미국S&P500엔화노출(H) ETF는 2026년 8월 30일 기준 -0.73% 하락 마감했으며, 시가총액 54억 원 규모로 1년 수익률은 +5.68%이다.",
+    "claim_numbers": [
+      {
+        "value": "-0.73%",
+        "source": null
+      },
+      {
+        "value": "54억 원",
+        "source": null
+      },
+      {
+        "value": "+5.68%",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-08-28",
     "timestamp": "2026-08-28T03:33:11.241544+09:00",
     "run_slot": "03",
