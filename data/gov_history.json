@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T14:28:55.228168+09:00",
+    "run_slot": "14",
+    "keyword": "청년내일채움공제 신청",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "청년내일채움공제 | 최대 3천만원 받는 조건과 신청법",
+    "tags": [
+      "청년내일채움공제",
+      "청년정책",
+      "정부지원금",
+      "목돈마련",
+      "중소기업",
+      "청년혜택",
+      "취업지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224394973225",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "청년내일채움공제는 청년이 중소·중견기업에 취업하여 2년간 근속하면 최대 3,000만원의 목돈을 마련할 수 있게 돕는 제도이다.",
+    "claim_numbers": [
+      {
+        "value": "3,000만원",
+        "source": "워크넷, 2026년 기준 청년내일채움공제"
+      },
+      {
+        "value": "2년",
+        "source": "워크넷, 2026년 기준 청년내일채움공제"
+      },
+      {
+        "value": "만 15세 이상 34세 이하",
+        "source": null
+      },
+      {
+        "value": "월 급여 총액 350만원 이하",
+        "source": null
+      },
+      {
+        "value": "고용보험 피보험자 수 5인 이상",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 청년내일채움공제 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-29",
     "timestamp": "2026-08-29T16:20:25.131387+09:00",
     "run_slot": "16",
