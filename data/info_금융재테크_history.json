@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T23:02:40.823774+09:00",
+    "run_slot": "17",
+    "keyword": "국민연금 추납 제도 활용",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "국민연금 추납, 최대 119개월 납입 시 월 15만원 더 받는 조건 총정리",
+    "tags": [
+      "국민연금",
+      "추납",
+      "추후납부",
+      "노후준비",
+      "연금재테크",
+      "2026국민연금",
+      "연금수령액"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224395391226",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "국민연금 추납 제도를 통해 최대 119개월의 가입 기간을 추가하면 월 연금액이 약 15만원 증가할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "119개월",
+        "source": null
+      },
+      {
+        "value": "15만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 국민연금 보험료율 및 기준소득월액 A값 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-29",
     "timestamp": "2026-08-29T06:19:04.990304+09:00",
     "run_slot": "19",
