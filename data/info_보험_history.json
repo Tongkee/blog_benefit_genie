@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T19:08:21.055811+09:00",
+    "run_slot": "13",
+    "keyword": "유병자 보험 가입 조건",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "유병자 보험 2026 | 월 1만원대 가입 조건 총정리",
+    "tags": [
+      "유병자보험",
+      "건강보험",
+      "실버보험",
+      "간편보험",
+      "보험가입조건"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224395193700",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "유병자 보험은 월 1만원대 보험료로 병력 있어도 가입 가능하며, 고혈압, 당뇨 등 만성질환자 중 최근 2년 내 입원·수술 이력이 없는 경우 가입 대상이다.",
+    "claim_numbers": [
+      {
+        "value": "월 1만원대",
+        "source": null
+      },
+      {
+        "value": "2년",
+        "source": null
+      },
+      {
+        "value": "3·5·10",
+        "source": null
+      },
+      {
+        "value": "3·3·5",
+        "source": null
+      },
+      {
+        "value": "60세",
+        "source": null
+      }
+    ],
+    "verify_event": "보험다모아 유병자 보험 2026년 기준 업데이트",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-29",
     "timestamp": "2026-08-29T03:38:28.369402+09:00",
     "run_slot": "15",
