@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-30",
+    "timestamp": "2026-08-30T20:52:47.895363+09:00",
+    "run_slot": "15",
+    "keyword": "디딤돌대출 조건 금리",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "신혼부부 디딤돌대출 | 2026년 최대 3.2억 원, 2.65% 받는 조건 총정리",
+    "tags": [
+      "디딤돌대출",
+      "신혼부부대출",
+      "내집마련",
+      "주택담보대출",
+      "주택도시기금",
+      "정책대출",
+      "내집마련디딤돌대출"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224395273582",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 신혼부부 디딤돌대출은 최대 3.2억 원, 최저 연 2.65%의 대출 한도와 금리를 제공한다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "3.2억 원",
+        "source": "주택도시기금 (https://nhuf.molit.go.kr), 2026년 기준 내집마련 디딤돌대출"
+      },
+      {
+        "value": "2.65%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 내집마련 디딤돌대출 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-29",
     "timestamp": "2026-08-29T05:27:19.572323+09:00",
     "run_slot": "17",
