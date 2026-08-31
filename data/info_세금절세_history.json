@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-01",
+    "timestamp": "2026-09-01T01:16:27.069933+09:00",
+    "run_slot": "17",
+    "keyword": "종합소득세 신고 대상 기준",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 종합소득세 | 최대 45% 세율, 누가 신고하고 얼마나 돌려받을까?",
+    "tags": [
+      "종합소득세",
+      "종소세",
+      "2026종합소득세",
+      "프리랜서종합소득세",
+      "직장인종합소득세",
+      "종합소득세신고",
+      "종합소득세환급"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224396733003",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 종합소득세는 2025년 1월 1일부터 12월 31일까지 발생한 소득에 대해 신고하며, 신고 기간은 2026년 5월 1일부터 6월 1일까지이고, 과세표준 구간에 따라 6%에서 최대 45%까지 세율이 적용된다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스, 2026년 기준"
+      },
+      {
+        "value": "2025년 1월 1일",
+        "source": null
+      },
+      {
+        "value": "12월 31일",
+        "source": null
+      },
+      {
+        "value": "2026년 5월 1일",
+        "source": null
+      },
+      {
+        "value": "6월 1일",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 종합소득세 관련 국세청 고시 발표",
+    "verify_date": "2026-05-31"
+  },
+  {
     "date": "2026-08-31",
     "timestamp": "2026-08-31T20:03:36.354242+09:00",
     "run_slot": "13",
