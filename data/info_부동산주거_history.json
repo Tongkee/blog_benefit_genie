@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-01",
+    "timestamp": "2026-09-01T02:36:22.357445+09:00",
+    "run_slot": "19",
+    "keyword": "등기부등본 확인 필수 항목",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "전세 계약 전 등기부등본 | 3가지 필수 확인으로 2천만원 손해 막는 법",
+    "tags": [
+      "등기부등본",
+      "전세사기",
+      "전세보증금",
+      "내집마련",
+      "부동산꿀팁",
+      "주거안전",
+      "베네핏지니"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224396769677",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "등기부등본 확인은 전세 보증금 2억 5천만원을 지키고, 연 4% 대출 이자 1천만원 및 중개 수수료 75만원을 절감하는 잠재적 이득을 제공한다.",
+    "claim_numbers": [
+      {
+        "value": "2억 5천만원",
+        "source": null
+      },
+      {
+        "value": "연 4%",
+        "source": null
+      },
+      {
+        "value": "1천만원",
+        "source": null
+      },
+      {
+        "value": "0.3%",
+        "source": null
+      },
+      {
+        "value": "75만원",
+        "source": null
+      }
+    ],
+    "verify_event": "대법원 인터넷등기소 2026년 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-30",
     "timestamp": "2026-08-30T20:52:47.895363+09:00",
     "run_slot": "15",
