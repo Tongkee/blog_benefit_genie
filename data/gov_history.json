@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-31",
+    "timestamp": "2026-08-31T14:38:25.401937+09:00",
+    "run_slot": "14",
+    "keyword": "의료급여 신청 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "2026 의료급여 | 1인 가구 월 최대 82만원 혜택 조건",
+    "tags": [
+      "의료급여",
+      "의료급여신청",
+      "정부지원혜택",
+      "복지로",
+      "저소득층지원",
+      "생계급여",
+      "의료비지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224396056045",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 의료급여는 기준 중위소득 40% 이하 가구에 의료비 부담을 크게 줄여주는 제도로, 1인 가구는 월 최대 82만원까지 의료비 부담을 줄일 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "82만원",
+        "source": null
+      },
+      {
+        "value": "40%",
+        "source": "보건복지부, 2026년 기준"
+      },
+      {
+        "value": "월 1,025,695원 미만",
+        "source": null
+      },
+      {
+        "value": "월 820,556원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": "2025-08-31"
+  },
+  {
     "date": "2026-08-30",
     "timestamp": "2026-08-30T14:28:55.228168+09:00",
     "run_slot": "14",
