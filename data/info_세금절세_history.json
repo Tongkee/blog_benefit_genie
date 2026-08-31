@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-08-31",
+    "timestamp": "2026-08-31T20:03:36.354242+09:00",
+    "run_slot": "13",
+    "keyword": "부가가치세 신고 방법 간이과세",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "부가세 간이과세 | 연 3,600만원까지 세금 덜 내는 법",
+    "tags": [
+      "부가가치세",
+      "간이과세",
+      "부가세신고",
+      "절세",
+      "직장인",
+      "프리랜서",
+      "세금환급"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224396433463",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "연 매출 8,000만원 미만 사업자는 간이과세자로 세금 부담을 줄일 수 있으며, 특히 연 매출 3,600만원 미만이라면 부가세 납부 의무가 면제된다.",
+    "claim_numbers": [
+      {
+        "value": "8,000만원",
+        "source": "국세청 홈택스, 2026년 기준"
+      },
+      {
+        "value": "3,600만원",
+        "source": null
+      }
+    ],
+    "verify_event": "간이과세 기준 변경 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-30",
     "timestamp": "2026-08-30T00:11:39.255663+09:00",
     "run_slot": "19",
