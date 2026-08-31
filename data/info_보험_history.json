@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-08-31",
+    "timestamp": "2026-08-31T22:33:03.778402+09:00",
+    "run_slot": "15",
+    "keyword": "4세대 실손보험 전환 장단점",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "4세대 실손 보험료, 연 30만원 넘게 아낄 수 있을까요?",
+    "tags": [
+      "4세대실손보험",
+      "실손보험전환",
+      "보험료절약",
+      "보험가입",
+      "건강보험",
+      "2026보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224396583752",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "4세대 실손보험은 병원 이용이 적은 분들에게 연간 최대 30만원 이상의 보험료 절감 이점을 제공했습니다.",
+    "claim_numbers": [
+      {
+        "value": "30만원",
+        "source": null
+      },
+      {
+        "value": "2026년 5월 6일",
+        "source": null
+      },
+      {
+        "value": "2021년 7월",
+        "source": null
+      },
+      {
+        "value": "월 2만원",
+        "source": null
+      },
+      {
+        "value": "월 3만원",
+        "source": null
+      }
+    ],
+    "verify_event": "5세대 실손보험 출시",
+    "verify_date": "2026-05-06"
+  },
+  {
     "date": "2026-08-30",
     "timestamp": "2026-08-30T19:08:21.055811+09:00",
     "run_slot": "13",
