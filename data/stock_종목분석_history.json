@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-09-01",
+    "timestamp": "2026-09-01T21:56:30.251221+09:00",
+    "run_slot": "21",
+    "stock_topic": "종목분석",
+    "topic_name": "오늘의 종목 심층분석",
+    "blog_category": "주식분석",
+    "title": "2026년 9월 1일 JW신약, 상한가 비결은? 탈모 치료제 테마 핵심 정리",
+    "tags": [
+      "JW신약",
+      "탈모치료제",
+      "상한가",
+      "제약바이오",
+      "주식분석",
+      "테마주",
+      "로게인폼",
+      "JW중외제약"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224397777927",
+    "images_count": 4,
+    "images_inserted": 4,
+    "has_table": true,
+    "has_faq": true,
+    "stock_name": "JW신약",
+    "etf_content_type": null,
+    "etf_subject": null,
+    "ipo_mode": null,
+    "ipo_month": null,
+    "claim": "2026년 9월 1일 JW신약은 코스닥 시장에서 상한가를 기록하며 2,990원에 마감했고, 이는 52주 최저가 대비 140% 이상 상승한 수치이다.",
+    "claim_numbers": [
+      {
+        "value": "2026년 9월 1일",
+        "source": null
+      },
+      {
+        "value": "2,990원",
+        "source": "네이버금융·한국거래소(국내)"
+      },
+      {
+        "value": "140%",
+        "source": "네이버금융·한국거래소(국내)"
+      }
+    ],
+    "verify_event": "JW신약의 탈모 치료제 공동 연구개발 성과 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-31",
     "timestamp": "2026-08-31T14:54:06.512734+09:00",
     "run_slot": "14",
