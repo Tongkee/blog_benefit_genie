@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-01",
+    "timestamp": "2026-09-01T20:37:58.282197+09:00",
+    "run_slot": "15",
+    "keyword": "자동차보험 할인 특약 총정리",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "자동차보험 | 월 1만원 이상 아끼는 할인 특약 총정리",
+    "tags": [
+      "자동차보험",
+      "자동차보험할인",
+      "자동차보험특약",
+      "운전자보험",
+      "보험료절약",
+      "2026자동차보험",
+      "보험다모아"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224397705562",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준, 자동차보험 할인 특약을 활용하면 월 1만원 이상, 최대 30%의 보험료를 절감할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "월 1만원 이상",
+        "source": null
+      },
+      {
+        "value": "2026년 기준",
+        "source": null
+      },
+      {
+        "value": "최대 30%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 자동차보험 할인 특약 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-08-31",
     "timestamp": "2026-08-31T22:33:03.778402+09:00",
     "run_slot": "15",
