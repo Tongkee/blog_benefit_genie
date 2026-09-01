@@ -326,5 +326,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "정부ai예산-반도체수출": {
+  "date": "2026-09-01",
+  "at": "2026-09-01T20:45:46.403671+09:00",
+  "issue": "정부 AI 예산 대폭 증액 및 반도체 수출 사상 최대",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
