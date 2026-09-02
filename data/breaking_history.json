@@ -334,5 +334,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "중동긴장-유가급등-코스피하락": {
+  "date": "2026-09-02",
+  "at": "2026-09-02T13:42:59.947647+09:00",
+  "issue": "중동 긴장 고조로 인한 유가 및 금리 급등, 코스피 하락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
