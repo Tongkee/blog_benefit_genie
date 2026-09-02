@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-02",
+    "timestamp": "2026-09-02T13:42:57.420104+09:00",
+    "run_slot": "13",
+    "keyword": "청년 월세 한시 특별지원 신청",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "청년 월세 한시 특별지원 | 최대 240만원 받는 조건과 신청법",
+    "tags": [
+      "청년월세",
+      "월세지원",
+      "청년지원",
+      "정부지원",
+      "주거안정",
+      "청년혜택",
+      "복지로"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224398442061",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "청년 월세 한시 특별지원은 만 19세 이상 34세 이하 무주택 청년에게 월 최대 20만원을 12개월 동안 지원하여 총 240만원을 받을 수 있는 제도입니다.",
+    "claim_numbers": [
+      {
+        "value": "240만원",
+        "source": "복지로(정부24)"
+      },
+      {
+        "value": "월 최대 20만원",
+        "source": "복지로(정부24)"
+      },
+      {
+        "value": "12개월",
+        "source": "복지로(정부24)"
+      },
+      {
+        "value": "만 19세 이상 34세 이하",
+        "source": "복지로(정부24)"
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-01",
     "timestamp": "2026-09-01T14:21:57.330443+09:00",
     "run_slot": "14",
