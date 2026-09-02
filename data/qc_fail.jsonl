@@ -1,2 +1,3 @@
 {"ts": "2026-07-29T20:12:24+09:00", "channel": "naver_benefit_genie", "id": "224362055349", "verdict": "FAIL", "healed": false, "issues": ["FAIL:리터럴 마크다운 ** x6"], "metrics": {"chars": 4249, "cliche": 3, "img": 6, "table": 2, "mode": "live"}}
 {"ts": "2026-08-20T07:02:56+09:00", "channel": "naver_benefit_genie", "id": "224384039026", "verdict": "FAIL", "healed": false, "issues": ["FAIL:위키링크 [[ 누출"], "metrics": {"chars": 3275, "cliche": 0, "mode": "source"}}
+{"ts": "2026-09-03T08:28:35+09:00", "channel": "naver_benefit_genie", "id": "224399297151", "verdict": "FAIL", "healed": false, "issues": ["FAIL:위키링크 [[ 누출"], "metrics": {"chars": 1901, "cliche": 0, "mode": "source"}}
