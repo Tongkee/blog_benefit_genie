@@ -342,5 +342,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "유가금리급등-코스피급락-기업실적": {
+  "date": "2026-09-02",
+  "at": "2026-09-02T20:26:28.105959+09:00",
+  "issue": "유가·금리 급등에 따른 코스피 급락 및 기업 실적 우려",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
