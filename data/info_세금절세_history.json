@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-02",
+    "timestamp": "2026-09-02T18:00:49.681150+09:00",
+    "run_slot": "13",
+    "keyword": "경정청구 기한과 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 경정청구 | 최대 5년 내 숨은 세금 100만원 돌려받는 법",
+    "tags": [
+      "경정청구",
+      "세금환급",
+      "연말정산",
+      "종합소득세",
+      "세금절세",
+      "직장인",
+      "프리랜서"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224398758332",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "경정청구를 통해 최대 5년간 잘못 낸 세금을 환급받을 수 있으며, 연소득 7천만원인 직장인이 월세 공제 75만원을 추가로 받는다고 가정하면 약 100만원을 환급받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "5년",
+        "source": "국세청 홈택스, 2026년 기준"
+      },
+      {
+        "value": "7천만원",
+        "source": null
+      },
+      {
+        "value": "75만원",
+        "source": null
+      },
+      {
+        "value": "100만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 경정청구 관련 국세청 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-01",
     "timestamp": "2026-09-01T01:16:27.069933+09:00",
     "run_slot": "17",
