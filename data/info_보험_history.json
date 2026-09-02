@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-09-02",
+    "timestamp": "2026-09-02T23:23:02.331411+09:00",
+    "run_slot": "19",
+    "keyword": "여행자보험 휴대품 손해 보장",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "여행자보험 휴대품 손해 | 해외여행 시 200만원 보상받는 법",
+    "tags": [
+      "여행자보험",
+      "휴대품손해",
+      "해외여행",
+      "보험가입",
+      "보험비교",
+      "2026보험",
+      "여행자보험보상"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224399042943",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "여행자보험 가입 시 휴대품 손해 보장을 추가하면 도난이나 파손 시 최대 200만원까지 보상받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "200만원",
+        "source": "보험다모아, 2026년 기준"
+      }
+    ],
+    "verify_event": "보험다모아 휴대품 손해 보장 기준 변경",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-01",
     "timestamp": "2026-09-01T20:37:58.282197+09:00",
     "run_slot": "15",
