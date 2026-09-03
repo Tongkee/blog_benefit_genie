@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T23:31:42.902687+09:00",
+    "run_slot": "19",
+    "keyword": "암 진단비 얼마가 적당",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "암 진단비, 2026년 기준 3천만원이 적당할까요? 보장 내용 총정리",
+    "tags": [
+      "암보험",
+      "암진단비",
+      "보험가입",
+      "보장내용",
+      "보험료절약",
+      "보험비교",
+      "2026보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224400242892",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 암 진단비는 3천만원에서 5천만원 사이로 설정하는 것이 좋으며, 30세 남성, 비흡연, 20년 납 90세 만기, 일반암 진단비 3천만원 기준으로 월 3만원대부터 5만원대까지 보험료가 다양하다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "보험다모아"
+      },
+      {
+        "value": "3천만원",
+        "source": null
+      },
+      {
+        "value": "5천만원",
+        "source": null
+      },
+      {
+        "value": "30세",
+        "source": null
+      },
+      {
+        "value": "20년 납",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-02",
     "timestamp": "2026-09-02T23:23:02.331411+09:00",
     "run_slot": "19",
