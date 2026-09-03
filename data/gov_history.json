@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T13:32:23.794698+09:00",
+    "run_slot": "13",
+    "keyword": "출산장려금 신청 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "2026 자녀장려금 | 최대 100만원 받는 조건과 신청법",
+    "tags": [
+      "자녀장려금",
+      "출산지원",
+      "정부지원",
+      "육아혜택",
+      "국세청"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224399623694",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 자녀장려금은 18세 미만 자녀를 둔 부부합산 연 소득 7,000만원 미만, 재산 2억 4,000만원 미만 가구에 자녀 1인당 최대 100만원을 지급한다.",
+    "claim_numbers": [
+      {
+        "value": "100만원",
+        "source": "국세청 nts.go.kr, 2026년 기준"
+      },
+      {
+        "value": "7,000만원",
+        "source": "국세청 nts.go.kr, 2026년 기준"
+      },
+      {
+        "value": "2억 4,000만원",
+        "source": "국세청 nts.go.kr, 2026년 기준"
+      },
+      {
+        "value": "2025년 6월 1일",
+        "source": "국세청 nts.go.kr, 2026년 기준"
+      },
+      {
+        "value": "1억 7,000만원",
+        "source": "국세청 nts.go.kr, 2026년 기준"
+      }
+    ],
+    "verify_event": "2027년 자녀장려금 지급 기준 고시 발표",
+    "verify_date": "2027-05-31"
+  },
+  {
     "date": "2026-09-02",
     "timestamp": "2026-09-02T13:42:57.420104+09:00",
     "run_slot": "13",
