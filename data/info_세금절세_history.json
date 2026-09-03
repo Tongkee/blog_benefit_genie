@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T18:02:25.336687+09:00",
+    "run_slot": "13",
+    "keyword": "교육비 세액공제 대상 범위",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 교육비 세액공제 | 최대 99만원 돌려받는 조건",
+    "tags": [
+      "교육비세액공제",
+      "연말정산",
+      "자녀교육비",
+      "학자금대출",
+      "세금환급",
+      "직장인절세",
+      "프리랜서절세"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224399964758",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 교육비 세액공제는 근로자와 부양가족의 교육비에 대해 최대 99만원까지 환급받을 수 있는 제도이며, 총급여 5,500만원 이하 근로자는 16.5%, 총급여 5,500만원 초과 근로자는 13.2%의 공제율이 적용된다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "99만원",
+        "source": "null"
+      },
+      {
+        "value": "5,500만원",
+        "source": "null"
+      },
+      {
+        "value": "16.5%",
+        "source": "null"
+      },
+      {
+        "value": "13.2%",
+        "source": "null"
+      }
+    ],
+    "verify_event": "2026년 교육비 세액공제 관련 국세청 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-02",
     "timestamp": "2026-09-02T18:00:49.681150+09:00",
     "run_slot": "13",
