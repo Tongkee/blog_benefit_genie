@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-09-03",
+    "timestamp": "2026-09-03T21:29:12.830983+09:00",
+    "run_slot": "21",
+    "stock_topic": "종목분석",
+    "topic_name": "오늘의 종목 심층분석",
+    "blog_category": "주식분석",
+    "title": "2026년 9월 3일 마이크로디지탈, 하한가 배경과 투자 전 체크포인트 딱 정리",
+    "tags": [
+      "마이크로디지탈",
+      "하한가",
+      "감사 의견 거절",
+      "반대매매",
+      "코스닥"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224400134715",
+    "images_count": 4,
+    "images_inserted": 4,
+    "has_table": true,
+    "has_faq": true,
+    "stock_name": "마이크로디지탈",
+    "etf_content_type": null,
+    "etf_subject": null,
+    "ipo_mode": null,
+    "ipo_month": null,
+    "claim": "2026년 9월 3일 마이크로디지탈은 코스닥 시장에서 하한가를 기록하며 52주 최저가인 538원에 도달했고, PBR은 0.44를 기록했다.",
+    "claim_numbers": [
+      {
+        "value": "2026년 9월 3일",
+        "source": null
+      },
+      {
+        "value": "538원",
+        "source": "네이버금융·한국거래소(국내)"
+      },
+      {
+        "value": "0.44",
+        "source": "네이버금융·한국거래소(국내)"
+      }
+    ],
+    "verify_event": "마이크로디지탈 2026년 연간 감사보고서 발표",
+    "verify_date": "2027-03-31"
+  },
+  {
     "date": "2026-09-01",
     "timestamp": "2026-09-01T21:56:30.251221+09:00",
     "run_slot": "21",
