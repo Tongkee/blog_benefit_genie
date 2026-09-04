@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-09-04",
+    "timestamp": "2026-09-04T18:04:10.903371+09:00",
+    "run_slot": "13",
+    "keyword": "연말정산 환급 많이 받는 법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 연말정산 | 최대 131만원 돌려받는 절세 팁",
+    "tags": [
+      "연말정산",
+      "종합소득세",
+      "세액공제",
+      "소득공제",
+      "환급",
+      "직장인",
+      "프리랜서"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224401130115",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 연말정산에서는 소득 및 세액공제 항목을 꼼꼼히 챙기면 최대 131만원까지 환급받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "131만원",
+        "source": "국세청 홈택스, 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 연말정산 관련 국세청 공식 발표",
+    "verify_date": "2026-12-31"
+  },
+  {
     "date": "2026-09-03",
     "timestamp": "2026-09-03T18:02:25.336687+09:00",
     "run_slot": "13",
