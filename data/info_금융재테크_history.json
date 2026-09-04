@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-09-04",
+    "timestamp": "2026-09-04T21:59:57.331277+09:00",
+    "run_slot": "17",
+    "keyword": "주택담보대출 금리 비교",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "2026 주택담보대출 | 월 10만원 아끼는 금리 비교 및 한도 조건 총정리",
+    "tags": [
+      "주택담보대출",
+      "주담대",
+      "금리비교",
+      "LTV",
+      "DSR",
+      "내집마련",
+      "재테크",
+      "금융상품",
+      "대환대출"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224401306451",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 주택담보대출은 LTV, DSR 규제와 함께 스트레스 DSR까지 적용돼 한도가 과거보다 보수적으로 산정되며, 금리 0.5%p 차이가 월 9만원 이상의 이자 부담으로 이어질 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "0.5%p",
+        "source": null
+      },
+      {
+        "value": "월 9만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 주택담보대출 관련 금융감독원 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-03",
     "timestamp": "2026-09-03T22:00:03.554428+09:00",
     "run_slot": "17",
