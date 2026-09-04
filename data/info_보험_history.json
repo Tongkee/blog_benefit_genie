@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-04",
+    "timestamp": "2026-09-04T23:14:39.698399+09:00",
+    "run_slot": "19",
+    "keyword": "보험 해지 환급금 계산",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "보험 해지 환급금 | 2026년 기준 500만원 이상 돌려받는 법 총정리",
+    "tags": [
+      "보험해지",
+      "환급금",
+      "보험료",
+      "중도해지",
+      "손실",
+      "보험다모아",
+      "내보험찾아줌"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224401362901",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 보험 해지 환급금은 500만원 이상 손실을 줄일 수 있는 방법이 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "500만원",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-03",
     "timestamp": "2026-09-03T23:31:42.902687+09:00",
     "run_slot": "19",
