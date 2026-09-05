@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-09-05",
+    "timestamp": "2026-09-05T22:26:49.135938+09:00",
+    "run_slot": "19",
+    "keyword": "IRP 계좌 장단점 수수료",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "IRP 계좌 장단점 | 연 900만원 세액공제, 148.5만원 환급 조건 총정리",
+    "tags": [
+      "IRP",
+      "개인형퇴직연금",
+      "IRP계좌",
+      "세액공제",
+      "연말정산",
+      "노후준비",
+      "재테크",
+      "연금"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224402137705",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 연금저축과 합산해 연 900만원까지 세액공제 대상이 되며, 총급여 5,500만원 이하인 분들은 최대 148.5만원까지 환급받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청, 금융감독원"
+      },
+      {
+        "value": "연 900만원",
+        "source": "국세청, 금융감독원"
+      },
+      {
+        "value": "총급여 5,500만원 이하",
+        "source": "국세청, 금융감독원"
+      },
+      {
+        "value": "148.5만원",
+        "source": "국세청, 금융감독원"
+      }
+    ],
+    "verify_event": "IRP 세액공제 한도 및 환급 조건 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-04",
     "timestamp": "2026-09-04T21:59:57.331277+09:00",
     "run_slot": "17",
