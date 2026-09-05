@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-05",
+    "timestamp": "2026-09-05T21:02:10.688142+09:00",
+    "run_slot": "17",
+    "keyword": "등기부등본 보는 법 확인",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "등기부등본 | 5분 안에 권리관계 파악하는 법 총정리",
+    "tags": [
+      "등기부등본",
+      "부동산등기",
+      "권리관계",
+      "내집마련",
+      "전세사기",
+      "부동산정보",
+      "주거안전"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224402081055",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "등기부등본은 부동산의 소유권, 저당권 등 핵심 권리관계를 파악할 수 있으며, 열람 수수료 700원, 발급 수수료 1,000원으로 수억 원에 달하는 전세 보증금이나 매매 대금의 잠재적 손실을 방지할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "700원",
+        "source": "대한민국 법원 인터넷등기소"
+      },
+      {
+        "value": "1,000원",
+        "source": "대한민국 법원 인터넷등기소"
+      }
+    ],
+    "verify_event": "대한민국 법원 인터넷등기소의 등기부등본 수수료 변경 고시",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-04",
     "timestamp": "2026-09-04T20:16:15.522929+09:00",
     "run_slot": "15",
