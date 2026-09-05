@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-05",
+    "timestamp": "2026-09-05T13:29:22.391980+09:00",
+    "run_slot": "13",
+    "keyword": "주거급여 신청 자격 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "주거급여 2026 | 서울 1인 가구 최대 월 36.9만원 받는 법",
+    "tags": [
+      "주거급여",
+      "주거급여2026",
+      "주거급여신청",
+      "주거급여조건",
+      "정부지원",
+      "청년주거급여",
+      "마이홈"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224401781818",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 주거급여는 소득인정액이 중위소득 48% 이하인 가구에 최대 월 36만 9천원(서울 1인 기준)을 지원합니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국토교통부"
+      },
+      {
+        "value": "48%",
+        "source": "국토교통부"
+      },
+      {
+        "value": "월 36만 9천원",
+        "source": "국토교통부"
+      },
+      {
+        "value": "월 1,230,834원",
+        "source": null
+      },
+      {
+        "value": "월 2,015,660원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": "2025-08-31"
+  },
+  {
     "date": "2026-09-04",
     "timestamp": "2026-09-04T13:29:49.659358+09:00",
     "run_slot": "13",
