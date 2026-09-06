@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T17:54:06.221476+09:00",
+    "run_slot": "13",
+    "keyword": "간이과세자 일반과세자 차이",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "간이과세자 vs 일반과세자 | 매출 1억 400만원, 세금 차이와 절세 팁",
+    "tags": [
+      "간이과세자",
+      "일반과세자",
+      "부가가치세",
+      "개인사업자",
+      "절세",
+      "세금",
+      "사업자등록",
+      "홈택스"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224402761999",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "개인사업자는 직전 연도 공급대가 합계액 1억 400만원 미만이면 간이과세자로 분류되어 낮은 세율과 간편한 신고 혜택을 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "1억 400만원",
+        "source": "국세청 홈택스, 2026년 기준"
+      },
+      {
+        "value": "8,000만원",
+        "source": null
+      },
+      {
+        "value": "4,800만원",
+        "source": null
+      },
+      {
+        "value": "1.5%~4%",
+        "source": null
+      },
+      {
+        "value": "0.5%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 간이과세 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-05",
     "timestamp": "2026-09-05T19:35:00.063368+09:00",
     "run_slot": "15",
