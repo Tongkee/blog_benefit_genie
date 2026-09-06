@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T19:56:02.601629+09:00",
+    "run_slot": "15",
+    "keyword": "신혼부부 보험 리모델링 순서",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "신혼부부 보험 리모델링, 월 5만원 아끼는 핵심 순서 총정리",
+    "tags": [
+      "신혼부부",
+      "보험",
+      "보험리모델링",
+      "실손보험",
+      "자동차보험",
+      "연금보험",
+      "건강보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224402840806",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "신혼부부 보험 리모델링을 통해 월 5만원 이상 보험료를 절약할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "월 5만원 이상",
+        "source": null
+      },
+      {
+        "value": "월 70만원",
+        "source": null
+      },
+      {
+        "value": "5년",
+        "source": null
+      },
+      {
+        "value": "360만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 생명보험협회·손해보험협회 기준 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-04",
     "timestamp": "2026-09-04T23:14:39.698399+09:00",
     "run_slot": "19",
