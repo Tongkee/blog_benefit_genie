@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-06",
+    "timestamp": "2026-09-06T22:47:15.447895+09:00",
+    "run_slot": "19",
+    "keyword": "채권 투자 시작하는 법",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "2026 채권 투자 | 연 4% 수익률, 안전하게 시작하는 법",
+    "tags": [
+      "채권투자",
+      "재테크",
+      "금융상품",
+      "사회초년생",
+      "신혼부부",
+      "안전자산",
+      "수익률"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224402981411",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 채권 투자는 연 4%대의 확정 수익률을 기대할 수 있으며, 만기까지 보유 시 원금 보장이 가능하다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "연 4%",
+        "source": null
+      },
+      {
+        "value": "4%대",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 금리 수준 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-05",
     "timestamp": "2026-09-05T22:26:49.135938+09:00",
     "run_slot": "19",
