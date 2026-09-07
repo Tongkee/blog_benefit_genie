@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-09-07",
+    "timestamp": "2026-09-07T23:27:29.158181+09:00",
+    "run_slot": "17",
+    "keyword": "실비보험 중복 가입 보장",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "실비보험 중복 가입 | 1년에 최대 50만원 손해 피하는 법",
+    "tags": [
+      "실비보험",
+      "실손보험",
+      "중복가입",
+      "보험료절약",
+      "보험료환급",
+      "내보험찾아줌",
+      "보험다모아"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224404178647",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "실비보험 중복 가입 시 보험료는 이중으로 내도 보장은 한 번만 받을 수 있어, 연간 최대 50만원 이상의 보험료를 절약할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "50만원",
+        "source": null
+      }
+    ],
+    "verify_event": "5세대 실손보험 출시",
+    "verify_date": "2026-05-06"
+  },
+  {
     "date": "2026-09-06",
     "timestamp": "2026-09-06T19:56:02.601629+09:00",
     "run_slot": "15",
