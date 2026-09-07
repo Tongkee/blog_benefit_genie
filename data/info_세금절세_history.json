@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T00:46:52.857758+09:00",
+    "run_slot": "19",
+    "keyword": "연말정산 미리보기 활용법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 연말정산 미리보기 | 최대 100만원 더 돌려받는 법",
+    "tags": [
+      "연말정산",
+      "종합소득세",
+      "세금환급",
+      "직장인절세",
+      "절세팁",
+      "홈택스",
+      "세액공제"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224404237154",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "연말정산 미리보기를 통해 예상 환급액을 확인하고, 남은 기간 동안 부족한 공제를 채우면 최대 수십만원까지 더 돌려받을 수 있으며, 연소득 7,000만원인 직장인이 연금저축에 600만원을 납입하면 약 79만 2천원을 돌려받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "7,000만원",
+        "source": null
+      },
+      {
+        "value": "600만원",
+        "source": null
+      },
+      {
+        "value": "79만 2천원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 연말정산 미리보기 서비스 개시",
+    "verify_date": "2026-10-31"
+  },
+  {
     "date": "2026-09-07",
     "timestamp": "2026-09-07T18:35:23.473777+09:00",
     "run_slot": "13",
