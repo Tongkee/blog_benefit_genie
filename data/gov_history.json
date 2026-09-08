@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-09-08",
+    "timestamp": "2026-09-08T13:48:29.818898+09:00",
+    "run_slot": "13",
+    "keyword": "육아휴직급여 계산 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "육아휴직급여 | 최대 월 150만원, 2026년 조건 총정리",
+    "tags": [
+      "육아휴직",
+      "육아휴직급여",
+      "정부지원",
+      "출산휴가",
+      "복지로",
+      "고용보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224404744506",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "육아휴직급여는 최대 월 150만원까지 지원받을 수 있으며, 2026년 기준 고용보험 가입 기간 180일 이상 등의 조건을 충족해야 한다.",
+    "claim_numbers": [
+      {
+        "value": "최대 월 150만원",
+        "source": "고용노동부, 2026년 기준"
+      },
+      {
+        "value": "180일",
+        "source": "고용노동부, 2026년 기준"
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-07",
     "timestamp": "2026-09-07T13:47:49.905757+09:00",
     "run_slot": "13",
