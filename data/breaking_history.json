@@ -358,5 +358,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피-gdp-금리": {
+  "date": "2026-09-08",
+  "at": "2026-09-08T13:46:59.962537+09:00",
+  "issue": "반도체 강세에 코스피 7000선 재돌파, GDP 성장, 금리 고정 주택담보대출 재논의",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
