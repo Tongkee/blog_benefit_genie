@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T13:50:16.539528+09:00",
+    "run_slot": "13",
+    "keyword": "치매안심센터 서비스",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "치매안심센터 | 비용 0원, 초기 진단부터 관리까지 총정리",
+    "tags": [
+      "치매안심센터",
+      "치매지원",
+      "치매검진",
+      "치매돌봄",
+      "치매예방",
+      "정부지원",
+      "무료검진"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224405926496",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "치매안심센터를 통해 초기 검진부터 돌봄까지 모든 과정을 0원에 지원받을 수 있으며, 기준 중위소득 120% 이하 가구의 치매 환자는 월 최대 3만원(연 36만원)의 치료관리비를 지원받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "0원",
+        "source": "보건복지부"
+      },
+      {
+        "value": "120%",
+        "source": null
+      },
+      {
+        "value": "월 최대 3만원",
+        "source": null
+      },
+      {
+        "value": "연 36만원",
+        "source": null
+      }
+    ],
+    "verify_event": "기준 중위소득 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-08",
     "timestamp": "2026-09-08T13:48:29.818898+09:00",
     "run_slot": "13",
