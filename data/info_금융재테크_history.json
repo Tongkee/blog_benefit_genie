@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T23:25:41.397575+09:00",
+    "run_slot": "19",
+    "keyword": "환테크 달러 투자 방법",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "2026 달러 환테크 | 환전수수료 최대 100% 우대받는 조건 총정리",
+    "tags": [
+      "환테크",
+      "달러투자",
+      "환전수수료",
+      "외화예금",
+      "환율우대",
+      "재테크",
+      "20대재테크"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224406513403",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 9월 현재, 원/달러 환율은 변동성이 크지만, 모바일 앱 환전으로 100% 우대를 받는다면 환전 비용을 크게 줄일 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년 9월",
+        "source": null
+      },
+      {
+        "value": "100%",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-08",
     "timestamp": "2026-09-08T20:17:30.229664+09:00",
     "run_slot": "15",
