@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T22:14:50.728896+09:00",
+    "run_slot": "17",
+    "keyword": "생애최초 특별공급 자격",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "2026 생애최초 특별공급 | 1인 가구도 600만원으로 내 집 마련하는 조건 총정리",
+    "tags": [
+      "생애최초특별공급",
+      "청약",
+      "내집마련",
+      "무주택",
+      "주거지원",
+      "부동산"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224406450209",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 생애최초 특별공급은 세대원 전원 무주택, 일정 소득·자산 기준 충족, 청약통장 납입 요건을 갖추면 신청 가능하며, 1인 가구는 전용면적 60㎡ 이하 주택형에 청약할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "600만원 이상",
+        "source": "한국부동산원 청약홈, 2026년 기준"
+      },
+      {
+        "value": "60㎡ 이하",
+        "source": "한국부동산원 청약홈, 2026년 기준"
+      },
+      {
+        "value": "5년 이상",
+        "source": "한국부동산원 청약홈, 2026년 기준"
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-08",
     "timestamp": "2026-09-08T17:57:30.094140+09:00",
     "run_slot": "13",
