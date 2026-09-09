@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-09",
+    "timestamp": "2026-09-09T20:27:32.822683+09:00",
+    "run_slot": "15",
+    "keyword": "프리랜서 원천징수 환급 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "프리랜서 원천징수 | 최대 165만원 환급받는 조건",
+    "tags": [
+      "프리랜서",
+      "원천징수",
+      "종합소득세",
+      "세금환급",
+      "절세",
+      "홈택스",
+      "3.3%"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224406356679",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "프리랜서가 종합소득세 신고 시 필요경비와 각종 공제를 잘 챙기면 원천징수된 세금 중 최대 165만원 이상을 환급받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "165만원",
+        "source": null
+      },
+      {
+        "value": "3.3%",
+        "source": null
+      },
+      {
+        "value": "6%",
+        "source": null
+      },
+      {
+        "value": "1,400만원",
+        "source": null
+      },
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스"
+      }
+    ],
+    "verify_event": "2026년 종합소득세 신고 기준 고시 발표",
+    "verify_date": "2026-05-31"
+  },
+  {
     "date": "2026-09-08",
     "timestamp": "2026-09-08T00:46:52.857758+09:00",
     "run_slot": "19",
