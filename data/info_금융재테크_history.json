@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T23:28:18.929664+09:00",
+    "run_slot": "19",
+    "keyword": "달러 예금 환율 우대 방법",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "2026 달러 예금 환율 우대 | 최대 90% 받는 조건 총정리",
+    "tags": [
+      "달러예금",
+      "환율우대",
+      "환테크",
+      "외화예금",
+      "재테크",
+      "사회초년생",
+      "신혼부부"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224407680629",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준, 달러 예금은 환율 우대를 최대 90%까지 받을 수 있는 매력적인 재테크 수단입니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "90%",
+        "source": null
+      },
+      {
+        "value": "연 0%대",
+        "source": null
+      },
+      {
+        "value": "1억 원",
+        "source": null
+      },
+      {
+        "value": "2025년 9월 1일",
+        "source": null
+      }
+    ],
+    "verify_event": "금융감독원 금융상품한눈에 '외화예금' 최신 기준 업데이트",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-09",
     "timestamp": "2026-09-09T23:25:41.397575+09:00",
     "run_slot": "19",
