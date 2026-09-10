@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-10",
+    "timestamp": "2026-09-10T22:12:48.930372+09:00",
+    "run_slot": "17",
+    "keyword": "임대차계약 주의사항",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "2026 임대차계약, 보증금 5% 절약하는 묵시적 갱신 핵심 조건",
+    "tags": [
+      "임대차계약",
+      "묵시적갱신",
+      "계약갱신청구권",
+      "주택임대차보호법",
+      "전세사기",
+      "부동산",
+      "주거지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224407617250",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 주택임대차보호법에 따라 묵시적 갱신이나 계약갱신청구권을 활용하면 임대료 증액은 기존 임대료의 5% 이내로 제한된다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "주택임대차보호법"
+      },
+      {
+        "value": "5%",
+        "source": "주택임대차보호법"
+      }
+    ],
+    "verify_event": "2026년 주택임대차보호법 개정 또는 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-09",
     "timestamp": "2026-09-09T22:14:50.728896+09:00",
     "run_slot": "17",
