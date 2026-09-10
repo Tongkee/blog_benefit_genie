@@ -366,5 +366,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "애플-ai-신제품": {
+  "date": "2026-09-10",
+  "at": "2026-09-10T13:51:40.193653+09:00",
+  "issue": "애플, AI 기능 강화한 신제품(폴더블폰, 에어팟, 스마트워치)으로 삼성과 경쟁 심화",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
