@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T20:14:23.306655+09:00",
+    "run_slot": "15",
+    "keyword": "실손보험 세대별 차이 비교",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "5세대 실손보험, 월 1만원대로 가입? 보장 내용과 핵심 정리",
+    "tags": [
+      "실손보험",
+      "5세대실손",
+      "보험비교",
+      "보험료절약",
+      "보험가입",
+      "건강보험",
+      "의료비"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224408659322",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 5월에 출시된 5세대 실손보험은 월 1만원대 보험료로 필수적인 의료비 보장을 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년 5월",
+        "source": "금융위원회 / 보험업계 발표, 2026년 기준"
+      },
+      {
+        "value": "1만원대",
+        "source": null
+      }
+    ],
+    "verify_event": "5세대 실손보험 관련 공식 발표",
+    "verify_date": "2026-05-31"
+  },
+  {
     "date": "2026-09-10",
     "timestamp": "2026-09-10T20:09:27.395895+09:00",
     "run_slot": "15",
