@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T13:57:04.277454+09:00",
+    "run_slot": "13",
+    "stock_topic": "etf포트폴리오",
+    "topic_name": "ETF 인사이트",
+    "blog_category": "ETF",
+    "title": "2026년 채권형 ETF, AGG·TLT·BND·SHY 중 내게 맞는 건? 핵심만 딱 정리",
+    "tags": [
+      "채권형ETF",
+      "미국채권",
+      "AGG",
+      "TLT",
+      "BND",
+      "SHY",
+      "ETF비교",
+      "투자전략",
+      "월배당",
+      "안전자산"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224408268763",
+    "images_count": 3,
+    "images_inserted": 3,
+    "has_table": true,
+    "has_faq": true,
+    "stock_name": null,
+    "etf_content_type": "sector_compare_us",
+    "etf_subject": "채권형",
+    "ipo_mode": null,
+    "ipo_month": null,
+    "claim": "2026년 9월 11일 기준으로 대표적인 미국 채권형 ETF 4종(AGG, TLT, BND, SHY)을 비교 분석한 결과, TLT는 4.73%로 가장 높은 배당수익률을 보였고, BND와 AGG는 0.03%로 가장 낮은 총보수를 기록했습니다. 지난 3개월간 SHY는 0.26% 상승하며 유일하게 플러스 수익률을 기록했습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년 9월 11일",
+        "source": null
+      },
+      {
+        "value": "4.73%",
+        "source": "야후파이낸스, 마지막 거래일 종가 기준"
+      },
+      {
+        "value": "0.03%",
+        "source": "야후파이낸스, 마지막 거래일 종가 기준"
+      },
+      {
+        "value": "0.26%",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-03",
     "timestamp": "2026-09-03T13:47:47.789995+09:00",
     "run_slot": "13",
