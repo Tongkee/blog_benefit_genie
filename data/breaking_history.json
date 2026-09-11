@@ -374,5 +374,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "국제유가-급등-100달러": {
+  "date": "2026-09-11",
+  "at": "2026-09-11T13:48:28.804040+09:00",
+  "issue": "국제유가 6% 급등, 브렌트유·WTI 100달러 돌파",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
