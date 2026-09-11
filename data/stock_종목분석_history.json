@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-09-12",
+    "timestamp": "2026-09-12T01:44:32.638523+09:00",
+    "run_slot": "01",
+    "stock_topic": "종목분석",
+    "topic_name": "오늘의 종목 심층분석",
+    "blog_category": "주식분석",
+    "title": "2026년 MSTR, 비트코인과 AI로 주가 급등? 핵심만 딱 정리!",
+    "tags": [
+      "MSTR",
+      "스트래티지",
+      "비트코인",
+      "AI",
+      "자사주매입",
+      "미국주식",
+      "기술주",
+      "주식분석"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224408891489",
+    "images_count": 3,
+    "images_inserted": 3,
+    "has_table": true,
+    "has_faq": true,
+    "stock_name": "Strategy Inc",
+    "etf_content_type": null,
+    "etf_subject": null,
+    "ipo_mode": null,
+    "ipo_month": null,
+    "claim": "MSTR은 52주 최저가 81.81달러 대비 높은 133.68달러로 마감했으며, 애널리스트 평균 목표주가는 226.2달러이다.",
+    "claim_numbers": [
+      {
+        "value": "133.68달러",
+        "source": "네이버금융·한국거래소(국내)/야후파이낸스(미국), 마지막 거래일 기준"
+      },
+      {
+        "value": "81.81달러",
+        "source": "네이버금융·한국거래소(국내)/야후파이낸스(미국), 마지막 거래일 기준"
+      },
+      {
+        "value": "365.21달러",
+        "source": "네이버금융·한국거래소(국내)/야후파이낸스(미국), 마지막 거래일 기준"
+      },
+      {
+        "value": "226.2달러",
+        "source": "네이버금융·한국거래소(국내)/야후파이낸스(미국), 마지막 거래일 기준"
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-03",
     "timestamp": "2026-09-03T21:29:12.830983+09:00",
     "run_slot": "21",
