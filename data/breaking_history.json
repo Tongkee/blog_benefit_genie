@@ -382,5 +382,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "유가상승-중동정세-코스피하락": {
+  "date": "2026-09-11",
+  "at": "2026-09-11T20:30:25.001925+09:00",
+  "issue": "유가 상승과 중동 정세 불안으로 인한 시장 영향",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
