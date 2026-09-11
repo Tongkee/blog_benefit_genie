@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-11",
+    "timestamp": "2026-09-11T18:09:44.757587+09:00",
+    "run_slot": "13",
+    "keyword": "부양가족 인적공제 요건",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 부양가족 인적공제 | 최대 150만원 돌려받는 조건",
+    "tags": [
+      "부양가족공제",
+      "인적공제",
+      "연말정산",
+      "종합소득세",
+      "절세",
+      "세금환급",
+      "2026연말정산"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224408555822",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "부양가족 인적공제를 활용하면 1인당 연 150만원을 소득에서 공제받을 수 있으며, 연소득 7천만원인 직장인은 최대 39만 6천원의 세금을 절감할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "150만원",
+        "source": "국세청 홈택스, 2026년 기준"
+      },
+      {
+        "value": "7천만원",
+        "source": null
+      },
+      {
+        "value": "39만 6천원",
+        "source": null
+      },
+      {
+        "value": "100만원",
+        "source": null
+      },
+      {
+        "value": "500만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 연말정산 세법 개정 또는 고시 발표",
+    "verify_date": "2026-12-31"
+  },
+  {
     "date": "2026-09-10",
     "timestamp": "2026-09-10T18:05:13.358016+09:00",
     "run_slot": "13",
