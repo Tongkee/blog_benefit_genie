@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-12",
+    "timestamp": "2026-09-12T13:41:23.035301+09:00",
+    "run_slot": "13",
+    "keyword": "신혼부부 주택청약 1순위 조건",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "신혼부부 주택청약 | 최대 84점 받는 조건과 전략",
+    "tags": [
+      "신혼부부청약",
+      "주택청약",
+      "청약1순위",
+      "청약가점",
+      "정부지원",
+      "내집마련",
+      "청약전략"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224409293973",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "신혼부부는 일반 청약 대비 가점 경쟁에서 유리한 조건으로 최대 84점까지 노릴 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "84점",
+        "source": "주택공급에 관한 규칙·청약홈"
+      },
+      {
+        "value": "35점",
+        "source": null
+      },
+      {
+        "value": "7년",
+        "source": null
+      },
+      {
+        "value": "2억 1,550만원",
+        "source": null
+      },
+      {
+        "value": "3,683만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 신혼부부 주택청약 1순위 조건 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-11",
     "timestamp": "2026-09-11T13:50:51.567124+09:00",
     "run_slot": "13",
