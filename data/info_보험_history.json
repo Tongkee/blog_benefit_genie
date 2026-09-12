@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-12",
+    "timestamp": "2026-09-12T21:30:42.867605+09:00",
+    "run_slot": "17",
+    "keyword": "보험금 청구 소멸시효 기간",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "보험금 청구 소멸시효 | 3년 지나도 받을 수 있을까요?",
+    "tags": [
+      "보험금청구",
+      "소멸시효",
+      "보험꿀팁",
+      "보험정보",
+      "보험금",
+      "보험금청구기간",
+      "보험사"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224409621853",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "대부분의 보험금은 사고 발생일로부터 3년 이내에 청구해야 하며, 만기보험금, 환급금 청구권의 소멸시효는 2년이다.",
+    "claim_numbers": [
+      {
+        "value": "3년",
+        "source": "상법 제662조"
+      },
+      {
+        "value": "2년",
+        "source": null
+      }
+    ],
+    "verify_event": "금융감독원 2026년 기준 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-11",
     "timestamp": "2026-09-11T20:14:23.306655+09:00",
     "run_slot": "15",
