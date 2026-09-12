@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-12",
+    "timestamp": "2026-09-12T22:38:16.207035+09:00",
+    "run_slot": "19",
+    "keyword": "청년 전세임대주택 신청",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "청년 전세임대주택 | 월 10만원대로 내 집 마련하는 조건",
+    "tags": [
+      "청년전세임대",
+      "전세임대주택",
+      "청년주거지원",
+      "주거안정",
+      "내집마련",
+      "전세대출",
+      "부동산"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224409671025",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "청년 전세임대주택을 활용하면 시중 전세의 약 30% 수준의 임대료로 최대 1.2억 원까지 지원받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "약 30%",
+        "source": null
+      },
+      {
+        "value": "최대 1.2억 원",
+        "source": null
+      }
+    ],
+    "verify_event": "LH 청약플러스 2026년 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-11",
     "timestamp": "2026-09-11T22:03:26.770407+09:00",
     "run_slot": "17",
