@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-12",
+    "timestamp": "2026-09-12T19:39:55.580798+09:00",
+    "run_slot": "15",
+    "keyword": "연금저축 세액공제 한도",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "2026 연금저축·IRP | 최대 148.5만원 세액공제 받는 조건 총정리",
+    "tags": [
+      "연금저축",
+      "IRP",
+      "세액공제",
+      "연말정산",
+      "재테크",
+      "노후준비",
+      "직장인"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224409551156",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 연금저축과 IRP를 활용하면 연간 최대 900만 원까지 세액공제를 받을 수 있어 최대 148.5만 원을 환급받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청, 2026년 기준 연금저축·IRP 세액공제"
+      },
+      {
+        "value": "900만 원",
+        "source": null
+      },
+      {
+        "value": "148.5만 원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 연금저축·IRP 세액공제 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-10",
     "timestamp": "2026-09-10T23:28:18.929664+09:00",
     "run_slot": "19",
