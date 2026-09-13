@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-13",
+    "timestamp": "2026-09-13T20:41:13.261868+09:00",
+    "run_slot": "15",
+    "keyword": "세금 체납 불이익 정리",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 세금 체납 | 최대 5천만원 감면 조건과 불이익 총정리",
+    "tags": [
+      "세금체납",
+      "체납불이익",
+      "세금감면",
+      "세금환급",
+      "종합소득세",
+      "직장인세금",
+      "프리랜서세금"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224410401525",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년부터 시행되는 '체납액 납부의무 소멸 특례 제도'를 통해 폐업 영세 개인사업자는 최대 5천만원까지 감면받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "5천만원",
+        "source": null
+      }
+    ],
+    "verify_event": "체납액 납부의무 소멸 특례 제도 관련 공식 발표",
+    "verify_date": "2028-12-31"
+  },
+  {
     "date": "2026-09-12",
     "timestamp": "2026-09-12T17:49:58.633984+09:00",
     "run_slot": "13",
