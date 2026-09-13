@@ -398,5 +398,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai-블리자드-신작": {
+  "date": "2026-09-13",
+  "at": "2026-09-13T13:55:37.377200+09:00",
+  "issue": "AI 개발 속도 조절 및 AI 협력 논의, 국내 기업 AI 전문가 양성, 블리자드 신작 발표 등 AI 및 게임 산업 동향",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
