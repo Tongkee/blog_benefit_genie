@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-13",
+    "timestamp": "2026-09-13T23:31:20.544970+09:00",
+    "run_slot": "19",
+    "keyword": "정기보험 종신보험 차이",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "정기보험 vs 종신보험 | 월 5만원 차이, 내게 맞는 선택은?",
+    "tags": [
+      "정기보험",
+      "종신보험",
+      "보험비교",
+      "사망보험",
+      "보험가입",
+      "보험정보",
+      "베네핏지니"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224410558233",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "30세 남성이 20년 만기 정기보험(사망보험금 1억 원)과 종신보험(사망보험금 1억 원)에 가입한다고 가정할 때, 월 보험료는 정기보험이 약 3만 원대, 종신보험이 약 8만 원대로 월 5만 원의 차이가 발생하며, 20년 동안 총 1,200만 원을 아낄 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "30세",
+        "source": null
+      },
+      {
+        "value": "20년",
+        "source": null
+      },
+      {
+        "value": "1억 원",
+        "source": null
+      },
+      {
+        "value": "약 3만 원대",
+        "source": null
+      },
+      {
+        "value": "약 8만 원대",
+        "source": null
+      }
+    ],
+    "verify_event": "생명보험협회 정기보험 및 종신보험 기준 변경",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-12",
     "timestamp": "2026-09-12T21:30:42.867605+09:00",
     "run_slot": "17",
