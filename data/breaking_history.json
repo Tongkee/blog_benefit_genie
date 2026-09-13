@@ -406,5 +406,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "블리즈컨-신작게임-한국ai": {
+  "date": "2026-09-14",
+  "at": "2026-09-14T01:25:19.315171+09:00",
+  "issue": "블리즈컨 신작 게임 발표 및 한국 AI 기술의 구글-MS 추월",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
