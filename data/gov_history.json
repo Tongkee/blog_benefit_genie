@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-13",
+    "timestamp": "2026-09-13T13:57:09.425123+09:00",
+    "run_slot": "13",
+    "keyword": "도시가스 절약 캐시백",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "도시가스 캐시백 | 최대 8만원 받고 싶다면? 3가지 조건 확인",
+    "tags": [
+      "도시가스",
+      "캐시백",
+      "정부지원",
+      "에너지절약",
+      "가스요금",
+      "할인",
+      "생활비절약"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224410110138",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "도시가스 절약 캐시백을 통해 전년 대비 3% 이상의 사용량 절감 시 최대 8만원까지 환급받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "3%",
+        "source": null
+      },
+      {
+        "value": "8만원",
+        "source": "한국가스공사 도시가스 절약 캐시백, 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 12월 이후 도시가스 절감량 및 절감률 확정",
+    "verify_date": "2026-12-31"
+  },
+  {
     "date": "2026-09-12",
     "timestamp": "2026-09-12T13:41:23.035301+09:00",
     "run_slot": "13",

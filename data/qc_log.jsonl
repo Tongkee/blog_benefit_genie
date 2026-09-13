@@ -217,3 +217,4 @@
 {"ts": "2026-09-12T19:39:53+09:00", "channel": "naver_benefit_genie", "id": "224409551156", "verdict": "WARN", "healed": false, "issues": ["WARN:교과서체 상투어 x5"], "metrics": {"chars": 3559, "cliche": 5, "img": 2, "table": 2, "mode": "live"}}
 {"ts": "2026-09-12T21:30:41+09:00", "channel": "naver_benefit_genie", "id": "224409621853", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 3709, "cliche": 4, "img": 2, "table": 2, "mode": "live"}}
 {"ts": "2026-09-12T22:38:14+09:00", "channel": "naver_benefit_genie", "id": "224409671025", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 3269, "cliche": 0, "img": 2, "table": 2, "mode": "live"}}
+{"ts": "2026-09-13T13:57:08+09:00", "channel": "naver_benefit_genie", "id": "224410110138", "verdict": "OK", "healed": false, "issues": [], "metrics": {"chars": 2802, "cliche": 0, "mode": "source"}}
