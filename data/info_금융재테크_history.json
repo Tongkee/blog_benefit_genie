@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-09-13",
+    "timestamp": "2026-09-13T22:29:54.139339+09:00",
+    "run_slot": "17",
+    "keyword": "신용점수 무료 조회 방법",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "신용점수 무료 조회 | 연 24회 공짜로 올리는 법",
+    "tags": [
+      "신용점수",
+      "신용등급",
+      "신용조회",
+      "무료신용조회",
+      "나이스지키미",
+      "카카오뱅크",
+      "토스",
+      "재테크",
+      "금융"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224410499476",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "신용점수 무료 조회는 연 24회까지 가능하며, 신용점수 상승은 주택담보대출 금리를 연 0.5%p 낮추는 효과를 가져온다.",
+    "claim_numbers": [
+      {
+        "value": "연 24회",
+        "source": "금융감독원 금융상품한눈에, 2026년 기준"
+      },
+      {
+        "value": "연 0.5%p",
+        "source": "금융감독원 금융상품한눈에, 2026년 기준"
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-12",
     "timestamp": "2026-09-12T19:39:55.580798+09:00",
     "run_slot": "15",
