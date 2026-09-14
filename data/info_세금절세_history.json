@@ -1,5 +1,47 @@
 [
   {
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T18:59:37.980448+09:00",
+    "run_slot": "13",
+    "keyword": "증여세 면제 한도 자녀",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 자녀 증여세 | 최대 1억 5천만원 돌려받는 조건",
+    "tags": [
+      "증여세",
+      "자녀증여",
+      "증여세면제한도",
+      "혼인출산공제",
+      "증여세신고",
+      "절세",
+      "상속세",
+      "2026세금"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224411556350",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 자녀에게 최대 1억 5천만 원까지 세금 없이 증여할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "1억 5천만 원",
+        "source": "국세청, 2026년 기준"
+      },
+      {
+        "value": "5천만 원",
+        "source": "국세청, 2026년 기준"
+      },
+      {
+        "value": "1억 원",
+        "source": "국세청, 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 기준 자녀 증여세 면제 한도 및 절세 전략 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-13",
     "timestamp": "2026-09-13T20:41:13.261868+09:00",
     "run_slot": "15",
