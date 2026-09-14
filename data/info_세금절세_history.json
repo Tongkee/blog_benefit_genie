@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-15",
+    "timestamp": "2026-09-15T00:14:40.510312+09:00",
+    "run_slot": "17",
+    "keyword": "사업자 경비 처리 절세 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 사업자 경비 처리 | 최대 1,104만원 돌려받는 절세 조건",
+    "tags": [
+      "사업자경비처리",
+      "개인사업자절세",
+      "종합소득세",
+      "경조사비",
+      "기업업무추진비",
+      "필요경비",
+      "2026세금"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224411847516",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 사업자 경비 처리를 통해 연소득 7천만원 사업자는 최대 1,104만원의 세금을 절세할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "7천만원",
+        "source": null
+      },
+      {
+        "value": "1,104만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 세제개편안 확정 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-14",
     "timestamp": "2026-09-14T18:59:37.980448+09:00",
     "run_slot": "13",
