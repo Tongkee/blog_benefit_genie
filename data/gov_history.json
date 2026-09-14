@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T13:58:51.331018+09:00",
+    "run_slot": "13",
+    "keyword": "출산휴가 급여 신청 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "출산휴가 급여 | 최대 645만원, 신청 조건 총정리",
+    "tags": [
+      "출산휴가",
+      "출산휴가급여",
+      "육아휴직",
+      "육아휴직급여",
+      "고용보험",
+      "정부지원",
+      "출산혜택"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224411179456",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "고용보험 가입 직장 여성은 출산휴가 기간 동안 최대 645만원의 급여를 받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "최대 645만원",
+        "source": null
+      },
+      {
+        "value": "90일",
+        "source": null
+      },
+      {
+        "value": "120일",
+        "source": null
+      },
+      {
+        "value": "180일",
+        "source": null
+      },
+      {
+        "value": "월 215만원",
+        "source": null
+      }
+    ],
+    "verify_event": "출산휴가 급여 관련 고용보험 제도 변경 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-13",
     "timestamp": "2026-09-13T13:57:09.425123+09:00",
     "run_slot": "13",
