@@ -422,5 +422,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai속도조절론-반도체-주가급락": {
+  "date": "2026-09-15",
+  "at": "2026-09-15T04:26:39.301557+09:00",
+  "issue": "AI 속도 조절론 및 반도체 공급망 우려로 인한 주가 급락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
