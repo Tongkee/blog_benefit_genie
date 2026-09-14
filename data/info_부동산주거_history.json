@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-09-14",
+    "timestamp": "2026-09-14T21:40:25.379177+09:00",
+    "run_slot": "15",
+    "keyword": "주택연금 가입 조건 수령액",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "주택연금 2026 | 매월 최대 500만원, 60세 이상 주택 보유자라면?",
+    "tags": [
+      "주택연금",
+      "내집마련",
+      "노후준비",
+      "주거안정",
+      "주택도시기금",
+      "2026"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224411701984",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 주택연금은 부부 중 한 명이 만 60세 이상이고 부부합산 주택 가격이 12억 원 이하인 주택 소유자가 매월 최대 500만원까지 연금을 수령할 수 있는 제도이다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "한국주택금융공사"
+      },
+      {
+        "value": "만 60세 이상",
+        "source": null
+      },
+      {
+        "value": "12억 원 이하",
+        "source": null
+      },
+      {
+        "value": "매월 최대 500만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 주택연금 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-12",
     "timestamp": "2026-09-12T22:38:16.207035+09:00",
     "run_slot": "19",
