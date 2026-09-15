@@ -430,5 +430,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "국채금리-5%-반도체주-급락": {
+  "date": "2026-09-15",
+  "at": "2026-09-15T14:00:43.453650+09:00",
+  "issue": "미 10년물 국채 금리 5% 돌파 및 반도체주 급락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
