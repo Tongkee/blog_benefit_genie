@@ -438,5 +438,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "미국금리인상-코스피-환율": {
+  "date": "2026-09-17",
+  "at": "2026-09-17T20:49:54.684316+09:00",
+  "issue": "미국 금리 인상 및 국내 시장 영향",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
