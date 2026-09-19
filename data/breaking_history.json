@@ -446,5 +446,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "미중정상회담-ai-관세": {
+  "date": "2026-09-20",
+  "at": "2026-09-20T00:56:28.361116+09:00",
+  "issue": "미중 정상회담 AI, 관세 주요 의제 및 AI 위험성 논란",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
