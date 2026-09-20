@@ -114,8 +114,11 @@ async def _login(page: Page, naver_id: str, naver_pw: str) -> bool:
     await page.locator("#id").fill(naver_id)
     await _delay(300, 600)
     await page.locator("#pw").fill(naver_pw)
-    await _delay(400, 700)
-    await page.locator("button[type='submit'].btn_login").click()
+    for sel in ("#loginBtn_column", "#loginBtn_row", "button.btn_done", "button[type='submit'].btn_login"):
+        btn = page.locator(sel).first
+        if await btn.count() and await btn.is_visible():
+            await btn.click()
+            break
     await _delay(4000, 6000)
     await _screenshot(page, "after_login")
 

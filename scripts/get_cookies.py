@@ -70,7 +70,8 @@ async def main():
         print("[2] 로그인 버튼 클릭...")
         # 셀렉터가 자주 바뀜 → 여러 후보 + Enter 폴백. 전부 실패해도 수동 로그인 대기로 넘어간다.
         clicked = False
-        for sel in ("button[type='submit'].btn_login", "#log\\.login",
+        for sel in ("#loginBtn_column", "#loginBtn_row", "button.btn_done",
+                    "button[type='submit'].btn_login", "#log\\.login",
                     "button.btn_login", "[data-testid='login-button']",
                     "button:has-text('로그인')", "input[type='submit']"):
             try:
