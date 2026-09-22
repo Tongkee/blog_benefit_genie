@@ -454,5 +454,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "반도체랠리-코스피급등": {
+  "date": "2026-09-22",
+  "at": "2026-09-22T14:06:56.590381+09:00",
+  "issue": "미국 반도체 랠리에 힘입어 삼성전자, SK하이닉스 주가 급등 및 코스피 7100선 돌파",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
