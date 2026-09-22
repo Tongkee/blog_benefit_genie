@@ -462,5 +462,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai낙관론-뉴욕증시급등-코스피7000": {
+  "date": "2026-09-22",
+  "at": "2026-09-22T20:47:38.855044+09:00",
+  "issue": "AI 낙관론에 뉴욕증시 급등, 코스피도 AI와 삼성전자·SK하이닉스 자사주 매입 변수로 7000선 탈환 기대",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
