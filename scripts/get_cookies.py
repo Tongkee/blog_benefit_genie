@@ -59,40 +59,13 @@ async def main():
 
         print("[1] 네이버 로그인 페이지 열기...")
         await page.goto("https://nid.naver.com/nidlogin.login")
-        # ID/PW 자동 입력 — 실패해도 수동 로그인으로 진행(네이버 폼 구조 변경 대비, 2026-07-29)
-        for sel, val in (("#id", NAVER_ID), ("#pw", NAVER_PW)):
-            try:
-                await page.locator(sel).fill(val, timeout=5000)
-                await page.wait_for_timeout(400)
-            except Exception:
-                print(f"    (입력 실패 {sel} — 브라우저에서 직접 입력해 주세요)")
+        print("\n" + "=" * 60)
+        print("★ [보안 안내] 네이버 계정 보호조치를 방지하기 위해")
+        print("  열린 브라우저 창에서 아이디와 비밀번호를 직접 입력하여 로그인해 주세요.")
+        print("=" * 60 + "\n")
 
-        print("[2] 로그인 버튼 클릭...")
-        # 셀렉터가 자주 바뀜 → 여러 후보 + Enter 폴백. 전부 실패해도 수동 로그인 대기로 넘어간다.
-        clicked = False
-        for sel in ("#loginBtn_column", "#loginBtn_row", "button.btn_done",
-                    "button[type='submit'].btn_login", "#log\\.login",
-                    "button.btn_login", "[data-testid='login-button']",
-                    "button:has-text('로그인')", "input[type='submit']"):
-            try:
-                loc = page.locator(sel).first
-                if await loc.count():
-                    await loc.click(timeout=4000)
-                    clicked = True
-                    print(f"    로그인 버튼 클릭: {sel}")
-                    break
-            except Exception:
-                continue
-        if not clicked:
-            try:
-                await page.locator("#pw").press("Enter")
-                clicked = True
-                print("    (버튼 못 찾음 — Enter로 제출 시도)")
-            except Exception:
-                print("    (자동 제출 실패 — 브라우저에서 직접 로그인해 주세요)")
-
-        print("[3] 로그인 완료 대기 중... (최대 180초)")
-        print("    ★캡챠·2단계 인증·자동입력 실패 시 브라우저에서 직접 로그인하면 됩니다")
+        print("[2] 로그인 완료 대기 중... (최대 180초)")
+        print("    브라우저에서 로그인을 완료하면 자동으로 감지하여 에디터 쿠키까지 저장합니다.")
 
         success = await _wait_for_auth_cookie(ctx, timeout_sec=180)
 
@@ -100,7 +73,30 @@ async def main():
             print("[경고] 120초 내 인증 쿠키 미확인 - 현재 상태로 저장 시도")
         else:
             print("[3] 로그인 완료! (NID_AUT 확인)")
-            await asyncio.sleep(2)  # 쿠키 완전 세팅 대기
+            print("[4] 블로그 에디터 진입하여 블로그 글쓰기 세션 쿠키 획득 중...")
+            try:
+                await page.goto("https://section.blog.naver.com/BlogHome.naver")
+                await page.wait_for_timeout(2500)
+                write_btn = page.locator("a:has-text('글쓰기'), [href*='GoBlogWrite']").first
+                if await write_btn.count():
+                    async with ctx.expect_page(timeout=10000) as new_page_info:
+                        await write_btn.click()
+                    new_pg = await new_page_info.value
+                    await new_pg.wait_for_load_state("domcontentloaded")
+                    print(f"    에디터 창 진입: {new_pg.url}")
+                    # 에디터가 정상 로드될 때까지 또는 추가 로그인/캡차 완료 대기 (최대 60초)
+                    for _ in range(30):
+                        if "PostWrite" in new_pg.url or "postwrite" in new_pg.url:
+                            print("    [OK] 블로그 에디터 진입 성공!")
+                            break
+                        if "nidlogin" in new_pg.url or "login" in new_pg.url.lower():
+                            print("    ★에디터 창에서 추가 확인/로그인이 필요합니다. 브라우저에서 완료해 주세요.")
+                            await asyncio.sleep(2)
+                        else:
+                            await asyncio.sleep(1)
+                await asyncio.sleep(2)  # 쿠키 완전 세팅 대기
+            except Exception as e:
+                print(f"    (블로그 에디터 진입 중 예외/대기: {e})")
 
         # 쿠키 저장
         cookies = await ctx.cookies()

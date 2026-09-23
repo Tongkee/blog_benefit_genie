@@ -1,5 +1,74 @@
 [
   {
+    "date": "2026-09-24",
+    "timestamp": "2026-09-24T00:04:01.477827+09:00",
+    "run_slot": "23",
+    "keyword": "보험 해지 대신 감액완납",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "보험 감액완납, 해지 대신 잃지 않는 혜택 총정리",
+    "tags": [
+      "보험",
+      "감액완납",
+      "보험해지",
+      "보험료부담",
+      "보험유지",
+      "보험정보",
+      "생활경제"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224421386806",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "보험 감액완납은 보험 해지 없이 보장을 유지하면서 월 10만원의 보험료 납입 부담을 없앨 수 있는 방법입니다.",
+    "claim_numbers": [
+      {
+        "value": "월 10만원",
+        "source": null
+      },
+      {
+        "value": "10년(120개월)",
+        "source": null
+      },
+      {
+        "value": "1,200만원",
+        "source": null
+      }
+    ],
+    "verify_event": "금융감독원 FINE 2026년 기준 발표",
+    "verify_date": null
+  },
+  {
+    "date": "2026-09-23",
+    "timestamp": "2026-09-23T23:35:03.870072+09:00",
+    "run_slot": "23",
+    "keyword": "자동차보험 비교 플랫폼 이용법",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "자동차보험, 50만원 아끼는 법 | 공식 비교 도구 총정리",
+    "tags": [
+      "자동차보험",
+      "보험료절약",
+      "보험비교",
+      "다이렉트보험",
+      "보험다모아",
+      "내차보험",
+      "2026자동차보험"
+    ],
+    "status": "failed",
+    "post_url": null,
+    "images_count": 2,
+    "images_inserted": 0,
+    "has_table": true,
+    "has_faq": true,
+    "claim": null,
+    "claim_numbers": null,
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-13",
     "timestamp": "2026-09-13T23:31:20.544970+09:00",
     "run_slot": "19",

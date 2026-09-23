@@ -135,6 +135,8 @@ def _is_editor_page(url: str) -> bool:
     """에디터 페이지인지 URL로 판별 (느슨하게)"""
     if not url or "about:blank" in url:
         return False
+    if "nidlogin" in url or "nid.naver.com" in url or "login" in url.lower():
+        return False
     good = ["postwrite", "PostWrite", "Redirect=Write", "editForm"]
     return any(g in url for g in good)
 
