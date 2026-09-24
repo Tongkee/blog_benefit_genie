@@ -478,5 +478,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "구글-제미나이-ai통제": {
+  "date": "2026-09-25",
+  "at": "2026-09-25T02:17:29.807336+09:00",
+  "issue": "구글, 제미나이 3.8 플래시 TTS 공개 및 AI 통제 불능 위험에 대한 글로벌 공조 시급성 논의",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
