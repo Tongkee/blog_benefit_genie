@@ -470,5 +470,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "구글-제미나이-tts-ai": {
+  "date": "2026-09-24",
+  "at": "2026-09-24T20:55:33.758774+09:00",
+  "issue": "구글, 제미나이 TTS 모델 2종 출시 및 AI 관련 국제 논의 활발",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
