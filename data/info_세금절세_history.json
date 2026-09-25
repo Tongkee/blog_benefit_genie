@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T19:14:39.660471+09:00",
+    "run_slot": "19",
+    "keyword": "세금 환급금 조회 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 숨은 세금 환급금 | 최대 90만원 돌려받는 법",
+    "tags": [
+      "세금환급",
+      "연말정산",
+      "종합소득세",
+      "절세팁",
+      "직장인",
+      "프리랜서",
+      "숨은돈찾기"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224422589183",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "연말정산이나 종합소득세 신고 후 미수령 환급액이 있는 직장인 및 프리랜서는 국세청 홈택스에서 최대 90만원 이상의 세금 환급금을 받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "최대 90만원",
+        "source": "국세청 홈택스, 2026년 기준 세금 환급 제도"
+      },
+      {
+        "value": "과거 5년",
+        "source": "국세청 홈택스, 2026년 기준 세금 환급 제도"
+      },
+      {
+        "value": "75만원",
+        "source": "국세청 홈택스, 2026년 기준 세금 환급 제도"
+      }
+    ],
+    "verify_event": "국세청 홈택스 '환급금 조회' 메뉴 업데이트",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-20",
     "timestamp": "2026-09-20T19:26:13.815533+09:00",
     "run_slot": "19",
