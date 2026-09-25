@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T16:41:19.823981+09:00",
+    "run_slot": "16",
+    "keyword": "부동산 중개보수 요율",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "부동산 중개보수, 9억 아파트 팔 때 중개료 0.5% 절약하는 법",
+    "tags": [
+      "부동산 중개보수",
+      "중개수수료",
+      "복비",
+      "부동산 매매",
+      "전세",
+      "월세"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224422512477",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 부동산 중개보수는 9억 원 이상의 주택 매매 시 0.5% 이내의 요율이 적용되며, 법정 요율 범위 내에서 중개사와 협의를 통해 절약할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국토교통부"
+      },
+      {
+        "value": "9억 원",
+        "source": null
+      },
+      {
+        "value": "0.5%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 부동산 중개보수 요율표 고시 발표",
+    "verify_date": null
+  },
+  {
+    "date": "2026-09-24",
+    "timestamp": "2026-09-24T19:06:46.575044+09:00",
+    "run_slot": "19",
+    "keyword": "재개발 재건축 차이점",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "재개발 재건축 차이점 | 내 집 마련 1억 아끼는 현명한 선택",
+    "tags": [
+      "재개발",
+      "재건축",
+      "부동산",
+      "주거",
+      "내집마련",
+      "부동산투자",
+      "아파트"
+    ],
+    "status": "failed",
+    "post_url": null,
+    "images_count": 2,
+    "images_inserted": 0,
+    "has_table": true,
+    "has_faq": true,
+    "claim": null,
+    "claim_numbers": null,
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-14",
     "timestamp": "2026-09-14T21:40:25.379177+09:00",
     "run_slot": "15",
