@@ -195,7 +195,7 @@ IMAGE_LABELS: {사진1 텍스트 카드 내용 한글 15자 이내},{사진2 텍
 # 같은 GOOGLE_API_KEY·google-genai 그대로 쓰므로 추가 키/패키지·비용 없음.
 # gemini-2.0-flash 는 404(폐기)라 제외. flash-lite 는 503 상황에서 생성 성공 확인됨.
 # pro 는 무료 한도가 빡빡하지만 둘 다 막혔을 때의 최후 보루.
-_GEMINI_MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.5-pro"]
+_GEMINI_MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash"]
 
 
 def _gen_text(

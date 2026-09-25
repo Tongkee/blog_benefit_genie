@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-09-25",
+    "timestamp": "2026-09-25T17:17:30.612162+09:00",
+    "run_slot": "17",
+    "keyword": "금 투자 방법 KRX 금시장",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "KRX 금시장 | 금 투자, 이렇게 시작하면 최대 연 10% 수익률 가능!",
+    "tags": [
+      "금투자",
+      "KRX금시장",
+      "재테크",
+      "안전자산",
+      "금시세",
+      "주식투자",
+      "사회초년생"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224422531429",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "KRX 금시장을 활용하면 매매 차익 비과세 혜택 덕분에 최대 연 10% 이상의 수익률을 기대할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "연 10%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 KRX 금시장 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-15",
     "timestamp": "2026-09-15T01:32:44.461573+09:00",
     "run_slot": "19",

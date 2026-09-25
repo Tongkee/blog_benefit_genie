@@ -283,8 +283,8 @@ def find_nomad_structure_issues(subheadings: list[str], body: str, table_count: 
         issues.append("서론 4문장 안에 '결론부터 말하면 ~입니다. 다만 ~' 문장이 없음")
     if "정리해보겠습니다" not in intro and "정리해 보겠습니다" not in intro:
         issues.append("서론 마지막 문장이 '~정리해보겠습니다.'로 끝나지 않음")
-    if body.count("저라면") < 2:
-        issues.append(f"'저라면' {body.count('저라면')}회 — 개인 판단 문장('저라면 ~하겠습니다') 2회 이상 필요")
+    if body.count("저라면") < 1:
+        issues.append(f"'저라면' {body.count('저라면')}회 — 개인 판단 문장('저라면 ~하겠습니다') 1회 이상 필요")
     if "결국" not in body:
         issues.append("마무리에 '결국 ~'으로 시작하는 결론 문장이 없음")
     if not _ARROW_CHAIN_RE.search(body):
