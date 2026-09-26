@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-26",
+    "timestamp": "2026-09-26T22:21:36.877805+09:00",
+    "run_slot": "17",
+    "keyword": "임차권등기명령 신청 방법",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "임차권등기명령, 43,400원으로 내 전세금 지키는 방법",
+    "tags": [
+      "임차권등기명령",
+      "전세금반환",
+      "보증금회수",
+      "대항력",
+      "우선변제권",
+      "전세사기",
+      "부동산"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224423385230",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 임차권등기명령 신청 비용은 임대인 1명, 임차인 1명, 1개 주택 기준으로 약 43,400원이며, 이 제도를 통해 임차인은 대항력과 우선변제권을 유지하여 전세금을 안전하게 보전할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국토교통부 마이홈"
+      },
+      {
+        "value": "43,400원",
+        "source": null
+      },
+      {
+        "value": "1명",
+        "source": null
+      },
+      {
+        "value": "1명",
+        "source": null
+      },
+      {
+        "value": "1개",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-25",
     "timestamp": "2026-09-25T16:41:19.823981+09:00",
     "run_slot": "16",
