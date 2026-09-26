@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-26",
+    "timestamp": "2026-09-26T23:25:01.453766+09:00",
+    "run_slot": "19",
+    "keyword": "적금 풍차돌리기 방법",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "2026 적금 풍차돌리기 | 연 6% 이상 이자 받는 조건 총정리",
+    "tags": [
+      "적금",
+      "풍차돌리기",
+      "재테크",
+      "사회초년생",
+      "신혼부부",
+      "목돈만들기",
+      "예금자보호"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224423427033",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2025년 9월 1일부터 예금자보호 한도가 1억 원으로 상향되어 적금 풍차돌리기로 안정적으로 목돈을 불릴 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "2025년 9월 1일",
+        "source": null
+      },
+      {
+        "value": "1억 원",
+        "source": null
+      }
+    ],
+    "verify_event": "예금자보호 한도 관련 법규 개정 고시 발표",
+    "verify_date": "2025-09-01"
+  },
+  {
     "date": "2026-09-25",
     "timestamp": "2026-09-25T17:17:30.612162+09:00",
     "run_slot": "17",
