@@ -1,6 +1,41 @@
 [
   {
     "date": "2026-09-26",
+    "timestamp": "2026-09-26T13:55:50.645141+09:00",
+    "run_slot": "13",
+    "keyword": "신혼부부 전세대출 조건 2026",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "신혼부부 전세대출 조건 2026 | 최대 2.4억 받는 법",
+    "tags": [
+      "신혼부부전세대출",
+      "전세대출조건",
+      "정부지원대출",
+      "주거지원",
+      "2026년혜택"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224423084353",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "신혼부부라면 연 1%대 금리로 최대 2억 4천만원까지 전세자금을 마련할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "1%대",
+        "source": null
+      },
+      {
+        "value": "2억 4천만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 주택도시기금 신혼부부 전세대출 조건 발표",
+    "verify_date": null
+  },
+  {
+    "date": "2026-09-26",
     "timestamp": "2026-09-26T09:20:05.532436+09:00",
     "run_slot": "09",
     "keyword": "에너지바우처 신청 대상 방법",
