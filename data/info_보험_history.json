@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-09-27",
+    "timestamp": "2026-09-27T21:01:39.968209+09:00",
+    "run_slot": "15",
+    "keyword": "도수치료 실손보험 보장 조건",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "도수치료 실손보험, 1년에 100만원 넘게 아낄 수 있을까요?",
+    "tags": [
+      "실손보험",
+      "도수치료",
+      "보험료절약",
+      "보험가이드",
+      "2026보험",
+      "베네핏지니"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224424092060",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "5세대 실손보험은 도수치료, 비급여 주사료, 자기공명영상진단(MRI/MRA)을 합산하여 연간 350만 원 한도 내에서 보장한다.",
+    "claim_numbers": [
+      {
+        "value": "5세대 실손보험",
+        "source": "금융위원회 / 보험업계 발표, 2026년 기준"
+      },
+      {
+        "value": "2026년 5월 6일",
+        "source": "금융위원회 / 보험업계 발표, 2026년 기준"
+      },
+      {
+        "value": "연간 350만 원",
+        "source": "금융위원회 / 보험업계 발표, 2026년 기준"
+      },
+      {
+        "value": "10회당 1회",
+        "source": "금융위원회 / 보험업계 발표, 2026년 기준"
+      },
+      {
+        "value": "100만원",
+        "source": null
+      }
+    ],
+    "verify_event": "5세대 실손보험 보장 내용 고시 발표",
+    "verify_date": "2026-05-31"
+  },
+  {
     "date": "2026-09-26",
     "timestamp": "2026-09-26T18:35:53.651678+09:00",
     "run_slot": "13",
