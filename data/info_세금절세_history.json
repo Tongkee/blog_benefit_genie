@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-27",
+    "timestamp": "2026-09-27T19:17:16.166963+09:00",
+    "run_slot": "13",
+    "keyword": "지방소득세 신고 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 지방소득세 | 최대 4.5% 환급받는 조건",
+    "tags": [
+      "지방소득세",
+      "종합소득세",
+      "세금신고",
+      "환급",
+      "절세",
+      "홈택스",
+      "위택스"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224424019731",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 지방소득세는 종합소득세의 10%를 부과하며, 종합소득세 환급액이 많다면 지방소득세 환급액도 비례하여 커지는 구조로, 최대 4.5%까지 환급받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "10%",
+        "source": null
+      },
+      {
+        "value": "4.5%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 지방소득세 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-26",
     "timestamp": "2026-09-26T20:29:12.196040+09:00",
     "run_slot": "15",
