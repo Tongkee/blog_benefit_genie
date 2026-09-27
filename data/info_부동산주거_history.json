@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-09-27",
+    "timestamp": "2026-09-27T23:06:48.600630+09:00",
+    "run_slot": "17",
+    "keyword": "확정일자 전입신고 방법",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "전월세 보증금 5천만원 지키는 확정일자·전입신고, 2026년 신청 방법 총정리",
+    "tags": [
+      "전입신고",
+      "확정일자",
+      "전세보증금",
+      "월세보증금",
+      "전세사기",
+      "주택임대차보호법",
+      "대항력",
+      "우선변제권"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224424195252",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준, 전월세 보증금 5천만원을 지키기 위해 이사 후 반드시 전입신고와 확정일자를 받아야 하며, 이는 온라인으로도 간편하게 신청할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "5천만원",
+        "source": null
+      },
+      {
+        "value": "2026년",
+        "source": "국토교통부 마이홈"
+      },
+      {
+        "value": "14일",
+        "source": null
+      },
+      {
+        "value": "5만원",
+        "source": null
+      },
+      {
+        "value": "500원",
+        "source": null
+      }
+    ],
+    "verify_event": "전입신고와 동시에 대항력이 발생하는 법 개정 추진",
+    "verify_date": "2026-03-31"
+  },
+  {
     "date": "2026-09-26",
     "timestamp": "2026-09-26T22:21:36.877805+09:00",
     "run_slot": "17",
