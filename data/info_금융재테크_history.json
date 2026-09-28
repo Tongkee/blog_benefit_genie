@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-28",
+    "timestamp": "2026-09-28T19:59:33.362461+09:00",
+    "run_slot": "13",
+    "keyword": "CMA 통장 이자 비교",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "CMA 통장 이자 비교 | 연 3%대 수익, 잠자는 돈 100만원도 불리는 법",
+    "tags": [
+      "CMA",
+      "CMA통장",
+      "파킹통장",
+      "CMA금리",
+      "재테크",
+      "사회초년생",
+      "신혼부부"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224425133751",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 현재 CMA 통장은 연 3%대의 수익률을 기대할 수 있으며, 월 100만원을 연 3.5% 금리로 1년간 예치했을 때 약 35만 원 이상의 세후 이자 수익을 얻을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "연 3%대",
+        "source": "금융감독원 금융상품한눈에, 2026년 기준 CMA"
+      },
+      {
+        "value": "월 100만원",
+        "source": null
+      },
+      {
+        "value": "연 3.5%",
+        "source": null
+      },
+      {
+        "value": "약 35만 원 이상",
+        "source": null
+      }
+    ],
+    "verify_event": "금융감독원 금융상품한눈에 CMA 상품 정보 업데이트",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-26",
     "timestamp": "2026-09-26T23:25:01.453766+09:00",
     "run_slot": "19",
