@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-09-28",
+    "timestamp": "2026-09-28T14:22:59.521628+09:00",
+    "run_slot": "14",
+    "keyword": "청년 주거급여 신청 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "청년 주거급여 | 서울 1인 가구, 최대 월 36.9만원 받는 조건",
+    "tags": [
+      "청년주거급여",
+      "주거급여",
+      "청년혜택",
+      "정부지원",
+      "월세지원",
+      "청년월세",
+      "주거안정",
+      "청년정책"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224424779575",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 청년 주거급여는 소득인정액이 중위소득 48% 이하인 청년에게 월세 또는 주택 수선 비용을 지원하는 제도로, 서울 1인 가구 청년은 월 최대 36.9만원을 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "36.9만원",
+        "source": "국토교통부·복지로"
+      },
+      {
+        "value": "2026년 기준 중위소득 48%",
+        "source": "국토교통부·복지로"
+      },
+      {
+        "value": "월 1,230,834원",
+        "source": null
+      },
+      {
+        "value": "월 369,000원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-27",
     "timestamp": "2026-09-27T14:21:48.070217+09:00",
     "run_slot": "14",
