@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-28",
+    "timestamp": "2026-09-28T22:39:15.953491+09:00",
+    "run_slot": "15",
+    "keyword": "보험 리모델링 방법",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "보험 리모델링, 월 5만원 아끼고 보장은 늘리는 3단계 전략",
+    "tags": [
+      "보험리모델링",
+      "보험정리",
+      "보험가입",
+      "보험해지",
+      "보장분석",
+      "보험료절감",
+      "내보험찾아줌"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224425275328",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "보험 리모델링을 통해 월 5만원 이상의 보험료 절감 효과를 기대할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "월 5만원 이상",
+        "source": "금융감독원 FINE"
+      },
+      {
+        "value": "2026년",
+        "source": "금융감독원 FINE"
+      },
+      {
+        "value": "월 5.5만원",
+        "source": null
+      },
+      {
+        "value": "1년이면 66만원",
+        "source": null
+      },
+      {
+        "value": "10년이면 660만원",
+        "source": null
+      }
+    ],
+    "verify_event": "금융감독원 FINE의 보험 관련 최신 기준 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-27",
     "timestamp": "2026-09-27T21:01:39.968209+09:00",
     "run_slot": "15",
