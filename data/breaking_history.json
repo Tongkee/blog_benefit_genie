@@ -486,5 +486,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "외인기관매도-삼전닉스폭락-코스피붕괴": {
+  "date": "2026-09-28",
+  "at": "2026-09-28T23:07:30.843389+09:00",
+  "issue": "외국인·기관 매도 폭탄으로 삼성전자·SK하이닉스 폭락, 코스피 6900선 붕괴",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
