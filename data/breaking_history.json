@@ -494,5 +494,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "삼성-ai-투자-mlcc": {
+  "date": "2026-09-29",
+  "at": "2026-09-29T14:50:41.460060+09:00",
+  "issue": "삼성, 美 AI 인프라 기업에 대규모 투자 및 삼성전기 AI MLCC 공급 소식",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
