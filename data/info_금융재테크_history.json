@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-09-29",
+    "timestamp": "2026-09-29T19:53:21.531209+09:00",
+    "run_slot": "13",
+    "keyword": "중도상환수수료 면제 조건",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "대출 중도상환수수료, 3년 지나면 0원! 2026년 면제 조건 총정리",
+    "tags": [
+      "중도상환수수료",
+      "대출상환",
+      "대출갈아타기",
+      "주택담보대출",
+      "신용대출",
+      "전세자금대출",
+      "금융팁"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224426277173",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "대출 실행일로부터 3년이 지나면 중도상환수수료가 0원 면제되는 경우가 대부분이다.",
+    "claim_numbers": [
+      {
+        "value": "3년",
+        "source": "null"
+      },
+      {
+        "value": "0원",
+        "source": "null"
+      }
+    ],
+    "verify_event": "null",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-28",
     "timestamp": "2026-09-28T19:59:33.362461+09:00",
     "run_slot": "13",
