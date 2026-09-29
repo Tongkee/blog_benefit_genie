@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-30",
+    "timestamp": "2026-09-30T01:32:11.331590+09:00",
+    "run_slot": "19",
+    "keyword": "월세 세액공제 신청 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 월세 세액공제 | 최대 170만원 돌려받는 조건",
+    "tags": [
+      "월세세액공제",
+      "연말정산",
+      "종합소득세",
+      "절세",
+      "무주택",
+      "직장인",
+      "프리랜서"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224426542256",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년부터 월세 세액공제 한도가 연 1,200만원으로 확대되어 최대 170만원까지 돌려받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스, 2026년 기준 월세액 세액공제 제도"
+      },
+      {
+        "value": "연 1,200만원",
+        "source": "국세청 홈택스, 2026년 기준 월세액 세액공제 제도"
+      },
+      {
+        "value": "170만원",
+        "source": "국세청 홈택스, 2026년 기준 월세액 세액공제 제도"
+      }
+    ],
+    "verify_event": "2026년 월세액 세액공제 제도 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-29",
     "timestamp": "2026-09-29T02:06:34.265558+09:00",
     "run_slot": "17",
