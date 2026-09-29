@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-29",
+    "timestamp": "2026-09-29T21:43:27.698612+09:00",
+    "run_slot": "15",
+    "keyword": "해외여행자보험 가입 비교",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "해외여행자보험, 2026년 기준 3일 여행 시 5천원부터!",
+    "tags": [
+      "해외여행자보험",
+      "여행자보험",
+      "해외여행",
+      "여행보험",
+      "보험다모아",
+      "여행경비"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224426368595",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 해외여행자보험은 3일 여행 시 5천원부터 가입할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "보험다모아(생·손보협회)"
+      },
+      {
+        "value": "3일",
+        "source": null
+      },
+      {
+        "value": "5천원",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-09-28",
     "timestamp": "2026-09-28T22:39:15.953491+09:00",
     "run_slot": "15",
