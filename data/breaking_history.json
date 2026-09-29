@@ -502,5 +502,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai-개발-투자-규제": {
+  "date": "2026-09-30",
+  "at": "2026-09-30T04:27:41.350295+09:00",
+  "issue": "AI 기술 개발 및 투자 동향, 그리고 관련 규제 논의",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
