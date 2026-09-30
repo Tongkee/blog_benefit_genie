@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-09-30",
+    "timestamp": "2026-09-30T19:33:09.747364+09:00",
+    "run_slot": "13",
+    "keyword": "전세자금대출 조건 한도",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "2026 버팀목 전세자금대출 | 최대 3억, 연 1.5% 받는 조건 총정리",
+    "tags": [
+      "버팀목전세자금대출",
+      "청년버팀목전세대출",
+      "신혼부부전세대출",
+      "전세자금대출",
+      "주택도시기금",
+      "전세보증금",
+      "내집마련",
+      "주거지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224427405123",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 버팀목 전세자금대출은 소득 및 자산 요건을 충족하는 무주택 세대주에게 연 1.5%~3.5%의 금리로 최대 3억 원까지 지원됩니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "연 1.5%~3.5%",
+        "source": "주택도시기금, 2026년 기준 버팀목 전세자금대출"
+      },
+      {
+        "value": "최대 3억 원",
+        "source": "주택도시기금, 2026년 기준 버팀목 전세자금대출"
+      },
+      {
+        "value": "5천만 원 이하",
+        "source": null
+      },
+      {
+        "value": "7천5백만 원 이하",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 버팀목 전세자금대출 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-29",
     "timestamp": "2026-09-29T03:14:53.484637+09:00",
     "run_slot": "19",
