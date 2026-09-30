@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-01",
+    "timestamp": "2026-10-01T00:13:16.890574+09:00",
+    "run_slot": "17",
+    "keyword": "부가가치세 신고 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "부가가치세 신고 | 최대 250만원 환급 조건 총정리",
+    "tags": [
+      "부가가치세",
+      "부가세신고",
+      "환급",
+      "세금절세",
+      "직장인절세",
+      "프리랜서세금",
+      "2026세금"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224427656388",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "사업자 유형과 과세 기간에 따라 최대 250만원까지 부가가치세를 환급받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "250만원",
+        "source": "국세청 홈택스"
+      }
+    ],
+    "verify_event": "null",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-30",
     "timestamp": "2026-09-30T01:32:11.331590+09:00",
     "run_slot": "19",
