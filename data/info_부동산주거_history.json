@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-01",
+    "timestamp": "2026-10-01T20:00:10.956309+09:00",
+    "run_slot": "13",
+    "keyword": "장기수선충당금 반환 청구",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "이사할 때 놓치면 억울한 장기수선충당금, 최대 100만원 돌려받는 법",
+    "tags": [
+      "장기수선충당금",
+      "전세",
+      "월세",
+      "이사",
+      "관리비",
+      "주거비",
+      "부동산"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224428608023",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "전세·월세 세입자는 이사 시 장기수선충당금을 돌려받을 수 있으며, 이는 적게는 수십만 원에서 많게는 100만 원 이상까지 될 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "100만원 이상",
+        "source": "국토교통부 마이홈, 2026년 기준"
+      },
+      {
+        "value": "36만원",
+        "source": "국토교통부 마이홈, 2026년 기준"
+      },
+      {
+        "value": "144만원",
+        "source": "국토교통부 마이홈, 2026년 기준"
+      },
+      {
+        "value": "720,000원",
+        "source": "국토교통부 마이홈, 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 기준 장기수선충당금 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-30",
     "timestamp": "2026-09-30T19:33:09.747364+09:00",
     "run_slot": "13",
