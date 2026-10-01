@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-01",
+    "timestamp": "2026-10-01T22:12:18.033539+09:00",
+    "run_slot": "15",
+    "keyword": "비상금 통장 파킹통장 추천",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "파킹통장 추천 | 연 4% 이자로 비상금 100만원 모으는 법",
+    "tags": [
+      "파킹통장",
+      "비상금통장",
+      "재테크",
+      "짠테크",
+      "고금리",
+      "예금자보호",
+      "금융상품"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224428723998",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "파킹통장은 연 3.5%~4.0%대 이자율을 제공하며, 2025년 9월 1일부터 1인당 금융회사별 예금자보호 한도가 원금과 소정의 이자를 합쳐 1억원으로 상향되었습니다.",
+    "claim_numbers": [
+      {
+        "value": "연 3.5%~4.0%대",
+        "source": "금융감독원 금융상품한눈에"
+      },
+      {
+        "value": "1억원",
+        "source": null
+      },
+      {
+        "value": "2025년 9월 1일",
+        "source": null
+      }
+    ],
+    "verify_event": "예금자보호 한도 관련 고시 발표",
+    "verify_date": "2025-09-01"
+  },
+  {
     "date": "2026-09-30",
     "timestamp": "2026-09-30T21:40:48.687629+09:00",
     "run_slot": "15",
