@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-02",
+    "timestamp": "2026-10-02T00:33:00.215189+09:00",
+    "run_slot": "17",
+    "keyword": "양도소득세 비과세 요건",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 양도소득세 비과세 | 최대 12억까지 돌려받는 조건",
+    "tags": [
+      "양도소득세",
+      "양도세",
+      "비과세",
+      "1세대1주택",
+      "일시적2주택",
+      "장기보유특별공제",
+      "부동산세금"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224428841659",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 양도소득세 비과세 혜택은 1세대 1주택자가 양도 가격 12억 원까지 적용받을 수 있으며, 취득 당시 조정대상지역에 있었다면 2년 이상 실거주 요건을 충족해야 한다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "12억 원",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "2년",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "3년",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 양도소득세 관련 제도 변경 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-01",
     "timestamp": "2026-10-01T00:13:16.890574+09:00",
     "run_slot": "17",
