@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-10-01",
+    "timestamp": "2026-10-01T14:52:57.360813+09:00",
+    "run_slot": "14",
+    "keyword": "국가건강검진 대상 항목 2026",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "국가건강검진 | 일반검진부터 암 검진까지 2026년 항목 총정리",
+    "tags": [
+      "국가건강검진",
+      "건강검진",
+      "무료건강검진",
+      "암검진",
+      "생애전환기건강진단",
+      "건강보험공단"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224428278426",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년에도 국민건강보험공단에서 일반건강검진과 6대 암 검진, 생애전환기 건강진단을 무료 또는 본인 부담금 일부로 받을 수 있으며, 암 검진은 검진 비용의 10%를 본인이 부담하고 나머지 90%는 국가에서 지원한다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국민건강보험공단"
+      },
+      {
+        "value": "6대",
+        "source": null
+      },
+      {
+        "value": "10%",
+        "source": null
+      },
+      {
+        "value": "90%",
+        "source": null
+      }
+    ],
+    "verify_event": "국가건강검진 항목 및 지원 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-09-30",
     "timestamp": "2026-09-30T14:41:30.654847+09:00",
     "run_slot": "14",
