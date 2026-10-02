@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-02",
+    "timestamp": "2026-10-02T14:38:22.770982+09:00",
+    "run_slot": "14",
+    "keyword": "부모급여 신청 대상 금액",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "2026 부모급여 | 만 1세 미만 아동 월 100만원 받는 조건은?",
+    "tags": [
+      "부모급여",
+      "2026부모급여",
+      "부모급여신청",
+      "부모급여금액",
+      "정부지원금",
+      "양육지원금",
+      "출산지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224429404071",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 만 2세 미만 아동에게 최대 월 100만원을 지원하는 부모급여 제도가 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "복지로(정부24)"
+      },
+      {
+        "value": "만 2세 미만",
+        "source": "복지로(정부24)"
+      },
+      {
+        "value": "월 100만원",
+        "source": "복지로(정부24)"
+      }
+    ],
+    "verify_event": "2026년 부모급여 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-01",
     "timestamp": "2026-10-01T14:52:57.360813+09:00",
     "run_slot": "14",
