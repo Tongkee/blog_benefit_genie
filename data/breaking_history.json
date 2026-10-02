@@ -510,5 +510,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "미국국채금리-채권시장": {
+  "date": "2026-10-02",
+  "at": "2026-10-02T14:48:45.322687+09:00",
+  "issue": "미국 국채 금리 급등과 세계 채권시장 영향",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
