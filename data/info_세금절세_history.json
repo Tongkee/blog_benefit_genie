@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-03",
+    "timestamp": "2026-10-03T01:27:15.021060+09:00",
+    "run_slot": "19",
+    "keyword": "기부금 세액공제 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 기부금 세액공제 | 최대 150만원 돌려받는 조건",
+    "tags": [
+      "기부금세액공제",
+      "연말정산",
+      "종합소득세",
+      "절세",
+      "환급",
+      "세액공제",
+      "직장인"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224429936972",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 일반기부금 1천만원 기부 시 15%의 세액공제율이 적용되어 최대 150만원을 세액공제받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 연말정산 종합안내"
+      },
+      {
+        "value": "1천만원",
+        "source": null
+      },
+      {
+        "value": "15%",
+        "source": null
+      },
+      {
+        "value": "150만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 국세청 연말정산 종합안내 발표",
+    "verify_date": "2026-12-31"
+  },
+  {
     "date": "2026-10-02",
     "timestamp": "2026-10-02T00:33:00.215189+09:00",
     "run_slot": "17",
