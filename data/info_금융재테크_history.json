@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-03",
+    "timestamp": "2026-10-03T22:36:00.096247+09:00",
+    "run_slot": "17",
+    "keyword": "국민연금 추납 제도 활용",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "국민연금 추납 | 최대 10년, 노후 월 20만원 더 받는 조건 총정리",
+    "tags": [
+      "국민연금",
+      "국민연금추납",
+      "노후준비",
+      "재테크",
+      "연금",
+      "사회초년생",
+      "신혼부부"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224430614176",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "국민연금 추납 제도를 활용하면 납부하지 못했던 최대 10년의 기간을 채워 월 20만원 이상의 연금 수령액을 추가로 확보할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "최대 10년",
+        "source": "국민연금공단, 2026년 기준 국민연금 추납 제도 안내"
+      },
+      {
+        "value": "월 20만원",
+        "source": "국민연금공단, 2026년 기준 국민연금 추납 제도 안내"
+      }
+    ],
+    "verify_event": "2026년 기준 국민연금 추납 제도 안내",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-02",
     "timestamp": "2026-10-02T21:28:41.002546+09:00",
     "run_slot": "15",
