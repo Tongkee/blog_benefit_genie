@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-03",
+    "timestamp": "2026-10-03T18:56:35.859316+09:00",
+    "run_slot": "13",
+    "keyword": "간병보험 치매보험 차이",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "간병보험 vs 치매보험 | 2026년 보장 내용과 가입 요령 총정리",
+    "tags": [
+      "간병보험",
+      "치매보험",
+      "노후대비",
+      "보험가입",
+      "2026보험",
+      "장기요양",
+      "보험비교"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224430475128",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "간병보험과 치매보험은 2026년 기준으로 보장하는 범위와 조건이 다르며, 실제 지출되는 간병비는 월 200만 원 이상인 경우가 많아 미리 대비하는 것이 현명하다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "월 200만 원 이상",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-10-02",
     "timestamp": "2026-10-02T02:23:49.234773+09:00",
     "run_slot": "19",
