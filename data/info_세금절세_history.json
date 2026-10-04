@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-04",
+    "timestamp": "2026-10-04T19:52:31.499247+09:00",
+    "run_slot": "13",
+    "keyword": "경정청구 기한과 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 경정청구 | 최대 616만원 돌려받는 5년 기한 총정리",
+    "tags": [
+      "경정청구",
+      "종합소득세",
+      "연말정산",
+      "세금환급",
+      "세액공제",
+      "절세",
+      "홈택스"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224431290587",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "경정청구를 통해 더 낸 세금을 돌려받을 수 있으며, 뱅크샐러드 제휴사 기준으로 사업자 경정청구의 평균 환급액은 616만 원에 달한다.",
+    "claim_numbers": [
+      {
+        "value": "616만 원",
+        "source": "뱅크샐러드 제휴사"
+      },
+      {
+        "value": "5년",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 경정청구 제도 공식 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-03",
     "timestamp": "2026-10-03T01:27:15.021060+09:00",
     "run_slot": "19",
