@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-04",
+    "timestamp": "2026-10-04T23:06:00.548789+09:00",
+    "run_slot": "17",
+    "keyword": "등기부등본 확인 필수 항목",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "등기부등본 3가지 필수 확인! 2,000만원 전세금 지키는 법",
+    "tags": [
+      "등기부등본",
+      "전세사기",
+      "부동산등기",
+      "내집마련",
+      "전세보증금",
+      "부동산계약",
+      "안전한전세"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224431435736",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "등기부등본 확인은 전세보증금 2억원 이상을 지키는 방패이며, 인터넷 열람은 700원, 발급은 1,000원이다.",
+    "claim_numbers": [
+      {
+        "value": "2억원",
+        "source": null
+      },
+      {
+        "value": "700원",
+        "source": null
+      },
+      {
+        "value": "1,000원",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-10-03",
     "timestamp": "2026-10-03T20:38:00.481426+09:00",
     "run_slot": "15",
