@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-10-04",
+    "timestamp": "2026-10-04T14:55:58.383839+09:00",
+    "run_slot": "14",
+    "keyword": "청년내일채움공제 신청",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "청년내일채움공제 | 2년간 최대 800만원 받는 조건은?",
+    "tags": [
+      "청년내일채움공제",
+      "청년지원",
+      "정부지원",
+      "목돈마련",
+      "중소기업",
+      "취업지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224431096349",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "청년내일채움공제는 2024년 1월 1일부로 신규 가입이 종료되었으나, 2023년까지 가입한 기존 계약자는 만기까지 유지되며, 2년형 가입자는 최대 780만원을 받을 수 있었습니다.",
+    "claim_numbers": [
+      {
+        "value": "2024년 1월 1일",
+        "source": null
+      },
+      {
+        "value": "2023년",
+        "source": null
+      },
+      {
+        "value": "2년형",
+        "source": null
+      },
+      {
+        "value": "780만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 고용노동부 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-03",
     "timestamp": "2026-10-03T14:28:33.698353+09:00",
     "run_slot": "14",
