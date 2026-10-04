@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-05",
+    "timestamp": "2026-10-05T00:32:44.166516+09:00",
+    "run_slot": "19",
+    "keyword": "기타소득 필요경비 계산",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 기타소득 필요경비 | 최대 90% 인정받고 300만원 절세하는 조건",
+    "tags": [
+      "기타소득",
+      "필요경비",
+      "종합소득세",
+      "절세",
+      "환급",
+      "프리랜서",
+      "N잡러"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224431499613",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 기타소득은 필요경비 인정 비율에 따라 세금이 크게 달라지며, 서화·골동품 양도 소득의 경우 보유 기간 10년 이상 또는 양도 가액 1억 원 이하일 때 90%까지 필요경비로 인정받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스, 소득세법 시행령, 2026년 기준"
+      },
+      {
+        "value": "90%",
+        "source": null
+      },
+      {
+        "value": "10년",
+        "source": null
+      },
+      {
+        "value": "1억 원",
+        "source": null
+      }
+    ],
+    "verify_event": "2027년 1월 1일 가상자산 소득 기타소득 과세 시행",
+    "verify_date": "2027-01-01"
+  },
+  {
     "date": "2026-10-04",
     "timestamp": "2026-10-04T19:52:31.499247+09:00",
     "run_slot": "13",
