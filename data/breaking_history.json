@@ -518,5 +518,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "외국인-코스피-매도": {
+  "date": "2026-10-04",
+  "at": "2026-10-04T15:00:56.573762+09:00",
+  "issue": "외국인, 한달 사이 코스피 20조 순매도…삼성전자·SK하이닉스 등 대형주 집중 매도",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
