@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-06",
+    "timestamp": "2026-10-06T02:17:50.599367+09:00",
+    "run_slot": "17",
+    "keyword": "종합소득세 분리과세 선택",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "종합소득세 분리과세 | 최대 45% 세금 아끼는 3가지 조건",
+    "tags": [
+      "종합소득세",
+      "분리과세",
+      "절세",
+      "세금",
+      "직장인",
+      "프리랜서",
+      "배당소득"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224432459322",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "종합소득세 분리과세를 통해 특정 소득에 대해 최대 45%의 세금을 아낄 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "45%",
+        "source": null
+      }
+    ],
+    "verify_event": "2027년 1월 1일 이후 발생한 가상자산 소득 과세 시작",
+    "verify_date": "2027-01-01"
+  },
+  {
     "date": "2026-10-05",
     "timestamp": "2026-10-05T00:32:44.166516+09:00",
     "run_slot": "19",
