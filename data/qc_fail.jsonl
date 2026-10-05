@@ -4,3 +4,4 @@
 {"ts": "2026-09-04T08:27:14+09:00", "channel": "naver_benefit_genie", "id": "224400477661", "verdict": "FAIL", "healed": false, "issues": ["FAIL:위키링크 [[ 누출"], "metrics": {"chars": 3159, "cliche": 0, "mode": "source"}}
 {"ts": "2026-09-29T10:09:40+09:00", "channel": "naver_benefit_genie", "id": "224425632570", "verdict": "FAIL", "healed": false, "issues": ["FAIL:위키링크 [[ 누출"], "metrics": {"chars": 1662, "cliche": 0, "mode": "source"}}
 {"ts": "2026-10-01T09:44:14+09:00", "channel": "naver_benefit_genie", "id": "224427937403", "verdict": "FAIL", "healed": false, "issues": ["FAIL:위키링크 [[ 누출"], "metrics": {"chars": 3025, "cliche": 0, "mode": "source"}}
+{"ts": "2026-10-05T09:06:15+09:00", "channel": "naver_benefit_genie", "id": "224431669066", "verdict": "FAIL", "healed": false, "issues": ["FAIL:위키링크 [[ 누출"], "metrics": {"chars": 1660, "cliche": 0, "mode": "source"}}
