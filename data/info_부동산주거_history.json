@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-06",
+    "timestamp": "2026-10-06T04:23:09.525329+09:00",
+    "run_slot": "19",
+    "keyword": "하자보수 청구 절차",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "아파트 하자보수, 최대 10년 보증! 청구 절차와 시기 총정리",
+    "tags": [
+      "하자보수",
+      "아파트하자",
+      "주택하자보수",
+      "공동주택하자",
+      "내집마련",
+      "부동산정보",
+      "주거안전"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224432492169",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "아파트 하자는 법정 보증 기간 내라면 건설사에 보수를 청구할 수 있으며, 주요 구조부는 최대 10년, 마감 공사는 1~3년의 보증 기간이 적용된다.",
+    "claim_numbers": [
+      {
+        "value": "10년",
+        "source": "국토교통부"
+      },
+      {
+        "value": "1~3년",
+        "source": "국토교통부"
+      }
+    ],
+    "verify_event": "국토교통부의 아파트 하자보수 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-04",
     "timestamp": "2026-10-04T23:06:00.548789+09:00",
     "run_slot": "17",
