@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-06",
+    "timestamp": "2026-10-06T20:17:44.333279+09:00",
+    "run_slot": "13",
+    "keyword": "적금 만기 재예치 전략",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "적금 만기 1억 재예치 | 2026년 금리 손해 없이 이자 더 받는 3가지 방법",
+    "tags": [
+      "적금만기",
+      "재테크",
+      "예금자보호",
+      "재예치",
+      "금리비교",
+      "목돈굴리기",
+      "2030재테크"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224433329325",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2025년 9월 1일부터 예금자보호 한도가 1인당 금융회사별 1억원으로 상향되며, 현재 시중 은행의 일반 예금 금리는 연 3~4%대가 일반적이다.",
+    "claim_numbers": [
+      {
+        "value": "2025년 9월 1일",
+        "source": "예금보험공사"
+      },
+      {
+        "value": "1억원",
+        "source": "예금보험공사"
+      },
+      {
+        "value": "연 3~4%",
+        "source": "금융위원회"
+      }
+    ],
+    "verify_event": "예금자보호 한도 관련 고시 발표",
+    "verify_date": "2025-09-30"
+  },
+  {
     "date": "2026-10-05",
     "timestamp": "2026-10-05T20:33:58.470845+09:00",
     "run_slot": "13",
