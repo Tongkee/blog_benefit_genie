@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-10-06",
+    "timestamp": "2026-10-06T22:21:18.955941+09:00",
+    "run_slot": "15",
+    "keyword": "어린이보험 필수 특약",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "2026 어린이보험 | 월 2만원대로 암·상해 보장받는 필수 특약",
+    "tags": [
+      "어린이보험",
+      "어린이보험필수특약",
+      "보험가입요령",
+      "보험비교",
+      "내보험찾아줌",
+      "보험다모아"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224433440008",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 어린이보험은 월 2만원대로 암 진단비 5천만원, 뇌혈관·허혈성 심장질환 진단비 각 2천만원, 상해 후유장해 1억원 등의 핵심 보장을 100세 만기로 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "월 2만원대",
+        "source": null
+      },
+      {
+        "value": "암 진단비 5천만원",
+        "source": null
+      },
+      {
+        "value": "뇌혈관·허혈성 심장질환 진단비 각 2천만원",
+        "source": null
+      },
+      {
+        "value": "상해 후유장해 1억원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 어린이보험 상품 및 보험료 변동 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-05",
     "timestamp": "2026-10-05T23:22:36.643627+09:00",
     "run_slot": "15",
