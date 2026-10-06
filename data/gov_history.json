@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-06",
+    "timestamp": "2026-10-06T15:30:09.597539+09:00",
+    "run_slot": "15",
+    "keyword": "신혼부부 디딤돌대출 조건",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "신혼부부 디딤돌대출 | 최대 4억 5천만원 지원 조건 총정리",
+    "tags": [
+      "신혼부부",
+      "디딤돌대출",
+      "주택구입자금",
+      "내집마련",
+      "정부지원대출",
+      "정책대출",
+      "내집마련지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224433038197",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "신혼부부 디딤돌대출은 부부합산 연 소득 8,500만원 이하 신혼부부에게 최대 4억 5천만원까지 지원합니다.",
+    "claim_numbers": [
+      {
+        "value": "4억 5천만원",
+        "source": null
+      },
+      {
+        "value": "8,500만원",
+        "source": null
+      },
+      {
+        "value": "5.06억원",
+        "source": "2026년 기준"
+      },
+      {
+        "value": "2.15%",
+        "source": null
+      }
+    ],
+    "verify_event": "주택도시기금 신혼부부 디딤돌대출 자산 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-05",
     "timestamp": "2026-10-05T14:38:12.671817+09:00",
     "run_slot": "14",
