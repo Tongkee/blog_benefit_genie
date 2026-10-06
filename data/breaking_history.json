@@ -526,5 +526,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "누리호-5차발사": {
+  "date": "2026-10-06",
+  "at": "2026-10-06T15:29:41.671498+09:00",
+  "issue": "누리호 5차 발사 예정",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
