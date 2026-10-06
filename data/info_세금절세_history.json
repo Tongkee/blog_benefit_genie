@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-07",
+    "timestamp": "2026-10-07T00:11:42.382101+09:00",
+    "run_slot": "17",
+    "keyword": "중소기업 취업자 소득세 감면",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 중소기업 취업자 소득세 감면 | 최대 195만원 환급 조건",
+    "tags": [
+      "중소기업취업자소득세감면",
+      "중소기업감면",
+      "소득세감면",
+      "연말정산",
+      "절세",
+      "직장인절세",
+      "세금환급"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224433536603",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "중소기업 취업자 소득세 감면 제도를 활용하면 최대 5년간 소득세의 70% 또는 90%를 감면받을 수 있으며, 청년은 연간 감면 한도가 없지만 그 외 대상자는 연 150만원의 한도가 적용됩니다.",
+    "claim_numbers": [
+      {
+        "value": "5년",
+        "source": null
+      },
+      {
+        "value": "70%",
+        "source": null
+      },
+      {
+        "value": "90%",
+        "source": null
+      },
+      {
+        "value": "150만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 중소기업 취업자 소득세 감면 관련 세법 개정",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-06",
     "timestamp": "2026-10-06T02:17:50.599367+09:00",
     "run_slot": "17",
