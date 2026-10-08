@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-08",
+    "timestamp": "2026-10-08T22:25:46.589775+09:00",
+    "run_slot": "15",
+    "keyword": "종신보험 해지 손해 판단",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "종신보험 해지 | 2026년 손해액 5천만원 줄이는 방법",
+    "tags": [
+      "종신보험",
+      "보험해지",
+      "해지환급금",
+      "보험손해",
+      "보험꿀팁",
+      "보험정보",
+      "베네핏지니"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224435694208",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 종신보험 해지 시 손해액을 5천만원 줄이는 방법이 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": null
+      },
+      {
+        "value": "5천만원",
+        "source": null
+      }
+    ],
+    "verify_event": "생명보험협회 및 손해보험협회의 2026년 기준 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-07",
     "timestamp": "2026-10-07T22:23:14.918415+09:00",
     "run_slot": "15",
