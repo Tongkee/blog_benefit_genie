@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-08",
+    "timestamp": "2026-10-08T20:25:08.442796+09:00",
+    "run_slot": "13",
+    "keyword": "대출 중도상환 순서 전략",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "대출 중도상환, 순서만 바꿔도 이자 100만원 아끼는 전략",
+    "tags": [
+      "대출",
+      "중도상환",
+      "이자절약",
+      "재테크",
+      "금융꿀팁",
+      "신혼부부",
+      "사회초년생"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224435598267",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "대출 중도상환 시 금리가 높은 대출부터 갚으면 연 6% 신용대출 3천만 원과 연 3.5% 주택담보대출 1억 원이 있는 상황에서 3년 기준 총 이자 약 250만 원을 절감할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "연 6%",
+        "source": null
+      },
+      {
+        "value": "3천만 원",
+        "source": null
+      },
+      {
+        "value": "연 3.5%",
+        "source": null
+      },
+      {
+        "value": "1억 원",
+        "source": null
+      },
+      {
+        "value": "약 250만원",
+        "source": null
+      }
+    ],
+    "verify_event": "금융감독원 금융상품한눈에 2026년 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-07",
     "timestamp": "2026-10-07T20:25:23.023874+09:00",
     "run_slot": "13",
