@@ -550,5 +550,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피급락-삼성전자-반도체etf": {
+  "date": "2026-10-08",
+  "at": "2026-10-08T22:39:36.052929+09:00",
+  "issue": "삼성전자 실적 발표에도 코스피 급락 및 반도체 ETF 리밸런싱으로 인한 소부장 주가 변동",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
