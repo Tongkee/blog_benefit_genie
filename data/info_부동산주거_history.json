@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-09",
+    "timestamp": "2026-10-09T02:31:19.315284+09:00",
+    "run_slot": "19",
+    "keyword": "임대차 3법 핵심 정리",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "전월세 계약 갱신 시 5% 상한? 임대차 3법 핵심 정리",
+    "tags": [
+      "임대차3법",
+      "전월세신고제",
+      "계약갱신청구권",
+      "전월세상한제",
+      "주택임대차보호법",
+      "내집마련",
+      "부동산정보"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224435852925",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "임대차 3법은 계약 갱신 시 임대료 인상 폭을 5% 이내로 제한하며, 1회 계약 갱신을 보장한다.",
+    "claim_numbers": [
+      {
+        "value": "5%",
+        "source": "국토교통부 마이홈, 2026년 기준 임대차 3법"
+      },
+      {
+        "value": "1회",
+        "source": null
+      },
+      {
+        "value": "6천만원",
+        "source": null
+      },
+      {
+        "value": "30만원",
+        "source": null
+      },
+      {
+        "value": "100만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 임대차 3법 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-08",
     "timestamp": "2026-10-08T02:33:20.983706+09:00",
     "run_slot": "19",
