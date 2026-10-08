@@ -542,5 +542,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "삼성전자-영업이익-100조": {
+  "date": "2026-10-08",
+  "at": "2026-10-08T15:15:14.480660+09:00",
+  "issue": "삼성전자 3분기 영업이익 107조 4천억원…‘100조원 시대’ 열었다",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
