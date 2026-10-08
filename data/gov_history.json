@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-08",
+    "timestamp": "2026-10-08T15:09:36.697596+09:00",
+    "run_slot": "15",
+    "keyword": "의료급여 신청 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "2026 의료급여 신청하면 월 200만원 지원받는 조건",
+    "tags": [
+      "의료급여",
+      "정부지원",
+      "정부혜택",
+      "지원금",
+      "복지로",
+      "2026년"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224435283030",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": null,
+    "claim_numbers": null,
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-10-07",
     "timestamp": "2026-10-07T15:03:26.559900+09:00",
     "run_slot": "14",
