@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-10",
+    "timestamp": "2026-10-10T00:29:46.118148+09:00",
+    "run_slot": "17",
+    "keyword": "주택임대소득 신고 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "주택임대소득 신고 | 놓치면 세금 폭탄, 최대 45% 절세 조건",
+    "tags": [
+      "주택임대소득",
+      "종합소득세",
+      "절세",
+      "직장인투잡",
+      "프리랜서세금",
+      "2026세금",
+      "월세소득"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224436684711",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 주택임대소득 신고는 연간 총수입 2천만원 이하인 경우 분리과세를 통해 필요경비 50%와 기본공제 200만원을 받을 수 있으며, 연간 수입 금액이 7천5백만원 미만이면 간편장부 대상자이다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "2천만원",
+        "source": null
+      },
+      {
+        "value": "50%",
+        "source": null
+      },
+      {
+        "value": "200만원",
+        "source": null
+      },
+      {
+        "value": "7천5백만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 주택임대소득 관련 세법 개정 또는 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-09",
     "timestamp": "2026-10-09T00:55:45.837435+09:00",
     "run_slot": "17",
