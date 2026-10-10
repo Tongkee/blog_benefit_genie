@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-10",
+    "timestamp": "2026-10-10T19:52:27.702508+09:00",
+    "run_slot": "13",
+    "keyword": "퇴직금 IRP 이체 방법",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "퇴직금 IRP 계좌 이체 | 세액공제 최대 148.5만원 받는 조건",
+    "tags": [
+      "IRP",
+      "퇴직연금",
+      "세액공제",
+      "연금저축",
+      "재테크",
+      "직장인",
+      "노후준비"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224437344760",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "IRP 계좌로 퇴직금을 이체하면 연금저축과 합산하여 최대 900만원까지 세액공제 혜택을 받을 수 있으며, 최대 148.5만원을 돌려받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "900만원",
+        "source": "국세청 연금·금융소득 안내"
+      },
+      {
+        "value": "148.5만원",
+        "source": null
+      }
+    ],
+    "verify_event": "국세청 연금·금융소득 안내 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-09",
     "timestamp": "2026-10-09T20:29:27.380504+09:00",
     "run_slot": "13",
