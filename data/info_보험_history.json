@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-10",
+    "timestamp": "2026-10-10T21:34:19.907119+09:00",
+    "run_slot": "15",
+    "keyword": "30대 보험 포트폴리오 월 보험료",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "30대 보험 포트폴리오 | 월 10만원으로 핵심 보장 챙기는 법",
+    "tags": [
+      "30대보험",
+      "보험포트폴리오",
+      "실손보험",
+      "암보험",
+      "정기보험",
+      "자동차보험",
+      "보험료줄이기"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224437415403",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "30대는 월 10만원 내외로 실손보험, 3대 질병 진단비, 사망 보장을 핵심으로 하는 보험 포트폴리오를 구성할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "월 10만원",
+        "source": null
+      },
+      {
+        "value": "월 약 1만원",
+        "source": null
+      },
+      {
+        "value": "12,000원",
+        "source": null
+      },
+      {
+        "value": "월 약 6만원",
+        "source": null
+      },
+      {
+        "value": "60,000원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 보험다모아 기준 변경",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-09",
     "timestamp": "2026-10-09T22:07:13.050387+09:00",
     "run_slot": "15",
