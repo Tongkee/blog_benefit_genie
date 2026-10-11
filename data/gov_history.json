@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-11",
+    "timestamp": "2026-10-11T14:54:43.848197+09:00",
+    "run_slot": "14",
+    "keyword": "육아휴직급여 계산 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "육아휴직급여 | 최대 월 150만원 받는 조건과 계산법",
+    "tags": [
+      "육아휴직급여",
+      "육아휴직",
+      "정부지원",
+      "출산휴가",
+      "육아지원금",
+      "고용보험",
+      "복지로"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224437969470",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 육아휴직급여는 최소 월 70만원부터 최대 월 150만원까지 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "월 70만원",
+        "source": "고용24, 2026년 기준"
+      },
+      {
+        "value": "월 150만원",
+        "source": "고용24, 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 육아휴직급여 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-10",
     "timestamp": "2026-10-10T15:02:13.663919+09:00",
     "run_slot": "14",
