@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-12",
+    "timestamp": "2026-10-12T01:30:12.172418+09:00",
+    "run_slot": "19",
+    "keyword": "연말정산 미리보기 활용법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 연말정산 미리보기 | 최대 236만원 더 돌려받는 절세 조건",
+    "tags": [
+      "연말정산",
+      "절세",
+      "홈택스",
+      "미리보기",
+      "소득공제",
+      "세액공제",
+      "환급"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224438491561",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 연말정산은 국세청 홈택스 '미리보기' 서비스를 활용하고 자녀 세액공제 확대, 주택임차차입금 원리금 상환 공제 요건 합리화, 초등학생 예체능 학원비 공제 등 달라지는 항목들을 미리 확인하고 전략을 세우면 최대 236만원까지 더 돌려받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "236만원",
+        "source": null
+      },
+      {
+        "value": "200만원",
+        "source": null
+      },
+      {
+        "value": "26만 4천원",
+        "source": null
+      },
+      {
+        "value": "300만원",
+        "source": null
+      },
+      {
+        "value": "10만 8천원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 연말정산 관련 국세청 고시 발표",
+    "verify_date": "2026-01-31"
+  },
+  {
     "date": "2026-10-11",
     "timestamp": "2026-10-11T00:55:51.406412+09:00",
     "run_slot": "19",
