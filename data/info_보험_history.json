@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-12",
+    "timestamp": "2026-10-12T00:08:43.966102+09:00",
+    "run_slot": "17",
+    "keyword": "자동차보험 저렴하게 가입하는 법",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "자동차보험 | 2026년 보험료 최대 30% 아끼는 핵심 방법",
+    "tags": [
+      "자동차보험",
+      "보험료할인",
+      "다이렉트보험",
+      "자동차보험비교",
+      "보험료절약",
+      "운전자보험",
+      "2026보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224438440841",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 자동차보험료는 다이렉트 가입과 각종 특약 할인을 활용하면 최대 30% 이상 절감 효과를 볼 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "손해보험협회 보험다모아"
+      },
+      {
+        "value": "평균 15%",
+        "source": null
+      },
+      {
+        "value": "최대 30% 이상",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 자동차보험료 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-10",
     "timestamp": "2026-10-10T21:34:19.907119+09:00",
     "run_slot": "15",
