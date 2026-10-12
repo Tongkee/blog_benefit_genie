@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-13",
+    "timestamp": "2026-10-13T00:11:52.931543+09:00",
+    "run_slot": "15",
+    "keyword": "연말정산 환급 많이 받는 법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 연말정산 | 최대 300만원 더 돌려받는 절세 노하우",
+    "tags": [
+      "연말정산",
+      "종합소득세",
+      "세액공제",
+      "소득공제",
+      "절세",
+      "환급",
+      "직장인"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224439611247",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 연말정산에서 연금저축과 같은 세액공제 상품을 잘 활용하면 최대 300만원 이상의 환급액을 기대할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "300만원",
+        "source": null
+      },
+      {
+        "value": "2026년",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 연말정산 관련 국세청 고시 발표",
+    "verify_date": "2026-01-31"
+  },
+  {
     "date": "2026-10-12",
     "timestamp": "2026-10-12T01:30:12.172418+09:00",
     "run_slot": "19",
