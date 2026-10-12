@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-10-12",
+    "timestamp": "2026-10-12T15:00:57.849931+09:00",
+    "run_slot": "14",
+    "keyword": "국민취업지원제도 신청",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "국민취업지원제도 | 최대 1,950만원 받는 5가지 조건",
+    "tags": [
+      "국민취업지원제도",
+      "취업지원금",
+      "청년구직활동지원금",
+      "생계지원",
+      "구직촉진수당",
+      "취업성공패키지",
+      "정부지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224439059019",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": null,
+    "claim_numbers": null,
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-10-11",
     "timestamp": "2026-10-11T14:54:43.848197+09:00",
     "run_slot": "14",
