@@ -574,5 +574,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "카카오-카나나-에픽게임즈-ai": {
+  "date": "2026-10-13",
+  "at": "2026-10-13T15:52:11.242192+09:00",
+  "issue": "카카오, AI 에이전트 '카나나 스페이스' 공개 및 에픽게임즈의 AI 중심 게임 개발 재편",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
