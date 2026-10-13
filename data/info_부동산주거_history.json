@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-13",
+    "timestamp": "2026-10-13T20:58:34.966243+09:00",
+    "run_slot": "13",
+    "keyword": "전세 월세 전환율 계산",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "전세 월세 전환율 2026 | 월세 70만원이면 연 이자 360만원 절약 가능!",
+    "tags": [
+      "전세월세전환율",
+      "전월세전환율",
+      "전세",
+      "월세",
+      "주거비절약",
+      "부동산정보",
+      "내집마련"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224440646762",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 법정 전세 월세 전환율은 현행 기준금리(한국은행 기준금리)에 연 2%를 더한 값과 연 10% 중 낮은 비율을 적용하며, 월세 70만원을 전세로 전환하면 연 이자 360만원 이상을 절약할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국토교통부 마이홈"
+      },
+      {
+        "value": "연 2%",
+        "source": null
+      },
+      {
+        "value": "연 10%",
+        "source": null
+      },
+      {
+        "value": "70만원",
+        "source": null
+      },
+      {
+        "value": "360만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 한국은행 기준금리 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-12",
     "timestamp": "2026-10-12T20:56:51.677663+09:00",
     "run_slot": "13",
