@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-14",
+    "timestamp": "2026-10-14T02:44:36.513550+09:00",
+    "run_slot": "19",
+    "keyword": "신용점수 올리는 방법",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "2026 신용점수 700점에서 800점대로 올리는 핵심 비법 3가지",
+    "tags": [
+      "신용점수",
+      "신용점수올리기",
+      "사회초년생",
+      "재테크",
+      "금융습관",
+      "신용관리",
+      "대출금리"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224440914710",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년에는 비금융 정보 제출과 신용카드 사용률 관리를 통해 연간 최대 300만 원 이상의 이자를 절감할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "금융감독원"
+      },
+      {
+        "value": "300만 원",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-10-13",
     "timestamp": "2026-10-13T02:56:38.526392+09:00",
     "run_slot": "17",
