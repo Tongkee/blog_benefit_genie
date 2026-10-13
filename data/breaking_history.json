@@ -582,5 +582,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피급락-sk하이닉스-원엔환율": {
+  "date": "2026-10-14",
+  "at": "2026-10-14T01:05:17.285102+09:00",
+  "issue": "코스피 급락 및 SK하이닉스 폭락, 원-엔 환율 급락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
