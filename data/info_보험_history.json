@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-14",
+    "timestamp": "2026-10-14T18:47:18.208569+09:00",
+    "run_slot": "13",
+    "keyword": "보험 해지 환급금 계산",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "보험 해지 환급금, 2026년 기준 꼼꼼히 계산하고 200만원 손해 막는 법",
+    "tags": [
+      "보험해지",
+      "해지환급금",
+      "보험계산",
+      "내보험찾아줌",
+      "보험다모아",
+      "보험관리",
+      "2026보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224441694965",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 보험 해지 환급금은 납입한 보험료보다 적을 수 있으며, 최소 200만원 이상의 손실을 막기 위해서는 해지 전 반드시 자신의 보험 유형과 환급금 규모를 정확하게 파악해야 합니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "금융감독원"
+      },
+      {
+        "value": "200만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 금융감독원 보험 해지 환급금 기준 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-13",
     "timestamp": "2026-10-13T04:58:27.605347+09:00",
     "run_slot": "19",
