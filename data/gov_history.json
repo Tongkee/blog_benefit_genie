@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-14",
+    "timestamp": "2026-10-14T13:54:56.102377+09:00",
+    "run_slot": "13",
+    "keyword": "암검진 무료 대상 신청",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "2026 무료 암검진 | 6가지 암종, 대상 조건과 신청법",
+    "tags": [
+      "암검진",
+      "국가암검진",
+      "무료검진",
+      "건강검진",
+      "정부지원",
+      "건강혜택",
+      "복지로"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224441369954",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준, 위암, 간암, 대장암, 유방암, 자궁경부암, 폐암 등 6대 암종에 대해 특정 연령과 소득 기준에 해당하면 무료 검진을 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "6가지",
+        "source": null
+      },
+      {
+        "value": "6대 암종",
+        "source": "국민건강보험공단"
+      },
+      {
+        "value": "만 40세 이상 남녀",
+        "source": null
+      },
+      {
+        "value": "만 20세 이상 여성",
+        "source": null
+      },
+      {
+        "value": "하위 50%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 국가 암 검진 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-13",
     "timestamp": "2026-10-13T15:51:21.325794+09:00",
     "run_slot": "15",
