@@ -590,5 +590,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피-6000붕괴-금융ai해킹": {
+  "date": "2026-10-14",
+  "at": "2026-10-14T21:02:52.774391+09:00",
+  "issue": "코스피 6000선 붕괴 및 금융권 AI 해킹으로 인한 개인정보 유출",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
