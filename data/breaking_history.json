@@ -614,5 +614,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피코스닥-서킷브레이커-뉴욕증시": {
+  "date": "2026-10-16",
+  "at": "2026-10-16T02:07:52.817854+09:00",
+  "issue": "코스피·코스닥 동반 서킷브레이커 발동 및 뉴욕증시 혼조세",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
