@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-15",
+    "timestamp": "2026-10-15T18:19:16.564033+09:00",
+    "run_slot": "13",
+    "keyword": "비과세 종합저축 가입 조건",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "비과세 종합저축 가입 조건 | 연 500만원 비과세 혜택 총정리",
+    "tags": [
+      "비과세종합저축",
+      "비과세",
+      "재테크",
+      "금융상품",
+      "절세",
+      "2026재테크",
+      "노년층재테크"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224442855537",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "비과세 종합저축은 특정 조건만 충족하면 누구나 연 500만원까지 비과세 혜택을 받을 수 있으며, 총 납입 한도는 모든 금융기관을 합산하여 5천만원이다.",
+    "claim_numbers": [
+      {
+        "value": "연 500만원",
+        "source": null
+      },
+      {
+        "value": "5천만원",
+        "source": null
+      }
+    ],
+    "verify_event": "비과세 종합저축 가입 자격 및 조건 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-14",
     "timestamp": "2026-10-14T02:44:36.513550+09:00",
     "run_slot": "19",
