@@ -598,5 +598,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피코스닥-서킷브레이커-ai버블": {
+  "date": "2026-10-15",
+  "at": "2026-10-15T13:50:05.941590+09:00",
+  "issue": "코스피·코스닥 서킷브레이커 발동 및 AI 버블 붕괴 우려",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
