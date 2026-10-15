@@ -606,5 +606,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai거품론-코스피폭락-tsmc실적": {
+  "date": "2026-10-15",
+  "at": "2026-10-15T20:39:44.556890+09:00",
+  "issue": "AI 거품론과 코스피 폭락, TSMC 실적 발표",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
