@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-16",
+    "timestamp": "2026-10-16T23:53:42.149606+09:00",
+    "run_slot": "19",
+    "keyword": "등기부등본 보는 법 확인",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "2026 등기부등본 | 내 집 보증금 700원으로 지키는 법",
+    "tags": [
+      "등기부등본",
+      "전세사기",
+      "부동산등기",
+      "주택계약",
+      "내집마련",
+      "부동산정보",
+      "등기부등본보는법"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224444224173",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 등기부등본 열람은 700원, 발급은 1,000원의 수수료가 발생하며, 이 금액으로 부동산 계약 시 발생할 수 있는 수천만 원, 수억 원의 잠재적 손실을 막을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "700원",
+        "source": "대법원 인터넷등기소, 2026년 기준"
+      },
+      {
+        "value": "1,000원",
+        "source": "대법원 인터넷등기소, 2026년 기준"
+      }
+    ],
+    "verify_event": "대법원 인터넷등기소 등기부등본 수수료 변경 고시",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-15",
     "timestamp": "2026-10-15T22:35:10.413525+09:00",
     "run_slot": "17",
