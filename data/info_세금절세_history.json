@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-16",
+    "timestamp": "2026-10-16T18:05:12.175718+09:00",
+    "run_slot": "13",
+    "keyword": "프리랜서 종합소득세 신고 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "프리랜서 종합소득세 | 최대 200만원 환급받는 핵심 절세 전략",
+    "tags": [
+      "프리랜서종합소득세",
+      "종합소득세신고",
+      "프리랜서세금",
+      "종합소득세환급",
+      "세금절세",
+      "절세전략",
+      "홈택스"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224443961728",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "프리랜서 종합소득세 신고는 경비율과 소득공제를 잘 활용하면 최대 200만원 이상 환급받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "최대 200만원 이상",
+        "source": null
+      },
+      {
+        "value": "연 150만원",
+        "source": null
+      },
+      {
+        "value": "연 소득 7,000만원",
+        "source": null
+      },
+      {
+        "value": "단순 경비율 50%",
+        "source": null
+      },
+      {
+        "value": "소득금액 3,500만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2027년 1월 1일 가상자산 과세 시행",
+    "verify_date": "2027-01-01"
+  },
+  {
     "date": "2026-10-15",
     "timestamp": "2026-10-15T00:17:45.362020+09:00",
     "run_slot": "19",
