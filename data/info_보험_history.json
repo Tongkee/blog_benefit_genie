@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-17",
+    "timestamp": "2026-10-17T21:29:33.713216+09:00",
+    "run_slot": "17",
+    "keyword": "치아보험 보장 내용 비교",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "치아보험 보장 내용 비교 | 연 30만원 아끼는 실전 가이드",
+    "tags": [
+      "치아보험",
+      "보험비교",
+      "보장내용",
+      "가입요령",
+      "2026보험",
+      "보험다모아",
+      "내보험찾아줌"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224444962663",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "치아보험은 비급여 치료를 보장하며, 임플란트 1개당 최대 200만원, 크라운 1개당 최대 20만원까지 보장받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "200만원",
+        "source": "생명보험협회, 손해보험협회, 2026년 기준"
+      },
+      {
+        "value": "20만원",
+        "source": "생명보험협회, 손해보험협회, 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 치과 치료비 부담 관련 공식 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-16",
     "timestamp": "2026-10-16T22:29:31.112542+09:00",
     "run_slot": "17",
