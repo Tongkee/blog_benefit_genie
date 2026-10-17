@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-17",
+    "timestamp": "2026-10-17T22:48:12.497231+09:00",
+    "run_slot": "19",
+    "keyword": "이사 전 체크리스트 정리",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "이사 전 체크리스트 | 놓치면 후회하는 5가지 핵심 절차",
+    "tags": [
+      "이사체크리스트",
+      "이사준비",
+      "전입신고",
+      "확정일자",
+      "이사지원금",
+      "2026이사"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224445020051",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준으로 이사 전 체크리스트를 통해 최소 5만원에서 최대 수억 원에 달하는 잠재적 손실을 막을 수 있으며, 특히 전입신고와 확정일자는 2억 원이 넘는 보증금을 지키는 데 결정적인 역할을 합니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "정부24"
+      },
+      {
+        "value": "5만원",
+        "source": null
+      },
+      {
+        "value": "2억 원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 이사 관련 제도 및 지원금 공식 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-16",
     "timestamp": "2026-10-16T23:53:42.149606+09:00",
     "run_slot": "19",
