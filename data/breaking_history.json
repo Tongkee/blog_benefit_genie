@@ -622,5 +622,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai투자우려-뉴욕증시하락-코스피강제청산": {
+  "date": "2026-10-18",
+  "at": "2026-10-18T00:41:43.119532+09:00",
+  "issue": "AI 투자 우려 및 미중 반도체 경쟁 심화로 인한 뉴욕증시 하락 및 국내 증시 강제청산",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
