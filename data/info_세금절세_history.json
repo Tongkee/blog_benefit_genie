@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-17",
+    "timestamp": "2026-10-17T17:43:48.449982+09:00",
+    "run_slot": "13",
+    "keyword": "현금영수증 의무발행 업종",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "현금영수증 의무발행 | 최대 45% 세금 환급 놓치지 마세요",
+    "tags": [
+      "현금영수증",
+      "의무발행",
+      "세금환급",
+      "종합소득세",
+      "절세",
+      "직장인",
+      "프리랜서"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224444820498",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 현금영수증 의무발행 업종에서 현금영수증을 받으면 소비자는 신용카드(15%)보다 두 배 높은 30%의 소득공제율이 적용되며, 최대 45%의 소득공제 혜택을 받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청, 2026년 기준 현금영수증 제도"
+      },
+      {
+        "value": "15%",
+        "source": null
+      },
+      {
+        "value": "30%",
+        "source": null
+      },
+      {
+        "value": "45%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 현금영수증 제도 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-16",
     "timestamp": "2026-10-16T18:05:12.175718+09:00",
     "run_slot": "13",
