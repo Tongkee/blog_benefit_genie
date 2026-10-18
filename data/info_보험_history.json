@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-18",
+    "timestamp": "2026-10-18T21:43:50.275353+09:00",
+    "run_slot": "17",
+    "keyword": "단체 실손보험 개인 실손 중지제도",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "단체 실손보험 가입자라면 월 1만원대 개인 실손 중지제도 꼭 챙기세요!",
+    "tags": [
+      "단체실손",
+      "개인실손",
+      "실손보험중지",
+      "보험료절약",
+      "2026보험",
+      "보험팁",
+      "생활정보"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224445840141",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "단체 실손보험 가입자는 개인 실손보험 중지 제도를 활용하여 월 1만원대 보험료를 아낄 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "월 1만원대",
+        "source": null
+      },
+      {
+        "value": "1만원대 후반",
+        "source": null
+      },
+      {
+        "value": "18,000원",
+        "source": null
+      },
+      {
+        "value": "약 20만원",
+        "source": null
+      },
+      {
+        "value": "216,000원",
+        "source": null
+      }
+    ],
+    "verify_event": "금융위원회, 보험업계 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-17",
     "timestamp": "2026-10-17T21:29:33.713216+09:00",
     "run_slot": "17",
