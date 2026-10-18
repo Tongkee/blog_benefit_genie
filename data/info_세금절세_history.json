@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-18",
+    "timestamp": "2026-10-18T18:02:59.481668+09:00",
+    "run_slot": "13",
+    "keyword": "간이과세자 일반과세자 차이",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "간이과세자 일반과세자 | 연 4,800만원 이상이면 세금 3% 더 내나요?",
+    "tags": [
+      "간이과세자",
+      "일반과세자",
+      "부가세",
+      "세금",
+      "절세",
+      "창업",
+      "프리랜서"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224445666434",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "간이과세자는 부가세 부담이 적지만, 매출이 연 8,000만원을 넘으면 일반과세자로 전환되며, 연 매출액 4,800만원 미만인 간이과세자는 부가세 납부 의무가 면제된다.",
+    "claim_numbers": [
+      {
+        "value": "연 8,000만원",
+        "source": "국세청 홈택스, 2026년 기준"
+      },
+      {
+        "value": "연 매출액 4,800만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 부가가치세법 개정 또는 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-17",
     "timestamp": "2026-10-17T17:43:48.449982+09:00",
     "run_slot": "13",
