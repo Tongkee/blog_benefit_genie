@@ -630,5 +630,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "증시폭락-국민연금-imf전망": {
+  "date": "2026-10-18",
+  "at": "2026-10-18T13:42:49.446174+09:00",
+  "issue": "국내 증시 폭락 및 국민연금 손실, 코스피 반등 여부, IMF 한국 성장률 전망 등 금융 시장 전반에 대한 관심 증대",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
