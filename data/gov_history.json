@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-18",
+    "timestamp": "2026-10-18T13:32:41.666141+09:00",
+    "run_slot": "13",
+    "keyword": "기초생활수급자 신청 조건",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "기초생활수급자 신청 조건 | 1인 가구 월 82만원 받는 법",
+    "tags": [
+      "기초생활수급자",
+      "생계급여",
+      "복지로",
+      "정부지원",
+      "긴급복지",
+      "주거급여",
+      "의료급여"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224445442497",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준, 1인 가구는 소득인정액이 월 820,556원 이하일 경우 월 최대 820,556원의 생계급여를 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "보건복지부"
+      },
+      {
+        "value": "1인 가구",
+        "source": null
+      },
+      {
+        "value": "월 820,556원",
+        "source": null
+      },
+      {
+        "value": "32%",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": "2025-08-31"
+  },
+  {
     "date": "2026-10-17",
     "timestamp": "2026-10-17T13:27:55.563276+09:00",
     "run_slot": "13",
