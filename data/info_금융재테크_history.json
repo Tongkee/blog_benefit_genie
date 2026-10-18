@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-18",
+    "timestamp": "2026-10-18T19:59:56.066334+09:00",
+    "run_slot": "15",
+    "keyword": "노란우산공제 소득공제",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "노란우산공제 2026 | 연 최대 600만원 소득공제 받는 조건 총정리",
+    "tags": [
+      "노란우산공제",
+      "소득공제",
+      "2026년",
+      "소상공인",
+      "자영업자",
+      "재테크",
+      "절세"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224445751109",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "노란우산공제는 소상공인과 자영업자를 위한 '사업자 전용 퇴직금'으로, 연 최대 600만원까지 소득공제 혜택을 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "연 최대 600만원",
+        "source": "중소기업중앙회 노란우산공제"
+      },
+      {
+        "value": "연 154만원",
+        "source": null
+      },
+      {
+        "value": "8,000만 원",
+        "source": null
+      },
+      {
+        "value": "월 5만원",
+        "source": null
+      },
+      {
+        "value": "150만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 노란우산공제 관련 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-17",
     "timestamp": "2026-10-17T19:41:43.926895+09:00",
     "run_slot": "15",
