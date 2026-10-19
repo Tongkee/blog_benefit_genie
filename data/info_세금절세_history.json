@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-19",
+    "timestamp": "2026-10-19T19:02:44.944597+09:00",
+    "run_slot": "13",
+    "keyword": "사업자 경비 처리 절세 방법",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 사업자 경비 처리 | 최대 3,600만원 절세 핵심 정리",
+    "tags": [
+      "사업자",
+      "경비처리",
+      "종합소득세",
+      "절세",
+      "프리랜서",
+      "개인사업자",
+      "기업업무추진비"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224446860005",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준, 중소기업 개인사업자는 연간 최대 3,600만원의 기업업무추진비를 공제받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "국세청 홈택스"
+      },
+      {
+        "value": "3,600만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기업업무추진비 한도 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-18",
     "timestamp": "2026-10-18T18:02:59.481668+09:00",
     "run_slot": "13",
