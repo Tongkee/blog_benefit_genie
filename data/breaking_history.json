@@ -638,5 +638,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피급락-강제청산": {
+  "date": "2026-10-19",
+  "at": "2026-10-19T13:50:57.920536+09:00",
+  "issue": "코스피 급락 및 강제 청산",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
