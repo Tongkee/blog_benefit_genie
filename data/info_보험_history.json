@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-20",
+    "timestamp": "2026-10-20T02:03:18.601346+09:00",
+    "run_slot": "19",
+    "keyword": "자동차보험 할인 특약 총정리",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "자동차보험 할인 특약 10가지 | 최대 50% 아끼는 2026년 전략",
+    "tags": [
+      "자동차보험",
+      "보험할인",
+      "자동차보험특약",
+      "보험료절약",
+      "2026자동차보험",
+      "마일리지특약",
+      "안전운전할인"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224447210110",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "자동차보험료를 최대 50%까지 아낄 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "최대 50%",
+        "source": "null"
+      }
+    ],
+    "verify_event": "null",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-18",
     "timestamp": "2026-10-18T21:43:50.275353+09:00",
     "run_slot": "17",
