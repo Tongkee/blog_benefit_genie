@@ -654,5 +654,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai-순환투자-코스피-뉴욕증시": {
+  "date": "2026-10-21",
+  "at": "2026-10-21T02:16:52.018291+09:00",
+  "issue": "AI 순환투자 우려로 인한 코스피 및 뉴욕증시 불안",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
