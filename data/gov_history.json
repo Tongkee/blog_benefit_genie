@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-20",
+    "timestamp": "2026-10-20T14:02:14.605858+09:00",
+    "run_slot": "13",
+    "keyword": "취약계층 에너지 지원 신청",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "취약계층 에너지바우처 | 최대 19.5만원 신청 조건 총정리",
+    "tags": [
+      "에너지바우처",
+      "취약계층지원",
+      "겨울철난방비",
+      "에너지지원",
+      "정부지원금",
+      "난방비지원",
+      "복지로"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224447701021",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준, 취약계층 에너지바우처는 최대 19만 5천 원까지 지원받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "19만 5천 원",
+        "source": "복지로"
+      },
+      {
+        "value": "17만 8천 원",
+        "source": null
+      },
+      {
+        "value": "1만 4천 8백3십3원",
+        "source": null
+      },
+      {
+        "value": "12만 7천 원",
+        "source": null
+      }
+    ],
+    "verify_event": "2027년 에너지바우처 고시 발표",
+    "verify_date": "2027-10-31"
+  },
+  {
     "date": "2026-10-19",
     "timestamp": "2026-10-19T13:41:50.350834+09:00",
     "run_slot": "13",
