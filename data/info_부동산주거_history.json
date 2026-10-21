@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-21",
+    "timestamp": "2026-10-21T22:56:53.990830+09:00",
+    "run_slot": "17",
+    "keyword": "행복주택 입주 자격 조건",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "행복주택 | 2026년 입주 조건과 월세 최대 80% 저렴하게 사는 법",
+    "tags": [
+      "행복주택",
+      "행복주택입주조건",
+      "행복주택월세",
+      "청년행복주택",
+      "신혼부부행복주택",
+      "대학생행복주택",
+      "주거지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224449500191",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "행복주택은 주변 시세의 60~80% 수준의 저렴한 임대료로 최장 10년까지 거주할 수 있는 주거 지원 제도입니다.",
+    "claim_numbers": [
+      {
+        "value": "60~80%",
+        "source": "마이홈(국토교통부)"
+      },
+      {
+        "value": "10년",
+        "source": "마이홈(국토교통부)"
+      }
+    ],
+    "verify_event": "2026년 행복주택 입주 자격 및 혜택 공식 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-20",
     "timestamp": "2026-10-20T18:28:23.610842+09:00",
     "run_slot": "13",
