@@ -662,5 +662,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai-기업-실적-코스피-급등": {
+  "date": "2026-10-21",
+  "at": "2026-10-21T20:59:43.616599+09:00",
+  "issue": "AI 기업 호실적에 삼전닉스 7% 급등…코스피 '매수 사이드카'",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
