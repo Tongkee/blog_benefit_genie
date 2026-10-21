@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-21",
+    "timestamp": "2026-10-21T20:44:21.021354+09:00",
+    "run_slot": "15",
+    "keyword": "신혼부부 보험 리모델링 순서",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "신혼부부 보험 리모델링, 연 30만원 아끼는 3단계 전략",
+    "tags": [
+      "신혼부부보험",
+      "보험리모델링",
+      "보험료절약",
+      "실손보험",
+      "자동차보험",
+      "연금보험",
+      "보험다모아"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224449377200",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "신혼부부 보험을 리모델링하면 연간 30만원 이상을 절약할 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "연 30만원",
+        "source": null
+      },
+      {
+        "value": "월 10만원",
+        "source": null
+      },
+      {
+        "value": "연 30만원 이상",
+        "source": null
+      },
+      {
+        "value": "연 10만원 이상",
+        "source": null
+      }
+    ],
+    "verify_event": "금융감독원 2026년 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-20",
     "timestamp": "2026-10-20T02:03:18.601346+09:00",
     "run_slot": "19",
