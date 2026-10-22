@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-22",
+    "timestamp": "2026-10-22T20:50:49.333636+09:00",
+    "run_slot": "15",
+    "keyword": "4세대 실손보험 전환 장단점",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "4세대 실손보험 전환, 2026년에는 이 점 꼭 따져보세요",
+    "tags": [
+      "실손보험",
+      "4세대실손",
+      "보험전환",
+      "보험료절약",
+      "보험가입",
+      "금융정보",
+      "보험꿀팁"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224450534175",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 5월 6일 5세대 실손보험이 출시되면서 4세대 실손보험으로의 신규 가입 및 전환은 사실상 종료되었으며, 기존 4세대 실손 가입자는 비급여 의료 이용량에 따라 보험료가 100%까지 할증될 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "2026년 5월 6일",
+        "source": "금융위원회 / 보험업계 발표, 2026년 기준"
+      },
+      {
+        "value": "100%",
+        "source": null
+      }
+    ],
+    "verify_event": "5세대 실손보험 관련 공식 발표",
+    "verify_date": "2026-05-06"
+  },
+  {
     "date": "2026-10-21",
     "timestamp": "2026-10-21T20:44:21.021354+09:00",
     "run_slot": "15",
