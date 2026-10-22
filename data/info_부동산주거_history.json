@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-22",
+    "timestamp": "2026-10-22T23:02:11.174361+09:00",
+    "run_slot": "17",
+    "keyword": "전입신고 세대주 변경",
+    "info_category": "부동산주거",
+    "blog_category": "부동산·주거",
+    "title": "전입신고 세대주 변경, 월세도 가능할까? 조건과 절차 총정리",
+    "tags": [
+      "전입신고",
+      "세대주변경",
+      "월세전입신고",
+      "확정일자",
+      "주거지원",
+      "내집마련",
+      "부동산정보"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224450648699",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "월세 거주자가 세대주 변경을 하면 월 최대 20만원에 달하는 청년월세 특별지원과 같은 주거지원 혜택을 받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "월 최대 20만원",
+        "source": null
+      }
+    ],
+    "verify_event": "청년월세 특별지원 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-21",
     "timestamp": "2026-10-21T22:56:53.990830+09:00",
     "run_slot": "17",
