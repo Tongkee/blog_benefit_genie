@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-22",
+    "timestamp": "2026-10-22T13:43:23.856247+09:00",
+    "run_slot": "13",
+    "keyword": "임신 출산 바우처 국민행복카드",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "임신·출산 바우처 | 태아 1명당 최대 300만원, 신혼부부 필독!",
+    "tags": [
+      "임신바우처",
+      "출산지원금",
+      "국민행복카드",
+      "첫만남이용권",
+      "임신출산진료비",
+      "신혼부부혜택",
+      "정부지원"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224450071806",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준, 임신·출산 관련 바우처로 태아 1명당 최대 300만원까지 받을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "보건복지부"
+      },
+      {
+        "value": "1명당",
+        "source": null
+      },
+      {
+        "value": "최대 300만원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 임신·출산 바우처 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-21",
     "timestamp": "2026-10-21T13:48:01.819257+09:00",
     "run_slot": "13",
