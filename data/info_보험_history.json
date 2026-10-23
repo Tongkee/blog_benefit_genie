@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-23",
+    "timestamp": "2026-10-23T20:41:46.676522+09:00",
+    "run_slot": "15",
+    "keyword": "저해지 무해지 보험 차이",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "저해지·무해지 보험, 2026년 가입 전 꼭 볼 것 | 환급금 최대 50% 차이",
+    "tags": [
+      "저해지보험",
+      "무해지보험",
+      "보험가입",
+      "보험료절약",
+      "보험환급금",
+      "보장성보험",
+      "종신보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224451641699",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "저해지·무해지 보험은 일반 보험보다 납입 보험료가 최대 30% 저렴하지만, 납입 기간 중 해지하면 환급금이 없거나 일반 보험 대비 50% 이상 적을 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "최대 30%",
+        "source": null
+      },
+      {
+        "value": "50% 이상",
+        "source": null
+      }
+    ],
+    "verify_event": "생명보험협회·손해보험협회 보험다모아 2026년 기준 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-22",
     "timestamp": "2026-10-22T20:50:49.333636+09:00",
     "run_slot": "15",
