@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-10-23",
+    "timestamp": "2026-10-23T18:46:29.754351+09:00",
+    "run_slot": "13",
+    "keyword": "저축은행 예금 안전성 확인",
+    "info_category": "금융재테크",
+    "blog_category": "금융·재테크",
+    "title": "저축은행 예금 | 1인당 1억원까지 보호, 안전하게 고르는 법",
+    "tags": [
+      "저축은행",
+      "예금",
+      "예금자보호",
+      "재테크",
+      "금융상품",
+      "안전한저축",
+      "2026재테크"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224451559084",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2025년 9월 1일부터 저축은행 예금은 1인당 1억 원까지 보호받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "2025년 9월 1일",
+        "source": null
+      },
+      {
+        "value": "1인당 1억 원",
+        "source": "금융위원회, 2026년 기준 예금자보호법"
+      }
+    ],
+    "verify_event": "예금자보호법 개정안 시행",
+    "verify_date": "2025-09-01"
+  },
+  {
     "date": "2026-10-22",
     "timestamp": "2026-10-22T18:37:50.993793+09:00",
     "run_slot": "13",
