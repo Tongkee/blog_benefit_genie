@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-23",
+    "timestamp": "2026-10-23T13:56:30.607988+09:00",
+    "run_slot": "13",
+    "keyword": "노인 기초연금 신청 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "기초연금 | 만 65세 이상 최대 33만원 받는 조건과 신청법",
+    "tags": [
+      "기초연금",
+      "노인복지",
+      "정부지원",
+      "복지로",
+      "만65세이상",
+      "최대33만원",
+      "노후준비"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224451240016",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "만 65세 이상이면서 소득 인정액이 단독가구 월 202만원 이하 또는 부부 가구 월 323만 2천원 이하인 경우, 매월 최대 33만원의 기초연금을 받을 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "만 65세",
+        "source": "복지로, 2026년 기준"
+      },
+      {
+        "value": "월 202만원",
+        "source": "복지로, 2026년 기준"
+      },
+      {
+        "value": "월 323만 2천원",
+        "source": "복지로, 2026년 기준"
+      },
+      {
+        "value": "최대 33만원",
+        "source": "복지로, 2026년 기준"
+      }
+    ],
+    "verify_event": "기초연금 선정기준액 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-22",
     "timestamp": "2026-10-22T13:43:23.856247+09:00",
     "run_slot": "13",
