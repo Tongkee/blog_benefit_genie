@@ -670,5 +670,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "php-보안-ai": {
+  "date": "2026-10-23",
+  "at": "2026-10-23T14:00:47.492711+09:00",
+  "issue": "전 세계 웹사이트 해킹 비상, PHP 보안 허점 AI가 발견",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
