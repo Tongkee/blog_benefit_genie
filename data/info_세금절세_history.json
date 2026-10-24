@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-24",
+    "timestamp": "2026-10-24T17:57:14.999192+09:00",
+    "run_slot": "13",
+    "keyword": "자동차세 연납 할인 신청",
+    "info_category": "세금절세",
+    "blog_category": "세금·절세",
+    "title": "2026 자동차세 연납 | 최대 10% 할인받는 조건",
+    "tags": [
+      "자동차세",
+      "연납",
+      "할인",
+      "절세",
+      "세금",
+      "환급",
+      "2026"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224452383628",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "자동차세 연납을 통해 최대 10%까지 세금을 절감할 수 있다.",
+    "claim_numbers": [
+      {
+        "value": "10%",
+        "source": "행정안전부 지방세법, 2026년 기준"
+      }
+    ],
+    "verify_event": "2026년 자동차세 연납 할인율 고시 발표",
+    "verify_date": "2026-01-31"
+  },
+  {
     "date": "2026-10-23",
     "timestamp": "2026-10-23T00:16:11.042716+09:00",
     "run_slot": "19",
