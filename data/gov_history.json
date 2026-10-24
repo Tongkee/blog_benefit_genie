@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-24",
+    "timestamp": "2026-10-24T13:41:28.466041+09:00",
+    "run_slot": "13",
+    "keyword": "내일배움카드 신청 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "내일배움카드 | 최대 500만원 지원, 신청 조건과 활용법",
+    "tags": [
+      "내일배움카드",
+      "국민내일배움카드",
+      "정부지원",
+      "직업훈련",
+      "취업지원",
+      "국비지원",
+      "자격증"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224452191788",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "국민내일배움카드는 직업훈련에 필요한 비용을 최대 500만원까지 지원하는 제도이다.",
+    "claim_numbers": [
+      {
+        "value": "최대 500만원",
+        "source": "고용24, 2026년 기준"
+      },
+      {
+        "value": "300만원",
+        "source": null
+      },
+      {
+        "value": "200만원",
+        "source": null
+      },
+      {
+        "value": "15~55%",
+        "source": null
+      },
+      {
+        "value": "5년",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 국민내일배움카드 지원의 핵심 내용 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-23",
     "timestamp": "2026-10-23T13:56:30.607988+09:00",
     "run_slot": "13",
