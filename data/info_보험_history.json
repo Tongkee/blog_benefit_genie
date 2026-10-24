@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-24",
+    "timestamp": "2026-10-24T21:52:14.754341+09:00",
+    "run_slot": "17",
+    "keyword": "전세 세입자 화재보험 필요성",
+    "info_category": "보험",
+    "blog_category": "보험",
+    "title": "전세 세입자 화재보험, 월 5천원으로 보증금 억 단위 지키는 법",
+    "tags": [
+      "전세",
+      "세입자",
+      "화재보험",
+      "보증금",
+      "주택화재보험",
+      "월세",
+      "보험"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224452539826",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "전세 세입자 화재보험은 월 5천 원 내외의 보험료로 수억 원의 보증금과 살림살이를 지킬 수 있습니다.",
+    "claim_numbers": [
+      {
+        "value": "월 5천 원 내외",
+        "source": null
+      },
+      {
+        "value": "보증금 3억 원",
+        "source": null
+      },
+      {
+        "value": "가재도구 5천만 원",
+        "source": null
+      },
+      {
+        "value": "월 5천원~1만원 수준",
+        "source": null
+      }
+    ],
+    "verify_event": null,
+    "verify_date": null
+  },
+  {
     "date": "2026-10-23",
     "timestamp": "2026-10-23T20:41:46.676522+09:00",
     "run_slot": "15",
