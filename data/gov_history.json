@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-25",
+    "timestamp": "2026-10-25T13:44:12.478210+09:00",
+    "run_slot": "13",
+    "keyword": "긴급복지지원 신청 방법",
+    "gov_category": "정부지원&혜택",
+    "blog_category": "정부지원·혜택",
+    "title": "긴급복지 생계지원 | 4인 가구 최대 199만원 받는 조건",
+    "tags": [
+      "긴급복지",
+      "생계지원",
+      "정부지원금",
+      "위기가구지원",
+      "복지로"
+    ],
+    "status": "posted",
+    "post_url": "https://blog.naver.com/benefit_genie/224453033615",
+    "images_count": 2,
+    "images_inserted": 2,
+    "has_table": true,
+    "has_faq": true,
+    "claim": "2026년 기준 긴급복지 생계지원은 위기 상황으로 인정되고 소득 및 재산 기준을 충족하는 4인 가구에 월 최대 1,994,600원을 지원한다.",
+    "claim_numbers": [
+      {
+        "value": "2026년",
+        "source": "보건복지부·easylaw"
+      },
+      {
+        "value": "4인 가구",
+        "source": null
+      },
+      {
+        "value": "1,994,600원",
+        "source": null
+      },
+      {
+        "value": "기준 중위소득 100% 이하",
+        "source": null
+      },
+      {
+        "value": "4,871,000원",
+        "source": null
+      }
+    ],
+    "verify_event": "2026년 기준 중위소득 고시 발표",
+    "verify_date": null
+  },
+  {
     "date": "2026-10-24",
     "timestamp": "2026-10-24T13:41:28.466041+09:00",
     "run_slot": "13",
