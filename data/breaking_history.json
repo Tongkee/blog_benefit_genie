@@ -686,5 +686,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "아이폰듀오-파손-ai확대": {
+  "date": "2026-10-28",
+  "at": "2026-10-28T03:06:29.863575+09:00",
+  "issue": "애플 아이폰 듀오 파손 확산 및 무상 교체, AI 기능 확대",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
