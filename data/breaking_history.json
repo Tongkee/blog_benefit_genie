@@ -678,5 +678,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피급등-앤트로픽-아마존구글": {
+  "date": "2026-10-27",
+  "at": "2026-10-27T14:14:22.563380+09:00",
+  "issue": "코스피 급등 및 앤트로픽 관련 소식",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
