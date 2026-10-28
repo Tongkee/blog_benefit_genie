@@ -694,5 +694,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "반도체공급부족-금융보안-ai기술": {
+  "date": "2026-10-28",
+  "at": "2026-10-28T22:08:37.830297+09:00",
+  "issue": "반도체 공급 부족 및 투자 확대 전망, 금융권 보안 사고, AI 기술 발전",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
