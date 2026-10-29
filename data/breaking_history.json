@@ -702,5 +702,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "삼성전자-주주환원-코스피급락": {
+  "date": "2026-10-29",
+  "at": "2026-10-29T14:57:06.378099+09:00",
+  "issue": "삼성전자 주주환원 계획 실망으로 인한 코스피 급락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
