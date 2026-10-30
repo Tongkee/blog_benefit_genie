@@ -710,5 +710,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피-급락-알파벳": {
+  "date": "2026-10-30",
+  "at": "2026-10-30T14:58:06.170559+09:00",
+  "issue": "코스피 5%대 급락, AI 투자 우려 재점화, 알파벳 13% 하락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
