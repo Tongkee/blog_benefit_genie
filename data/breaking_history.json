@@ -726,5 +726,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "인텔실적쇼크-반도체지수급락-삼성오픈ai": {
+  "date": "2026-10-31",
+  "at": "2026-10-31T14:54:16.521926+09:00",
+  "issue": "인텔 실적 쇼크로 인한 반도체 지수 급락 및 삼성의 오픈AI 동맹 추진",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
