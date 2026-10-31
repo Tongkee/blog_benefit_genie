@@ -734,5 +734,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "인텔실적쇼크-반도체지수급락-AI투자": {
+  "date": "2026-10-31",
+  "at": "2026-10-31T21:44:04.789341+09:00",
+  "issue": "인텔 실적 쇼크로 인한 반도체 지수 급락 및 AI 투자 불안",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
