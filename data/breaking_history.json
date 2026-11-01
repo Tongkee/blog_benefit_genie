@@ -750,5 +750,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai투자-둠스데이-반도체쏠림": {
+  "date": "2026-11-01",
+  "at": "2026-11-01T22:36:48.517568+09:00",
+  "issue": "AI 투자 둠스데이 공포 확산 및 반도체 쏠림 현상 우려",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
