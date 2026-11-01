@@ -758,5 +758,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai투자-빅테크-반도체급락-저pbr": {
+  "date": "2026-11-02",
+  "at": "2026-11-02T03:58:52.112701+09:00",
+  "issue": "AI 투자에 따른 빅테크 현금 고갈 및 반도체 주가 급락, 저PBR 종목 공개",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
