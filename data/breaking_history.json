@@ -766,5 +766,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "ai-구글-앤트로픽-ipo": {
+  "date": "2026-11-03",
+  "at": "2026-11-03T01:17:36.528359+09:00",
+  "issue": "AI 기술 발전과 시장 영향, 그리고 관련 기업의 IPO 및 투자 유치",
+  "track": "tech",
+  "urgency": 4,
+  "dispatched": true
  }
 }
