@@ -774,5 +774,13 @@
   "track": "tech",
   "urgency": 4,
   "dispatched": true
+ },
+ "코스피-급락-삼성전자-하이닉스": {
+  "date": "2026-11-04",
+  "at": "2026-11-04T01:18:43.617497+09:00",
+  "issue": "코스피 급락 및 삼성전자, 하이닉스 주가 하락",
+  "track": "finance",
+  "urgency": 4,
+  "dispatched": true
  }
 }
