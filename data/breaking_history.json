@@ -782,5 +782,13 @@
   "track": "finance",
   "urgency": 4,
   "dispatched": true
+ },
+ "미중간선거-코스피급락-삼전하닉": {
+  "date": "2026-11-06",
+  "at": "2026-11-06T01:31:33.862481+09:00",
+  "issue": "미국 중간선거 결과에 따른 코스피 급락 및 주요 IT 기업 주가 하락",
+  "track": "finance",
+  "urgency": 5,
+  "dispatched": true
  }
 }
